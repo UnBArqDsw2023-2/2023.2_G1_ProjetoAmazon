@@ -1,26 +1,20 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-Demais diretrizes constam no Moodle.
-
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(NomeDoProjeto)*. !!** 
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2023.2_G1_ProjetoPandora*. !!** 
- 
- (Apague esses comentários)
-
-# Nome do Projeto
-
-**Código da Disciplina**: FGA0208<br>
-**Número do Grupo**: XX<br>
+# G1-Projeto Amazon
+Código da Disciplina: FGA0208 <br>
+Número do Grupo: G1 <br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 21/1041080  | Ana Beatriz Norberto |
+| 20/0056981  | Arthur Ferreira Rodrigues |
+| 19/0084731  | Augusto Durães Camargo |
+| 21/1031628  | Beatriz Vieira Nascimento |
+| 19/0025581  | Bruno Oliveira Lima |
+| 19/0013354  | Gabriel Luiz de Souza Gomes |
+| 20/0019015  | Guilherme Puida Moreira |
+| 21/1029399  | Kauã Vinícius Ponte Aguiar |
+| 21/1029497  | Mylena Angélica Silva Farias |
+| 20/0069322  | Samuel Alves Sato |
 
 ## Sobre 
 Contextualize, usando referências, links, e outros materiais como fontes.
@@ -47,7 +41,6 @@ Adicione 2 ou mais screenshots em termos de artefatos da Quarta Entrega.
 ## Há algo a ser executado?
 
 ( ) SIM
-
 ( ) NÃO
 
 Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados na execução.
