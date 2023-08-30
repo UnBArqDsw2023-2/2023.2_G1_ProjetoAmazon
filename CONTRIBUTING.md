@@ -1,5 +1,7 @@
 # Contributing
 
+<!-- !!SEMPRE QUE ALTERAR ESSE DOCUMENTO, ALTERAR O RESPECTIVO FORA/DENTRO DO DOCS -->
+
 O primeiro passo para contribuir com o projeto é encontrar [issues abertas](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/issues) que você deseje contribuir. Caso não encontre nenhuma issue que te agrade, você pode abrir uma nova issue para discutir sobre a funcionalidade que você deseja implementar, utilizando a label `feature request`.
 
 Lembrando, antes de abrir uma nova issue, verifique se já não existe uma issue aberta com o mesmo propósito. Além disso, há um [Código de Conduta](CODE_OF_CONDUCT.md) que deve ser seguido por todos os contribuidores do projeto.
