@@ -7,6 +7,11 @@ Lembrando, antes de abrir uma nova issue, verifique se já não existe uma issue
 ## Desenvolvimento
 
 O fluxo pode ser diferente caso você seja um contribuidor externo ou um contribuidor interno.
+
+### Padrão de commits
+
+Para padronizar os commits, deve-se utilizar a seguinte estrutura `(#NmrCommit) Mensagem do commit`, onde `NmrCommit` é o número da issue que está sendo resolvida e `Mensagem do commit` é uma mensagem que descreve o que foi feito no commit.
+
 ### Contribuidores internos
 
 Para contribuir com o projeto, você deve seguir o fluxo a seguir:
@@ -24,8 +29,16 @@ Para contribuir com o projeto, você deve seguir o fluxo a seguir:
         <img src="./docs/assets/branch-2.png" style="width:700px">
         <img src="./docs/assets/branch-3.png" style="width:700px">
         <img src="./docs/assets/branch-4.png" style="width:700px">
+        <img src="./docs/assets/pr.png" style="width:700px">
+        <img src="./docs/assets/pr-1.png" style="width:700px">
     </div>
 </div>
+
+### Contribuidores externos
+
+Para contribuir com o projeto, você deve seguir o fluxo a seguir:
+
+1.
 
 
 [Ex de contibuting](https://github.com/DNXLabs/terraform-aws-ecs/blob/master/CONTRIBUTING.md)
