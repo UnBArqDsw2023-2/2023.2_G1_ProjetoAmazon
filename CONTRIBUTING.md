@@ -38,7 +38,8 @@ Para contribuir com o projeto, você deve seguir o fluxo a seguir:
 
 Para contribuir com o projeto, você deve seguir o fluxo a seguir:
 
-1.
-
-
-[Ex de contibuting](https://github.com/DNXLabs/terraform-aws-ecs/blob/master/CONTRIBUTING.md)
+1. Criar uma fork do projeto;
+2. Abrir um pull request em draft para a branch `main` do projeto.
+3. Desenvolver a funcionalidade no fork do projeto;
+4. Realizar o pull request para a branch `main` do projeto.
+5. Aguardar a revisão do pull request.
