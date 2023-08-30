@@ -24,13 +24,13 @@ Para contribuir com o projeto, você deve seguir o fluxo a seguir:
 
 <div>
     <div>
-        <img src="./docs/assets/assignee.png" style="width:700px">
-        <img src="./docs/assets/branch.png" style="width:700px">
-        <img src="./docs/assets/branch-2.png" style="width:700px">
-        <img src="./docs/assets/branch-3.png" style="width:700px">
-        <img src="./docs/assets/branch-4.png" style="width:700px">
-        <img src="./docs/assets/pr.png" style="width:700px">
-        <img src="./docs/assets/pr-1.png" style="width:700px">
+        <img src="assets/assignee.png" style="width:700px">
+        <img src="assets/branch.png" style="width:700px">
+        <img src="assets/branch-2.png" style="width:700px">
+        <img src="assets/branch-3.png" style="width:700px">
+        <img src="assets/branch-4.png" style="width:700px">
+        <img src="assets/pr.png" style="width:700px">
+        <img src="assets/pr-1.png" style="width:700px">
     </div>
 </div>
 
