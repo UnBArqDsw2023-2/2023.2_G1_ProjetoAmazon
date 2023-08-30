@@ -10,7 +10,7 @@ O fluxo pode ser diferente caso você seja um contribuidor externo ou um contrib
 
 ### Padrão de commits
 
-Para padronizar os commits, deve-se utilizar a seguinte estrutura `(#NmrCommit) Mensagem do commit`, onde `NmrCommit` é o número da issue que está sendo resolvida e `Mensagem do commit` é uma mensagem que descreve o que foi feito no commit.
+Para padronizar os commits, deve-se utilizar a seguinte estrutura `(#NmrCommit) Mensagem do commit`, onde `NmrCommit` é o número da issue que está sendo resolvida e `Mensagem do commit` é uma mensagem que descreve o que foi feito no commit. A mensagem do commit deve ser escrita em português.
 
 ### Contribuidores internos
 
