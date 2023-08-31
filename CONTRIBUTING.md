@@ -21,12 +21,15 @@ Para contribuir com o projeto, você deve seguir o fluxo a seguir:
 1. Atribuir a issue a si mesmo;
 2. Caso não exista, criar uma branch específica para a issue, mantendo o nome sugerido; 
 3. Copiar os comandos e executar no terminal;
-4. Desenvolver a funcionalidade na nova branch;
-5. Realizar o pull request para a branch `main` do projeto.
+4. Atualizar estado da issue para `In Progress` no project;
+5. Desenvolver a funcionalidade na nova branch;
+6. Atualizar estado da issue para `Done` no project;
+7. Realizar o pull request para a branch `main` do projeto.
 
 <div>
     <div>
         <img src="./docs/assets/assignee.png" style="width:700px">
+        <img src="./docs/assets/project.png" style="width:700px">
         <img src="./docs/assets/branch.png" style="width:700px">
         <img src="./docs/assets/branch-2.png" style="width:700px">
         <img src="./docs/assets/branch-3.png" style="width:700px">
