@@ -38,6 +38,6 @@
 
 # Histórico de Versão
 
-| Versão | Data       | Descrição      | Autores         | Revisores |
-|--------|------------|----------------|-----------------|-----------|
-| `1.0`  | 30/08/2023 | Ata da reunião | Guilherme Puida |           |
+| Versão | Data       | Descrição      | Autores         | Revisores       |
+|--------|------------|----------------|-----------------|-----------------|
+| `1.0`  | 30/08/2023 | Ata da reunião | Guilherme Puida | Arthur Ferreira |
