@@ -2,7 +2,7 @@
 
 - Getting Started
   - [Contribuindo com o projeto](contribuindo.md)
-  - [Código de Conduta](codigo_de_conduta.md)
+  - [Código de Conduta](CODE_OF_CONDUCT.md)
 
 - Reuniões
   - [Atas](reunioes.md)
