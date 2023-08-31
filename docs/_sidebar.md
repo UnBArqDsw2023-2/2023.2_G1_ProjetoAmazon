@@ -3,6 +3,7 @@
 - Getting Started
   - [Contribuindo com o projeto](contribuindo.md)
   - [Código de Conduta](codigo_de_conduta.md)
+  - [Reuniões](reunioes.md)
 
 - Disciplina
   - [Diretrizes da disciplina](Diretrizes/Diretrizes.md)
