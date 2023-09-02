@@ -35,7 +35,7 @@ Para as perguntas objetivas, utilizou o 5W2H que é uma técnica de gerenciament
 </center>
 
 <div style="text-align: center">
-<p> Tabela 1: Acrônimos da técnica 5W2H (Fonte: [Ana Beatriz](https://github.com/ananorberto)  , 2023).</p>
+<p> Tabela 1: Acrônimos da técnica 5W2H (Fonte: <a href="https://github.com/ananorberto">Ana Beatriz</a>, 2023).</p>
 </div>
 
 Com base nisto, a tabela 2 apresenta as perguntas escolhidas para as entrevistas:
