@@ -24,7 +24,7 @@ A princípio, para melhor organização, foi criado um cronograma geral que deve
 ## Cronogramas de cada ponto de controle
 Para o melhor detalhamento das atividades, foi criado um cronograma para cada ponto de controle da disciplina, que são descritos pelas tabelas 2 até a tabela 5 que são apresentadas a seguir:
 
-## Cronograma Ponto de Controle 1
+## Cronograma Ponto de Controle 1 - 15/09/2023 
 
 <div align="center">
 
@@ -46,7 +46,7 @@ Para o melhor detalhamento das atividades, foi criado um cronograma para cada po
 
 </div>
 
-## Cronograma Ponto de Controle 2
+## Cronograma Ponto de Controle 2 - 09/10/2023
 
 <div align="center">
 
@@ -65,7 +65,7 @@ Para o melhor detalhamento das atividades, foi criado um cronograma para cada po
 
 </div>
 
-## Cronograma Ponto de Controle 3
+## Cronograma Ponto de Controle 3 - 01/12/2023
 
 <div align="center">
 
@@ -107,5 +107,6 @@ Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 | ------ | ---------- | --------------------------------------- | ----------- | ----------- |
 | `1.0`  | 02/09/2023 | Versão inicial do cronograma do projeto | Ana Beatriz | Samuel      |
 | `1.1`  | 03/09/2023 | Adição de atividades das entregas 2 e 3 |   Samuel    | Ana Beatriz |
+| `1.2`  | 03/09/2023 | Adição das datas nos pontos de controle | Ana Beatriz | Samuel      |
 
 </div>
