@@ -64,10 +64,9 @@ Para uma entrevista, é necessário entender o perfil dos entrevistados. A tabel
 
 <center>
 
-| Nome | Idade | Gênero | Escolaridade | Ocupação | Estado civil |
-| ---- | ----- | ------ | ------------ | -------- | ------------ |
-|      |       |        |              |          |              |
-|      |       |        |              |          |              |
+| Nome          | Idade | Gênero    | Escolaridade             | Ocupação  | Estado civil |
+| ------------- | ----- | --------- | ------------------------ | --------- | ------------ |
+| Vinicíus Mota | 20    | Masculino | Ensino Superior Completo | Estudante | Solteiro     |
 
 </center>
 
@@ -77,9 +76,73 @@ Para uma entrevista, é necessário entender o perfil dos entrevistados. A tabel
 
 ## Entrevistas
 
+Segue os vídeos e a transcrição das respostas dos entrevistados:
+[Entrevista 1](https://youtu.be/TAgHgiB5rrc)
+
+<details>
+   <summary>Respostas entrevistado 1</summary>
+   <table>
+      <thead>
+         <tr>
+            <th>Questões</th>
+            <th>Respostas</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>1 - Porque você tem/teria a preferência pela Amazon em relação a outras plataformas de e-commerce?</td>
+            <td>Pelo fato da Amazon já ter uma estrutura robusta de estoque e gerenciamento, além do ótimo histórico de vendas.</td>
+         </tr>
+         <tr>
+            <td>2 - Por onde você normalmente faz compras na Amazon? Celular, computador ou outro? </td>
+            <td>Normalmente pelo computador, pelo costume de usar as extensões que me avisam sobre promoções, além dos registros de cartões já estarem salvos nele.</td>
+         </tr>
+          <tr>
+            <td>2.1 - Você sente alguma falta da Amazon em relação ao seu aplicativo ou Website? </td>
+            <td>Acho um sistema bem completo, mas com informação demais, o layout é bem poluído.</td>
+         </tr>
+         <tr>
+            <td>3 - Quando você se sente motivado a fazer compras através de uma empresa de e-commerce? </td>
+            <td>Acredito muito que o estilo minimalista de se viver agrega bastante a nossa vida, então só compro no caso de necessidade para mim, ou então para presentear alguém importante para mim.</td>
+         </tr>
+         <tr>
+            <td>4 - Além de você, quem da sua família também faz compras pela Amazon?</td>
+            <td>Minha família inteira costuma comprar pela Amazon, pelos mesmos motivos que os meus.</td>
+         </tr>
+         <tr>
+            <td>5 - Como você acha que seria o desenho de um fluxo “ideal” para um aplicativo de e-commerce? Inicie a partir da main page do site, até o pagamento do produto.</td>
+            <td>A filtragem do site já é muito bem otimizada, entretanto acho que o sistema mostra muitas informações desnecessárias que fazem usuários menos focados e mais suscetíveis cogitar e até comprar outros produtos que a princípio não seriam o objetivo da compra.</td>
+         </tr>
+         <tr>
+            <td>5.1 - Neste caminho, você acha que tem algo que possa ser reduzido ?</td>
+            <td>Podemos retirar as sugestões que aparecem embaixo do produto, se remover aquilo,podemos despoluir mais a tela.</td>
+         </tr>
+         <tr>
+            <td>6 - O quê você acha que pode melhorar na tela de comprador da Amazon?    </td>
+            <td>Acho que a tela da Amazon é muito poluída no sentido de informações, principalmente quando clicamos em um produto, que logo abaixo aparecem sugestões de compra de produtos relacionados. Eu até entendo que isso é interessante para a Amazon pois o objetivo da empresa é fazer a gente comprar mais, mas como disse antes, não sou adepto ao consumismo exagerado e desnecessário.</td>
+         </tr>
+        <tr>
+            <td>6.1 - Há mais alguma coisa que te deixa desconfortável na interface da amazon ?</td>
+            <td>O site está dentro do design da Amazon, entretanto, não vejo que é um design atrativo ao comprador, a paleta de cores não está correta e o site está bem poluído. </td>
+         </tr>
+         <tr>
+            <td>7 - Quanto tempo você acha que é o ideal para você realizar todo o processo de visualização, compra e pagamento dos produtos que você deseja?</td>
+            <td>Se estou pesquisando um produto então já estou disposto a compra-lo e com dinheiro já disponível, então eu apenas abro as ofertas disponíveis e compro aquela mais em conta, acredito que cerca de 10 minutos.</td>
+         </tr>
+         <tr>
+            <td>7.1 - Em relação ao pagamento, quanto a clareza das maneiras de pagamento e o processo para realiza-lo, você acha que está sendo feita da maneira correta?</td>
+            <td>Acho bem prático a questão da segurança da Amazon, além das diversas opções de pagamento no site.</td>
+         </tr>
+      </tbody>
+   </table>
+   <div style="text-align: center">
+      <p> Tabela 4: Respostas entrevistado 1 (Fonte: Autor, 2023).</p>
+   </div>
+</details>
+
 ## Requisitos elicitados
 
-Com base nas entrevistas realizadas, foi possível elicitar os seguintes requisitos que estão presentes na tabela 5, que é auxiliado pela tabela 4 que descreve as legendas:
+Com base nas entrevistas realizadas, foi possível elicitar os seguintes requisitos que estão presentes na tabela 6, que é auxiliado pela tabela 5 que descreve as legendas:
 
 <center>
 
@@ -92,19 +155,29 @@ Com base nas entrevistas realizadas, foi possível elicitar os seguintes requisi
 </center>
 
 <div style="text-align: center">
-<p> Tabela 4:Legendas(Fonte: Autor, 2023).</p>
+<p> Tabela 5:Legendas(Fonte: Autor, 2023).</p>
 </div>
 
 <center>
 
-| Legenda | Descrição  |
-| ------- | ---------- |
-| ENT01   | Entrevista |
+| Legenda | Descrição                                                                                      | Tipo |
+| ------- | ---------------------------------------------------------------------------------------------- | ---- |
+| ENT01   | O comprador deve ser capaz de se cadastrar na plataforma                                       | RF   |
+| ENT02   | O comprador deve ser capaz de fazer login na plataforma                                        | RF   |
+| ENT03   | O comprador deve ser capaz de visualizar os produtos do site                                   | RF   |
+| ENT04   | O comprador deve ser capaz de realizar a compra de produtos na plataforma                      | RF   |
+| ENT05   | O comprador deve ser capaz de ter um carrinho                                                  | RF   |
+| ENT06   | O sistema deve ser seguro                                                                      | RNF  |
+| ENT07   | O comprador deve ser capaz de guardar alguns de seus registros econômicos                      | RF   |
+| ENT08   | O Layout do site deve ser limpo e intuitívo                                                    | RNF  |
+| ENT09   | O sistema deve me permitir realizar uma compra em até 10 minutos                               | RNF  |
+| ENT10   | O Layout da página deve ter uma paleta de cores que leva ao consumo                            | RNF  |
+| ENT11   | O comprador deve ser capaz de localizar facilmente o tipo de pagamento que ele deseja realizar | RNF  |
 
 </center>
 
 <div style="text-align: center">
-<p> Tabela 5 : Requisitos elicitados(Fonte: Autor, 2023).</p>
+<p> Tabela 6 : Requisitos elicitados(Fonte: Autor, 2023).</p>
 </div>
 
 ## Referências
@@ -116,3 +189,4 @@ Com base nas entrevistas realizadas, foi possível elicitar os seguintes requisi
 | Versão | Data       | Descrição             | Autor(es) | Revisor(es) |
 | ------ | ---------- | --------------------- | --------- | ----------- |
 | `1.0`  | 02/09/2023 | Iniciando o documento | Kauã      | Mylena      |
+| `1.1`  | 04/09/2023 | Adicionado Requisitos | Kauã      | Mylena      |
