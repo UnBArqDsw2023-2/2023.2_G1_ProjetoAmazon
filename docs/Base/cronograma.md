@@ -25,22 +25,112 @@ A princípio, para melhor organização, foi criado um cronograma geral que deve
 Para o melhor detalhamento das atividades, foi criado um cronograma para cada ponto de controle da disciplina, que são descritos pelas tabelas 2 até a tabela 5 que são apresentadas a seguir:
 
 ## Cronograma Ponto de Controle 1 - 15/09/2023 
+Para um melhor entendimento do Desin Sprint e como ele foi elaborado e adaptado para o projeto Amazon, conferir o artefato [Desing Sprint](docs/Base/2.0-Design-Sprint.md).
 
 <div align="center">
-
-|       Atividade        | Data Limite de Entrega | Data Limite Revisão |    Autor(es)    | Revisor(es) |
-| :--------------------: | :--------------------: | :-----------------: | :-------------: | :---------: |
-| Técnicas de Elicitação |       13/09/2023       |     14/09/2023      |      Todos      |      -      |
-|      Rich Picture      |       13/09/2023       |     14/09/2023      |      Todos      |      -      |
-|          5W2H          |       09/09/2023       |     10/09/2023      |     Mylena      |    Kauã     |
-|       Brainstorm       |       09/09/2023       |     10/09/2023      |    Guilherme    |   Arthur    |
-|      Introspecção      |       09/09/2023       |     10/09/2023      |   Ana Beatriz   |   Beatriz   |
-|       Entrevista       |       09/09/2023       |     10/09/2023      |      Kauã       |   Mylena    |
-|      Mapa mental       |       09/09/2023       |     10/09/2023      |     Beatriz     | Ana Beatriz |
-|   Frist things Frist   |       11/09/2023       |     12/09/2023      | Bruno e Augusto |   Gabriel   |
-|  História de usuario   |       12/09/2023       |     13/09/2023      |     Gabriel     |    Bruno    |
-|        Backlog         |       12/09/2023       |     13/09/2023      |     Samuel      |   Augusto   |
-|     Modelagem BPMN     |       13/09/2023       |     14/09/2023      | Bruno, Gabriel, Samuel | Todos |
+  <table style="margin: 0 auto; text-align: center;">
+    <tr>
+      <th style="text-align: center" colspan="6">
+        <h2>Design Sprint</h2>
+      </th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>Atividade</th>
+      <th>Data Limite de Entrega</th>
+      <th>Data Limite Revisão</th>
+      <th>Autor(es)</th>
+      <th>Revisor(es)</th>
+    </tr>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle" rowspan="6"><h3><b>Mapear</b></h3>(5 dias)</td>
+      <td>Rich Picture</td>
+      <td>13/09/2023</td>
+      <td>14/09/2023</td>
+      <td>Todos</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5W2H</td>
+      <td>09/09/2023</td>
+      <td>10/09/2023</td>
+      <td>Mylena</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Brainstorm</td>
+      <td>09/09/2023</td>
+      <td>10/09/2023</td>
+      <td>Guilherme</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Entrevista</td>
+      <td>09/09/2023</td>
+      <td>10/09/2023</td>
+      <td>Kauã</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Mapa Mental</td>
+      <td>09/09/2023</td>
+      <td>10/09/2023</td>
+      <td>Beatriz</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Story Board</td>
+      <td>09/09/2023</td>
+      <td>10/09/2023</td>
+      <td>Samuel, Ana, Beatriz, Augusto,  ...</td>
+      <td>-</td>
+    </tr>
+      <td style="vertical-align: middle" rowspan="3"><h3><b>Esboçar</b></h3>(4 dias)</td>
+      <td>Backlog</td>
+      <td>13/09/2023</td>
+      <td>14/09/2023</td>
+      <td>Arthur</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Léxicos</td>
+      <td>13/09/2023</td>
+      <td>14/09/2023</td>
+      <td>Kauã</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>BPMN</td>
+      <td>13/09/2023</td>
+      <td>14/09/2023</td>
+      <td>Bruno, Gabriel e Samuel</td>
+      <td>-</td>
+    </tr>
+      <td style="vertical-align: middle" rowspan="1"><h3><b>Decidir</b></h3>(1 dias)</td>
+      <td>Frist things Frist</td>
+      <td>13/09/2023</td>
+      <td>14/09/2023</td>
+      <td>Bruno e Augusto</td>
+      <td>-</td>
+    </tr>
+    </tr>
+      <td style="vertical-align: middle" rowspan="1"><h3><b>Prototipar</b></h3>(3 dias)</td>
+      <td>Protótipo</td>
+      <td>13/09/2023</td>
+      <td>14/09/2023</td>
+      <td>Mylena e Ana</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: middle"><h3><b>1.3</b></h3></td>
+      <td>Participações</td>
+      <td>14/09/2023</td>
+      <td>14/09/2023</td>
+      <td>Todos</td>
+      <td></td>
+    </tr>
+  </table>
 
 **Tabela 2: Cronograma do Ponto de Controle 1,(Fonte: autor, 2023).**
 
