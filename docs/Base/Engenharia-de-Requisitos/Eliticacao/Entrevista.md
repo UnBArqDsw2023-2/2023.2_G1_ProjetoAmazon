@@ -18,7 +18,7 @@ Na parte das perguntas objetivas, foi utilizado a tecnica 5W2H para encontrar me
 
 ## Perguntas realizadas
 
-Para as perguntas objetivas, utilizou o 5W2H que é uma técnica de gerenciamento de projetos que ajuda a garantir que todos os aspectos relevantes de uma tarefa ou projeto sejam considerados e planejados de maneira adequada. A técnica 5W2H² consiste basicamente em responder 7 perguntas simples para identificar e planejar os principais aspectos de uma tarefa ou projeto. São elas apresentadas na tabela 1:
+Para as perguntas objetivas, utilizou o 5W2H que é uma técnica de gerenciamento de projetos que ajuda a garantir que todos os aspectos relevantes de uma tarefa ou projeto sejam considerados e planejados de maneira adequada. A técnica 5W2H consiste basicamente em responder 7 perguntas simples para identificar e planejar os principais aspectos de uma tarefa ou projeto. São elas apresentadas na tabela 1:
 
 <center>
 
@@ -38,7 +38,7 @@ Para as perguntas objetivas, utilizou o 5W2H que é uma técnica de gerenciament
 <p> Tabela 1: Acrônimos da técnica 5W2H (Fonte: <a href="https://github.com/ananorberto">Ana Beatriz</a>, 2023).</p>
 </div>
 
-Com base nisto, a tabela 2 apresenta as perguntas escolhidas para as entrevistas:
+Com base nisto, a tabela 2 apresenta as perguntas escolhidas para a entrevista:
 
 <center>
 
@@ -58,9 +58,9 @@ Com base nisto, a tabela 2 apresenta as perguntas escolhidas para as entrevistas
 <p> Tabela 2: Perguntas objetivas(Fonte: Autor, 2023).</p>
 </div>
 
-## Dados demográficos dos entrevistados
+## Dados demográficos do entrevistado
 
-Para uma entrevista, é necessário entender o perfil dos entrevistados. A tabela 3 apresenta os dados demográficos dos indivíduos questionados.
+Para uma entrevista, é necessário entender o perfil dos entrevistados. A tabela 3 apresenta os dados demográficos do indivíduo questionado.
 
 <center>
 
@@ -71,16 +71,16 @@ Para uma entrevista, é necessário entender o perfil dos entrevistados. A tabel
 </center>
 
 <div style="text-align: center">
-<p> Tabela 3: Dados demográficos dos entrevistados (Fonte: Autor, 2023).</p>
+<p> Tabela 3: Dados demográficos do entrevistado (Fonte: Autor, 2023).</p>
 </div>
 
 ## Entrevistas
 
-Segue os vídeos e a transcrição das respostas dos entrevistados:
-[Entrevista 1](https://youtu.be/TAgHgiB5rrc)
+Segue os vídeos e a transcrição das respostas do entrevistado:
+[Entrevista](https://youtu.be/TAgHgiB5rrc)
 
 <details>
-   <summary>Respostas entrevistado 1</summary>
+   <summary>Respostas entrevistado</summary>
    <table>
       <thead>
          <tr>
@@ -136,13 +136,13 @@ Segue os vídeos e a transcrição das respostas dos entrevistados:
       </tbody>
    </table>
    <div style="text-align: center">
-      <p> Tabela 4: Respostas entrevistado 1 (Fonte: Autor, 2023).</p>
+      <p> Tabela 4: Respostas entrevistado (Fonte: Autor, 2023).</p>
    </div>
 </details>
 
 ## Requisitos elicitados
 
-Com base nas entrevistas realizadas, foi possível elicitar os seguintes requisitos que estão presentes na tabela 6, que é auxiliado pela tabela 5 que descreve as legendas:
+Com base na entrevista realizada, foi possível elicitar os seguintes requisitos que estão presentes na tabela 6, auxiliada pela tabela 5, que descreve as legendas:
 
 <center>
 
@@ -183,13 +183,13 @@ Com base nas entrevistas realizadas, foi possível elicitar os seguintes requisi
 ## Referências
 
 > [1] Erich Casagrande. Semrush Blog. Disponível em: <https://pt.semrush.com/blog/metodo-5w2h/>. Acesso em: 5 set. 2023.
-‌ </br>
+> ‌ </br>
 
 > [2] STATI, Victor. Técnicas para Levantamento de Requisitos - Victor Stati - Medium. Medium. Disponível em: <https://victorstati.medium.com/t%C3%A9cnicas-para-levantamento-de-requisitos-4907975498ac>. Acesso em: 5 set. 2023.
-‌ </br>
+> ‌ </br>
 
 > [3] 2023.1-Simplenote/docs/elicitacao/entrevista.md at main · Requisitos-de-Software/2023.1-Simplenote. GitHub. Disponível em: <https://github.com/Requisitos-de-Software/2023.1-Simplenote/blob/main/docs/elicitacao/entrevista.md>. Acesso em: 5 set. 2023.
-‌ </br>
+> ‌ </br>
 
 > [4] Guia facetado de técnicas elicitação de requisitos. REtraining - Guia facetado de Técnicas de Elicitação de Requisitos. Disponível em: <https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-entrevista>. Acesso em: 5 set. 2023.
 
@@ -201,3 +201,4 @@ Com base nas entrevistas realizadas, foi possível elicitar os seguintes requisi
 | ------ | ---------- | --------------------- | --------- | ----------- |
 | `1.0`  | 02/09/2023 | Iniciando o documento | Kauã      | Mylena      |
 | `1.1`  | 04/09/2023 | Adicionado Requisitos | Kauã      | Mylena      |
+| `1.2`  | 05/09/2023 | Removendo plural      | Kauã      | Mylena      |
