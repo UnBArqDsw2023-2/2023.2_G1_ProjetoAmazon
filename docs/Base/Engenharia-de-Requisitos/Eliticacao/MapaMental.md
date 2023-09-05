@@ -22,7 +22,13 @@ Para a realização do Mapa Mental foram utilizadas algumas regras simples: [¹]
 12. Fizemos com que nossos desenhos fossem relacionados a palavras, mesmo que isso parecesse absurdo. Desenhamos a primeira imagem que veio à nossa mente e percebemos que isso facilitou a memorização.
 
 
-Primeiro fizemos o esboço do mapa mental no papel e após isso passamos para uma versão digital utilizando o aplicativo COLOCAR O NOME DO APLICATIVO
+Primeiro fizemos o esboço do mapa mental no papel e após isso passamos para uma versão digital utilizando o aplicativo COLOCAR O NOME DO APLICATIVO.
+
+## Versão Manual
+INSERIR IMAGEM DPS
+
+## Versão digital
+INSERIR IMAGEM DPS
 
 ## Referências
 
