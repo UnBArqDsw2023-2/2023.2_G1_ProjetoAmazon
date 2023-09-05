@@ -11,6 +11,7 @@ Para a realização do MapaMental
 ## Referências
 
 > [1] ...
+> 
 > [2] ...
 
 ## Histórico de versão
