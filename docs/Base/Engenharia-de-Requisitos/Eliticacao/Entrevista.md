@@ -182,7 +182,21 @@ Com base nas entrevistas realizadas, foi possível elicitar os seguintes requisi
 
 ## Referências
 
-> [1] https://pt.semrush.com/blog/metodo-5w2h </br> > [2] https://victorstati.medium.com/t%C3%A9cnicas-para-levantamento-de-requisitos-4907975498ac </br> > [3] https://github.com/Requisitos-de-Software/2023.1-Simplenote/blob/main/docs/elicitacao/entrevista.md </br> > [4] https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-entrevista</br>
+> [1] Erich Casagrande. Semrush Blog. Disponível em: <https://pt.semrush.com/blog/metodo-5w2h/>. Acesso em: 5 set. 2023.
+
+‌ </br>
+
+> [2] STATI, Victor. Técnicas para Levantamento de Requisitos - Victor Stati - Medium. Medium. Disponível em: <https://victorstati.medium.com/t%C3%A9cnicas-para-levantamento-de-requisitos-4907975498ac>. Acesso em: 5 set. 2023.
+
+‌ </br>
+
+> [3] 2023.1-Simplenote/docs/elicitacao/entrevista.md at main · Requisitos-de-Software/2023.1-Simplenote. GitHub. Disponível em: <https://github.com/Requisitos-de-Software/2023.1-Simplenote/blob/main/docs/elicitacao/entrevista.md>. Acesso em: 5 set. 2023.
+
+‌ </br>
+
+> [4] Guia facetado de técnicas elicitação de requisitos. REtraining - Guia facetado de Técnicas de Elicitação de Requisitos. Disponível em: <https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-entrevista>. Acesso em: 5 set. 2023.
+
+‌</br>
 
 ## Histórico de versão
 
