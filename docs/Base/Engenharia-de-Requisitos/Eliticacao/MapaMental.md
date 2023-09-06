@@ -16,11 +16,9 @@ Para a realização do Mapa Mental foram utilizadas algumas regras simples: [¹]
 6. Variamos muito as cores, deixando o vermelho para lembrar informações negativas.
 7. Não fizemos mapas muito grandes ou confusos. Quando tivemos muita informação, escolhemos alguns ramos para fazer novos mapas mentais.
 8. Tentamos inserir desenhos ou símbolos coloridos que facilitaram a memorização.
-9. Utilizamos letras grandes, desproporcionais. As letras tinham pelo menos o dobro do tamanho que costumávamos utilizar.
-10. Cuidamos da poluição visual. Foi melhor elaborar vários mapas mentais do que um extremamente poluído.
+9. Utilizamos letras grandes. 
 11. Escrevemos o mínimo possível, dando preferência às palavras-chave que nos ajudaram a lembrar dos conceitos estudados.
-12. Fizemos com que nossos desenhos fossem relacionados a palavras, mesmo que isso parecesse absurdo. Desenhamos a primeira imagem que veio à nossa mente e percebemos que isso facilitou a memorização.
-
+12. Fizemos com que nossos desenhos fossem relacionados a palavras, mesmo que isso parecesse absurdo. 
 
 Primeiro fizemos o esboço do mapa mental no papel e após isso passamos para uma versão digital utilizando o aplicativo COLOCAR O NOME DO APLICATIVO.
 
