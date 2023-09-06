@@ -1,5 +1,9 @@
 # Apresentação de Grupo
+
+O grupo 1 foi responsável pela apresentação do dia 01/09/2023 sobre a metodologia RUP.
+
 ## Introdução
+
 Este documento tem como objetivo descrever o processo para a apresentação do dia 01/09/2023 do [grupo 1](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon). Tal apresentação tem como 
 objetivo realizar uma explicação expositiva a respeito da metodologia ágil RUP abordando pontos como: 
 
@@ -28,8 +32,9 @@ Para a revisão do conteúdo e dos slides, o membro Augusto efetuou-a no dia 29/
 Para o dia 01/09, todos os membros do grupo irão apresentar.
 
 ## Histórico de versão
-|Versão|Data|Descrição|Autores|Revisores|
-|------|----|---------|-------|---------|
-| `1.0`| 29/08/2023| Criação do documento e introdução| Kauã|-|
-| `1.1`| 29/08/2023| Adição da escrita do conteúdo| Kauã|-|
-| `1.2`| 31/08/2023| Adição da etapa de produção, revisão e apresentação| Ana e Kauã||
+| Versão | Data       | Descrição                                           | Autores    | Revisores |
+| ------ | ---------- | --------------------------------------------------- | ---------- | --------- |
+| `1.0`  | 29/08/2023 | Criação do documento e introdução                   | Kauã       | Ana       |
+| `1.1`  | 29/08/2023 | Adição da escrita do conteúdo                       | Kauã       | Ana       |
+| `1.2`  | 31/08/2023 | Adição da etapa de produção, revisão e apresentação | Ana e Kauã | Arthur    |
+| `1.3`  | 05/09/2023 | Adicionando no pages e revisão textual              | Arthur     | Arthur    |
