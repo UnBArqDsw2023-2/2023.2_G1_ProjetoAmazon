@@ -24,11 +24,51 @@ Para a realização do Mapa Mental foram utilizadas algumas regras simples: [¹]
 
 Primeiro fizemos o esboço do mapa mental no papel e após isso passamos para uma versão digital utilizando o aplicativo COLOCAR O NOME DO APLICATIVO.
 
-## Versão Manual
+## Mapa Mental - Versão Manual
 INSERIR IMAGEM DPS
 
-## Versão digital
+<div style="text-align: center">
+<p> Imagem 1: Mapa Mental Versão Manual (Fonte: Autor, 2023).</p>
+</div>
+<center>
+
+## Mapa Mental - Versão Digital
 INSERIR IMAGEM DPS
+
+<div style="text-align: center">
+<p> Imagem 2: Mapa Mental Versão Digital (Fonte: Autor, 2023).</p>
+</div>
+<center>
+
+## Requisitos elicitados
+
+Com base no Mapa Mental, foi possível elicitar os seguintes requisitos que estão presentes na tabela 1
+
+| Legenda | Descrição                                                                                      | Tipo |
+| ------- | ---------------------------------------------------------------------------------------------- | ---- |
+| ENT01   |                                                                                                | RF   |
+
+</center>
+
+<div style="text-align: center">
+<p> Tabela 1:Requisitos Elicitados (Fonte: Autor, 2023).</p>
+</div>
+
+<center>
+
+### Legenda
+| Abreviação | Significado             |
+| ---------- | ----------------------- |
+| MP         | Mapa Mental             |
+| RF         | Requisito Funcional     |
+| RNF        | Requisito Não Funcional |
+</center>
+
+<div style="text-align: center">
+<p> Tabela 2:Legendas (Fonte: Autor, 2023).</p>
+</div>
+<center>
+
 
 ## Referências
 
@@ -39,4 +79,6 @@ INSERIR IMAGEM DPS
 
 | Versão | Data       | Descrição             | Autor(es) | Revisor(es) |
 | ------ | ---------- | --------------------- | --------- | ----------- |
-| `1.0`  | 02/09/2023 | Iniciando o documento | Beatriz   | Ana      |
+| `1.0`  | 05/09/2023 | Iniciando o documento | Beatriz   | Ana      |
+| `1.1`  | 06/09/2023 | Ajuste em modelo do documento | Beatriz   | Ana      |
+
