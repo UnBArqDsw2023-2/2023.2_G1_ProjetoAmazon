@@ -24,8 +24,13 @@ A princípio, para melhor organização, foi criado um cronograma geral que deve
 ## Cronogramas de cada ponto de controle
 Para o melhor detalhamento das atividades, foi criado um cronograma para cada ponto de controle da disciplina, que são descritos pelas tabelas 2 até a tabela 5 que são apresentadas a seguir:
 
+ - Tabela 2 - [Cronograma Ponto de Controle 1](#cronograma-ponto-de-controle-1---15092023) - 15/09/2023
+ - Tabela 3 - [Cronograma Ponto de Controle 2](#cronograma-ponto-de-controle-2---09102023) - 09/10/2023
+ - Tabela 4 - [Cronograma Ponto de Controle 3](#cronograma-ponto-de-controle-3---01122023) - 01/12/2023
+ - Tabela 5 - [Atividades extras](#atividades-extras)
+
 ## Cronograma Ponto de Controle 1 - 15/09/2023 
-Para um melhor entendimento do Desin Sprint e como ele foi elaborado e adaptado para o projeto Amazon, conferir o artefato [Desing Sprint](docs/Base/2.0-Design-Sprint.md).
+Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado para o projeto Amazon, conferir o artefato [Design Sprint](docs/Base/2.0-Design-Sprint.md).
 
 <div align="center">
   <table style="margin: 0 auto; text-align: center;">
@@ -48,7 +53,7 @@ Para um melhor entendimento do Desin Sprint e como ele foi elaborado e adaptado 
       <td>Rich Picture</td>
       <td>13/09/2023</td>
       <td>14/09/2023</td>
-      <td>Todos</td>
+      <td>Arthur(documento) e Todos</td>
       <td></td>
     </tr>
     <tr>
@@ -62,7 +67,7 @@ Para um melhor entendimento do Desin Sprint e como ele foi elaborado e adaptado 
       <td>Brainstorm</td>
       <td>09/09/2023</td>
       <td>10/09/2023</td>
-      <td>Guilherme</td>
+      <td>Guilherme, Arthur, Augusto, Samuel</td>
       <td>-</td>
     </tr>
     <tr>
@@ -83,7 +88,7 @@ Para um melhor entendimento do Desin Sprint e como ele foi elaborado e adaptado 
       <td>Story Board</td>
       <td>09/09/2023</td>
       <td>10/09/2023</td>
-      <td>Samuel, Ana, Beatriz, Augusto,  ...</td>
+      <td>Ana, Samuel, Beatriz, Augusto, Arthur</td>
       <td>-</td>
     </tr>
       <td style="vertical-align: middle" rowspan="3"><h3><b>Esboçar</b></h3>(4 dias)</td>
@@ -140,16 +145,16 @@ Para um melhor entendimento do Desin Sprint e como ele foi elaborado e adaptado 
 
 <div align="center">
 
-|        Atividade        | Data Limite de Entrega | Data Limite Revisão | Autor(es) | Revisor(es) |
-| :---------------------: | :--------------------: | :-----------------: | :-------: | :---------: |
-|   Diagrama de Classes   |       02/10/2023       |      03/10/2023     |  Samuel   |   Beatriz   |
-|   Diagrama de Pacotes   |       02/10/2023       |      03/10/2023     |  Arthur   |    Bruno    |
-| Diagrama de Componentes |       02/10/2023       |      03/10/2023     |  Gabriel  |  Guilherme  |
-| Diagrama de Implantação |       02/10/2023       |      03/10/2023     |Ana Beatriz|    Kauã     |
-|  Diagrama de Sequência  |       07/10/2023       |      08/10/2023     |  Augusto  |    Mylena   |
-| Diagrama de Atividades  |       07/10/2023       |      08/10/2023     |  Beatriz  |    Samuel   |
-|   Diagrama de Estados   |       07/10/2023       |      08/10/2023     |   Bruno   |    Arthur   |
-| Diagrama de Comunicação/Colaboração |       07/10/2023       |      08/10/2023     |Guilherme|Gabriel|
+|              Atividade              | Data Limite de Entrega | Data Limite Revisão |  Autor(es)  | Revisor(es) |
+| :---------------------------------: | :--------------------: | :-----------------: | :---------: | :---------: |
+|         Diagrama de Classes         |       02/10/2023       |     03/10/2023      |   Samuel    |      -      |
+|         Diagrama de Pacotes         |       02/10/2023       |     03/10/2023      |   Arthur    |      -      |
+|       Diagrama de Componentes       |       02/10/2023       |     03/10/2023      |   Gabriel   |      -      |
+|       Diagrama de Implantação       |       02/10/2023       |     03/10/2023      | Ana Beatriz |      -      |
+|        Diagrama de Sequência        |       07/10/2023       |     08/10/2023      |   Augusto   |      -      |
+|       Diagrama de Atividades        |       07/10/2023       |     08/10/2023      |   Beatriz   |      -      |
+|         Diagrama de Estados         |       07/10/2023       |     08/10/2023      |    Bruno    |      -      |
+| Diagrama de Comunicação/Colaboração |       07/10/2023       |     08/10/2023      |  Guilherme  |      -      |
 
 **Tabela 3: Cronograma do Ponto de Controle 2,(Fonte: autor, 2023).**
 
@@ -159,15 +164,15 @@ Para um melhor entendimento do Desin Sprint e como ele foi elaborado e adaptado 
 
 <div align="center">
 
-|           Atividade           | Data Limite de Entrega | Data Limite Revisão | Autor(es) | Revisor(es) |
-| :---------------------------: | :--------------------: | :-----------------: | :-------: | :---------: |
-|          DAS Lógica           |       30/11/2023       |      31/11/2023     |   Kauã    | Ana Beatriz |
-|         DAS Processo          |       30/11/2023       |      31/11/2023     |   Mylena  |   Augusto   |
-|       DAS Implementação       |       30/11/2023       |      31/11/2023     |   Samuel  |   Beatriz   |
-|        DAS Implantação        |       30/11/2023       |      31/11/2023     |   Arthur  |    Bruno    |
-|          DAS Dados            |       30/11/2023       |      31/11/2023     |  Gabriel  |  Guilherme  |
-|    Exemplo de Reutilização    |       30/11/2023       |      31/11/2023     |Ana Beatriz|    Kauã     |
-|       Padrões de Projeto      |       30/11/2023       |      31/11/2023     |  Augusto  |   Mylena    |
+|        Atividade        | Data Limite de Entrega | Data Limite Revisão |  Autor(es)  | Revisor(es) |
+| :---------------------: | :--------------------: | :-----------------: | :---------: | :---------: |
+|       DAS Lógica        |       29/11/2023       |     30/11/2023      |    Kauã     |      -      |
+|      DAS Processo       |       29/11/2023       |     30/11/2023      |   Mylena    |      -      |
+|    DAS Implementação    |       29/11/2023       |     30/11/2023      |   Samuel    |      -      |
+|     DAS Implantação     |       29/11/2023       |     30/11/2023      |   Arthur    |      -      |
+|        DAS Dados        |       29/11/2023       |     30/11/2023      |   Gabriel   |      -      |
+| Exemplo de Reutilização |       29/11/2023       |     30/11/2023      | Ana Beatriz |      -      |
+|   Padrões de Projeto    |       29/11/2023       |     30/11/2023      |   Augusto   |      -      |
 
 **Tabela 4: Cronograma do Ponto de Controle 3,(Fonte: autor, 2023).**
 
@@ -181,6 +186,7 @@ Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 |       Atividade        |    Encarregado(a)    |
 | :--------------------: | :------------------: |
 | Atualizar o cronograma | Ana Beatriz e Samuel |
+|        Deploys         |        Arthur        |
 
 **Tabela 5: Encarregados de atividades extras,(Fonte: autor, 2023).**
 
@@ -196,7 +202,8 @@ Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 | Versão | Data       | Descrição                               | Autor(es)   | Revisor(es) |
 | ------ | ---------- | --------------------------------------- | ----------- | ----------- |
 | `1.0`  | 02/09/2023 | Versão inicial do cronograma do projeto | Ana Beatriz | Samuel      |
-| `1.1`  | 03/09/2023 | Adição de atividades das entregas 2 e 3 |   Samuel    | Ana Beatriz |
+| `1.1`  | 03/09/2023 | Adição de atividades das entregas 2 e 3 | Samuel      | Ana Beatriz |
 | `1.2`  | 03/09/2023 | Adição das datas nos pontos de controle | Ana Beatriz | Samuel      |
+| `1.3`  | 06/09/2023 | Ajustes                                 | Ana Beatriz | Mylena      |
 
 </div>
