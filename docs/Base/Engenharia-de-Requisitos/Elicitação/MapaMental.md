@@ -20,7 +20,7 @@ Para a realização do Mapa Mental foram utilizadas algumas regras simples: [¹]
 11. Escrevemos o mínimo possível, dando preferência às palavras-chave que nos ajudaram a lembrar dos conceitos estudados.
 12. Fizemos com que nossos desenhos fossem relacionados a palavras, mesmo que isso parecesse absurdo. 
 
-Primeiro fizemos o esboço do mapa mental no papel e após isso passamos para uma versão digital utilizando o aplicativo COLOCAR O NOME DO APLICATIVO.
+Primeiro fizemos o esboço do mapa mental no papel e após isso passamos para uma versão digital utilizando o site Lucidchart.
 
 ## Mapa Mental - Versão Manual
 INSERIR IMAGEM DPS
@@ -31,20 +31,33 @@ INSERIR IMAGEM DPS
 <center>
 
 ## Mapa Mental - Versão Digital
-INSERIR IMAGEM DPS
 
-<div style="text-align: center">
-<p> Imagem 2: Mapa Mental Versão Digital (Fonte: Autor, 2023).</p>
+  <div align="center">
+    <img src="../../../assets/MapaMental.png" style="width:50vw"/>
+    <p> Imagem 2: Mapa Mental Versão Digital (Fonte: Autor, 2023).</a></p> 
 </div>
-<center>
 
 ## Requisitos elicitados
 
-Com base no Mapa Mental, foi possível elicitar os seguintes requisitos que estão presentes na tabela 1
+Com base no Mapa Mental, foi possível elicitar os seguintes requisitos:
 
 | Legenda | Descrição                                                                                      | Tipo |
 | ------- | ---------------------------------------------------------------------------------------------- | ---- |
-| ENT01   |                                                                                                | RF   |
+| MM01   | As informações da conta estarem seguras                                                          | RNF |
+| MM02   | A empresa ser transparente na forma como está utilizando os dados do usuário.                    | RF  |
+| MM03   | O processo de login e cadastro na conta serem práticos                                           | RNF |
+| MM04   | O site fornecer recomendações de produtos                                                        | RF  |
+| MM05   | Ser possível salvar informações, como endereço e métodos de pagamento, para agilizar a compra.   | RF  |
+| MM06   | Haver diversas formas de pagamento, como PIX, cartão (crédito e débito), boleto e cupons.        | RF  |
+| MM07   | Os usuários do Amazon Prime terem acesso a descontos.                                            | RF  |
+| MM08   | Os usuários do Amazon Prime terem ter acesso a frete grátis.                                     | RF  |
+| MM09   | Existir a possibilidade de parcelar o pagamento.                                                 | RF  |
+| MM10   | Haver descontos disponíveis através de cupons.                                                   | RF  |
+| MM11   | Os fretes devem ter preços acessíveis.                                                           | RF  |
+| MM12   | Ser possível usar filtros na pesquisa.                                                           | RF  |
+| MM13   | Ser possível realizar uma ordenação na lista de produtos exibidos.                               | RF  |
+| MM14   | ser possível salvar itens para comprar posteriormente.                                           | RF  |
+| MM15   | No carrinho de compras, ser exibidos os itens previamente adquiridos, tornando mais fácil a compra repetida de um item sem a necessidade de uma busca demorada.                | RF  |
 
 </center>
 
@@ -57,7 +70,7 @@ Com base no Mapa Mental, foi possível elicitar os seguintes requisitos que est�
 ### Legenda
 | Abreviação | Significado             |
 | ---------- | ----------------------- |
-| MP         | Mapa Mental             |
+| MM         | Mapa Mental             |
 | RF         | Requisito Funcional     |
 | RNF        | Requisito Não Funcional |
 </center>
@@ -79,4 +92,5 @@ Com base no Mapa Mental, foi possível elicitar os seguintes requisitos que est�
 | ------ | ---------- | --------------------- | --------- | ----------- |
 | `1.0`  | 05/09/2023 | Iniciando o documento | Beatriz   | Ana      |
 | `1.1`  | 06/09/2023 | Ajuste em modelo do documento | Beatriz   | Ana      |
+| `1.2`  | 07/09/2023 | Adicionando imagens e requisitos elicitados | Beatriz   | Ana      |
 
