@@ -3,7 +3,8 @@
 ## Introdução
 
 Este documento é referente ao cronograma que será seguido pela equipe durante o semestre de 2023.2 da disciplina de Arquitetura e desenho de Software.
-O mesmo apresenta as datas limites de entrega e revisão, juntamente com os autores e revisores, para cada etapa do desenvolvimento do projeto.
+O mesmo apresenta as datas limites de entrega e revisão, juntamente com os autores para cada etapa do desenvolvimento do projeto. Devido ao fato de ser um projeto em andamento, os autores e revisores estão sujeitos à mudanças.
+
 
 ## Cronograma geral
 A princípio, para melhor organização, foi criado um cronograma geral que deve ser seguido que é mostrado a seguir:
