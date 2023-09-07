@@ -36,8 +36,42 @@
 1. Atas de reunião: Guilherme
 1. Administração da wiki/repositório: Arthur
 
+## 06/09/2023 - 21:30
+
+### Participantes
+
+- Ana Beatriz
+- Arthur
+- Augusto
+- Beatriz
+- Guilherme
+- Kauã
+- Mylena
+- Samuel
+
+### Tópicos
+
+- Checagem das tarefas.
+- Alocar pessoas nas issues (Arthur).
+- Divisão de tarefas.
+- Resolver data da reunião de brainstorm.
+  - Guilherme.
+  - Augusto.
+  - Arthur.
+  - Samuel.
+- Docsify para MkDocs.
+- Todos farão rich picture.
+- Reunião dia 13:
+  - Documento de Participação.
+- Revisão do cronograma inicial.
+- Análise dos documentos já prontos.
+  - Mapa Mental.
+  - 5W2H.
+  - Entrevista.
+
 # Histórico de Versão
 
 | Versão | Data       | Descrição      | Autores         | Revisores       |
 |--------|------------|----------------|-----------------|-----------------|
 | `1.0`  | 30/08/2023 | Ata da reunião | Guilherme Puida | Arthur Ferreira |
+| `2.0`  | 06/09/2023 | Ata da reunião | Guilherme Puida |                 |
