@@ -20,7 +20,7 @@ Para a realização do Mapa Mental foram utilizadas algumas regras simples: [¹]
 11. Escrevemos o mínimo possível, dando preferência às palavras-chave que nos ajudaram a lembrar dos conceitos estudados.
 12. Fizemos com que nossos desenhos fossem relacionados a palavras, mesmo que isso parecesse absurdo. 
 
-Primeiro fizemos o esboço do mapa mental no papel e após isso passamos para uma versão digital utilizando o aplicativo COLOCAR O NOME DO APLICATIVO.
+Primeiro fizemos o esboço do mapa mental no papel e após isso passamos para uma versão digital utilizando o site Lucidchart.
 
 ## Mapa Mental - Versão Manual
 INSERIR IMAGEM DPS
