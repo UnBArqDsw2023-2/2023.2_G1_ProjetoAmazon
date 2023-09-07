@@ -113,7 +113,7 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
       <td>-</td>
     </tr>
       <td style="vertical-align: middle" rowspan="1"><h3><b>Decidir</b></h3>(1 dias)</td>
-      <td>Frist things Frist</td>
+      <td>First things First</td>
       <td>13/09/2023</td>
       <td>14/09/2023</td>
       <td>Bruno e Augusto</td>
