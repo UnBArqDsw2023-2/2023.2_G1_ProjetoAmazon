@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 - Getting Started
-  - [Contribuindo com o projeto](contribuindo.md)
+  - [Contribuindo com o projeto](CONTRIBUTING.md)
   - [Código de Conduta](CODE_OF_CONDUCT.md)
 
 - Reuniões
