@@ -33,7 +33,7 @@ INSERIR IMAGEM DPS
 ## Mapa Mental - Versão Digital
 
   <div align="center">
-    <img src="../../../assets/MapaMental.png" style="width:40vw"/>
+    <img src="../../../assets/MapaMental.png" style="width:50vw"/>
     <p> Imagem 2: Mapa Mental Versão Digital (Fonte: Autor, 2023).</a></p> 
 </div>
 
