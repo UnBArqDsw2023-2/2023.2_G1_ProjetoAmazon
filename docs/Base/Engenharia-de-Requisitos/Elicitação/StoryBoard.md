@@ -33,14 +33,30 @@ Os participantes deste artefato são:
 - **Samuel e Augusto:** Dupla 2
 - **Arthur e X:** Dupla 3
 
+## Cenas 1 a 3
+
+Segue abaixo as imagens das Cenas 1, 2 e 3, elaboradas no [Canva](https://www.canva.com/).
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFtuvJGkhk&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFtuvJGkhk&#x2F;view?utm_content=DAFtuvJGkhk&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Cadastro do Perfil e Pesquisa de Produtos</a> de Ana Beatriz Norberto
+
+
 ## Requisitos Elicitados
 
 
 
-| Identificador | Requisito | Tipo |
-| ------------- | --------- | ---- |
-| SB01          |           | RNF  |
-| SB02          |           | RF   |
+| Identificador | Requisito                                                                                                | Tipo  |
+| ------------- | -------------------------------------------------------------------------------------------------------- | ----- |
+| SB01          | O sistema deve exibir a opção "Criar conta" na página inicial.                                           | RF01  |
+| SB02          | O sistema deve fornecer campos obrigatórios para o cadastro, incluindo nome, endereço de e-mail e senha. | RF02  |
+| SB03          | O sistema deve validar se o número e o e-mail do usuário esta correto.                                   | RF03  |
+| SB04          | O sistema deve manter a segurança dos dados do usuário durante o processo de cadastro.                   | RNF01 |
 
 
 **Tabela 1: Requisitos elicitados por meio do Storyboard (Fonte: Autor, 2023).**
