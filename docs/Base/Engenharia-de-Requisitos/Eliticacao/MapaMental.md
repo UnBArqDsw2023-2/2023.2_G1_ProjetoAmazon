@@ -31,12 +31,11 @@ INSERIR IMAGEM DPS
 <center>
 
 ## Mapa Mental - Versão Digital
-INSERIR IMAGEM DPS
 
-<div style="text-align: center">
-<p> Imagem 2: Mapa Mental Versão Digital (Fonte: Autor, 2023).</p>
+  <div align="center">
+    <img src="../../../assets/MapaMental.png" style="width:40vw"/>
+    <p> Imagem 2: Mapa Mental Versão Digital (Fonte: Autor, 2023).</a></p> 
 </div>
-<center>
 
 ## Requisitos elicitados
 
@@ -79,4 +78,3 @@ Com base no Mapa Mental, foi possível elicitar os seguintes requisitos que est�
 | ------ | ---------- | --------------------- | --------- | ----------- |
 | `1.0`  | 05/09/2023 | Iniciando o documento | Beatriz   | Ana      |
 | `1.1`  | 06/09/2023 | Ajuste em modelo do documento | Beatriz   | Ana      |
-
