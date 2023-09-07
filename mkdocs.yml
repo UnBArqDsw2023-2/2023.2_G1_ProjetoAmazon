@@ -13,7 +13,7 @@ use_directory_urls: false
 docs_dir: docs
 
 theme:
-  name: material
+  name: material # pip install mkdocs-material
 
   features:
     - announce.dismiss
@@ -72,7 +72,10 @@ nav:
     - Artefatos/index.md
     - Primeiro Módulo:
       - Base:
-        - Apresentação sobre RUP : Artefatos/ApresentacaoDeGrupo.md
+        - Apresentação sobre RUP : 
+          - Artefatos/PrimeiroModulo/Base/ApresentacaoDeGrupo.md
+          - Síntese do Conteúdo: Artefatos/PrimeiroModulo/Base/SinteseDoConteudo.md
+          - Slides da Apresentação: Artefatos/PrimeiroModulo/Base/SlidesDaApresentacao.md
     #- Segundo Módulo:
     #  - Modelagem:
     #    - Apresentação sobre Modelagem:
