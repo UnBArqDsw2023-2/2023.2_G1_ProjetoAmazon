@@ -22,13 +22,11 @@ Para a realização do Mapa Mental foram utilizadas algumas regras simples: [¹]
 
 Primeiro fizemos o esboço do mapa mental no papel e após isso passamos para uma versão digital utilizando o site Lucidchart.
 
-## Mapa Mental - Versão Manual
-INSERIR IMAGEM DPS
-
-<div style="text-align: center">
-<p> Imagem 1: Mapa Mental Versão Manual (Fonte: Autor, 2023).</p>
+## Mapa Mental - Versão Papel
+  <div align="center">
+    <img src="../../../assets/MM - mão.jpg" style="width:45vw"/>
+    <p> Imagem 1: Mapa Mental  Versão Papel (Fonte: Autor, 2023).</p>
 </div>
-<center>
 
 ## Mapa Mental - Versão Digital
 
@@ -93,4 +91,5 @@ Com base no Mapa Mental, foi possível elicitar os seguintes requisitos:
 | `1.0`  | 05/09/2023 | Iniciando o documento | Beatriz   | Ana      |
 | `1.1`  | 06/09/2023 | Ajuste em modelo do documento | Beatriz   | Ana      |
 | `1.2`  | 07/09/2023 | Adicionando imagens e requisitos elicitados | Beatriz   | Ana      |
+
 
