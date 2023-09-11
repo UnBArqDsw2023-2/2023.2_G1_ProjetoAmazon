@@ -48,7 +48,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
         <tr>
             <td>Noção</td>
-            <td>O usuário pode se cadastrar de forma prática</td>
+            <td>O usuário pode se cadastrar de forma prática.</br> O sistema cadastra multiplos endereços de entrega.</br>O sistema permite o cadastro de multiplos sistemas de pagamento.</td>
          </tr>
         <tr>
             <td>Sinônimo</td>
@@ -56,7 +56,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
          <tr>
             <td>Elicitado</td>
-            <td>SB02 e ENT02</td>
+            <td>SB02,BS05,BS07,BS08, ENT02</td>
          </tr>
       </tbody>
    </table>
@@ -88,7 +88,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
         <tr>
             <td>Noção</td>
-            <td>O usuário pode salvar suas compras no carrinho</td>
+            <td>O usuário pode salvar suas compras no carrinho</br> O usuário pode visualizar oque tem dentro do carrinho.</td>
          </tr>
         <tr>
             <td>Sinônimo</td>
@@ -96,7 +96,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
          <tr>
             <td>Elicitado</td>
-            <td>ENT05</td>
+            <td>ENT05 e BS15</td>
          </tr>
       </tbody>
    </table>
@@ -176,7 +176,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
          <tr>
             <td>Elicitado</td>
-            <td>MM06 e MM10</td>
+            <td>BS34,MM06 e MM10</td>
          </tr>
       </tbody>
    </table>
@@ -216,7 +216,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
          <tr>
             <td>Elicitado</td>
-            <td>MM07 e MM10</td>
+            <td>BS34,MM07 e MM10</td>
          </tr>
       </tbody>
    </table>
@@ -248,7 +248,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
         <tr>
             <td>Noção</td>
-            <td>O usuário possui um endereço.</td>
+            <td>O usuário possui um endereço.</br>O usuário pode cadastrar vários endereços</td>
          </tr>
         <tr>
             <td>Sinônimo</td>
@@ -256,7 +256,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
          <tr>
             <td>Elicitado</td>
-            <td>MM05</td>
+            <td>BS08 e MM05</td>
          </tr>
       </tbody>
    </table>
@@ -296,7 +296,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
          <tr>
             <td>Elicitado</td>
-            <td>MM12</td>
+            <td>BS12 e MM12</td>
          </tr>
       </tbody>
    </table>
@@ -328,7 +328,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
         <tr>
             <td>Noção</td>
-            <td>O usuário tem a capacidade de escolher quanto tempo seu frete demorará.</td>
+            <td>O usuário tem a capacidade de escolher quanto tempo seu frete demorará.</br> O usuário poderá simular o seu frete.</td>
          </tr>
         <tr>
             <td>Sinônimo</td>
@@ -336,7 +336,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
          <tr>
             <td>Elicitado</td>
-            <td>MM08</td>
+            <td>BS24 e MM08</td>
          </tr>
       </tbody>
    </table>
@@ -368,7 +368,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
         <tr>
             <td>Noção</td>
-            <td>O usuário tem a capacidade de realizar pagamentos.</td>
+            <td>O usuário tem a capacidade de realizar pagamentos.</br> O sistema evidencia os sistemas de pagamento aceitos.</br>O sistema permite a adição de novos métodos de pagamento.</td>
          </tr>
         <tr>
             <td>Sinônimo</td>
@@ -376,7 +376,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
          <tr>
             <td>Elicitado</td>
-            <td>MM06 e MM09</td>
+            <td>BS07, BS29,BS30, MM06 e MM09</td>
          </tr>
       </tbody>
    </table>
@@ -608,7 +608,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
         <tr>
             <td>Noção</td>
-            <td>O usuário pode visualizar os produtos no aplicativo.</td>
+            <td>O usuário pode visualizar os produtos disponiveis no aplicativo.</td>
          </tr>
         <tr>
             <td>Sinônimo</td>
@@ -616,7 +616,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
          </tr>
          <tr>
             <td>Elicitado</td>
-            <td>ENT03</td>
+            <td>BS33 e ENT03</td>
          </tr>
       </tbody>
    </table>
@@ -633,6 +633,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 
 | ID  | Descrição  |
 | --- | ---------- |
+| BS  | Brainstorm |
 | ENT | Entrevista |
 | MM  | MapaMental |
 | SB  | Storyboard |
