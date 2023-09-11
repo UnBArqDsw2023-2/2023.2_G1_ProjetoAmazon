@@ -19,9 +19,7 @@ A reunião foi gravada, e o vídeo da mesma pode ser acessado abaixo:
 
 <!-- TODO: inserir vídeo da reunião -->
 
-Além disso, o Jamboard também está disponível para acesso.
-
-<!-- TODO: inserir link do jamboard -->
+Além disso, o Jamboard também está [disponível para acesso aqui](https://jamboard.google.com/d/1LYhJ--aLO83xyl9gChIeb6xg0ekmfAr0TNkBrA45zIg/edit?usp=sharing).
 
 ## Requisitos elicitados
 
