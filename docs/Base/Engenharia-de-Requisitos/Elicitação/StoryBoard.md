@@ -53,10 +53,11 @@ Segue abaixo as imagens das Cenas 1, 2 e 3, elaboradas no [Canva](https://www.ca
 
 | Identificador | Requisito                                                                                                | Tipo  |
 | ------------- | -------------------------------------------------------------------------------------------------------- | ----- |
-| SB01          | O sistema deve exibir a opção "Criar conta" na página inicial.                                           | RF01  |
-| SB02          | O sistema deve fornecer campos obrigatórios para o cadastro, incluindo nome, endereço de e-mail e senha. | RF02  |
-| SB03          | O sistema deve validar se o número e o e-mail do usuário esta correto.                                   | RF03  |
-| SB04          | O sistema deve manter a segurança dos dados do usuário durante o processo de cadastro.                   | RNF01 |
+| SB01          | O sistema deve exibir a opção "Criar conta" na página inicial.                                           | RNF01 |
+| SB02          | O sistema deve manter a segurança dos dados do usuário durante o processo de cadastro.                   | RNF02 |
+| SB03          | O sistema deve fornecer campos obrigatórios para o cadastro, incluindo nome, endereço de e-mail e senha. | RF03  |
+| SB04          | O sistema deve validar se o número e o e-mail do usuário esta correto.                                   | RF04  |
+
 
 
 **Tabela 1: Requisitos elicitados por meio do Storyboard (Fonte: Autor, 2023).**
@@ -69,9 +70,17 @@ Segue abaixo as imagens das Cenas 1, 2 e 3, elaboradas no [Canva](https://www.ca
 - RNF: Requisito não funcional
   
 
+# Referências
+
+> [1] What Is A Storyboard & How Do You Create One? (With Video). Disponível em: <https://www.vyond.com/resources/what-is-a-storyboard-and-why-do-you-need-one/>. Acesso em: 6 set. 2023.
+>
+> [2] Amazon.com.br | Tudo pra você, de A a Z. Disponível em: <https://www.amazon.com.br/>. Acesso em: 6 set. 2023.
+
+
 ## Histórico de Versão
 
 
-| Versão | Data       | Descrição            | Autor(es)   | Revisor(es) |
-| ------ | ---------- | -------------------- | ----------- | ----------- |
-| `1.0`  | 06/09/2023 | Criação do documento | Ana Beatriz | -           |
+| Versão | Data       | Descrição               | Autor(es)   | Revisor(es) |
+| ------ | ---------- | ----------------------- | ----------- | ----------- |
+| `1.0`  | 06/09/2023 | Criação do documento    | Ana Beatriz | -           |
+| `1.1`  | 12/09/2023 | Adicionando referências | Ana Beatriz | -           |
