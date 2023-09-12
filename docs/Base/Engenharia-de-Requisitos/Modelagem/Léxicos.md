@@ -25,7 +25,7 @@ Para a construção dos léxicos, será utilizado a notação do léxico ampliad
 
 ## Léxicos
 
-Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tabela 17:
+Seguem os léxicos nas tabelas 2 até 31, para o auxilio das mesmas, temos a tabela 32:
 
 <details>
     <summary>Léxico 1 - Cadastro</summary>
@@ -870,7 +870,6 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 
 </details>
 
-
 <details>
     <summary>Léxico 22 - Pesquisar </summary>
 
@@ -1117,7 +1116,6 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 
 </details>
 
-
 <details>
     <summary>Léxico 28 - Boleto </summary>
 
@@ -1158,7 +1156,6 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 
 </details>
 
-
 <details>
     <summary>Léxico 29 - Dados </summary>
 
@@ -1198,7 +1195,6 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
    </div>
 
 </details>
-
 
 <details>
     <summary>Léxico 30 - Amazon Prime </summary>
@@ -1276,5 +1272,4 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 | `1.0`  | 04/09/2023 | Criação do documento, introdução e inicio de metodologia | Kauã    | -         |
 | `1.1`  | 09/09/2023 | Adição dos léxicos                                       | Kauã    | -         |
 | `1.2`  | 11/09/2023 | Adição de mais léxicos                                   | Kauã    |           |
-| `1.3`  | 11/09/2023 | Adição de léxicos                                   | Beatriz    |           |
-
+| `1.3`  | 11/09/2023 | Adição de léxicos                                        | Beatriz |           |
