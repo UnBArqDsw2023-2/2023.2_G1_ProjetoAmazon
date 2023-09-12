@@ -1077,6 +1077,169 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 
 </details>
 
+<details>
+    <summary>Léxico 27 - Cartão </summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L27</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Objeto</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>O usuário poder utilizar seu cartão como metodo de pagamento.</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td>Cartão que permite ao usuário a aquisição de mercadorias, como se fosse dinheiro.</td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td>Bilhete, ticket</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>MM06</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 28: Léxico 27 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
+
+<details>
+    <summary>Léxico 28 - Boleto </summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L28</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Objeto</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>O usuário utilizar o boleto como forma de pagamento.</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td>Comprovante de uma dívida que, com prazo estabelecido, é utilizado como forma de pagamento de produtos ou de serviços a prazo.</td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td>Aposta, pule.</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>MM06</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 29: Léxico 28 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
+
+<details>
+    <summary>Léxico 29 - Dados </summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L29</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Objeto</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>Informaçoes sobre o vendendor ou o comprador serem guardadas no sistema.</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td>Informação que identifica algo, alguém</td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td>Conhecimentos, informações</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>MM02, BS16, SB02</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 30: Léxico 29 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
+
+<details>
+    <summary>Léxico 30 - Amazon Prime </summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L30</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Objeto</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>O usuário ter acesso a promoções, frete grátis, ebook, etc.</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td> Assinatura mensal ou anual com vários benefícios</td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td>Assinatura</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>MM07, MM08</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 31: Léxico 30 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
 </br>
 
 <center>
@@ -1091,7 +1254,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 </center>
 
 <div style="text-align: center">
-   <p> Tabela 20: Identificadores(Fonte: Autor, 2023).</p>
+   <p> Tabela 32: Identificadores(Fonte: Autor, 2023).</p>
 </div>
 
 ## Referências Bibliográficas
@@ -1102,6 +1265,8 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 
 > [3] Dicio, Dicionário Online de Português. Disponivel em: https://www.dicio.com.br/. Acesso em: 12 de set. 2023.
 
+> [4] Amazon Prime. Disponivel em: [Amazon](https://www.amazon.com.br/gp/help/customer/display.html?nodeId=G6LDPN7YJHYKH2J6). Acesso em: 12 de set. 2023.
+
 ‌
 
 ## Histórico de versão
@@ -1111,5 +1276,5 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 | `1.0`  | 04/09/2023 | Criação do documento, introdução e inicio de metodologia | Kauã    | -         |
 | `1.1`  | 09/09/2023 | Adição dos léxicos                                       | Kauã    | -         |
 | `1.2`  | 11/09/2023 | Adição de mais léxicos                                   | Kauã    |           |
-| `1.3`  | 12/09/2023 | Adição de léxicos                                        | Beatriz |           |
+| `1.3`  | 11/09/2023 | Adição de léxicos                                   | Beatriz    |           |
 
