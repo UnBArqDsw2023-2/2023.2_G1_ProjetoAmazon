@@ -627,6 +627,126 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 
 </details>
 
+<details>
+    <summary>Léxico 16 - lista de desejos</summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L16</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Objeto</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>Permitir que o usuário guarde produtos desejados.</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td>O usuário pode guardar produtos que ele deseja comprar.</br>O usuário pode adicionar produtos na lista de desejo.</br>O usuário pode remover produtos da lista de desejos.</td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td>Comprar mais tarde</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>BS17 e BS18</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 17: Léxico 16 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
+<details>
+    <summary>Léxico 17 - Simulação</summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L17</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Objeto</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>Permitir que o usuário veja o preço futuro dos seus produtos com o frete.</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td>O usuário pode simular seus fretes.</td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td>Fingimento</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>BS24</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 18: Léxico 17 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
+<details>
+    <summary>Léxico 18 - Ficha técnica</summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L18</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Objeto</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>Permitir que o usuário saiba mais sobre o produto que ele está comprando.</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td>É disponibilizado ao usuário uma ficha tecnica dos produtos.</td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td>Fingimento</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>BS14</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 19: Léxico 18 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
 </br>
 
 <center>
@@ -641,7 +761,7 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 </center>
 
 <div style="text-align: center">
-   <p> Tabela 17: Identificadores(Fonte: Autor, 2023).</p>
+   <p> Tabela 20: Identificadores(Fonte: Autor, 2023).</p>
 </div>
 
 ## Referências Bibliográficas
@@ -658,3 +778,4 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 | ------ | ---------- | -------------------------------------------------------- | ------- | --------- |
 | `1.0`  | 04/09/2023 | Criação do documento, introdução e inicio de metodologia | Kauã    | -         |
 | `1.1`  | 09/09/2023 | Adição dos léxicos                                       | Kauã    | -         |
+| `1.2`  | 11/09/2023 | Adição de mais léxicos                                   | Kauã    |           |
