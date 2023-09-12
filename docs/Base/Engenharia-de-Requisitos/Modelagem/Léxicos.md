@@ -747,6 +747,336 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 
 </details>
 
+<details>
+    <summary>Léxico 19 - Avaliação </summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L19</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Objeto</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>Permite o usuário saber a qualidade do produto que esta comprando, ou até mesmo saber se a entrega foi bem sucedida</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td>Notas e comentários feitos por outras pessoas a respeito de um produto ou serviço.</td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td>Análise, consideração, julgamento, opinião, crítica, reflexão.
+</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>BS26</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 20: Léxico 19 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
+<details>
+    <summary>Léxico 20 - Preço </summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L20</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Objeto</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>O usuário saber quanto vai pagar no produto.</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td>Quantia que estabelece o valor do que se pretende comprar</td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td> Valor, custo, compensação.
+</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>BS25, BS27</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 21: Léxico 20 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
+<details>
+    <summary>Léxico 21 - Categoria </summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L21.</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Objeto</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>O usuário poder pesquisar seus produtos pelo tipo.</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td>Divisão ou subdivisão de um produto.</td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td>Camada, classe, divisão, subdivisão.
+</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>BS22</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 22: Léxico 21 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
+
+<details>
+    <summary>Léxico 22 - Pesquisar </summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L22</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Verbo</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>O usuário poder buscar pelo seu produto.</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td>Procurar pelo produto desejado </td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td>Procurar, sondar, explorar
+</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>BS32</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 23: Léxico 22 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
+<details>
+    <summary>Léxico 23 - Segurança </summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L23</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Objeto</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>Um sistema seguro trás mais confiança do usuário</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td>Situação do que está seguro, afastamento de todo perigo</td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td> Confiança, estabilidade, firmeza, garantia.
+</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>ENT06, SB02, MM01</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 24: Léxico 23 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
+<details>
+    <summary>Léxico 24 - Login </summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L24</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Objeto</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>O usuário poder ter suas informações salvas no site.</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td>Modo de ligação a uma rede protegida que dá acesso ao usuário a um sistema informático, por meio da introdução de uma identidade e senha.</td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td>Acesso, ligação, comunicação, conexão, logon
+</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>ENT02, MM03, </td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 25: Léxico 24 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
+<details>
+    <summary>Léxico 25 - Vendedor </summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L25</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Objeto</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>Permitir que o usuário saiba quem é o vendendor do produto.</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td>Indivíduo que tem a profissão de vender mercadorias.</td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td>Pracista, agenciador
+</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>BS16</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 26: Léxico 25 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
+<details>
+    <summary>Léxico 26 - Status </summary>
+
+   <table>
+      <thead>
+         <tr>
+            <th>L26</th>
+            <th>Descrição</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Classificação</td>
+            <td>Objeto</td>
+         </tr>
+        <tr>
+            <td>Impacto</td>
+            <td>O usuário saber o estado do seu pedido.</td>
+         </tr>
+        <tr>
+            <td>Noção</td>
+            <td>Estado ou circunstância que algo ocupa em determinado momento.</td>
+         </tr>
+        <tr>
+            <td>Sinônimo</td>
+            <td>Condição
+
+</td>
+         </tr>
+         <tr>
+            <td>Elicitado</td>
+            <td>BS21</td>
+         </tr>
+      </tbody>
+   </table>
+
+   <div style="text-align: center">
+      <p> Tabela 27: Léxico 26 (Fonte: Autor, 2023).</p>
+   </div>
+
+</details>
+
 </br>
 
 <center>
@@ -770,6 +1100,8 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 
 > [2] 2023.1-BilheteriaDigital/docs/modelagem/lexicos.md at main · Requisitos-de-Software/2023.1-BilheteriaDigital. GitHub. Disponível em: <https://github.com/Requisitos-de-Software/2023.1-BilheteriaDigital/blob/main/docs/modelagem/lexicos.md>. Acesso em: 7 set. 2023.
 
+> [3] Dicio, Dicionário Online de Português. Disponivel em: https://www.dicio.com.br/. Acesso em: 12 de set. 2023.
+
 ‌
 
 ## Histórico de versão
@@ -779,3 +1111,5 @@ Seguem os léxicos nas tabelas 2 até 16, para o auxilio das mesmas, temos a tab
 | `1.0`  | 04/09/2023 | Criação do documento, introdução e inicio de metodologia | Kauã    | -         |
 | `1.1`  | 09/09/2023 | Adição dos léxicos                                       | Kauã    | -         |
 | `1.2`  | 11/09/2023 | Adição de mais léxicos                                   | Kauã    |           |
+| `1.3`  | 12/09/2023 | Adição de léxicos                                        | Beatriz |           |
+
