@@ -15,9 +15,7 @@ integrantes da equipe: Guilherme Moreira, que atuou como mediador, Augusto
 Camargo, Samuel Sato e Arthur Ferreira. O brainstorm durou cerca de 30 minutos
 e foi realizado na plataforma Discord, com anotações no Google Jamboard.
 
-A reunião foi gravada, e o vídeo da mesma pode ser acessado abaixo:
-
-<!-- TODO: inserir vídeo da reunião -->
+A reunião foi gravada, e o vídeo da mesma pode ser [acessado no YouTube](https://youtu.be/iPBs625vqyI)
 
 Além disso, o Jamboard também está [disponível para acesso aqui](https://jamboard.google.com/d/1LYhJ--aLO83xyl9gChIeb6xg0ekmfAr0TNkBrA45zIg/edit?usp=sharing).
 
@@ -89,3 +87,4 @@ Com base no brainstorm, os seguintes requisitos foram elicitados:
 | Versão | Data       | Descrição             | Autor(es) | Revisor(es) |
 |--------|------------|-----------------------|-----------|-------------|
 | `1.0`  | 11/09/2023 | Iniciando o documento | Guilherme |             |
+| `2.0`  | 13/09/2023 | Adição do vídeo       | Guilherme |             |
