@@ -141,7 +141,7 @@ A matriz presente na tabela 5, mostra como foi determinada a classificação de 
 |      **(4) Alto**   | **4- RM** |       **8- RA**      |   **12- RA**   |      **16- RC**       |        **20- RC**       |
 |     **(3) Médio**   | **3- RP** |      **6- RM**       |   **9- RA**    |      **12- RA**       |       **15- RC**        |
 |     **(2) Baixo**   | **2- RP** |      **4- RM**       |   **6- RM**    |      **8- RA**       |       **10- RA**         |
-| **(1) Muito baixo** | **1- RP** |      **2- RP**       |   **3- RP**    |      **4- RM**       |        **5- RM**         |
+| **(1) Muito baixo** | **1- RR** |      **2- RP**       |   **3- RP**    |      **4- RM**       |        **5- RM**         |
 |                     |**(1) Raro** | **(2) Pouco provável** | **(3) Provável** | **(4) Muito provável** | **(5) Praticamente certo** |
 
 
@@ -241,6 +241,7 @@ A matriz presente na tabela 5, mostra como foi determinada a classificação de 
   </table>
   <p>Tabela 9 : Probabilidade X impacto. Fonte: Autores.</p>
 </details>
+
 ### Organizacional
 <details>
   <summary>Recursos humanos</summary>
@@ -321,6 +322,7 @@ A matriz presente na tabela 5, mostra como foi determinada a classificação de 
   </table>
   <p>Tabela 13 : Probabilidade X impacto. Fonte: Autores.</p>
 </details>
+
 ### Externo
 <details>
   <summary>Mercado</summary>
@@ -485,26 +487,71 @@ A matriz presente na tabela 5, mostra como foi determinada a classificação de 
 
 ## Classificação de risco
 Utilizando a fórmula 1, foi calculado o nível de risco dos eventos mostradas acima.
-| Evento | Prioridade | Impacto | Nível de risco |
-|-------|---------|----------|-------------|
-| Planejamento |
-| Estimativa |
-| Comunicação ineficiente |
-| Prazos curtos |
-| Recursos humanos | 
-| Priorização | 
-| Saída de membros | 
-| Baixo desempenho | 
-| Mercado |
-| Cliente |
-| Ambiente |
-| Atraso das aulas |
-| Requisitos |
-| Alteração de escopo |
-| Plataforma | 
-| Funcionalidade |
+|           Evento         | Prioridade | Impacto |         Nível de risco       |
+|--------------------------|------------|---------|------------------------------|
+|       Planejamento       |      3     |    4    |     (12-RA)- Risco alto      |
+|       Estimativa         |      3     |    3    |     (9-RA)- Risco alto       |
+|  Comunicação ineficiente |      2     |    2    |     (4-RM)- Risco médio      |
+|        Prazos curtos     |      4     |    4    |   (16-RC)- Risco crítico     |
+|      Recursos humanos    |      5     |    2    |     (10-RA)- Risco alto      |
+|        Priorização       |      2     |    5    |     (10-RA)- Risco alto      |
+|      Saída de membros    |      1     |    2    | (2-RP)- Risco pouco provável |
+|      Baixo desempenho    |      2     |    3    |     (6-RM)- Risco médio      |
+|          Mercado         |      1     |    4    |     (4-RM)- Risco médio      |
+|          Cliente         |      2     |    5    |     (10-RA)- Risco alto      |
+|         Ambiente         |      3     |    5    |     (15-RC)- Risco crítico   |
+|      Atraso das aulas    |      2     |    2    |     (4-RM)- Risco médio      |
+|        Requisitos        |      2     |    4    |     (8-RA)- Risco alto       |
+|     Alteração de escopo  |      1     |    5    |     (5-RM)- Risco médio      |
+|          Plataforma      |      2     |    5    |     (10-RA)- Risco alto      |
+|        Funcionalidade    |      2     |    2    |     (4-RM)- Risco médio      |
 ## Medidas 
-Medidas que podem ser tomadas para mitigar os riscos
+Medidas que podem ser tomadas para mitigar os riscos. Em uma primeira fase, pensaremos em providências para os eventos classificados como risco alto e risco crítico, já que são os que mais impactam no projeto.
+<details>
+  <summary>Planejamento</summary>
+    <p> Reuniões de alinhamento com os membros acercas do prazo e da demanda, de forma que o planejamento seja sempre ajustado com o intuito de entregar o projeto no prazo. A comunicação efetiva, divisão equilitária de tarefas contribuem para diminuir esse evento.</p> 
+</details>
+
+<details>
+  <summary>Estimativa</summary>
+    <p> Estimar com mais precisão, utilizar ferramentas de estimativa comprada cientificamente, sempre estar em contato com o cliente.</p> 
+</details>
+
+<details>
+  <summary>Prazos curtos</summary>
+    <p> Requer um planejamento eficiente, comprometimento da equipe. </p> 
+</details>
+
+<details>
+  <summary>Recursos humanos</summary>
+    <p> O líder deve semanalmente checar como a equipe está se sentindo, em relação aos prazos, a demanda, se necessitam de ajuda com algo.</p> 
+</details>
+
+<details>
+  <summary>Priorização</summary>
+    <p> Utilizar mais de 1 ferramente de priorização e fazer uma comparação entre as dus, com o intuito de realmente priorar as que são mais importantes.</p> 
+</details>
+
+<details>
+  <summary>Cliente</summary>
+    <p> Organizar reuniões quinzenais com os clientes, fazer ata e assinatura, para mitigar os imprevistos e novas demandas que possam ocorrer.</p> 
+</details>
+
+<details>
+  <summary>Ambiente</summary>
+    <p> Estar por dentro das notícias, acompanhar o que está acontecendo nos concorrentes.</p> 
+</details>
+
+<details>
+  <summary>Requisitos</summary>
+    <p> Checar com os clientes se é isso mesmo que é necessário, checar com senior se os requisitos não funcionais para o projeto estão corretos.</p> 
+</details>
+
+<details>
+  <summary>Plataforma</summary>
+    <p> Utilizar um ambiente de desenvolvimento, que tem salvo o que está sendo feito e sendo um ambiente de teste, não impacta na plataforma online.</p> 
+</details>
+
 ## Histórico de versão
 | Versão | Data       | Descrição                             | Autor(es)        | Revisor(es)      |
 |--------|------------|---------------------------------------|------------------|------------------|
