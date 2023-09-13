@@ -61,8 +61,8 @@ riscos relacionados ao seu planejamento estratégico?
 
 I - Garantir que os tomadores de decisão tenham acesso às informações sobre os riscos que afetam o projeto, incluindo a capacidade de tomar decisões 
 relacionadas à delegação, quando necessário;
-II - Aumentar a probabilidade de atingir os objetivos do projeto, diminuindo os riscos para patamares aceitáveis;
-III - Acrescentar valor ao projeto através da melhoria dos procedimentos de tomada de decisão e do tratamento adequado dos riscos.
+<br> II - Aumentar a probabilidade de atingir os objetivos do projeto, diminuindo os riscos para patamares aceitáveis;
+<br> III - Acrescentar valor ao projeto através da melhoria dos procedimentos de tomada de decisão e do tratamento adequado dos riscos.
 
 ## Metodologia 
 
@@ -92,7 +92,7 @@ O nível de risco será avaliado de forma qualitativa e quantitativa através de
 matriz de Impacto e Probabilidade com amplitude em quatro níveis, definida em uma matriz
 cinco por cinco. Podemos definir o **NÍVEL DE RISCO** com a seguinte equação:
 > Nível de risco = impacto X probabilidade
-
+<div style="text-align: center"> Fórmula 1- Cálculo do nível de risco. Fonte: autores. </div>
 Na tabela 1, tem o exemplo de como foi feita a avaliação de um risco:
 
 |Evento | Probabilidade | Impacto | Nível de risco|
@@ -138,10 +138,10 @@ A matriz presente na tabela 5, mostra como foi determinada a classificação de 
 
 |   (5) Muito alto    |     5- RM   |           10- RA       |      15- RC      |        20- RC          |         25- RC             |
 |---------------------|-------------|------------------------|------------------|------------------------|----------------------------|
-|      **(4) Alto**   | ** 4- RM ** |       ** 8- RA **      |   ** 12- RA **   |      ** 16- RC **       |        ** 20- RC **       |
-|     **(3) Médio**   | ** 3- RP ** |      ** 6- RM **       |   ** 9- RA **    |      ** 12- RA **       |       ** 15- RC **        |
-|     **(2) Baixo**   | ** 2- RP ** |      ** 4- RM **       |   ** 6- RM **    |      ** 8- RA **       |       ** 10- RA **         |
-| **(1) Muito baixo** | ** 1- RP ** |      ** 2- RP **       |   ** 3- RP **    |      ** 4- RM **       |        ** 5- RM **         |
+|      **(4) Alto**   | **4- RM** |       **8- RA**      |   **12- RA**   |      **16- RC**       |        **20- RC**       |
+|     **(3) Médio**   | **3- RP** |      **6- RM**       |   **9- RA**    |      **12- RA**       |       **15- RC**        |
+|     **(2) Baixo**   | **2- RP** |      **4- RM**       |   **6- RM**    |      **8- RA**       |       **10- RA**         |
+| **(1) Muito baixo** | **1- RP** |      **2- RP**       |   **3- RP**    |      **4- RM**       |        **5- RM**         |
 |                     |**(1) Raro** | **(2) Pouco provável** | **(3) Provável** | **(4) Muito provável** | **(5) Praticamente certo** |
 
 
@@ -154,19 +154,359 @@ A matriz presente na tabela 5, mostra como foi determinada a classificação de 
 - Gerencial: Planejamento, Controle.
 
 ## Riscos projeto Amazon
-  Na imagem 1, é possível ver quais riscos foram considerados para o projeto da análise do site da Amazon. >br>
+  Na imagem 1, é possível ver quais riscos foram considerados para o projeto da análise do site da Amazon. <br>
   
-![](./assets/amazon_riscos.png)
+![amazon_riscos](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/assets/86479209/32bb3e87-545f-4645-bbfb-069fa7ec8769)
+
 
 <div style="text-align: center"> Imagem 1. Fonte: autores. </div>
 
 ## Probabilidade X Impacto
+### Gerencial
+<details>
+  <summary>Planejamento</summary>
+    <p>O cronograma do projeto pode ter sido mal planejado, centralização do líder do grupo, má gestão</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>3</td>
+        <td>4</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 6 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+<details>
+  <summary>Estimativa</summary>
+    <p>Erros na hora de fazer estimativas acerca de prazos, custos...</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>3</td>
+        <td>3</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 7 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+
+<details>
+  <summary>Comunicação ineficiente</summary>
+    <p>A comunicação da equipe entre si e também a comunicação com o cliente, podem haver ruídos, falta de atualizações.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>2</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 8 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+
+<details>
+  <summary>Prazos curtos</summary>
+    <p>Pouco tempo para desenvolver o projeto</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>4</td>
+        <td>4</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 9 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+### Organizacional
+<details>
+  <summary>Recursos humanos</summary>
+    <p> Emprevistos e emergencia podem ocorrer com os membros da equipe, o que compromete a sua dedicação ao projeto</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>5</td>
+        <td>2</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 10 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+
+<details>
+  <summary>Priorização</summary>
+    <p> Podem ser priorizadas tarefas que não são tão necessárias</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>5</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 11 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+
+<details>
+  <summary>Saída de membros</summary>
+    <p> Pode ocorrer de algum membro sair da equipe de trabalho, devido a vários motivos. </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 12 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+
+<details>
+  <summary>Baixo desempenho</summary>
+    <p> Membros da equipe podem se sentir desmotivados, com burnout ao longo do projeto.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>3</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 13 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+### Externo
+<details>
+  <summary>Mercado</summary>
+    <p> Mudanças podem ocorrer no mercado, como queda das ações da Amazon, ataques a segurança.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>4</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 14 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+
+<details>
+  <summary>Cliente</summary>
+    <p> As prioridades e necessidades do cliente podem mudar ao lonfgo do projeto</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>5</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 15 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+
+<details>
+  <summary>Ambiente</summary>
+    <p> Podem ocorrer mudanças no e-commerce, nas tendências o que pode prejudicar o escopo do projeto.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>3</td>
+        <td>5</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 16 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+
+<details>
+  <summary>Atraso das aulas</summary>
+    <p> Podem ocorrer atrasados durante o semestre do conntéudo passado, o que pode influenciar nos prazos das tarefas..</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>2</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 17 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+
+### Técnico
+<details>
+  <summary>Requisitos</summary>
+    <p> Requisitos podem ter sido elicitados erroneamente, pode ocorrer mudança na priorização dos requisitos, podem surgir necessidade de novas funções.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>4</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 18 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+
+<details>
+  <summary>Alteração de escopo </summary>
+    <p> O escopo trabalhado pode ser mudado devido a circunstâncias externas</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>5</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 19 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+
+<details>
+  <summary>Plataforma </summary>
+    <p> A plataforma da Amazon pode apresentar erro de servidor, sair do ar, ter brechas de segurança .</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>5</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 20 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
+
+<details>
+  <summary>Funcionalidade</summary>
+    <p> As funcionalidades emplementadas podem apresentar erros.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Probabilidade</th>
+        <th>Impacto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>2</td>
+      </tr>     
+    </tbody>
+  </table>
+  <p>Tabela 21 : Probabilidade X impacto. Fonte: Autores.</p>
+</details>
 
 ## Classificação de risco
-
+Utilizando a fórmula 1, foi calculado o nível de risco dos eventos mostradas acima.
+| Evento | Prioridade | Impacto | Nível de risco |
+|-------|---------|----------|-------------|
+| Planejamento |
+| Estimativa |
+| Comunicação ineficiente |
+| Prazos curtos |
+| Recursos humanos | 
+| Priorização | 
+| Saída de membros | 
+| Baixo desempenho | 
+| Mercado |
+| Cliente |
+| Ambiente |
+| Atraso das aulas |
+| Requisitos |
+| Alteração de escopo |
+| Plataforma | 
+| Funcionalidade |
 ## Medidas 
 Medidas que podem ser tomadas para mitigar os riscos
 ## Histórico de versão
 | Versão | Data       | Descrição                             | Autor(es)        | Revisor(es)      |
 |--------|------------|---------------------------------------|------------------|------------------|
 | `1.0`  | 12/09/2023 | Criação do documento                 | Mylena Angélica   | ---------------- |
+| `1.1`  | 13/09/2023 | Impacto, prioridades, nível de risco | Mylena Angélica   | ---------------- |
