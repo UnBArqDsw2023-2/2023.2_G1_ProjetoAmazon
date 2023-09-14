@@ -1269,7 +1269,7 @@ Seguem os léxicos nas tabelas 2 até 31, para o auxilio das mesmas, temos a tab
 
 | Versão | Data       | Descrição                                                | Autores | Revisores |
 | ------ | ---------- | -------------------------------------------------------- | ------- | --------- |
-| `1.0`  | 04/09/2023 | Criação do documento, introdução e inicio de metodologia | Kauã    | -         |
-| `1.1`  | 09/09/2023 | Adição dos léxicos                                       | Kauã    | -         |
-| `1.2`  | 11/09/2023 | Adição de mais léxicos                                   | Kauã    |           |
-| `1.3`  | 11/09/2023 | Adição de léxicos                                        | Beatriz |           |
+| `1.0`  | 04/09/2023 | Criação do documento, introdução e inicio de metodologia | Kauã    | Guilherme         |
+| `1.1`  | 09/09/2023 | Adição dos léxicos                                       | Kauã    | Guilherme         |
+| `1.2`  | 11/09/2023 | Adição de mais léxicos                                   | Kauã    | Guilherme          |
+| `1.3`  | 11/09/2023 | Adição de léxicos                                        | Beatriz | Guilherme          |
