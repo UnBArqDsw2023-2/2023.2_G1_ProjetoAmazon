@@ -14,6 +14,8 @@ figcaption {
 
 # Rich Picture
 
+## Introdução
+
 O Rich Picture é uma ferramenta visual para expressar ideias e analisar
 problemas. Os artefatos elaborados são construídos de maneira informal, visando
 o fácil entendimento.
@@ -31,7 +33,7 @@ setas, atores e processos.
   <figcaption>Figura 1: Rich Picture (2023, Ana Beatriz)</figcaption>
 </figure>
 
-### Arthur Ferreira 
+### Arthur Ferreira
 
 <figure>
   <img src="assets/rich-picture-arthur.jpeg" />
@@ -59,24 +61,30 @@ setas, atores e processos.
   <figcaption>Figura 5: Rich Picture (2023, Bruno)</figcaption>
 </figure>
 
-### Guilherme Puida 
+### Guilherme Puida
 
 <figure>
   <img src="assets/rich-picture-Guilherme.png" />
   <figcaption>Figura 6: Rich Picture (2023, Guilherme Puida)</figcaption>
 </figure>
 
+### Kauã Vinícius
+
+<figure>
+  <img src="docs\assets\RichPicture-Kauã.png" />
+  <figcaption>Figura 7: Rich Picture (2023, Kauã Vinícius)</figcaption>
+</figure>
+
 ### Mylena Angélica
 
 <figure>
   <img src="assets/RP_mylena_amazon_comprador.jpg" />
-  <figcaption>Figura 7: Rich Picture (2023, Mylena)</figcaption>
+  <figcaption>Figura 8: Rich Picture (2023, Mylena)</figcaption>
 </figure>
-
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição             | Autor(es) | Revisor(es) |
-|--------|------------|-----------------------|-----------|-------------|
-| `1.0`  | 14/09/2023 | Iniciando o documento | Guilherme |             |
-
+| Versão | Data       | Descrição                               | Autor(es) | Revisor(es) |
+| ------ | ---------- | --------------------------------------- | --------- | ----------- |
+| `1.0`  | 14/09/2023 | Iniciando o documento                   | Guilherme | Kauã        |
+| `1.1`  | 14/09/2023 | Revisando documento e adicionando um RP | Kauã      |             |
