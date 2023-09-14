@@ -77,51 +77,10 @@ Os princípios do RUP são:
 - **Elevar o nível de abstração**: complexidade é um problema central no desenvolvimento de software. Aumentar o nível de abstração ajuda a reduzir a complexidade e a quantidade de documentação necessária para o projeto. Isso pode ser alcançado através da reutilização, do uso de ferramentas de modelagem de alto nível e da estabilização da arquitetura desde o início.
 - **Manter um foco contínuo na qualidade**: a qualidade é um fator importante no desenvolvimento de software. A qualidade é alcançada através da definição de um conjunto de casos de teste para cada iteração e da definição de um conjunto de métricas para cada iteração.
 
-### Boas Práticas
-
-As boas práticas que serão descritas a seguir são utilizadas em larga escala no mercado de trabalho. Para segui-las, o RUP fornece a cada membro da equipe diretrizes, mentores e templates de ferramentas necessários para que a equipe aproveite este ponto. Temos as boas práticas:
-
-- **Desenvolver software iterativamente**: 
-- **Gerenciar requisitos**: 
-- **Usar arquiteturas baseadas em componentes**: 
-- **Modelar software visualmente**:
-- **Verificar a qualidade do software**:
-- **Controlar mudanças de software**:
-
-## Prós e Contras  
-
-### Prós
-
-- **Resolve roiscos com facilidade**:
-- **Controlar mudanças**: 
-- **Padrões flexíveis**:
-- **Processo de entrega eficiente**:
-- **Suporta desenvolvimento iterativo**:
-
-### Contras
-
-- **Complexidade**:
-- **Limitações**:
-- **Baixa visibilidade do processo**:
-- **Desvios da arquitetura principal**:
-- **Caminhos sem saida** :
-
-## Conclusão
-
-
-## Referências
-
-1. Péraire, Cécile; Edwards, Mike. The IBM Rational Unified Process for System z. P. 270, 2007.
-2. Benefits Of . Benefits of Rational Unified Process. Disponível em:  [benefitsof.net](http://benefitof.net/benefits-of-rational-unified-process/). Acesso em: 29 de agosto de 2023.
-3. ANWAR, Ashraf. A Review of RUP (Rational Unified Process). Ashraf Anwar International Journal of Software Engineering (IJSE), n. 5, p. 8, 2014. Disponível em: [cscjournals.org](https://www.cscjournals.org/manuscript/Journals/IJSE/Volume5/Issue2/IJSE-142.pdf). Acesso em 29 de Agosto de 2023.
-4. ZEIL, S. J. Software Development Process Models. Disponível em: [cs.odu.edu](https://www.cs.odu.edu/~zeil/cs350/f14/Public/processModels/#disadvantages>). Acesso em: 29 ago. 2023.‌
-5. Metodologia RUP. Disponível em: [prezi.com](https://prezi.com/zr9zqoobntcr/metodologia-rup/?fallback=1). Acesso em: 29 ago. 2023.
-6. A Rational Software Corporation White Paper. [s.l.: s.n., s.d.]. Disponível em: [cs.ccu.edu.tw](https://www.cs.ccu.edu.tw/~naiwei/cs3021/unifiedProcess.pdf). Acesso em 29 de agosto de 2023‌.
-
 
 # Histórico de Versão
 
 | Versão | Data       | Descrição                              | Autores                    | Revisores       |
 | ------ | ---------- | -------------------------------------- | -------------------------- | --------------- |
 | `1.0`  | 29/08/2023 | Elaboração do documento no Google Docs | Ana Beatriz, Beatriz, Kauã | Arthur Ferreira |
-| `1.1`  | 11/09/2023 | Transcrição do documento para MarkDown | Augusto Camargo            |                 |
+| `1.1`  | 13/09/2023 | Transcrição do documento para MarkDown | Augusto Camargo            |                 |
