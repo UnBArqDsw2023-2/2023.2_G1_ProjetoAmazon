@@ -6,7 +6,7 @@ O léxico tem como objetivo descrever os símbolos de uma linguagem. Ela é impo
 
 ## Metodologia
 
-Para a construção dos léxicos, será utilizado a notação do léxico ampliado de linguagem(LAL). Como referência, será utilizado a tabela 1:
+Para a construção dos léxicos, será utilizado a notação do léxico ampliado de linguagem (LAL). Como referência, será utilizado a tabela 1:
 
 <center>
 
