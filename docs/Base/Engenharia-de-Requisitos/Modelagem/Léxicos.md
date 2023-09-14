@@ -1173,7 +1173,7 @@ Seguem os léxicos nas tabelas 2 até 31, para o auxilio das mesmas, temos a tab
          </tr>
         <tr>
             <td>Impacto</td>
-            <td>Informaçoes sobre o vendendor ou o comprador serem guardadas no sistema.</td>
+            <td>Informações sobre o vendedor ou o comprador serem guardadas no sistema.</td>
          </tr>
         <tr>
             <td>Noção</td>
