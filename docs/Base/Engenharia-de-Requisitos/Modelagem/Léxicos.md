@@ -88,7 +88,7 @@ Seguem os léxicos nas tabelas 2 até 31, para o auxilio das mesmas, temos a tab
          </tr>
         <tr>
             <td>Noção</td>
-            <td>O usuário pode salvar suas compras no carrinho</br> O usuário pode visualizar oque tem dentro do carrinho.</td>
+            <td>O usuário pode salvar suas compras no carrinho</br> O usuário pode visualizar o que está dentro do carrinho.</td>
          </tr>
         <tr>
             <td>Sinônimo</td>
