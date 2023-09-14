@@ -84,7 +84,7 @@ Seguem os léxicos nas tabelas 2 até 31, para o auxilio das mesmas, temos a tab
          </tr>
         <tr>
             <td>Impacto</td>
-            <td>O usuário poder salvar as compras que ele deseja.</td>
+            <td>O usuário pode salvar as compras que ele deseja.</td>
          </tr>
         <tr>
             <td>Noção</td>
