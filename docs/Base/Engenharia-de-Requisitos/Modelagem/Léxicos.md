@@ -628,7 +628,7 @@ Seguem os léxicos nas tabelas 2 até 31, para o auxilio das mesmas, temos a tab
 </details>
 
 <details>
-    <summary>Léxico 16 - lista de desejos</summary>
+    <summary>Léxico 16 - Lista de Desejos</summary>
 
    <table>
       <thead>
