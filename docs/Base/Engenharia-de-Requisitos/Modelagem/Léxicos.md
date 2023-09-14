@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O léxico tem como objetivo descrever os símbolos de uma linguagem. Ela é importante para a engenharia de requisitos pois busca fazer com que a equipe que está trabalhando em determinado problema esteja a par do vocabulário que será utilizando durante todo o periodo de desenvolvimento, processos como o RUP utilizam-o. Este artefato tem como objetivo descrever os léxicos do site de e-commerce Amazon.
+O léxico tem como objetivo descrever os símbolos de uma linguagem. Ela é importante para a engenharia de requisitos pois busca fazer com que a equipe que está trabalhando em determinado problema esteja a par do vocabulário que será utilizado durante todo o período de desenvolvimento, processos como o RUP utilizam-o. Este artefato tem como objetivo descrever os léxicos do site de e-commerce Amazon.
 
 ## Metodologia
 
