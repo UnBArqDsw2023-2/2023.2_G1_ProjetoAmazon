@@ -164,7 +164,7 @@ Seguem os léxicos nas tabelas 2 até 31, para o auxilio das mesmas, temos a tab
          </tr>
         <tr>
             <td>Impacto</td>
-            <td>Utiliza-los para receber o desconto nos produtos.</td>
+            <td>Utilizá-los para receber o desconto nos produtos.</td>
          </tr>
         <tr>
             <td>Noção</td>
