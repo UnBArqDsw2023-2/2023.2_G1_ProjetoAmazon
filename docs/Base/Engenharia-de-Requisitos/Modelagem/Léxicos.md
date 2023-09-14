@@ -708,7 +708,7 @@ Seguem os léxicos nas tabelas 2 até 31, para o auxilio das mesmas, temos a tab
 </details>
 
 <details>
-    <summary>Léxico 18 - Ficha técnica</summary>
+    <summary>Léxico 18 - Ficha Técnica</summary>
 
    <table>
       <thead>
