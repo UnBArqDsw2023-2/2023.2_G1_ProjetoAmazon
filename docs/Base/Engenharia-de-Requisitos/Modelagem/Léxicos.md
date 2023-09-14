@@ -982,7 +982,7 @@ Seguem os léxicos nas tabelas 2 até 31, para o auxilio das mesmas, temos a tab
          </tr>
          <tr>
             <td>Elicitado</td>
-            <td>ENT02, MM03, </td>
+            <td>ENT02 e MM03</td>
          </tr>
       </tbody>
    </table>
