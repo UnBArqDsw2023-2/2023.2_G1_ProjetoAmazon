@@ -39,57 +39,63 @@ Primeiro fizemos o esboço do mapa mental no papel e após isso passamos para um
 
 Com base no Mapa Mental, foi possível elicitar os seguintes requisitos:
 
-| Legenda | Descrição                                                                                      | Tipo |
-| ------- | ---------------------------------------------------------------------------------------------- | ---- |
-| MM01   | As informações da conta estarem seguras                                                          | RNF |
-| MM02   | A empresa ser transparente na forma como está utilizando os dados do usuário.                    | RF  |
-| MM03   | O processo de login e cadastro na conta serem práticos                                           | RNF |
-| MM04   | O site fornecer recomendações de produtos                                                        | RF  |
-| MM05   | Ser possível salvar informações, como endereço e métodos de pagamento, para agilizar a compra.   | RF  |
-| MM06   | Haver diversas formas de pagamento, como PIX, cartão (crédito e débito), boleto e cupons.        | RF  |
-| MM07   | Os usuários do Amazon Prime terem acesso a descontos.                                            | RF  |
-| MM08   | Os usuários do Amazon Prime terem ter acesso a frete grátis.                                     | RF  |
-| MM09   | Existir a possibilidade de parcelar o pagamento.                                                 | RF  |
-| MM10   | Haver descontos disponíveis através de cupons.                                                   | RF  |
-| MM11   | Os fretes devem ter preços acessíveis.                                                           | RF  |
-| MM12   | Ser possível usar filtros na pesquisa.                                                           | RF  |
-| MM13   | Ser possível realizar uma ordenação na lista de produtos exibidos.                               | RF  |
-| MM14   | ser possível salvar itens para comprar posteriormente.                                           | RF  |
-| MM15   | No carrinho de compras, ser exibidos os itens previamente adquiridos, tornando mais fácil a compra repetida de um item sem a necessidade de uma busca demorada.                | RF  |
+<center>
+
+| Legenda | Descrição                                                                                                                                                       | Tipo |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| MM01    | As informações da conta estarem seguras                                                                                                                         | RNF  |
+| MM02    | A empresa ser transparente na forma como está utilizando os dados do usuário.                                                                                   | RF   |
+| MM03    | O processo de login e cadastro na conta serem práticos                                                                                                          | RNF  |
+| MM04    | O site fornecer recomendações de produtos                                                                                                                       | RF   |
+| MM05    | Ser possível salvar informações, como endereço e métodos de pagamento, para agilizar a compra.                                                                  | RF   |
+| MM06    | Haver diversas formas de pagamento, como PIX, cartão (crédito e débito), boleto e cupons.                                                                       | RF   |
+| MM07    | Os usuários do Amazon Prime terem acesso a descontos.                                                                                                           | RF   |
+| MM08    | Os usuários do Amazon Prime terem ter acesso a frete grátis.                                                                                                    | RF   |
+| MM09    | Existir a possibilidade de parcelar o pagamento.                                                                                                                | RF   |
+| MM10    | Haver descontos disponíveis através de cupons.                                                                                                                  | RF   |
+| MM11    | Os fretes devem ter preços acessíveis.                                                                                                                          | RF   |
+| MM12    | Ser possível usar filtros na pesquisa.                                                                                                                          | RF   |
+| MM13    | Ser possível realizar uma ordenação na lista de produtos exibidos.                                                                                              | RF   |
+| MM14    | ser possível salvar itens para comprar posteriormente.                                                                                                          | RF   |
+| MM15    | No carrinho de compras, ser exibidos os itens previamente adquiridos, tornando mais fácil a compra repetida de um item sem a necessidade de uma busca demorada. | RF   |
 
 </center>
 
 <div style="text-align: center">
-<p> Tabela 1:Requisitos Elicitados (Fonte: Autor, 2023).</p>
+<p> Tabela 1: Requisitos Elicitados (Fonte: Autor, 2023).</p>
 </div>
+
+
+
+### Legenda
 
 <center>
 
-### Legenda
 | Abreviação | Significado             |
 | ---------- | ----------------------- |
 | MM         | Mapa Mental             |
 | RF         | Requisito Funcional     |
 | RNF        | Requisito Não Funcional |
+
 </center>
 
 <div style="text-align: center">
-<p> Tabela 2:Legendas (Fonte: Autor, 2023).</p>
+<p> Tabela 2: Legendas (Fonte: Autor, 2023).</p>
 </div>
-<center>
+
+
 
 
 ## Referências
 
-> [1] Você sabe criar um mapa mental efetivo?. Disponivel em: [proximosconcursos](https://www.proximosconcursos.com/mapa-mental-efetivo/). Acesso em 5 de setembro de 2023.
-> 
+> [1] Você sabe criar um mapa mental efetivo?. Disponivel em: [proximosconcursos](https://www.proximosconcursos.com/mapa-mental-efetivo/). Acesso em 5 de set. de 2023.
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição             | Autor(es) | Revisor(es) |
-| ------ | ---------- | --------------------- | --------- | ----------- |
-| `1.0`  | 05/09/2023 | Iniciando o documento | Beatriz   | Ana      |
-| `1.1`  | 06/09/2023 | Ajuste em modelo do documento | Beatriz   | Ana      |
-| `1.2`  | 07/09/2023 | Adicionando imagens e requisitos elicitados | Beatriz   | Ana      |
+| Versão | Data       | Descrição                                   | Autor(es) | Revisor(es) |
+| ------ | ---------- | ------------------------------------------- | --------- | ----------- |
+| `1.0`  | 05/09/2023 | Iniciando o documento                       | Beatriz   | Ana         |
+| `1.1`  | 06/09/2023 | Ajuste em modelo do documento               | Beatriz   | Ana         |
+| `1.2`  | 07/09/2023 | Adicionando imagens e requisitos elicitados | Beatriz   | Ana         |
 
 

@@ -177,7 +177,7 @@ Com base na entrevista realizada, foi possível elicitar os seguintes requisitos
 </center>
 
 <div style="text-align: center">
-<p> Tabela 6:Legendas(Fonte: Autor, 2023).</p>
+<p> Tabela 6: Legendas(Fonte: Autor, 2023).</p>
 </div>
 
 

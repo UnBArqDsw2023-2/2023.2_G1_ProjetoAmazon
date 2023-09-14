@@ -6,13 +6,13 @@ Um Storyboard é uma representação gráfica que utiliza uma sequência de imag
 quadros para representar uma série de eventos ou ações de um cenário específico.
 Além disso, o Storyboard desempenha um papel fundamental na elicitação de requisitos, pois permite 
 que os stakeholders e a equipe de desenvolvimento visualizem e discutam claramente os fluxos e 
-interações que serão incorporados ao produto, além de elicitar requisitos que muitas vezes seriam 
+interações que serão incorporados ao produto, possibilitando elicitar requisitos que muitas vezes seriam 
 difíceis de identificar usando outras técnicas.
 
 
 ## Metodologia
 
-Para ilustrar a forma como utilizaremos o Storyboard na elicitação, primeiro é 
+Para que se possa ilustrar o Storyboard na elicitação, primeiro é 
 fundamental entendermos o escopo em que iremos trabalhar. Neste caso, o escopo é o  
 "Perfil Comprador" na Amazon, incluindo os fluxos de cadastro, pesquisa, 
 visualização, compra e pagamento dos produtos. Em seguida, dividimos as cenas e quadros que cada dupla trabalhará. A seguir, apresentamos a divisão:
@@ -30,8 +30,8 @@ funcionais (RNF), estão listados na [Tabela 1](#requisitos-elicitados).
 Os participantes deste artefato são:
 
 - **Ana Beatriz e Beatriz:** Dupla 1
-- **Samuel e Augusto:** Dupla 2
-- **Arthur e X:** Dupla 3
+- **Samuel e Gabriel:** Dupla 2
+- **Arthur e Augusto:** Dupla 3
 
 ## Cenas 1 a 3
 
@@ -44,7 +44,7 @@ Segue abaixo as imagens das Cenas 1, 2 e 3, elaboradas no [Canva](https://www.ca
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFtuvJGkhk&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFtuvJGkhk&#x2F;view?utm_content=DAFtuvJGkhk&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Cadastro do Perfil e Pesquisa de Produtos</a> de Ana Beatriz Norberto
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFtuvJGkhk&#x2F;view?utm_content=DAFtuvJGkhk&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Cadastro do Perfil e Pesquisa de Produtos</a> de Ana Beatriz Norberto.
 
 
 ## Requisitos Elicitados
@@ -73,7 +73,7 @@ Segue abaixo as imagens das Cenas 1, 2 e 3, elaboradas no [Canva](https://www.ca
 # Referências
 
 > [1] What Is A Storyboard & How Do You Create One? (With Video). Disponível em: <https://www.vyond.com/resources/what-is-a-storyboard-and-why-do-you-need-one/>. Acesso em: 6 set. 2023.
->
+
 > [2] Amazon.com.br | Tudo pra você, de A a Z. Disponível em: <https://www.amazon.com.br/>. Acesso em: 6 set. 2023.
 
 
@@ -82,5 +82,5 @@ Segue abaixo as imagens das Cenas 1, 2 e 3, elaboradas no [Canva](https://www.ca
 
 | Versão | Data       | Descrição               | Autor(es)   | Revisor(es) |
 | ------ | ---------- | ----------------------- | ----------- | ----------- |
-| `1.0`  | 06/09/2023 | Criação do documento    | Ana Beatriz | -           |
-| `1.1`  | 12/09/2023 | Adicionando referências | Ana Beatriz | -           |
+| `1.0`  | 06/09/2023 | Criação do documento    | Ana Beatriz | Arthur      |
+| `1.1`  | 12/09/2023 | Adicionando referências | Ana Beatriz | Arthur      |
