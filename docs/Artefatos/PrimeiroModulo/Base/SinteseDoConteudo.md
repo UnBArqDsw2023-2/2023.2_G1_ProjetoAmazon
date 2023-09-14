@@ -34,6 +34,50 @@ O RUP pode ser descrito como um planode duas dimensões, Horizontal e vertical.
 - Horizontal: Representa o tempo, ou seja, as fases do RUP e os aspectos dinâmicos do processo, como o ciclo de vida, as iterações e os marcos (milestones).
 - Vertical: Representa as disciplinas do RUP e os aspectos estáticos do processo, como as atividades, as tarefas e os artefatos.
 
+### Fases do RUP
+
+O ciclo de vida do RUP é composto por quatro fases, que são:
+
+- **Concepção**: Nesta fase, o objetivo é entender o problema e a solução, além de definir o escopo do projeto. É nesta fase que se define o que será feito, como será feito e quem fará. O resultado desta fase é o documento de visão, que é um documento que contém a descrição do problema, a solução proposta, os requisitos e os riscos do projeto.
+
+- **Elaboração**: Nesta fase, o objetivo é definir uma arquitetura estável para o sistema, além de mitigar os riscos mais críticos. É nesta fase que se define a arquitetura do sistema, os casos de uso e os requisitos não funcionais. O resultado desta fase é o documento de especificação suplementar, que é um documento que contém os requisitos não funcionais, os casos de uso e os requisitos de domínio.
+
+- **Construção**: Nesta fase, o objetivo é construir o sistema, ou seja, implementar os requisitos definidos nas fases anteriores. É nesta fase que se implementa os casos de uso, os requisitos não funcionais e os requisitos de domínio. O resultado desta fase é o sistema executável.
+
+- **Transição**: Nesta fase, o objetivo é entregar o sistema para o cliente, ou seja, colocar o sistema em produção. É nesta fase que se faz a implantação do sistema, a migração de dados e a capacitação dos usuários. O resultado desta fase é o sistema em produção.
+  
+<center>
+![Gráfico das Baleias](image.png)<br>
+<sub>ANWAR, Ashraf. A Review of RUP (Rational Unified Process). Disponível em: [csjournals.org](https://www.cscjournals.org/manuscript/Journals/IJSE/Volume5/Issue2/IJSE-142.pdf)</sub>
+</center>
+
+Ao final de cada fase do RUP tem que gerar um subproduto, definido pelos milestones. Os milestones são pontos de decisão, que são utilizados para avaliar se o projeto está indo bem ou não. Se o projeto estiver indo bem, ele passa para a próxima fase, caso contrário, ele volta para a fase anterior.
+
+- **Concepção**: O subproduto desta fase é o documento de visão, que é um documento que contém a descrição do problema, a solução proposta, os requisitos e os riscos do projeto.
+
+- **Elaboração**: O subproduto desta fase é o documento de especificação suplementar, que é um documento que contém os requisitos não funcionais, os casos de uso e os requisitos de domínio.
+
+- **Construção**: O subproduto desta fase é o sistema executável.
+
+- **Transição**: O subproduto desta fase é o sistema em produção.
+
+<center>
+![Major Milestones](image-1.png)<br>
+<sub>ANWAR, Ashraf. A Review of RUP (Rational Unified Process). Disponível em: [csjournals.org](https://www.cscjournals.org/manuscript/Journals/IJSE/Volume5/Issue2/IJSE-142.pdf)</sub>
+</center>
+
+### Princípios
+
+Os princípios do RUP são:
+
+- **Adaptar o processo**: o processo deve ser adaptado para atender às necessidades do projeto. Isso é alcançado através da seleção de um subconjunto de elementos do processo e da definição de uma configuração de processo personalizada.
+- **Equilibrar prioridades de partes interessadas concorrentes**: o desenvolvimento de software é um processo complexo que envolve muitas partes interessadas. É importante equilibrar as prioridades de todas as partes interessadas para garantir que o projeto seja bem-sucedido.
+- **Colaboração entre equipes**: o desenvolvimento de software é um processo colaborativo. A colaboração entre equipes é essencial para o sucesso do projeto. Isso é alcançado através da definição de uma estrutura de equipe, da definição de uma estratégia de comunicação e da definição de uma estratégia de integração.
+- **Demonstrar valor de maneira iterativa**: o desenvolvimento de software é um processo iterativo. A iteração é essencial para o sucesso do projeto. Isso é alcançado através da definição de um conjunto de requisitos para cada iteração e da definição de um conjunto de casos de teste para cada iteração.
+- **Elevar o nível de abstração**: complexidade é um problema central no desenvolvimento de software. Aumentar o nível de abstração ajuda a reduzir a complexidade e a quantidade de documentação necessária para o projeto. Isso pode ser alcançado através da reutilização, do uso de ferramentas de modelagem de alto nível e da estabilização da arquitetura desde o início.
+- **Manter um foco contínuo na qualidade**: a qualidade é um fator importante no desenvolvimento de software. A qualidade é alcançada através da definição de um conjunto de casos de teste para cada iteração e da definição de um conjunto de métricas para cada iteração.
+
+
 # Histórico de Versão
 
 | Versão | Data       | Descrição                              | Autores                    | Revisores       |
