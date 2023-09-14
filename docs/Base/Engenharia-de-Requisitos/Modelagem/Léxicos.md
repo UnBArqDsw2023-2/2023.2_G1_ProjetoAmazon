@@ -56,7 +56,7 @@ Seguem os léxicos nas tabelas 2 até 31, para o auxilio das mesmas, temos a tab
          </tr>
          <tr>
             <td>Elicitado</td>
-            <td>SB02,BS05,BS07,BS08, ENT02</td>
+            <td>SB02,BS05,BS07,BS08 e ENT02</td>
          </tr>
       </tbody>
    </table>
