@@ -2,19 +2,19 @@
 
 ## Introdução
 
-Neste artefato, está descrita a tecnica de elicitação: "Entrevista". Tal tecnica é a mais conhecida e envolve discussões individuais com os stakeholders, ela é muito poderosa por ser um método verbal fácil e efetivo de se obter informações. Como Entrevistador, deve-se sempre estar aberto à novas ideias além de estimular o entrevistado a participar de um diálogo com questões que atingem um ponto desejado em comum.
-Para a realização da entrevista, foi passado para os entrevistados um [termo de consentimento](https://docs.google.com/document/d/1UvqmlaHauq9a1J6Ixsz-MRxIhAP51uipcxEwMAeUxjA/edit?usp=sharing) no qual afirma que os mesmos autorizam a utilização de sua voz e vídeo para a realização do processo.
+Neste artefato, está descrita a tecnica de elicitação: "Entrevista". Essa tecnica é a mais conhecida e envolve discussões individuais com os stakeholders, ela é muito poderosa por ser um método verbal fácil e efetivo de se obter informações. Como Entrevistador, deve-se estar sempre aberto a novas ideias, além de estimular o entrevistado a participar de um diálogo com questões que atingem o ponto em comum desejado.
+Para a realização da entrevista, foi apresentado para os entrevistados o [termo de consentimento](https://docs.google.com/document/d/1UvqmlaHauq9a1J6Ixsz-MRxIhAP51uipcxEwMAeUxjA/edit?usp=sharing), o qual afirma que os entrevistados autorizam a utilização de sua voz e imagem para a realização do processo.
 
 ## Metodologia
 
-Para a realização da entrevista, foi utilizado um modelo pirâmide no qual inicia-se com perguntas mais objetivas e com o decorrer do evento, mais perguntas subjetivas são realizadas, naturalmente é um modelo que é mais util quando o entrevistado se sente relutânte em relação a determinadas situações. A estrutura é descrita visualmente na imagem abaixo:
+Para a realização da entrevista, foi utilizado um modelo pirâmide, no qual inicia-se com perguntas mais objetivas e, com o decorrer do evento, mais perguntas subjetivas são realizadas, naturalmente é um modelo que é mais util quando o entrevistado se sente relutante em relação a determinadas situações. A estrutura é descrita visualmente na imagem abaixo:
 
 <div align="center">
     <img src="../../../assets/Piramide.PNG" style="width:40vw"/>
     <p> Figura 1: Modelo pirâmidal de entrevista . Fonte: <a href="https://victorstati.medium.com/t%C3%A9cnicas-para-levantamento-de-requisitos-4907975498ac">Medium</a></p> 
 </div>
 
-Na parte das perguntas objetivas, foi utilizado a tecnica 5W2H para encontrar metodologicamente os questionamentos que seriam feitos. Já as perguntas subjetivas foram realizadas de acordo com as respostas do entrevistado.
+Para as perguntas objetivas, foi utilizada a técnica 5W2H para encontrar metodologicamente os questionamentos que seriam feitos. Já as perguntas subjetivas foram realizadas de acordo com as respostas do entrevistado.
 
 ## Perguntas realizadas
 
@@ -38,14 +38,14 @@ Para as perguntas objetivas, utilizou o 5W2H que é uma técnica de gerenciament
 <p> Tabela 1: Acrônimos da técnica 5W2H (Fonte: <a href="https://github.com/ananorberto">Ana Beatriz</a>, 2023).</p>
 </div>
 
-Com base nisto, a tabela 2 apresenta as perguntas escolhidas para a entrevista:
+Com base nisso, a tabela 2 apresenta as perguntas escolhidas para a entrevista:
 
 <center>
 
 | Acrônimo | Pergunta                                                                                                                                                   |
 | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | What     | O quê você acha que pode melhorar na tela de comprador da Amazon?                                                                                          |
-| Why      | Porque você tem/teria a preferência pela Amazon em relação a outras plataformas de e-commerce?                                                             |
+| Why      | Por que você tem ou teria a preferência pela Amazon em relação a outras plataformas de e-commerce?                                                         |
 | Who      | Além de você, quem da sua família também faz compras pela Amazon?                                                                                          |
 | When     | Quando você se sente motivado a fazer compras através de uma empresa de e-commerce?                                                                        |
 | Where    | Por onde você normalmente faz compras na Amazon? Celular, computador ou outro?                                                                             |
@@ -60,7 +60,7 @@ Com base nisto, a tabela 2 apresenta as perguntas escolhidas para a entrevista:
 
 ## Dados demográficos do entrevistado
 
-Para uma entrevista, é necessário entender o perfil dos entrevistados. A tabela 3 apresenta os dados demográficos do indivíduo questionado.
+Para uma entrevista, é necessário entender o perfil dos entrevistados. A tabela 3 apresenta os dados demográficos do indivíduo entrevistado.
 
 <center>
 
@@ -90,7 +90,7 @@ Segue os vídeos e a transcrição das respostas do entrevistado:
       </thead>
       <tbody>
          <tr>
-            <td>1 - Porque você tem/teria a preferência pela Amazon em relação a outras plataformas de e-commerce?</td>
+            <td>1 - Por que você tem/teria a preferência pela Amazon em relação a outras plataformas de e-commerce?</td>
             <td>Pelo fato da Amazon já ter uma estrutura robusta de estoque e gerenciamento, além do ótimo histórico de vendas.</td>
          </tr>
          <tr>
@@ -99,11 +99,11 @@ Segue os vídeos e a transcrição das respostas do entrevistado:
          </tr>
           <tr>
             <td>2.1 - Você sente alguma falta da Amazon em relação ao seu aplicativo ou Website? </td>
-            <td>Acho um sistema bem completo, mas com informação demais, o layout é bem poluído.</td>
+            <td>Acho um sistema bem completo, mas com informação demais. O layout é bem poluído.</td>
          </tr>
          <tr>
             <td>3 - Quando você se sente motivado a fazer compras através de uma empresa de e-commerce? </td>
-            <td>Acredito muito que o estilo minimalista de se viver agrega bastante a nossa vida, então só compro no caso de necessidade para mim, ou então para presentear alguém importante para mim.</td>
+            <td>Acredito muito que o estilo minimalista de se viver agrega bastante a nossa vida, então só compro no caso de necessidade para mim ou para presentear alguém importante para mim.</td>
          </tr>
          <tr>
             <td>4 - Além de você, quem da sua família também faz compras pela Amazon?</td>
@@ -111,23 +111,23 @@ Segue os vídeos e a transcrição das respostas do entrevistado:
          </tr>
          <tr>
             <td>5 - Como você acha que seria o desenho de um fluxo “ideal” para um aplicativo de e-commerce? Inicie a partir da main page do site, até o pagamento do produto.</td>
-            <td>A filtragem do site já é muito bem otimizada, entretanto acho que o sistema mostra muitas informações desnecessárias que fazem usuários menos focados e mais suscetíveis cogitar e até comprar outros produtos que a princípio não seriam o objetivo da compra.</td>
+            <td>A filtragem do site já é muito bem otimizada, entretanto acho que o sistema mostra muitas informações desnecessárias que fazem usuários menos focados e mais suscetíveis cogitar e até comprar outros produtos que, a princípio, não seriam o objetivo da compra.</td>
          </tr>
          <tr>
-            <td>5.1 - Neste caminho, você acha que tem algo que possa ser reduzido ?</td>
-            <td>Podemos retirar as sugestões que aparecem embaixo do produto, se remover aquilo,podemos despoluir mais a tela.</td>
+            <td>5.1 - Neste caminho, você acha que tem algo que possa ser reduzido?</td>
+            <td>Podemos retirar as sugestões que aparecem embaixo do produto, se remover isso, pode-se despoluir mais a tela.</td>
          </tr>
          <tr>
-            <td>6 - O quê você acha que pode melhorar na tela de comprador da Amazon?    </td>
+            <td>6 - O quê você acha que pode melhorar na tela de comprador da Amazon? </td>
             <td>Acho que a tela da Amazon é muito poluída no sentido de informações, principalmente quando clicamos em um produto, que logo abaixo aparecem sugestões de compra de produtos relacionados. Eu até entendo que isso é interessante para a Amazon pois o objetivo da empresa é fazer a gente comprar mais, mas como disse antes, não sou adepto ao consumismo exagerado e desnecessário.</td>
          </tr>
         <tr>
-            <td>6.1 - Há mais alguma coisa que te deixa desconfortável na interface da amazon ?</td>
-            <td>O site está dentro do design da Amazon, entretanto, não vejo que é um design atrativo ao comprador, a paleta de cores não está correta e o site está bem poluído. </td>
+            <td>6.1 - Há mais alguma coisa que te deixa desconfortável na interface da amazon?</td>
+            <td>O site está dentro do design da Amazon, entretanto, não vejo que é um design atrativo ao comprador, a paleta de cores não está correta e o site está bem poluído.</td>
          </tr>
          <tr>
             <td>7 - Quanto tempo você acha que é o ideal para você realizar todo o processo de visualização, compra e pagamento dos produtos que você deseja?</td>
-            <td>Se estou pesquisando um produto então já estou disposto a compra-lo e com dinheiro já disponível, então eu apenas abro as ofertas disponíveis e compro aquela mais em conta, acredito que cerca de 10 minutos.</td>
+            <td>Se estou pesquisando um produto então já estou disposto a compra-lo e com dinheiro já disponível. Então eu apenas abro as ofertas disponíveis e compro aquela mais em conta, acredito que cerca de 10 minutos.</td>
          </tr>
          <tr>
             <td>7.1 - Em relação ao pagamento, quanto a clareza das maneiras de pagamento e o processo para realiza-lo, você acha que está sendo feita da maneira correta?</td>
@@ -142,21 +142,7 @@ Segue os vídeos e a transcrição das respostas do entrevistado:
 
 ## Requisitos elicitados
 
-Com base na entrevista realizada, foi possível elicitar os seguintes requisitos que estão presentes na tabela 6, auxiliada pela tabela 5, que descreve as legendas:
-
-<center>
-
-| Abreviação | Significado             |
-| ---------- | ----------------------- |
-| ENT        | Entrevista              |
-| RF         | Requisito Funcional     |
-| RNF        | Requisito Não Funcional |
-
-</center>
-
-<div style="text-align: center">
-<p> Tabela 5:Legendas(Fonte: Autor, 2023).</p>
-</div>
+Com base na entrevista realizada, foi possível elicitar os seguintes requisitos que estão presentes na tabela 5:
 
 <center>
 
@@ -177,8 +163,23 @@ Com base na entrevista realizada, foi possível elicitar os seguintes requisitos
 </center>
 
 <div style="text-align: center">
-<p> Tabela 6 : Requisitos elicitados(Fonte: Autor, 2023).</p>
+<p> Tabela 5: Requisitos elicitados(Fonte: Autor, 2023).</p>
 </div>
+
+<center>
+
+| Abreviação | Significado             |
+| ---------- | ----------------------- |
+| ENT        | Entrevista              |
+| RF         | Requisito Funcional     |
+| RNF        | Requisito Não Funcional |
+
+</center>
+
+<div style="text-align: center">
+<p> Tabela 6:Legendas(Fonte: Autor, 2023).</p>
+</div>
+
 
 ## Referências
 
@@ -202,3 +203,4 @@ Com base na entrevista realizada, foi possível elicitar os seguintes requisitos
 | `1.0`  | 02/09/2023 | Iniciando o documento | Kauã      | Mylena      |
 | `1.1`  | 04/09/2023 | Adicionado Requisitos | Kauã      | Mylena      |
 | `1.2`  | 05/09/2023 | Removendo plural      | Kauã      | Mylena      |
+| `1.3`  | 14/09/2023 | Revisão Gramatical    | Arthur    | Arthur      |
