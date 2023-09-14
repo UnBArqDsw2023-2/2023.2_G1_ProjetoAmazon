@@ -48,7 +48,7 @@ Seguem os léxicos nas tabelas 2 até 31, para o auxilio das mesmas, temos a tab
          </tr>
         <tr>
             <td>Noção</td>
-            <td>O usuário pode se cadastrar de forma prática.</br> O sistema cadastra multiplos endereços de entrega.</br>O sistema permite o cadastro de multiplos sistemas de pagamento.</td>
+            <td>O usuário pode se cadastrar de forma prática.</br> O sistema cadastra múltiplos endereços de entrega.</br>O sistema permite o cadastro de múltiplos sistemas de pagamento.</td>
          </tr>
         <tr>
             <td>Sinônimo</td>
