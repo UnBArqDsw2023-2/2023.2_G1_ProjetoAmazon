@@ -15,6 +15,25 @@ Existem três pontos principais que definem o RUP:
 - **Linguagem para Definição de Método e Processo**: 
   Há uma arquitetura de método unificada, fornecendo uma linguagem para descrever métodos e processos. Essa nova linguagem é uma unificação de diferentes métodos e linguagens de engenharia de processo, como a extensão SPEM para a UML para engenharia de processo de software.
 
+## Visão Geral
+
+O RUP é um processo iterativo e incremental, ou seja, o desenvolvimento é feito em ciclos, onde cada ciclo é uma iteração. Cada iteração é uma versão do sistema, que é construída a partir de um conjunto de requisitos. 
+
+Tem-se, no RUP, três perspectivas:
+
+1. Dinâmica: Mostra as fases do RUP através do tempo, nas quais estão em constante mudança e onde está contido o ciclo de vida.
+2. Estática: Mostra aspectos estáticos das fases do RUP. Esta perspectiva está voltada para as coisas  que não mudam durante o projeto, todavia trabalham para mudar os processos dinâmicos.
+3. Prática: Feito para as boas práticas utilizadas no processo, aqui temos práticas conhecidas pela efetividade e usabilidade através de projetos antigos.
+
+Para esta apresentação será utilizada a perspectiva dinâmica, que é a mais utilizada para explicar o RUP.
+
+### Perspectiva Dinâmica e Ciclo de Vida
+
+O RUP pode ser descrito como um planode duas dimensões, Horizontal e vertical.
+
+- Horizontal: Representa o tempo, ou seja, as fases do RUP e os aspectos dinâmicos do processo, como o ciclo de vida, as iterações e os marcos (milestones).
+- Vertical: Representa as disciplinas do RUP e os aspectos estáticos do processo, como as atividades, as tarefas e os artefatos.
+
 # Histórico de Versão
 
 | Versão | Data       | Descrição                              | Autores                    | Revisores       |
