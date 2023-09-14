@@ -161,13 +161,13 @@ Para um melhor entendimento do Desin Sprint e como ele foi elaborado e adaptado 
 
 |           Atividade           | Data Limite de Entrega | Data Limite Revisão | Autor(es) | Revisor(es) |
 | :---------------------------: | :--------------------: | :-----------------: | :-------: | :---------: |
-|          DAS Lógica           |       30/11/2023       |      31/11/2023     |   Kauã    | Ana Beatriz |
-|         DAS Processo          |       30/11/2023       |      31/11/2023     |   Mylena  |   Augusto   |
-|       DAS Implementação       |       30/11/2023       |      31/11/2023     |   Samuel  |   Beatriz   |
-|        DAS Implantação        |       30/11/2023       |      31/11/2023     |   Arthur  |    Bruno    |
-|          DAS Dados            |       30/11/2023       |      31/11/2023     |  Gabriel  |  Guilherme  |
-|    Exemplo de Reutilização    |       30/11/2023       |      31/11/2023     |Ana Beatriz|    Kauã     |
-|       Padrões de Projeto      |       30/11/2023       |      31/11/2023     |  Augusto  |   Mylena    |
+|          DAS Lógica           |       29/11/2023       |      30/11/2023     |   Kauã    | Ana Beatriz |
+|         DAS Processo          |       29/11/2023       |      30/11/2023     |   Mylena  |   Augusto   |
+|       DAS Implementação       |       29/11/2023       |      30/11/2023     |   Samuel  |   Beatriz   |
+|        DAS Implantação        |       29/11/2023       |      30/11/2023     |   Arthur  |    Bruno    |
+|          DAS Dados            |       29/11/2023       |      30/11/2023     |  Gabriel  |  Guilherme  |
+|    Exemplo de Reutilização    |       29/11/2023       |      30/11/2023     |Ana Beatriz|    Kauã     |
+|       Padrões de Projeto      |       29/11/2023       |      30/11/2023     |  Augusto  |   Mylena    |
 
 **Tabela 4: Cronograma do Ponto de Controle 3,(Fonte: autor, 2023).**
 
