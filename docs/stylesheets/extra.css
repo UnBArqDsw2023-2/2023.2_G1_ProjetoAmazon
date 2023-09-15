@@ -1,0 +1,26 @@
+:root {
+    /* Primary color shades */
+    --md-primary-fg-color: #ff9a00;
+    --md-primary-bg-color: #f6f6f6;
+
+    --md-text-link-color: hsla(231, 48%, 48%, 1);
+
+    /* Accent color shades */
+    --md-accent-fg-color: #5289b5;
+    --md-accent-fg-color--transparent: #5289b534;
+    --md-accent-bg-color: #f6f6f6;
+}
+
+:root > * {
+    /* Code block color shades */
+    --md-code-bg-color: hsla(0, 0%, 96%, 1);
+    --md-code-fg-color: hsla(200, 18%, 26%, 1);
+
+    /* Footer */
+    --md-footer-bg-color: #ff9a00;
+    --md-footer-fg-color: #f6f6f6;
+}
+
+.md-content {
+    --md-typeset-a-color: #09bfdd;
+}

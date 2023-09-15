@@ -4,34 +4,287 @@
     <meta charset="UTF-8">
     <title>UnB - ArqDSw/Projeto Amazon</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Github Pages do Grupo 1 de Arquitetura e Desenho de Software 2023.2">
+    <meta name="description"
+      content="Github Pages do Grupo 1 de Arquitetura e Desenho de Software 2023.2">
     <meta name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="assets/logo-amazon.png">
+
+    <link
+      href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic'
+      rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700'
+      rel='stylesheet' type='text/css'>
+
+    <script defer src="stylesheets/assets/fontawesome/js/all.min.js"></script>
+
     <link rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+      href="stylesheets/assets/plugins/bootstrap/css/bootstrap.min.css">
+
     <link rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+      href="stylesheets/assets/plugins/prism/prism.css">
+
+    <link id="theme-style" rel="stylesheet"
+      href="stylesheets/assets/css/theme-1.css">
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
-  <body>
-    <div id="app"></div>
-    <script>
-    window.$docsify = {
-      loadSidebar: true,
-      name: 'Projeto Amazon - G1',
-      repo: 'https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon',
-      auto2top: true,
-      coverpage: true,
-      executeScript: true,
-      loadSidebar: true,
-      sidebarDisplayLevel: 0,
-      maxLevel: 1,
-    }
-  </script>
-    <!-- Docsify v4 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-    <script
-      src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-    <script
-      src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <body data-spy="scroll">
+
+    <header id="header" class="header">
+      <div class="container">
+        <h1 class="logo float-left">
+          <a class="scrollto" href="#home">
+            <img class="img-fluid" src="assets/logo-amazon.png" alt="Amazon"
+              width="34" height="34" />
+          </a>
+        </h1>
+
+        <nav id="main-nav" class="main-nav navbar-expand-md float-right"
+          role="navigation">
+          <button class="navbar-toggler" type="button"
+            data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="nav-item sr-only">
+                <a class="nav-link scrollto" href="#home">
+                  Início
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollto" href="#about">
+                  Sobre
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollto" href="#equipe">
+                  Equipe
+                </a>
+              </li>
+              <li class="nav-item last">
+                <a class="nav-link" href="documentation">
+                  Documentação
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="promo section offset-header">
+      <div class="container text-center vh-100">
+        <img src="assets/logo-amazon-horizontal.png"
+          style="height:125px;margin-bottom:8px">
+        <div class="btns">
+          <a class="btn btn-cta-primary"
+            href="https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon">Acessar
+            GitHub</a>
+          <a class="btn btn-cta-primary" id="documentation"
+            href="readme.html">Documentação</a>
+        </div>
+
+        <section id="about" class="about section">
+          <div class="container">
+            <p class="intro" style="margin-bottom: -4px;">Sobre</p>
+            <p class="introDetalhe text-center">
+              Este projeto tem como objetivo auxiliar no registro dos artefatos
+              e resultados obtidos no desenvolvimento do projeto do Grupo 1 de
+              Arquitetura e Desenho de Software da Universidade de Brasília
+              (UnB-FGA) no semestre 2023.2.<br>
+              A Amazon é uma plataforma que pode oferecer diversos serviços para
+              o cliente. Através do site da Amazon, é possível fazer compras
+              diante de um extenso catálogo de produtos e serviços oferecidos
+              pela empresa. O Grupo é responsável por analisar a Amazon, o
+              perfil comprador e
+              fluxos compreendidos do cadastro na plataforma até
+              visualização/compra/pagamento de produtos.
+            </p>
+          </div>
+        </section>
+
+        <ul class="meta list-inline">
+          <li class="list-inline-item underline">
+            <a href="https://github.com/UnBArqDsw2023-2/"
+              target="_blank">Veja outros projetos do semestre 2023.2 de
+              Arquitetura e Desenho de Software</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="vh-100">
+
+        <section id="equipe" class="equipe section h-95">
+          <div class="container text-center">
+            <p class="title">Equipe</p>
+
+            <div id="carouselExampleIndicators" class="carousel slide"
+              data-ride="carousel">
+              <div class="carousel-inner" style="margin-top: 14px;">
+                <div class="carousel-item active">
+                  <img class="d-block w-100"
+                    src="stylesheets/assets/images/undraw_New_entries_re_cffr.svg"
+                    alt="First slide" width="290" height="290">
+                  <h5 style="color:#fafafa; margin-top: 25px;">xxxxxxxxxxxx</h5>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100"
+                    src="stylesheets/assets/images/undraw_Throw_away_re_x60k.svg"
+                    alt="Second slide" width="290" height="290">
+                  <h5 style="color:#fafafa; margin-top: 25px;">xxxxxxxxxxxxxx</h5>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100"
+                    src="stylesheets/assets/images/undraw_File_searching_re_3evy.svg"
+                    alt="Third slide" width="290" height="290">
+                  <h5 style="color:#fafafa; margin-top: 25px;">xxxxxxxxxxxxxxxx</h5>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100"
+                    src="stylesheets/assets/images/undraw_Transfer_files_re_a2a9.svg"
+                    alt="Fourth slide" width="290" height="290">
+                  <h5 style="color:#fafafa; margin-top: 25px;">xxxxxxxxxxxxxxxxxxx</h5>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100"
+                    src="stylesheets/assets/images/undraw_Progress_data_re_rv4p.svg"
+                    alt="Fifth slide" width="290" height="290">
+                  <h5 style="color:#fafafa; margin-top: 25px;">xxxxxxxxxxxxxxx</h5>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100"
+                    src="stylesheets/assets/images/undraw_secure_files_re_6vdh.svg"
+                    alt="Sixth slide" width="290" height="290">
+                  <h5 style="color:#fafafa; margin-top: 25px;">xxxxxxxxxxxxxxxxxxx</h5>
+                </div>
+              </div>
+
+              <a class="carousel-control-prev"
+                href="#carouselExampleIndicators" role="button"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon"
+                  aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next"
+                href="#carouselExampleIndicators" role="button"
+                data-slide="next">
+                <span class="carousel-control-next-icon"
+                  aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <div class="social-media">
+          <div class="social-media-inner container text-center">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a
+                  class="github-button"
+                  href="https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon"
+                  data-color-scheme="no-preference: light; light:
+                              light; dark: light;"
+                  aria-label="Veja
+                              no
+                              GitHub">
+                  Veja no GitHub
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="github-button"
+                  href="https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/issues"
+                  data-color-scheme="no-preference: light; light:
+                              light; dark: light;"
+                  data-icon="octicon-issue-opened"
+                  data-show-count="true" aria-label="Issues">
+                  Issues
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="github-button"
+                  href="https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/subscription"
+                  data-color-scheme="no-preference: light; light:
+                              light; dark: light;"
+                  data-icon="octicon-eye" data-show-count="true"
+                  aria-label="Watch our project
+                              on GitHub">
+                  Siga
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="github-button"
+                  href="https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/"
+                  data-color-scheme="no-preference: light; light:
+                              light; dark: light;"
+                  data-icon="octicon-star" data-show-count="true"
+                  aria-label="Star our project
+                              on GitHub">
+                  Favorite
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="github-button"
+                  href="https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/fork"
+                  data-color-scheme="no-preference: light; light:
+                              light; dark: light;"
+                  data-icon="octicon-repo-forked"
+                  data-show-count="true" aria-label="Fork
+                              our project on GitHub">
+                  Fork
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="github-button"
+                  href="https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/discussions"
+                  data-color-scheme="no-preference: light; light:
+                              light; dark: light;"
+                  data-icon="octicon-comment-discussion"
+                  aria-label="Discuss
+                              our project on GitHub">
+                  Discuta
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  class="github-button"
+                  href="https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/archive/HEAD.zip"
+                  data-color-scheme="no-preference: light; light:
+                              light; dark: light;"
+                  data-icon="octicon-download"
+                  aria-label="Download
+                              our project on GitHub">
+                  Download
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript"
+      src="stylesheets/assets/plugins/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript"
+      src="stylesheets/assets/plugins/jquery.easing.1.3.js"></script>
+    <script type="text/javascript"
+      src="stylesheets/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+      src="stylesheets/assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript"
+      src="stylesheets/assets/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src="stylesheets/assets/js/main.js"></script>
   </body>
 </html>

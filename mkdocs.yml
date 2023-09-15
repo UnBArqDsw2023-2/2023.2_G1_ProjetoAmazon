@@ -1,0 +1,127 @@
+site_name: UnB - ArqDSw/Projeto Amazon
+
+repo_name: 2023.2_G1_ProjetoAmazon
+repo_url: https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon
+
+site_url: https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/
+site_description: "Github Pages do Grupo 1 de Arquitetura e Desenho de Software 2023.2"
+
+edit_uri: ""
+
+use_directory_urls: false
+
+docs_dir: docs
+
+theme:
+  name: material # pip install mkdocs-material
+
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.sections
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    # - navigation.expand -> Expande automaticamente os topicos
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+    
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  favicon: assets/logo-amazon.ico
+  logo: assets/logo-amazon.png
+
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon
+
+nav:
+  - Home: readme.md
+  - Getting Started:
+    - Contribuindo com o projeto: contribuindo.md
+    - Código de Conduta: CODE_OF_CONDUCT.md
+  - Artefatos:
+    - Artefatos/index.md
+    - Primeiro Módulo:
+      - Base:
+        - Apresentação sobre RUP : 
+          - Artefatos/PrimeiroModulo/Base/ApresentacaoDeGrupo.md
+          - Síntese do Conteúdo: Artefatos/PrimeiroModulo/Base/SinteseDoConteudo.md
+          - Slides da Apresentação: Artefatos/PrimeiroModulo/Base/SlidesDaApresentacao.md
+    #- Segundo Módulo:
+    #  - Modelagem:
+    #    - Apresentação sobre Modelagem:
+    #- Terceiro Módulo:
+    #  - Padrões de Projeto:
+    #    - Apresentação sobre Padrões de Projeto:
+    #- Quarto Módulo:
+    #  - Arquitetura de Software & Reutilização:
+    #    - Apresentação sobre Arquitetura de Software & Reutilização:
+  - Reuniões:
+    - Atas: reunioes.md
+  - Disciplina:
+    - Diretrizes da disciplina: Diretrizes/Diretrizes.md
+    - Base:
+      - 1. Desenho de Software (Base): 
+        - Base/index.md
+        - 1.1. Módulo Projeto Não Orientado a Abordagens Específicas: Base/1.1.AbordagemNaoEspecifica.md
+        - 1.2. Módulo Processos/Metodologias/Abordagens: Base/1.2.ProcessosMetodologiasAbordagens.md
+        - 1.3. Participações - Base: Base/1.3.ParticipacoesBase.md
+    - Modelagem:
+      - 2. Desenho de Software (Modelagem): 
+        - Modelagem/index.md
+        - 2.1. Módulo Projeto Orientado a Abordagens Tradicionais: 
+          - Modelagem/Tradicional/index.md
+          - 2.1.1. Notação UML - Diagramas Estáticos: Modelagem/Tradicional/2.1.1.UMLEstaticos.md
+          - 2.1.2. Notação UML - Diagramas Dinâmicos: Modelagem/Tradicional/2.1.2.UMLDinamicos.md
+        - 2.2. Participações - Modelagem: Modelagem/2.2.ParticipacoesModelagem.md
+    - Padrões de Projeto:
+      - 3. Desenho de Software (Padrões de Projeto): PadroesDeProjeto/3.PadroesDeProjeto.md
+    - Arquitetura de Software & Reutilização:
+      - 4. Desenho de Software (Arquitetura & Reutilização de Software): 
+        - ArquiteturaReutilizacao/index.md
+        - 4.1. Módulo Estilos e Padrões Arquiteturais: ArquiteturaReutilizacao/4.1.PadroesArquiteturais.md
+        - 4.2. Módulo Reutilização de Software: ArquiteturaReutilizacao/4.2.ReutilizacaoDeSoftware.md
+        - 4.3. Participações - Arquitetura & Reutilização de Software: ArquiteturaReutilizacao/4.3.ParticipacoesArqReutilizacao.md
+
+     
+markdown_extensions:
+  - attr_list
+  - def_list
+  - tables
+  - pymdownx.highlight:
+      use_pygments: false
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+plugins: 
+  - search
+  - autorefs # pip install mkdocs-autorefs
