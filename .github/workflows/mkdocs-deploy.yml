@@ -7,7 +7,7 @@ on:
   # Triggers the workflow on push events but only for the "main" branch and path "docs"
   push:
     branches: ["main"]
-    paths: ["docs/**", docs/, "mkdocs.yml"]
+    paths: ["docs/**", docs/, "mkdocs.yml", "mkdocs-deploy.yml"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -26,7 +26,7 @@ jobs:
 
       # Installing mkdocs and theme
       - name: Installing mkdocs
-        run: pip3 install mkdocs mkdocs-material
+        run: pip3 install mkdocs mkdocs-material mkdocs-autorefs
 
       # Must be run if not using --force flag
       # - run: git pull
