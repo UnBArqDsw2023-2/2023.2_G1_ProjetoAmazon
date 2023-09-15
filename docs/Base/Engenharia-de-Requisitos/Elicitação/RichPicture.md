@@ -92,7 +92,7 @@ setas, atores e processos.
 ### Samuel Sato
 
 <figure>
-  <img src="../../../assets/.jpg" />
+  <img src="../../../assets/rich-picture-Samuel.jpg" />
   <figcaption>Figura 10: Rich Picture (2023, Samuel)</figcaption>
 </figure>
 
