@@ -33,7 +33,7 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-    - toc.integrate
+    # - toc.integrate -> integra o table of contents com o menu lateral
 
   palette:
     - scheme: default
@@ -85,11 +85,11 @@ nav:
                   - Entregas/Um/Brainstorm.md
                   - Entregas/Um/MapaMental.md
                   - Entregas/Um/Entrevista.md
-                  - Entregas/Um/Storyboard.md
+                  - Entregas/Um/StoryBoard.md
                   - Entregas/Um/PlanoDeRisco.md
                   - Entregas/Um/Lexicos.md
                   - Backlog:
-                      - Entregas/Um/Backlog
+                      - Entregas/Um/Backlog.md
                       - Entregas/Um/TLS.md
           - Módulo Processos, Metodologias e Abordagens:
               - Entregas/Um/BPMN.md
