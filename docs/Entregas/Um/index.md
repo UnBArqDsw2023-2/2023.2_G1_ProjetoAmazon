@@ -8,5 +8,5 @@ A Entrega 1 do projeto consiste na entrega de um documento acerca do tema aprese
 
 A participação de cada membro pode ser acessada em:
 
-- [Particiopações](Participacoes.md)
+- [Participações](Participacoes.md)
 - [Contribuitors on GitHub](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/graphs/contributors)
