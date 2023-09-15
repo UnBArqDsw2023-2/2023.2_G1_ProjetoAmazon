@@ -23,9 +23,6 @@ Além disso, o Jamboard também está disponível para [acesso aqui](https://jam
 
 Com base na elicitação pelo brainstorm realizado, os seguintes requisitos foram obtidos:
 
-
-<div style="width: 100%">
-
 | Legenda | Descrição                                                                                      | Tipo |
 | ------- | ---------------------------------------------------------------------------------------------- | ---- |
 | BS01    | O sistema deve ser seguro                                                                      | RNF  |
@@ -63,7 +60,6 @@ Com base na elicitação pelo brainstorm realizado, os seguintes requisitos fora
 | BS33    | O sistema deve permitir a visualização da disponibilidade de um produto                        | RF   |
 | BS34    | O sistema deve permitir que o usuário aplique cupons de desconto                               | RF   |
 
-</div>
 
 <div style="text-align: center">
 <p>Tabela 1: Requisitos Elicitados (Fonte: Autor, 2023).</p>
@@ -89,7 +85,8 @@ Com base na elicitação pelo brainstorm realizado, os seguintes requisitos fora
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição             | Autor(es) | Revisor(es) |
-| ------ | ---------- | --------------------- | --------- | ----------- |
-| `1.0`  | 11/09/2023 | Iniciando o documento | Guilherme | Arthur      |
-| `2.0`  | 13/09/2023 | Adição do vídeo       | Guilherme | Arthur      |
+| Versão | Data       | Descrição              | Autor(es) | Revisor(es) |
+| ------ | ---------- | ---------------------- | --------- | ----------- |
+| `1.0`  | 11/09/2023 | Iniciando o documento  | Guilherme | Arthur      |
+| `2.0`  | 13/09/2023 | Adição do vídeo        | Guilherme | Arthur      |
+| `2.0`  | 15/09/2023 | Migração para o MkDocs | Arthur    | Gabriel     |

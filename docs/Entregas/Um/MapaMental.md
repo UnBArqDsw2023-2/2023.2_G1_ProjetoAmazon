@@ -25,14 +25,14 @@ Primeiro fizemos o esboço do mapa mental no papel e após isso passamos para um
 ## Mapa Mental - Versão Papel
 
 <center>
-    <img src="../../../assets/MM - mão.jpg" style="width:45vw"/>
+    <img src="./assets/mapa-mental-desenho.jpg" style="width:45vw"/>
     <p> Imagem 1: Mapa Mental  Versão Papel (Fonte: Autor, 2023).</p>
 </center>
 
 ## Mapa Mental - Versão Digital
 
 <center>
-    <img src="../../../assets/MapaMental.png" style="width:50vw"/>
+    <img src="./assets/MapaMental.png" style="width:50vw"/>
     <p> Imagem 2: Mapa Mental Versão Digital (Fonte: Autor, 2023).</a></p> 
 </center>
 

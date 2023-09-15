@@ -10,7 +10,7 @@ Para a realização da entrevista, foi apresentado para os entrevistados o [term
 Para a realização da entrevista, foi utilizado um modelo pirâmide, no qual inicia-se com perguntas mais objetivas e, com o decorrer do evento, mais perguntas subjetivas são realizadas, naturalmente é um modelo que é mais util quando o entrevistado se sente relutante em relação a determinadas situações. A estrutura é descrita visualmente na imagem abaixo:
 
 <center>
-    <img src="../../../assets/Piramide.PNG" style="width:40vw"/>
+    <img src="./assets/Piramide.PNG" style="width:40vw"/>
     <p> Figura 1: Modelo pirâmidal de entrevista . Fonte: <a href="https://victorstati.medium.com/t%C3%A9cnicas-para-levantamento-de-requisitos-4907975498ac">Medium</a></p> 
 </center>
 
@@ -198,9 +198,10 @@ Com base na entrevista realizada, foi possível elicitar os seguintes requisitos
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição             | Autor(es) | Revisor(es) |
-| ------ | ---------- | --------------------- | --------- | ----------- |
-| `1.0`  | 02/09/2023 | Iniciando o documento | Kauã      | Mylena      |
-| `1.1`  | 04/09/2023 | Adicionado Requisitos | Kauã      | Mylena      |
-| `1.2`  | 05/09/2023 | Removendo plural      | Kauã      | Mylena      |
-| `1.3`  | 14/09/2023 | Revisão Gramatical    | Arthur    | Arthur      |
+| Versão | Data       | Descrição              | Autor(es) | Revisor(es) |
+| ------ | ---------- | ---------------------- | --------- | ----------- |
+| `1.0`  | 02/09/2023 | Iniciando o documento  | Kauã      | Mylena      |
+| `1.1`  | 04/09/2023 | Adicionado Requisitos  | Kauã      | Mylena      |
+| `1.2`  | 05/09/2023 | Removendo plural       | Kauã      | Mylena      |
+| `1.3`  | 14/09/2023 | Revisão Gramatical     | Arthur    | Arthur      |
+| `2.0`  | 15/09/2023 | Migração para o MkDocs | Arthur    | Gabriel     |
