@@ -12,7 +12,7 @@ A notação BPMN auxilia no entendimento de processos e de atividades de acordo 
 ## 1. BPMN Metodologia
 A imagem 1 mostra o BPMN da parte de Metodologia:
 
-![BPMN Metodologia](../assets/BPMN_metodologia.png)
+![BPMN Metodologia](../assets/BPMN_Metodologia.png)
 
 <div style="text-align: center">
     <p> Imagem 1: BPMN Metodologia (Fonte: Autor, 2023).</p>
@@ -41,7 +41,8 @@ A imagem 3 mostra o BPMN da parte de interação com o produto:
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                               | Autor(es)   | Revisor(es) |
-| ------ | ---------- | --------------------------------------- | ----------- | ----------- |
-| `1.0`  | 14/09/2023 | Adição da introdução e BPMN de cadastro |   Samuel    |    Bruno    |
-| `1.1`  | 14/09/2023 | Padronização do documento               |   Kauã      |   Samuel    |
+| Versão | Data       | Descrição                               | Autor(es) | Revisor(es) |
+| ------ | ---------- | --------------------------------------- | --------- | ----------- |
+| `1.0`  | 14/09/2023 | Adição da introdução e BPMN de cadastro | Samuel    | Bruno       |
+| `1.1`  | 14/09/2023 | Padronização do documento               | Kauã      | Samuel      |
+| `1.2`  | 14/09/2023 | Adição da metodologia                   | Gabriel   | Arthur      |
