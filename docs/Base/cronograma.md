@@ -62,7 +62,7 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
       <td>09/09/2023</td>
       <td>10/09/2023</td>
       <td>Mylena Angélica</td>
-      <td>Arhtur</td>
+      <td>Arthur</td>
     </tr>
     <tr>
       <td>Brainstorm</td>
