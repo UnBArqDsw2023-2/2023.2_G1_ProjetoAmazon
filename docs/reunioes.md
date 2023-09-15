@@ -69,9 +69,34 @@
   - 5W2H.
   - Entrevista.
 
+## 13/09/2023 - 21:30
+
+### Participantes
+
+- Ana Beatriz
+- Arthur
+- Augusto
+- Beatriz
+- Bruno
+- Gabriel
+- Guilherme
+- Kauã
+- Mylena
+- Samuel
+
+### Tópicos
+
+- Análise das tarefas pendentes.
+- Alocação de membros para tarefas pendentes.
+- Divisão das responsabilidades para apresentação.
+- Finalização do documento de apresentação do Canva.
+- Decisão sobre protótipo de alta fidelidade (não precisa, site da Amazon pode ser considerado um).
+- Remoção do diagrama de causa-efeito da entrega 1.
+
 # Histórico de Versão
 
 | Versão | Data       | Descrição      | Autores         | Revisores          |
 | ------ | ---------- | -------------- | --------------- | ------------------ |
 | `1.0`  | 30/08/2023 | Ata da reunião | Guilherme Puida | Arthur Ferreira    |
 | `2.0`  | 06/09/2023 | Ata da reunião | Guilherme Puida | Augusto D. Camargo |
+| `3.0`  | 15/09/2023 | Ata da reunião | Guilherme Puida |                    |
