@@ -9,10 +9,10 @@ Para a realização da entrevista, foi apresentado para os entrevistados o [term
 
 Para a realização da entrevista, foi utilizado um modelo pirâmide, no qual inicia-se com perguntas mais objetivas e, com o decorrer do evento, mais perguntas subjetivas são realizadas, naturalmente é um modelo que é mais util quando o entrevistado se sente relutante em relação a determinadas situações. A estrutura é descrita visualmente na imagem abaixo:
 
-<div align="center">
+<center>
     <img src="../../../assets/Piramide.PNG" style="width:40vw"/>
     <p> Figura 1: Modelo pirâmidal de entrevista . Fonte: <a href="https://victorstati.medium.com/t%C3%A9cnicas-para-levantamento-de-requisitos-4907975498ac">Medium</a></p> 
-</div>
+</center>
 
 Para as perguntas objetivas, foi utilizada a técnica 5W2H para encontrar metodologicamente os questionamentos que seriam feitos. Já as perguntas subjetivas foram realizadas de acordo com as respostas do entrevistado.
 
