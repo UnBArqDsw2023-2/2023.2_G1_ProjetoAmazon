@@ -1,0 +1,36 @@
+# This workflow deploys mkdocs automatically to GitHub pages
+
+name: Deploy MkDocs
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push events but only for the "main" branch and path "docs"
+  push:
+    branches: ["master"]
+    paths: ["docs/**", docs/, "mkdocs.yml"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  mkdocs-deploy:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Installing mkdocs and theme
+      - name: Installing mkdocs
+        run: pip3 install mkdocs mkdocs-material
+
+      # Must be run if not using --force flag
+      # - run: git pull
+
+      # Deploying mkdocs to branch gh-pages
+      - name: Deploying mkdocs
+        run: mkdocs gh-deploy --force
