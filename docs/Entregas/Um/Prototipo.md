@@ -34,61 +34,61 @@ O protótipo de baixa fidelidade completo pode ser acessado [Clicando aqui.](htt
 
 <details>
   <summary>Login</summary>
-  <img src="../assets/prototipo/login.png" width="150px" />
+  <img src="assets/prototipo/login.png" width="150px" />
  <p>Imagem 1: Tela de login. Fonte: Autoras, 2023</p> 
 </details>
 
 <details>
   <summary>Cadastro</summary>
-  <img src="../assets/prototipo/cadastro.png" width="150px" />
+  <img src="assets/prototipo/cadastro.png" width="150px" />
   <p>Imagem 2: Tela de cadastro. Fonte: Autoras, 2023</p> 
 </details>
 
 <details>
   <summary>Home</summary>
-  <img src="../assets/prototipo/home.png" width="150px" />
+  <img src="assets/prototipo/home.png" width="150px" />
   <p>Imagem 3: Tela Home. Fonte: Autoras, 2023</p> 
 </details>
 
 <details>
   <summary>Pesquisa</summary>
-  <img src="../assets/prototipo/pesquisa.png" width="150px" />
+  <img src="assets/prototipo/pesquisa.png" width="150px" />
   <p>Imagem 4: Tela de pesquisa. Fonte: Autoras, 2023</p> 
 </details>
 
 <details>
   <summary>Lista de Desejos</summary>
-  <img src="../assets/prototipo/lista_desejo.png" width="150px" />
+  <img src="assets/prototipo/lista_desejo.png" width="150px" />
   <p>Imagem 5: Tela da lista de desejos. Fonte: Autoras, 2023</p> 
 </details>
 
 <details>
   <summary>Vizualização de produto</summary>
-  <img src="../assets/prototipo/vizualizar_produtos.png" width="150px" />
+  <img src="assets/prototipo/vizualizar_produtos.png" width="150px" />
   <p>Imagem 6: Tela de vizualização de produto. Fonte: Autoras, 2023</p> 
 </details>
 
 <details>
   <summary>Carrinho de compras</summary>
-  <img src="../assets/prototipo/confirmacao_do_pedido.png" width="150px" />
+  <img src="assets/prototipo/confirmacao_do_pedido.png" width="150px" />
   <p>Imagem 7: Tela do carrinho de compras. Fonte: Autoras, 2023</p> 
 </details>
 
 <details>
   <summary>Seleção de pagamento</summary>
-  <img src="../assets/prototipo/selecao_pagamento.png" width="150px" />
+  <img src="assets/prototipo/selecao_pagamento.png" width="150px" />
   <p>Imagem 8: Tela da seleção de pagamento. Fonte: Autoras, 2023</p> 
 </details>
 
 <details>
   <summary>Pagamento</summary>
-  <img src="../assets/prototipo/forma_pagamento.png" width="150px" />
+  <img src="assets/prototipo/forma_pagamento.png" width="150px" />
   <p>Imagem 9: Tela de pagamento. Fonte: Autoras, 2023</p> 
 </details>
 
 <details>
   <summary>Compra Efetuada</summary>
-  <img src="../assets/prototipo/compra_feita.png" width="150px" />
+  <img src="assets/prototipo/compra_feita.png" width="150px" />
   <p>Imagem 10: Tela de compra efetuada. Fonte: Autoras, 2023</p> 
 </details>
 
