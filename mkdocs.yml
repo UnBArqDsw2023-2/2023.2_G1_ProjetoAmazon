@@ -66,9 +66,8 @@ extra:
 nav:
   - Home: readme.md
   - Getting Started:
-      - Contribuindo com o projeto: contribuindo.md
-      - Código de Conduta: CODE_OF_CONDUCT.md
-
+      - Contribuindo com o projeto: ./CONTRIBUTING.md
+      - Código de Conduta: ./CODE_OF_CONDUCT.md
   - Entregas:
       - Entregas/index.md
       - Entrega 1:
@@ -96,7 +95,6 @@ nav:
               - Entregas/Um/Prototipo.md
           - Participações:
               - Entregas/Um/Participacoes.md
-
   - Reuniões:
       - Atas: reunioes.md
   - Disciplina:
