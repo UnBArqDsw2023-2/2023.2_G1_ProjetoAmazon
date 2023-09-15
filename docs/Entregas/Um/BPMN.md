@@ -12,7 +12,7 @@ A notação BPMN auxilia no entendimento de processos e de atividades de acordo 
 ## 1. BPMN Metodologia
 A imagem 1 mostra o BPMN da parte de Metodologia:
 
-![BPMN Metodologia](../assets/BPMN_Metodologia.png)
+![BPMN Metodologia](./assets/BPMN_Metodologia.png)
 
 <div style="text-align: center">
     <p> Imagem 1: BPMN Metodologia (Fonte: Autor, 2023).</p>
@@ -21,7 +21,7 @@ A imagem 1 mostra o BPMN da parte de Metodologia:
 ## 2. BPMN Cadastro
 A imagem 2 mostra o BPMN da parte de cadastro da aplicação:
 
-![BPMN Cadastro](../assets/BPMN_cadastro.png)
+![BPMN Cadastro](./assets/BPMN_cadastro.png)
 
 <div style="text-align: center">
     <p> Imagem 2: BPMN Cadastro (Fonte: Autor, 2023).</p>
@@ -30,7 +30,7 @@ A imagem 2 mostra o BPMN da parte de cadastro da aplicação:
 ## 3. BPMN visualização de produtos, compra e pagamento
 A imagem 3 mostra o BPMN da parte de interação com o produto:
 
-![BPMN visualização de produtos, compra e pagamento](../assets/BPMN_buy.png)
+![BPMN visualização de produtos, compra e pagamento](./assets/BPMN_buy.png)
 <div style="text-align: center">
     <p> Imagem 3: BPMN visualização de produtos, compra e pagamento (Fonte: Autor, 2023).</p>
 </div>
@@ -46,3 +46,4 @@ A imagem 3 mostra o BPMN da parte de interação com o produto:
 | `1.0`  | 14/09/2023 | Adição da introdução e BPMN de cadastro | Samuel    | Bruno       |
 | `1.1`  | 14/09/2023 | Padronização do documento               | Kauã      | Samuel      |
 | `1.2`  | 14/09/2023 | Adição da metodologia                   | Gabriel   | Arthur      |
+| `2.0`  | 15/09/2023 | Migração para o MkDocs                  | Arthur    | Gabriel     |

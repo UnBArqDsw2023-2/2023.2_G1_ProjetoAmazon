@@ -47,7 +47,7 @@ O ciclo de vida do RUP é composto por quatro fases, que são:
 - **Transição**: Nesta fase, o objetivo é entregar o sistema para o cliente, ou seja, colocar o sistema em produção. É nesta fase que se faz a implantação do sistema, a migração de dados e a capacitação dos usuários. O resultado desta fase é o sistema em produção.
   
 <center>
-![Gráfico das Baleias](image.png)<br>
+![Gráfico das Baleias](./assets/whale.png)<br>
 <sub>ANWAR, Ashraf. A Review of RUP (Rational Unified Process). Disponível em: [csjournals.org](https://www.cscjournals.org/manuscript/Journals/IJSE/Volume5/Issue2/IJSE-142.pdf)</sub>
 </center>
 
@@ -62,7 +62,7 @@ Ao final de cada fase do RUP tem que gerar um subproduto, definido pelos milesto
 - **Transição**: O subproduto desta fase é o sistema em produção.
 
 <center>
-![Major Milestones](image-1.png)<br>
+![Major Milestones](./assets/major-milestone.png)<br>
 <sub>ANWAR, Ashraf. A Review of RUP (Rational Unified Process). Disponível em: [csjournals.org](https://www.cscjournals.org/manuscript/Journals/IJSE/Volume5/Issue2/IJSE-142.pdf)</sub>
 </center>
 
@@ -138,4 +138,4 @@ Entretanto, é importante reconhecer que o RUP também apresenta desafios, inclu
 | Versão | Data       | Descrição                              | Autores                    | Revisores       |
 | ------ | ---------- | -------------------------------------- | -------------------------- | --------------- |
 | `1.0`  | 29/08/2023 | Elaboração do documento no Google Docs | Ana Beatriz, Beatriz, Kauã | Arthur Ferreira |
-| `1.1`  | 13/09/2023 | Transcrição do documento para MarkDown | Augusto Camargo            |                 |
+| `1.1`  | 13/09/2023 | Transcrição do documento para MarkDown | Augusto Camargo            | Arthur          |

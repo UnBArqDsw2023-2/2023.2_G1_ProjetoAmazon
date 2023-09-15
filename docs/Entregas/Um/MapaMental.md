@@ -23,17 +23,18 @@ Para a realização do Mapa Mental foram utilizadas algumas regras simples: [¹]
 Primeiro fizemos o esboço do mapa mental no papel e após isso passamos para uma versão digital utilizando o site Lucidchart.
 
 ## Mapa Mental - Versão Papel
-  <div align="center">
-    <img src="../../../assets/MM - mão.jpg" style="width:45vw"/>
+
+<center>
+    <img src="./assets/mapa-mental-desenho.jpg" style="width:45vw"/>
     <p> Imagem 1: Mapa Mental  Versão Papel (Fonte: Autor, 2023).</p>
-</div>
+</center>
 
 ## Mapa Mental - Versão Digital
 
-  <div align="center">
-    <img src="../../../assets/MapaMental.png" style="width:50vw"/>
+<center>
+    <img src="./assets/MapaMental.png" style="width:50vw"/>
     <p> Imagem 2: Mapa Mental Versão Digital (Fonte: Autor, 2023).</a></p> 
-</div>
+</center>
 
 ## Requisitos elicitados
 

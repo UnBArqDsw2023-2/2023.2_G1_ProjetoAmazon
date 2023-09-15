@@ -18,10 +18,10 @@ Em grandes projetos, queremos realizar a priorização de forma iterativa, entã
 
 Para realizar a etapa de priorização, foi reunido todos os requisitos elicitados pelo projeto atavés das etapas de:
 
-- [Brainstorming](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/tree/main/docs/Base/Engenharia-de-Requisitos/Elicitação/Brainstorm.md)
-- [Entrevista](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/tree/main/docs/Base/Engenharia-de-Requisitos/Elicitação/Entrevista.md)
-- [Mapa Mental](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/tree/main/docs/Base/Engenharia-de-Requisitos/Elicitação/MapaMental.md)
-- [StoryBoard](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/tree/main/docs/Base/Engenharia-de-Requisitos/Elicitacao/Elicitação/StoryBoard.md)
+- [Brainstorming](./Brainstorm.md)
+- [Entrevista](./Entrevista.md)
+- [Mapa Mental](./MapaMental.md)
+- [StoryBoard](./StoryBoard.md)
 
 Em seguida, foi feito uma filtragem dos requisitos obtidos afim de que possa ter uma amostragem de dados mais consistente e menos repetitiva. Com a quantidade de requisitos classificados como altos na priorização final, foi feita uma segunda filtragem, afim de reclassificar os requisitos na categoria "alta".
 
@@ -99,7 +99,7 @@ A tabela 1 revela os resultados da priorização dos requisitos funcionais, e a 
 
 > [1] First Things First: Prioritizing Requirements Karl E. Wiegers
 
-> [2] K. Wiegers, “Five Requirements Prioritization Methods - Analyst’s corner - Medium,” Medium, Jun. 03, 2020. https://medium.com/analysts-corner/five-requirements-prioritization-methods-86f4c5e0433e (acessado Set. 14, 2023).
+> [2] K. Wiegers, “Five Requirements Prioritization Methods - Analyst’s corner - Medium,” Medium, Jun. 03, 2020. [https://medium.com/analysts-corner/five-requirements-prioritization-methods-86f4c5e0433e](https://medium.com/analysts-corner/five-requirements-prioritization-methods-86f4c5e0433e) (acessado Set. 14, 2023).
 
 > ‌[3] Escala de Três Níveis - Simplenote. Github.io. Disponível em: <https://requisitos-de-software.github.io/2023.1-Simplenote/elicitacao/Prioriza%C3%A7%C3%A3o/ThreeLevelScale/>. Acesso em: 15 set. 2023.
 
@@ -107,6 +107,7 @@ A tabela 1 revela os resultados da priorização dos requisitos funcionais, e a 
 
 ## Histórico de versão
 
-| Versão |    Data    |         Descrição          | Autor | Revisor |
-| :----: | :--------: | :------------------------: | :---: | :-----: |
-| `1.0`  | 14/09/2023 | Inicialização do documento | Kauã  | Arthur  |
+| Versão |    Data    |         Descrição          | Autor  | Revisor |
+| :----: | :--------: | :------------------------: | :----: | :-----: |
+| `1.0`  | 14/09/2023 | Inicialização do documento |  Kauã  | Arthur  |
+| `2.0`  | 15/09/2023 |   Migração para o MkDocs   | Arthur | Gabriel |

@@ -8,7 +8,7 @@ Essa metodologia foi pensada para ser realizada em 5 dias.
 
 A adaptação do Design Sprint para os prazos universitários implica em uma modificação cuidadosa das técnicas originais para acomodar as demandas acadêmicas e os cronogramas de entregas. Em vez de um sprint intensivo de cinco dias, essa versão adaptada pode estender-se ao longo de uma semana, permitindo uma abordagem mais gradual e flexível. E ainda devido ao prazo e entrega, não iremos fazer a 5 etapa.
 <br> Isso possibilita aos estudantes um tempo mais adequado para aprofundar a compreensão do conteúdo, gerar ideias inovadoras, selecionar estratégias acadêmicas eficazes, criar protótipos detalhados de projetos e realizar testes de conceitos. Ao estender os prazos, essa adaptação busca harmonizar a metodologia do Design Sprint com as exigências acadêmicas, proporcionando aos alunos a oportunidade de aplicar essas técnicas de resolução de problemas de forma mais eficaz ao longo do semestre universitário, promovendo um aprendizado mais profundo e colaborativo.
-Para mais informações informações acerca de datas e autores, verificar a documentação [Cronograma](cronograma.md). 
+Para mais informações informações acerca de datas e autores, verificar a documentação [Cronograma] (../../cronograma.md). 
 
 
 ## Etapas
@@ -31,7 +31,7 @@ Para mais informações informações acerca de datas e autores, verificar a doc
         <td>5W2H; Rich Picture; Mapa mental; Brainstorm; Entrevista; Storyboard</td>
       <tr/>       
   </table>
-  <p>Tabela 1: Dados da fase Mapear(Fonte: Autores, 2023).</p>
+  <p>Tabela 1: Dados da fase Mapear (Fonte: Autores, 2023).</p>
 </details>
 
 <details>
@@ -52,7 +52,7 @@ Para mais informações informações acerca de datas e autores, verificar a doc
         <td>Léxicos; BPMN</td>
       <tr/>       
   </table>
-  <p>Tabela 2: Dados da fase Esboçar(Fonte: Autores, 2023).</p>
+  <p>Tabela 2: Dados da fase Esboçar (Fonte: Autores, 2023).</p>
 </details>
 
 <details>
@@ -73,7 +73,7 @@ Para mais informações informações acerca de datas e autores, verificar a doc
         <td>A DECIDIR</td>
       <tr/>       
   </table>
-  <p>Tabela 3: Dados da fase Decidir(Fonte: Autores, 2023).</p>
+  <p>Tabela 3: Dados da fase Decidir (Fonte: Autores, 2023).</p>
 </details>
 
 <details>
@@ -94,16 +94,19 @@ Para mais informações informações acerca de datas e autores, verificar a doc
         <td>Protótipo de baixa fidelidade; prototipação no Figma</td>
       <tr/>       
   </table>
-  <p>Tabela 4: Dados da fase Prototipar(Fonte: Autores, 2023).</p>
+  <p>Tabela 4: Dados da fase Prototipar (Fonte: Autores, 2023).</p>
 </details>
 
 ## Bibliografia
 
-> [1] VIDEOAULA - DSW-Base - Design Sprint. [S. l.: s. n.], 2020. Disponível em: https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmileneserrano%5Funb%5Fbr%2FDocuments%2FArqDSW%20%2D%20V%C3%ADdeosOriginais%2F02h%20%2D%20VideoAula%20%2D%20DSW%2DBase%20%2D%20Design%20Sprint%2Emp4&ga=1. Acesso em: 3 set. 2023.
-<br> > [2] The Sprint Book. Disponível em: https://www.thesprintbook.com/the-design-sprint. Acesso em: 3 set. 2023.
-> [3] Design Sprint. Disponível em: https://www.designsprint.com.br/home. Acesso em: 3 set. 2023.
+> [1] VIDEOAULA - DSW-Base - Design Sprint. [S. l.: s. n.], 2020. Disponível em: [https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmileneserrano%5Funb%5Fbr%2FDocuments%2FArqDSW%20%2D%20V%C3%ADdeosOriginais%2F02h%20%2D%20VideoAula%20%2D%20DSW%2DBase%20%2D%20Design%20Sprint%2Emp4&ga=1](https://unbbr-my.sharepoint.com/personal/mileneserrano_unb_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmileneserrano%5Funb%5Fbr%2FDocuments%2FArqDSW%20%2D%20V%C3%ADdeosOriginais%2F02h%20%2D%20VideoAula%20%2D%20DSW%2DBase%20%2D%20Design%20Sprint%2Emp4&ga=1). Acesso em: 3 set. 2023.
+
+> [2] The Sprint Book. Disponível em: [https://www.thesprintbook.com/the-design-sprint](https://www.thesprintbook.com/the-design-sprint). Acesso em: 3 set. 2023.
+
+> [3] Design Sprint. Disponível em: [https://www.designsprint.com.br/home](https://www.designsprint.com.br/home). Acesso em: 3 set. 2023.
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                               | Autor(es)   | Revisor(es) |
-| ------ | ---------- | --------------------------------------- | ----------- | ----------- |
-| `1.0`  | 03/09/2023 |Criação do documento |Mylena | Beatriz, Guilherme     |
+| Versão | Data       | Descrição                   | Autor(es) | Revisor(es)        |
+| ------ | ---------- | --------------------------- | --------- | ------------------ |
+| `1.0`  | 03/09/2023 | Criação do documento        | Mylena    | Beatriz, Guilherme |
+| `2.0`  | 15/09/2023 | Migra documento para MkDocs | Arthur    | Gabriel            |

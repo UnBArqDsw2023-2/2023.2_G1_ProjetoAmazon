@@ -26,7 +26,7 @@ em conjunto. Além disso, ao adotar a prototipação de baixa fidelidade, conseg
 contribui significativamente para a eficiência do processo de criação do protótipo de alta fidelidade, garantindo que as funcionalidades críticas fossem implementadas de 
 maneira precisa e satisfatória.
 
-Os requisitos utilizados na modelagem do protótipo podem ser acessados na documentação de priorização: [Backlog](adicionar) e [ThreeLeveScale](adicionar)
+Os requisitos utilizados na modelagem do protótipo podem ser acessados na documentação de priorização: [Backlog](./Backlog.md) e [ThreeLeveScale](./TLS.md)
 
 ## Protótipo
 
@@ -107,7 +107,8 @@ Conforme o protótipo e estudos acerca do atual site da Amazon, podemos perceber
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição           |       Autor(es)      | Revisor(es) |
-| ------ | ---------- | ------------------- | ---------------------| ----------- |
-| `1.0`  | 14/09/2023 | Criação do artefato | Ana Beatriz e Mylena |    Kauã     |
-| `1.1`  | 14/09/2023 | Add imagens protótipo | Ana Beatriz e Mylena |    Kauã     |
+| Versão | Data       | Descrição              | Autor(es)            | Revisor(es) |
+| ------ | ---------- | ---------------------- | -------------------- | ----------- |
+| `1.0`  | 14/09/2023 | Criação do artefato    | Ana Beatriz e Mylena | Kauã        |
+| `1.1`  | 14/09/2023 | Add imagens protótipo  | Ana Beatriz e Mylena | Kauã        |
+| `2.0`  | 15/09/2023 | Migração para o MkDocs | Arthur               | Gabriel     |
