@@ -171,7 +171,7 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
 ## Cronograma Ponto de Controle 3 - 01/12/2023
 
 <div align="center">
-
+  
 |        Atividade        | Data Limite de Entrega | Data Limite Revisão | Autor(es) | Revisor(es) |
 | :---------------------: | :--------------------: | :-----------------: | :-------: | :---------: |
 |       DAS Lógica        |       29/11/2023       |     30/11/2023      |     -     |      -      |
