@@ -2,6 +2,10 @@
 
 name: Deploy MkDocs
 
+permissions: # Need it to force push
+  contents: write
+  issues: write
+
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push events but only for the "main" branch and path "docs"
