@@ -9,7 +9,8 @@ O mesmo apresenta as datas limites de entrega e revisão, juntamente com os auto
 ## Cronograma geral
 A princípio, para melhor organização, foi criado um cronograma geral que deve ser seguido que é mostrado a seguir:
 
-<div align="center">
+<center>
+
 
 |          Atividade           |                                            Descrição                                            | Data Limite de Entrega |
 | :--------------------------: | :---------------------------------------------------------------------------------------------: | :--------------------: |
@@ -20,7 +21,7 @@ A princípio, para melhor organização, foi criado um cronograma geral que deve
 
 **Tabela 1: Cronograma geral,(Fonte: autor, 2023).**
 
-</div>
+</center>
 
 ## Cronogramas de cada ponto de controle
 Para o melhor detalhamento das atividades, foi criado um cronograma para cada ponto de controle da disciplina, que são descritos pelas tabelas 2 até a tabela 5 que são apresentadas a seguir:
@@ -33,7 +34,8 @@ Para o melhor detalhamento das atividades, foi criado um cronograma para cada po
 ## Cronograma Ponto de Controle 1 - 15/09/2023 
 Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado para o projeto Amazon, conferir o artefato [Design Sprint](docs/Base/2.0-Design-Sprint.md).
 
-<div align="center">
+<center>
+
   <table style="margin: 0 auto; text-align: center;">
     <tr>
       <th style="text-align: center" colspan="6">
@@ -147,11 +149,12 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
 
 **Tabela 2: Cronograma do Ponto de Controle 1,(Fonte: autor, 2023).**
 
-</div>
+</center>
 
 ## Cronograma Ponto de Controle 2 - 09/10/2023
 
-<div align="center">
+<center>
+
 
 |              Atividade              | Data Limite de Entrega | Data Limite Revisão | Autor(es) | Revisor(es) |
 | :---------------------------------: | :--------------------: | :-----------------: | :-------: | :---------: |
@@ -166,14 +169,14 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
 
 **Tabela 3: Cronograma do Ponto de Controle 2,(Fonte: autor, 2023).**
 
-</div>
+</center>
 
 ## Cronograma Ponto de Controle 3 - 01/12/2023
 
-<div align="center">
-  
+<center>
+
 |        Atividade        | Data Limite de Entrega | Data Limite Revisão | Autor(es) | Revisor(es) |
-| :---------------------: | :--------------------: | :-----------------: | :-------: | :---------: |
+| --------------------- | -------------------- | ----------------- | ------- | --------- |
 |       DAS Lógica        |       29/11/2023       |     30/11/2023      |     -     |      -      |
 |      DAS Processo       |       29/11/2023       |     30/11/2023      |     -     |      -      |
 |    DAS Implementação    |       29/11/2023       |     30/11/2023      |     -     |      -      |
@@ -184,12 +187,13 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
 
 **Tabela 4: Cronograma do Ponto de Controle 3,(Fonte: autor, 2023).**
 
-</div>
+</center>
 
 ## Atividades extras
 Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 
-<div align="center">
+<center>
+
 
 | Atividade                                                                                               | Descrição                                                                     | Autores                                                                        | Revisores               |
 | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------- |
@@ -210,11 +214,12 @@ Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 
 **Tabela 5: Encarregados de atividades extras(Fonte: autor, 2023).**
 
-</div>
+</center>
 
 ## Histórico de Versão
 
-<div align="center">
+<center>
+
 
 | Versão | Data       | Descrição                               | Autor(es)   | Revisor(es) |
 | ------ | ---------- | --------------------------------------- | ----------- | ----------- |
@@ -224,4 +229,4 @@ Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 | `1.3`  | 06/09/2023 | Ajustes                                 | Ana Beatriz | Mylena      |
 | `1.4`  | 14/09/2023 | Atualização Cronograma                  | Arthur      | Mylena      |
 
-</div>
+</center>
