@@ -87,8 +87,15 @@ nav:
                   - Entregas/Um/Entrevista.md
                   - Entregas/Um/Storyboard.md
                   - Entregas/Um/PlanoDeRisco.md
-          - Módulo Processos/Metodologias/Abordagens:
+                  - Entregas/Um/Lexicos.md
+                  - Backlog:
+                      - Entregas/Um/Backlog
+                      - Entregas/Um/TLS.md
+          - Módulo Processos, Metodologias e Abordagens:
               - Entregas/Um/BPMN.md
+              - Entregas/Um/Prototipo.md
+          - Participações:
+              - Entregas/Um/Participacoes.md
 
   - Reuniões:
       - Atas: reunioes.md
