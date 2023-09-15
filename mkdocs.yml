@@ -34,7 +34,7 @@ theme:
     - search.suggest
     - toc.follow
     - toc.integrate
-    
+
   palette:
     - scheme: default
       primary: indigo
@@ -66,53 +66,57 @@ extra:
 nav:
   - Home: readme.md
   - Getting Started:
-    - Contribuindo com o projeto: contribuindo.md
-    - Código de Conduta: CODE_OF_CONDUCT.md
-  - Artefatos:
-    - Artefatos/index.md
-    - Primeiro Módulo:
-      - Base:
-        - Apresentação sobre RUP : 
-          - Artefatos/PrimeiroModulo/Base/ApresentacaoDeGrupo.md
-          - Síntese do Conteúdo: Artefatos/PrimeiroModulo/Base/SinteseDoConteudo.md
-          - Slides da Apresentação: Artefatos/PrimeiroModulo/Base/SlidesDaApresentacao.md
-    #- Segundo Módulo:
-    #  - Modelagem:
-    #    - Apresentação sobre Modelagem:
-    #- Terceiro Módulo:
-    #  - Padrões de Projeto:
-    #    - Apresentação sobre Padrões de Projeto:
-    #- Quarto Módulo:
-    #  - Arquitetura de Software & Reutilização:
-    #    - Apresentação sobre Arquitetura de Software & Reutilização:
-  - Reuniões:
-    - Atas: reunioes.md
-  - Disciplina:
-    - Diretrizes da disciplina: Diretrizes/Diretrizes.md
-    - Base:
-      - 1. Desenho de Software (Base): 
-        - Base/index.md
-        - 1.1. Módulo Projeto Não Orientado a Abordagens Específicas: Base/1.1.AbordagemNaoEspecifica.md
-        - 1.2. Módulo Processos/Metodologias/Abordagens: Base/1.2.ProcessosMetodologiasAbordagens.md
-        - 1.3. Participações - Base: Base/1.3.ParticipacoesBase.md
-    - Modelagem:
-      - 2. Desenho de Software (Modelagem): 
-        - Modelagem/index.md
-        - 2.1. Módulo Projeto Orientado a Abordagens Tradicionais: 
-          - Modelagem/Tradicional/index.md
-          - 2.1.1. Notação UML - Diagramas Estáticos: Modelagem/Tradicional/2.1.1.UMLEstaticos.md
-          - 2.1.2. Notação UML - Diagramas Dinâmicos: Modelagem/Tradicional/2.1.2.UMLDinamicos.md
-        - 2.2. Participações - Modelagem: Modelagem/2.2.ParticipacoesModelagem.md
-    - Padrões de Projeto:
-      - 3. Desenho de Software (Padrões de Projeto): PadroesDeProjeto/3.PadroesDeProjeto.md
-    - Arquitetura de Software & Reutilização:
-      - 4. Desenho de Software (Arquitetura & Reutilização de Software): 
-        - ArquiteturaReutilizacao/index.md
-        - 4.1. Módulo Estilos e Padrões Arquiteturais: ArquiteturaReutilizacao/4.1.PadroesArquiteturais.md
-        - 4.2. Módulo Reutilização de Software: ArquiteturaReutilizacao/4.2.ReutilizacaoDeSoftware.md
-        - 4.3. Participações - Arquitetura & Reutilização de Software: ArquiteturaReutilizacao/4.3.ParticipacoesArqReutilizacao.md
+      - Contribuindo com o projeto: contribuindo.md
+      - Código de Conduta: CODE_OF_CONDUCT.md
 
-     
+  - Entregas:
+      - Entregas/index.md
+      - Entrega 1:
+          - Entregas/Um/index.md
+          - Apresentação sobre RUP:
+              - Entregas/Um/ApresentacaoDeGrupo.md
+              - Síntese do Conteúdo: Entregas/Um/SinteseDoConteudo.md
+              - Slides da Apresentação: Entregas/Um/SlidesDaApresentacao.md
+          - Módulo Projeto Não Orientado a Abordagens Específicas:
+              - Design Sprint: Entregas/Um/DesignSprint.md
+              - Artefatos:
+                  - Entregas/Um/RichPicture.md
+                  - Entregas/Um/5W2H.md
+                  - Entregas/Um/Brainstorm.md
+                  - Entregas/Um/MapaMental.md
+                  - Entregas/Um/Entrevista.md
+                  - Entregas/Um/Storyboard.md
+                  - Entregas/Um/PlanoDeRisco.md
+          - Módulo Processos/Metodologias/Abordagens:
+              - Entregas/Um/BPMN.md
+
+  - Reuniões:
+      - Atas: reunioes.md
+  - Disciplina:
+      - Diretrizes da disciplina: Diretrizes/Diretrizes.md
+      - Base:
+          - 1. Desenho de Software (Base):
+              - Base/index.md
+              - 1.1. Módulo Projeto Não Orientado a Abordagens Específicas: Base/1.1.AbordagemNaoEspecifica.md
+              - 1.2. Módulo Processos/Metodologias/Abordagens: Base/1.2.ProcessosMetodologiasAbordagens.md
+              - 1.3. Participações - Base: Base/1.3.ParticipacoesBase.md
+      - Modelagem:
+          - 2. Desenho de Software (Modelagem):
+              - Modelagem/index.md
+              - 2.1. Módulo Projeto Orientado a Abordagens Tradicionais:
+                  - Modelagem/Tradicional/index.md
+                  - 2.1.1. Notação UML - Diagramas Estáticos: Modelagem/Tradicional/2.1.1.UMLEstaticos.md
+                  - 2.1.2. Notação UML - Diagramas Dinâmicos: Modelagem/Tradicional/2.1.2.UMLDinamicos.md
+              - 2.2. Participações - Modelagem: Modelagem/2.2.ParticipacoesModelagem.md
+      - Padrões de Projeto:
+          - 3. Desenho de Software (Padrões de Projeto): PadroesDeProjeto/3.PadroesDeProjeto.md
+      - Arquitetura de Software & Reutilização:
+          - 4. Desenho de Software (Arquitetura & Reutilização de Software):
+              - ArquiteturaReutilizacao/index.md
+              - 4.1. Módulo Estilos e Padrões Arquiteturais: ArquiteturaReutilizacao/4.1.PadroesArquiteturais.md
+              - 4.2. Módulo Reutilização de Software: ArquiteturaReutilizacao/4.2.ReutilizacaoDeSoftware.md
+              - 4.3. Participações - Arquitetura & Reutilização de Software: ArquiteturaReutilizacao/4.3.ParticipacoesArqReutilizacao.md
+
 markdown_extensions:
   - attr_list
   - def_list
@@ -122,6 +126,6 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
 
-plugins: 
+plugins:
   - search
   - autorefs # pip install mkdocs-autorefs
