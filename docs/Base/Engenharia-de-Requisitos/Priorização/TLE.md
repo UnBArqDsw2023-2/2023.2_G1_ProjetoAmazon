@@ -6,13 +6,13 @@ Este é o documento de Three Level Scale do projeto de arquitetura e desenho de 
 
 ## Definição
 
-**Three Level Scale** ou TLS é uma tecnica de priorização que separa os requisitos em 3 quadrantes que são: baixa, média e alta prioridade. É importante salientar que esta tecnica gera uma priorização subjetiva e imprecisa[1](#ancora1), isto ocorre devido às politicas das empresas e metas do negócio. Nesta tecnica, as palavras principais são: "importância" e "urgencia" já que ambas são os principais parâmetros para decidir em qual quadrante o requisito de encaixa. De acordo com Karl E. Wiegers, temos a seguinte definição de cada quadrante:
+**Three Level Scale** ou TLS é uma técnica de priorização que separa os requisitos em 3 quadrantes que são: baixa, média e alta prioridade. É importante salientar que esta técnica gera uma priorização subjetiva e imprecisa [1](#ancora1), isto ocorre devido às politicas das empresas e metas do negócio. Nesta técnica, as palavras principais são: "importância" e "urgência" já que ambas são os principais parâmetros para decidir em qual quadrante o requisito de encaixa. De acordo com Karl E. Wiegers, temos a seguinte definição de cada quadrante:
 
 - **Alta prioridade**: São tanto importantes quanto urgentes, estes requisitos devem ser implementados o mais rápido o possível. </br>
 - **Média prioridade**: Requisitos que são importantes, entretanto, não são urgentes.</br>
-- **Baixa prioridade**: Não são nem importantes, e nem urgentes.</br>
+- **Baixa prioridade**: Não são nem importantes e nem urgentes.</br>
 
-Em grandes projetos, queremos realizar a priorização de forma interativa, então, caso seja observado que a quantidade de requisitos classificados em "alta prioridade" são muitos, pode-se fazer uma sub-priorização dos mesmos classificando-os em: Altissímo, Muito alto e Alto. Vale lembrar que para esta tecnica funcionar, é importânte que a interdependência entre os requisitos sejam respeitadas.
+Em grandes projetos, queremos realizar a priorização de forma iterativa, então, caso seja observado que a quantidade de requisitos classificados em "alta prioridade" são muitos, pode-se fazer uma sub-priorização dos mesmos classificando-os em: Altissímo, Muito alto e Alto. Vale lembrar que para esta técnica funcionar, é importânte que a interdependência entre os requisitos sejam respeitadas.
 
 ## Metodologia
 
@@ -98,15 +98,15 @@ A tabela 1 revela os resultados da priorização dos requisitos funcionais, e a 
 ## Bibliografia
 
 > [1] First Things First: Prioritizing Requirements Karl E. Wiegers
->
+
 > [2] K. Wiegers, “Five Requirements Prioritization Methods - Analyst’s corner - Medium,” Medium, Jun. 03, 2020. https://medium.com/analysts-corner/five-requirements-prioritization-methods-86f4c5e0433e (acessado Set. 14, 2023).
->
+
 > ‌[3] Escala de Três Níveis - Simplenote. Github.io. Disponível em: <https://requisitos-de-software.github.io/2023.1-Simplenote/elicitacao/Prioriza%C3%A7%C3%A3o/ThreeLevelScale/>. Acesso em: 15 set. 2023.
 
 ‌
 
 ## Histórico de versão
 
-| Versão |    Data    |         Descrição          | Autor |   Revisor    |
-| :----: | :--------: | :------------------------: | :---: | :----------: |
-| `1.0`  | 14/09/2023 | Inicialização do documento | Kauã  | Mylena e Ana |
+| Versão |    Data    |         Descrição          | Autor | Revisor |
+| :----: | :--------: | :------------------------: | :---: | :-----: |
+| `1.0`  | 14/09/2023 | Inicialização do documento | Kauã  | Arthur  |
