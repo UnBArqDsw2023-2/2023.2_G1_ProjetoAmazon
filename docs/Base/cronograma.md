@@ -54,36 +54,36 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
       <td>Rich Picture</td>
       <td>13/09/2023</td>
       <td>14/09/2023</td>
-      <td>Arthur(documento) e Todos</td>
-      <td></td>
+      <td>Guilherme Puida(documento) e Todos</td>
+      <td>Kauã</td>
     </tr>
     <tr>
       <td>5W2H</td>
       <td>09/09/2023</td>
       <td>10/09/2023</td>
-      <td>Mylena</td>
-      <td>-</td>
+      <td>Mylena Angélica</td>
+      <td>Arthur</td>
     </tr>
     <tr>
       <td>Brainstorm</td>
       <td>09/09/2023</td>
       <td>10/09/2023</td>
       <td>Guilherme, Arthur, Augusto, Samuel</td>
-      <td>-</td>
+      <td>Arthur</td>
     </tr>
     <tr>
       <td>Entrevista</td>
       <td>09/09/2023</td>
       <td>10/09/2023</td>
       <td>Kauã</td>
-      <td>-</td>
+      <td>Mylena</td>
     </tr>
     <tr>
       <td>Mapa Mental</td>
       <td>09/09/2023</td>
       <td>10/09/2023</td>
       <td>Beatriz</td>
-      <td>-</td>
+      <td>Ana</td>
     </tr>
     <tr>
       <td>Story Board</td>
@@ -92,19 +92,26 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
       <td>Ana, Samuel, Beatriz, Augusto, Arthur</td>
       <td>-</td>
     </tr>
+    <tr>
+      <td>Plano de risco</td>
+      <td>09/09/2023</td>
+      <td>10/09/2023</td>
+      <td>Mylena</td>
+      <td>Arthur</td>
+    </tr>
       <td style="vertical-align: middle" rowspan="3"><h3><b>Esboçar</b></h3>(4 dias)</td>
       <td>Backlog</td>
       <td>13/09/2023</td>
       <td>14/09/2023</td>
-      <td>Arthur</td>
-      <td>-</td>
+      <td>Kauã</td>
+      <td>Mylena e Ana</td>
     </tr>
     <tr>
       <td>Léxicos</td>
       <td>13/09/2023</td>
       <td>14/09/2023</td>
       <td>Kauã</td>
-      <td>-</td>
+      <td>Guilherme</td>
     </tr>
     <tr>
       <td>BPMN</td>
@@ -117,8 +124,8 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
       <td>First things First</td>
       <td>13/09/2023</td>
       <td>14/09/2023</td>
-      <td>Bruno e Augusto</td>
-      <td>-</td>
+      <td>Kauã</td>
+      <td>Mylena e Ana</td>
     </tr>
     </tr>
       <td style="vertical-align: middle" rowspan="1"><h3><b>Prototipar</b></h3>(3 dias)</td>
@@ -126,7 +133,7 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
       <td>13/09/2023</td>
       <td>14/09/2023</td>
       <td>Mylena e Ana</td>
-      <td>-</td>
+      <td>Kauã</td>
     </tr>
     <tr>
       <td style="vertical-align: middle"><h3><b>1.3</b></h3></td>
@@ -134,7 +141,7 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
       <td>14/09/2023</td>
       <td>14/09/2023</td>
       <td>Todos</td>
-      <td></td>
+      <td>Todos</td>
     </tr>
   </table>
 
