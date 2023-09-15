@@ -70,31 +70,32 @@ nav:
       - Código de Conduta: ./CODE_OF_CONDUCT.md
   - Entregas:
       - Entregas/index.md
+      - Apresentação sobre RUP:
+          - Entregas/Um/ApresentacaoDeGrupo.md
+          - Síntese do Conteúdo: Entregas/Um/SinteseDoConteudo.md
+          - Slides da Apresentação: Entregas/Um/SlidesDaApresentacao.md
       - Entrega 1:
           - Entregas/Um/index.md
-          - Apresentação sobre RUP:
-              - Entregas/Um/ApresentacaoDeGrupo.md
-              - Síntese do Conteúdo: Entregas/Um/SinteseDoConteudo.md
-              - Slides da Apresentação: Entregas/Um/SlidesDaApresentacao.md
-          - Módulo Projeto Não Orientado a Abordagens Específicas:
-              - Design Sprint: Entregas/Um/DesignSprint.md
-              - Artefatos:
-                  - Entregas/Um/RichPicture.md
-                  - Entregas/Um/5W2H.md
-                  - Entregas/Um/Brainstorm.md
-                  - Entregas/Um/MapaMental.md
-                  - Entregas/Um/Entrevista.md
-                  - Entregas/Um/StoryBoard.md
-                  - Entregas/Um/PlanoDeRisco.md
-                  - Entregas/Um/Lexicos.md
-                  - Backlog:
-                      - Entregas/Um/Backlog.md
-                      - Entregas/Um/TLS.md
-          - Módulo Processos, Metodologias e Abordagens:
-              - Entregas/Um/BPMN.md
-              - Entregas/Um/Prototipo.md
-          - Participações:
-              - Entregas/Um/Participacoes.md
+          - Base:
+              - 1. Desenho de Software (Base):
+                  - 1.1 Módulo Projeto Não Orientado a Abordagens Específicas:
+                      - Design Sprint: Entregas/Um/DesignSprint.md
+                      - Detalhamento Metodologico: Entregas/Um/DetalhamentoMetodologico.md
+                      - Artefato Rich Picture produzido: Entregas/Um/RichPicture.md
+                      - Artefato 5W2H produzido: Entregas/Um/5W2H.md
+                      - Artefato Brainstorm produzido: Entregas/Um/Brainstorm.md
+                      - Artefato Mapa Mental produzido: Entregas/Um/MapaMental.md
+                      - Artefato Entrevista produzido: Entregas/Um/Entrevista.md
+                      - Artefato Storyboard produzido: Entregas/Um/StoryBoard.md
+                      - Artefato Plano de Risco produzido: Entregas/Um/PlanoDeRisco.md
+                      - Artefato Léxicos produzido: Entregas/Um/Lexicos.md
+                      - Artefato Backlog produzido: Entregas/Um/Backlog.md
+                      - Artefato TLS produzido: Entregas/Um/TLS.md
+                  - 1.2 Módulo Processos, Metodologias e Abordagens:
+                      - Modelagem BPMN: Entregas/Um/BPMN.md
+                      - Protótipo: Entregas/Um/Prototipo.md
+                  - 1.3 Participações - Base:
+                      - Participações: Entregas/Um/Participacoes.md
   - Reuniões:
       - Atas: reunioes.md
   - Disciplina:
