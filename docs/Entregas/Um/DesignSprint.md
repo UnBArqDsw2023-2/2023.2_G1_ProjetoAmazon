@@ -29,7 +29,7 @@ Devido ao ambiente acadêmico, a disponibilidade da equipe e a experiência dos 
 A adaptação do Design Sprint para os prazos universitários implica em uma modificação cuidadosa
 das técnicas originais para acomodar as demandas acadêmicas e os cronogramas de entregas. Em vez 
 de um sprint intensivo de cinco dias, essa versão adaptada pode estender-se ao longo de uma 
-semana, permitindo uma abordagem mais gradual e flexível. 
+semana, permitindo uma abordagem mais gradual e flexível. <br>
 <br> Isso possibilita aos estudantes um tempo mais adequado para aprofundar a compreensão do 
 conteúdo, gerar ideias inovadoras, selecionar estratégias acadêmicas eficazes, criar protótipos 
 detalhados de projetos e realizar testes de conceitos. Ao estender os prazos, essa adaptação 
