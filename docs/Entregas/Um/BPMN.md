@@ -8,9 +8,25 @@ A notação BPMN auxilia no entendimento de processos e de atividades de acordo 
 
 ## Metodologia
 
+Após as primeiras reuniões do grupo, entramos em um consenso em relação as metodologias que serão utilizadas para o desenvolvimento do projeto ao longo da disciplina. Serão abordadas diferentes técnicas provenientes dos métodos _Scrum_ e _Kanban_.
+
+### Scrum
+
+O _Scrum_ é um método ágil iterativo utilizado para gerenciamento de projetos com foco em revisões constantes dos artefatos elaborados e coloboração mútua. Utilizaremos princípios e definições de _Sprints_, que são ciclos de desenvolvimento e revisões. A equipe optou por utilizar uma adaptação do scrum como metodologia de desenvolvimento devido a familiaridade dos integrantes com os ritos e atividades, principalmente com a Planning e Review.
+
+Semanalmente haverá reunião de alinhamento, em cada reunião será realizado o planejamento da próxima sprint e review das atividades realizadas.
+
+### Kanban
+
+O Kanban é uma metodologia ágil que tem o foco em priorização da produtividade e a organização das entregas do projeto. A equipe optou por utilizar o quadro Kanban como ferramenta de gerenciamento por auxiliar os integrantes em uma melhor visualização de todo o trabalho no decorrer da Sprint, além de maximizar a eficiência da equipe.
+
+Um quadro Kanban consiste em uma tabela organizada por meio de colunas. Cada coluna representa uma etapa onde se encontra alguma das tarefas realizadas, organizando o quadro em tarefas presentes no Backlog, tarefas em progresso, em revisão e tarefas prontas.
+
 
 ## 1. BPMN Metodologia
-A imagem 1 mostra o BPMN da parte de Metodologia:
+
+O fluxograma abaixo representa a modelagem das etapas presentes nas metodologias abordadas pela equipe, mostrando todo o processo da metodologia Scrum até a utilização do quadro Kanban.
+
 
 ![BPMN Metodologia](./assets/BPMN_Metodologia.png)
 
@@ -19,7 +35,8 @@ A imagem 1 mostra o BPMN da parte de Metodologia:
 </div>
 
 ## 2. BPMN Cadastro
-A imagem 2 mostra o BPMN da parte de cadastro da aplicação:
+
+O fluxograma abaixo representa a modelagem das etapas alcançadas pelo usuário ao realizar o processo de cadastro na plataforma de compras Amazon. 
 
 ![BPMN Cadastro](./assets/BPMN_cadastro.png)
 
@@ -28,7 +45,8 @@ A imagem 2 mostra o BPMN da parte de cadastro da aplicação:
 </div>
 
 ## 3. BPMN visualização de produtos, compra e pagamento
-A imagem 3 mostra o BPMN da parte de interação com o produto:
+
+O fluxograma abaixo representa a modelagem das etapas atingidas pelo usuário ao realizar o processo de compras na Amazon, mostrando o processo de visualização de um produto até a realização de seu pagamento.
 
 ![BPMN visualização de produtos, compra e pagamento](./assets/BPMN_buy.png)
 <div style="text-align: center">
@@ -41,9 +59,12 @@ A imagem 3 mostra o BPMN da parte de interação com o produto:
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                               | Autor(es) | Revisor(es) |
-| ------ | ---------- | --------------------------------------- | --------- | ----------- |
-| `1.0`  | 14/09/2023 | Adição da introdução e BPMN de cadastro | Samuel    | Bruno       |
-| `1.1`  | 14/09/2023 | Padronização do documento               | Kauã      | Samuel      |
-| `1.2`  | 14/09/2023 | Adição da metodologia                   | Gabriel   | Arthur      |
-| `2.0`  | 15/09/2023 | Migração para o MkDocs                  | Arthur    | Gabriel     |
+| Versão | Data       | Descrição                                                         | Autor(es) | Revisor(es) |
+| ------ | ---------- | ----------------------------------------------------------------- | --------- | ----------- |
+| `1.0`  | 14/09/2023 | Adição da introdução e BPMN de cadastro                           | Samuel    | Bruno       |
+| `1.1`  | 14/09/2023 | Padronização do documento                                         | Kauã      | Samuel      |
+| `1.2`  | 14/09/2023 | Adição da metodologia                                             | Gabriel   | Arthur      |
+| `2.0`  | 15/09/2023 | Migração para o MkDocs                                            | Arthur    | Gabriel     |
+| `2.1`  | 15/09/2023 | Atualização do diagrama de metodologia e escolhas metodológicas   | Gabriel   | Bruno       |
+| `2.2`  | 15/09/2023 | Adição de escolhas metodológicas                                  | Bruno     | Samuel      |
+| `2.3`  | 15/09/2023 | Adição de descrição de do bpmn                                    | Samuel    | Guilherme    |
