@@ -67,4 +67,4 @@ O fluxograma abaixo representa a modelagem das etapas atingidas pelo usuário ao
 | `2.0`  | 15/09/2023 | Migração para o MkDocs                                            | Arthur    | Gabriel     |
 | `2.1`  | 15/09/2023 | Atualização do diagrama de metodologia e escolhas metodológicas   | Gabriel   | Bruno       |
 | `2.2`  | 15/09/2023 | Adição de escolhas metodológicas                                  | Bruno     | Samuel      |
-| `2.3`  | 15/09/2023 | Adição de descrição de do bpmn                                    | Bruno     | Samuel      |
+| `2.3`  | 15/09/2023 | Adição de descrição de do bpmn                                    | Samuel    |             |
