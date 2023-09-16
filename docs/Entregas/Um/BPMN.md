@@ -25,6 +25,8 @@ Um quadro Kanban consiste em uma tabela organizada por meio de colunas. Cada col
 
 ## 1. BPMN Metodologia
 
+O fluxograma abaixo representa a modelagem das etapas presentes nas metodologias abordadas pela equipe, mostrando todo o processo da metodologia Scrum até a utilização do quadro Kanban.
+
 
 ![BPMN Metodologia](./assets/BPMN_Metodologia.png)
 
@@ -34,6 +36,8 @@ Um quadro Kanban consiste em uma tabela organizada por meio de colunas. Cada col
 
 ## 2. BPMN Cadastro
 
+O fluxograma abaixo representa a modelagem das etapas alcançadas pelo usuário ao realizar o processo de cadastro na plataforma de compras Amazon. 
+
 ![BPMN Cadastro](./assets/BPMN_cadastro.png)
 
 <div style="text-align: center">
@@ -41,6 +45,8 @@ Um quadro Kanban consiste em uma tabela organizada por meio de colunas. Cada col
 </div>
 
 ## 3. BPMN visualização de produtos, compra e pagamento
+
+O fluxograma abaixo representa a modelagem das etapas atingidas pelo usuário ao realizar o processo de compras na Amazon, mostrando o processo de visualização de um produto até a realização de seu pagamento.
 
 ![BPMN visualização de produtos, compra e pagamento](./assets/BPMN_buy.png)
 <div style="text-align: center">
@@ -60,4 +66,5 @@ Um quadro Kanban consiste em uma tabela organizada por meio de colunas. Cada col
 | `1.2`  | 14/09/2023 | Adição da metodologia                                             | Gabriel   | Arthur      |
 | `2.0`  | 15/09/2023 | Migração para o MkDocs                                            | Arthur    | Gabriel     |
 | `2.1`  | 15/09/2023 | Atualização do diagrama de metodologia e escolhas metodológicas   | Gabriel   | Bruno       |
-| `2.2`  | 15/09/2023 | Adição de escolhas metodológicas                                  | Bruno     |             |
+| `2.2`  | 15/09/2023 | Adição de escolhas metodológicas                                  | Bruno     | Samuel      |
+| `2.3`  | 15/09/2023 | Adição de descrição de do bpmn                                    | Bruno     | Samuel      |
