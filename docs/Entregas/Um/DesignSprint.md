@@ -181,7 +181,7 @@ Para mais informações informações acerca de datas e autores, verificar a doc
 ## Ferramentas
 
 
-As ferramentas serão softwares utilizados pela equipe para facilitar o gerenciamento, comunicação e desenvolvimento da documentação necessária para a realização do projeto da disciplina. Projeto esse que o foco será a análise de requisitos do aplicativo Simplenote.
+As ferramentas serão softwares utilizados pela equipe para facilitar o gerenciamento, comunicação e desenvolvimento da documentação necessária para a realização do projeto da disciplina.
 
 Este etapa apresentaremos as ferramentas utilizadas pelo grupo ao longo projeto, escolhidas com base na funcionalidade que cada uma proporciona, bem como a familiaridade dos participantes. A seguir, 
 a tabela 6, apresenta cada ferramenta utilizada, exibindo seus logotipos, descrições do porque foram escolhidas. 

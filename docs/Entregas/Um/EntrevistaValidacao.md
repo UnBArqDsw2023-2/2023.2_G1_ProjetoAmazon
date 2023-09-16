@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Neste artefato, está descrita a tecnica de valiação: "Entrevista". Assim como na fase de mapeamento, foi mantido o termo de consentimento.
+Neste artefato, está descrita a técnica de validação: "Entrevista". Assim como na fase de mapeamento, foi mantido o termo de consentimento.
 
 ## Metodologia
 
@@ -59,7 +59,7 @@ Segue, abaixo, as perguntas realizadas ao entrevistado bem como suas respostas:
          </tr>
          <tr>
             <td>5 - Qual sua percepção da visualização do produto?</td>
-            <td>O destaque de qual é o vendedor do produto é algo que a amazon atualmente não realiza, então isso foi um ponto positivo. Além disso, a remoção de produtos sugeridos ajudou na despoluição da tela.</td>
+            <td>O destaque de qual é o vendedor do produto é algo que a Amazon atualmente não realiza, então isso foi um ponto positivo. Além disso, a remoção de produtos sugeridos ajudou na despoluição da tela.</td>
          </tr>
          <tr>
             <td>6 - O quê você acha da visualização do carrinho de compras?</td>
@@ -88,4 +88,4 @@ Segue, abaixo, as perguntas realizadas ao entrevistado bem como suas respostas:
 
 | Versão | Data       | Descrição                           | Autor(es) | Revisor(es) |
 | ------ | ---------- | ----------------------------------- | --------- | ----------- |
-| `1.0`  | 15/09/2023 | Transcrição da Entrevista realizada | Arthur    |             |
+| `1.0`  | 15/09/2023 | Transcrição da Entrevista realizada | Arthur    | Guilherme   |
