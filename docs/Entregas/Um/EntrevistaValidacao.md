@@ -8,7 +8,6 @@ Neste artefato, está descrita a técnica de validação: "Entrevista". Assim co
 
 Para a realização da entrevista de validação, foi apresentado ao entrevistado o [protótipo de baixa fidelidade](./Prototipo.md), que foi elaborado no Figma, com base nas informações coletadas na entrevista de elicitação.
 
-## Perguntas realizadas
 
 
 ## Dados demográficos do entrevistado
