@@ -8,9 +8,17 @@ A notação BPMN auxilia no entendimento de processos e de atividades de acordo 
 
 ## Metodologia
 
+Após as primeiras reuniões do grupo, entramos em um conssenso em relação as metodologias que serão utilizadas para o desenvolvimento do projeto ao longo da disciplina. Serão abordadas diferentes técnicas provenientes dos métodos _Scrum_ e _Kanban_.
+
+### Scrum
+
+O _Scrum_ é um método ágil iterativo utilizado para gerenciamento de projetos com foco em revisões constantes dos artefatos elaborados e coloboração mútua. Utilizaremos princípios e definições de _Sprints_, que são ciclos de desenvolvimento e revisões. A equipe optou por utilizar uma adaptação do scrum como metodologia de desenvolvimento devido a familiaridade dos integrantes com os ritos e atividades, principalmente com a Planning e Review.
+
+Semanalmente haverá reunião de alinhamento, em cada reunião será realizado o planejamento da próxima sprint e review das atividades realizadas.
+
 
 ## 1. BPMN Metodologia
-A imagem 1 mostra o BPMN da parte de Metodologia:
+
 
 ![BPMN Metodologia](./assets/BPMN_Metodologia.png)
 
@@ -19,7 +27,6 @@ A imagem 1 mostra o BPMN da parte de Metodologia:
 </div>
 
 ## 2. BPMN Cadastro
-A imagem 2 mostra o BPMN da parte de cadastro da aplicação:
 
 ![BPMN Cadastro](./assets/BPMN_cadastro.png)
 
@@ -28,7 +35,6 @@ A imagem 2 mostra o BPMN da parte de cadastro da aplicação:
 </div>
 
 ## 3. BPMN visualização de produtos, compra e pagamento
-A imagem 3 mostra o BPMN da parte de interação com o produto:
 
 ![BPMN visualização de produtos, compra e pagamento](./assets/BPMN_buy.png)
 <div style="text-align: center">
@@ -41,9 +47,10 @@ A imagem 3 mostra o BPMN da parte de interação com o produto:
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                               | Autor(es) | Revisor(es) |
-| ------ | ---------- | --------------------------------------- | --------- | ----------- |
-| `1.0`  | 14/09/2023 | Adição da introdução e BPMN de cadastro | Samuel    | Bruno       |
-| `1.1`  | 14/09/2023 | Padronização do documento               | Kauã      | Samuel      |
-| `1.2`  | 14/09/2023 | Adição da metodologia                   | Gabriel   | Arthur      |
-| `2.0`  | 15/09/2023 | Migração para o MkDocs                  | Arthur    | Gabriel     |
+| Versão | Data       | Descrição                                                         | Autor(es) | Revisor(es) |
+| ------ | ---------- | ----------------------------------------------------------------- | --------- | ----------- |
+| `1.0`  | 14/09/2023 | Adição da introdução e BPMN de cadastro                           | Samuel    | Bruno       |
+| `1.1`  | 14/09/2023 | Padronização do documento                                         | Kauã      | Samuel      |
+| `1.2`  | 14/09/2023 | Adição da metodologia                                             | Gabriel   | Arthur      |
+| `2.0`  | 15/09/2023 | Migração para o MkDocs                                            | Arthur    | Gabriel     |
+| `2.1`  | 15/09/2023 | Atualização do diagrama de metodologia e escolhas metodológicas   | Gabriel   |             |
