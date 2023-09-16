@@ -8,7 +8,7 @@ A notação BPMN auxilia no entendimento de processos e de atividades de acordo 
 
 ## Metodologia
 
-Após as primeiras reuniões do grupo, entramos em um conssenso em relação as metodologias que serão utilizadas para o desenvolvimento do projeto ao longo da disciplina. Serão abordadas diferentes técnicas provenientes dos métodos _Scrum_ e _Kanban_.
+Após as primeiras reuniões do grupo, entramos em um consenso em relação as metodologias que serão utilizadas para o desenvolvimento do projeto ao longo da disciplina. Serão abordadas diferentes técnicas provenientes dos métodos _Scrum_ e _Kanban_.
 
 ### Scrum
 
