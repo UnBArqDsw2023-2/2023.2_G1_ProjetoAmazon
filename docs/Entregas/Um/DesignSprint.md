@@ -2,10 +2,14 @@
 
 ## Introdução
 
-O Design Sprint é uma metodologia ágil em cinco etapas desenvolvida pela Google Ventures para acelerar a inovação e a 
-resolução de problemas em um curto espaço de tempo. As fases tradicionais do Design Sprint incluem:<br><br> 1) Mapear, onde 
-se mapeia o problema;<br> 2) Esboçar, onde se geram ideias;<br> 3) Decidir, na qual se escolhe a ideia mais promissora; 
-<br>4) Prototipar, em que se cria um protótipo de baixa fidelidade; <br> 5) Testar, onde se coletam feedbacks dos usuários. 
+O Design Sprint é uma metodologia ágil em cinco etapas desenvolvida pela Google Ventures para acelerar a inovação e a resolução de problemas em um curto espaço de tempo. As fases tradicionais do Design Sprint incluem: 
+
+1. Mapear, onde se mapeia o problema;
+2. Esboçar, onde se geram ideias;
+3. Decidir, na qual se escolhe a ideia mais promissora;
+4. Prototipar, em que se cria um protótipo de baixa fidelidade;
+5. Testar, onde se coletam feedbacks dos usuários. 
+  
 Essa metodologia foi pensada para ser realizada em 5 dias.
 
 ## Metodologia
@@ -26,16 +30,9 @@ Devido ao ambiente acadêmico, a disponibilidade da equipe e a experiência dos 
 
 ## Adaptação
 
-A adaptação do Design Sprint para os prazos universitários implica em uma modificação cuidadosa
-das técnicas originais para acomodar as demandas acadêmicas e os cronogramas de entregas. Em vez 
-de um sprint intensivo de cinco dias, essa versão adaptada pode estender-se ao longo de uma 
-semana, permitindo uma abordagem mais gradual e flexível. <br>
-<br> Isso possibilita aos estudantes um tempo mais adequado para aprofundar a compreensão do 
-conteúdo, gerar ideias inovadoras, selecionar estratégias acadêmicas eficazes, criar protótipos 
-detalhados de projetos e realizar testes de conceitos. Ao estender os prazos, essa adaptação 
-busca harmonizar a metodologia do Design Sprint com as exigências acadêmicas, proporcionando aos 
-alunos a oportunidade de aplicar essas técnicas de resolução de problemas de forma mais eficaz ao 
-longo do semestre universitário, promovendo um aprendizado mais profundo e colaborativo.
+A adaptação do Design Sprint para os prazos universitários implica em uma modificação cuidadosa das técnicas originais para acomodar as demandas acadêmicas e os cronogramas de entregas. Em vez de um sprint intensivo de cinco dias, essa versão adaptada pode estender-se ao longo de uma semana, permitindo uma abordagem mais gradual e flexível.
+
+Isso possibilita aos estudantes um tempo mais adequado para aprofundar a compreensão do conteúdo, gerar ideias inovadoras, selecionar estratégias acadêmicas eficazes, criar protótipos detalhados de projetos e realizar testes de conceitos. Ao estender os prazos, essa adaptação busca harmonizar a metodologia do Design Sprint com as exigências acadêmicas, proporcionando aos alunos a oportunidade de aplicar essas técnicas de resolução de problemas de forma mais eficaz ao longo do semestre universitário, promovendo um aprendizado mais profundo e colaborativo.
 Para mais informações informações acerca de datas e autores, verificar a documentação [Cronograma](../../cronograma.md). 
 
 
@@ -64,7 +61,7 @@ Para mais informações informações acerca de datas e autores, verificar a doc
       </tr>
       <tr>
         <td>Técnicas</td>
-        <td><a href="https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Um/5W2H.html">5W2H:</a> Mylena <br><a href="https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Um/RichPicture.html">Rich Picture:</a>  Todos<br> <a href="https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Um/MapaMental.html">Mapa mental:</a> Beatriz<br><a href="https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Um/Brainstorm.html">Brainstorm:</a>  Guilherme, Arthur, Augusto, Samuel<br><a href="https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Um/Entrevista.html">Entrevista:</a>  Kauã<br><a href="https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Um/StoryBoard.html">Storyboard:</a>  Ana, Samuel, Beatriz, Augusto, Arthur </td>
+        <td><a href="./5W2H.html">5W2H:</a> Mylena <br><a href="./RichPicture.html">Rich Picture:</a>  Todos<br> <a href="./MapaMental.html">Mapa mental:</a> Beatriz<br><a href="./Brainstorm.html">Brainstorm:</a>  Guilherme, Arthur, Augusto, Samuel<br><a href="./Entrevista.html">Entrevista:</a>  Kauã<br><a href="./StoryBoard.html">Storyboard:</a>  Ana, Samuel, Beatriz, Augusto, Arthur </td>
       </tr>
     </thead>
   </table>
@@ -94,7 +91,7 @@ Para mais informações informações acerca de datas e autores, verificar a doc
        <tr/>
        <tr>
         <td>Técnicas</td>
-        <td><a href="https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Um/Backlog.html">Backlog:</a> Arthur <br><a href="https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Um/Lexicos.html">Léxicos:</a> Kauã e Beatriz<br><a href="https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Um/BPMN.html">BPMN:</a>  Bruno, Gabriel e Samuel</td>
+        <td><a href="./Backlog.html">Backlog:</a> Arthur <br><a href="./Lexicos.html">Léxicos:</a> Kauã e Beatriz<br><a href="./BPMN.html">BPMN:</a>  Bruno, Gabriel e Samuel</td>
       <tr/>       
   </table>
   <p>Tabela 2: Dados da fase Esboçar (Fonte: Autores, 2023).</p>
@@ -121,7 +118,7 @@ Para mais informações informações acerca de datas e autores, verificar a doc
       <tr/>
        <tr>
         <td>Técnicas</td>
-        <td><a href="https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Um/TLS.html">Three Level Scale:</a> Kauã</td>
+        <td><a href="./TLS.html">Three Level Scale:</a> Kauã</td>
       <tr/>       
   </table>
   <p>Tabela 3: Dados da fase Decidir (Fonte: Autores, 2023).</p>
@@ -148,7 +145,7 @@ Para mais informações informações acerca de datas e autores, verificar a doc
       <tr/>
        <tr>
         <td>Técnicas</td>
-        <td><a href="https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Um/Prototipo.html">Protótipo de baixa fidelidade:</a> Ana Beatriz e Mylena</td>
+        <td><a href="./Prototipo.html">Protótipo de baixa fidelidade:</a> Ana Beatriz e Mylena</td>
       <tr/>       
   </table>
   <p>Tabela 4: Dados da fase Prototipar (Fonte: Autores, 2023).</p>
@@ -168,14 +165,14 @@ Para mais informações informações acerca de datas e autores, verificar a doc
       </tr>
       <tr>
         <td>Ferramentas Utilizadas</td>
-        <td>-</td>
+        <td>Entrevista</td>
        <tr>
         <td>Objetivo</td>
         <td>Validar as fases anteriores</td>
       <tr/>
        <tr>
         <td>Técnicas</td>
-        <td><a href="">:</a> Arthur</td>
+        <td><a href="./EntrevistaValidacao.html">Entrevista de validação:</a> Arthur</td>
       <tr/>       
   </table>
   <p>Tabela 5: Dados da fase Testar (Fonte: Autores, 2023).</p>
@@ -192,15 +189,15 @@ a tabela 6, apresenta cada ferramenta utilizada, exibindo seus logotipos, descri
 
 ### Ferramentas utilizadas
 
-|                               Logo                               |                     Ferramenta                      | Finalidade                                                                         |
-| :--------------------------------------------------------------: | :-------------------------------------------------: | ---------------------------------------------------------------------------------- |
-|  <img src="assets/ferramentas/github_logo.png" width="42px" /> <img src="assets/ferramentas/kanban.png" width="35px" />   |  [Github](https://github.com) e             | Utilizado como repositório dos documentos produzidos e como quadro Kanban (GitHub Projects). |
-|  <img src="assets/ferramentas/vscode_logo.png" width="50px" />  | [Visual Studio Code](https://code.visualstudio.com) | Utilizado para manipulação dos arquivos do projeto.                                |
-|  <img src="assets/ferramentas/figma_logo.png" width="50px" />   |           [Figma](https://www.figma.com)            | Ferramenta para prototipagem.                                                       |
-| <img src="assets/ferramentas/whatsapp_logo.png" width="50px" /> |        [WhatsApp](https://www.whatsapp.com/)        | Meio de comunicação escolhido pelo grupo.                                           |
-| <img src="assets/ferramentas/discord_icon.png" width="50px" />  |           [Discord](https://discord.com/)           | Ambiente usado para realizar as reuniões e dailys.                                       |
-|  <img src="assets/ferramentas/canva_logo.png" width="50px" />   |           [Canva](https://www.canva.com)            | Ferramenta para Elaboração do Story Board.                                          |
-|  <img src="assets/ferramentas/bizagi_logo.png" width="38px" /> <img src="assets/ferramentas/lucidchart.png" width="38px" />  |            [Bizagi](https://bizagi.com) e   [Lucidchart](https://lucidchart.com)           | Utilizado para elaboração de diagramas.                                            |
+|                                                            Logo                                                            |                                                                  Ferramenta                                                                  | Finalidade                                                                                   |
+| :------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------: | -------------------------------------------------------------------------------------------- |
+|   <img src="assets/ferramentas/github_logo.png" width="42px" /> <img src="assets/ferramentas/kanban.png" width="35px" />   | [Github](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon) e [Github Projects](https://github.com/orgs/UnBArqDsw2023-2/projects/2) | Utilizado como repositório dos documentos produzidos e como quadro Kanban (GitHub Projects). |
+|                               <img src="assets/ferramentas/vscode_logo.png" width="50px" />                                |                                             [Visual Studio Code](https://code.visualstudio.com)                                              | Utilizado para manipulação dos arquivos do projeto.                                          |
+|                                <img src="assets/ferramentas/figma_logo.png" width="50px" />                                |                                                        [Figma](https://www.figma.com)                                                        | Ferramenta para prototipagem.                                                                |
+|                              <img src="assets/ferramentas/whatsapp_logo.png" width="50px" />                               |                                                    [WhatsApp](https://www.whatsapp.com/)                                                     | Meio de comunicação escolhido pelo grupo.                                                    |
+|                               <img src="assets/ferramentas/discord_icon.png" width="50px" />                               |                                                       [Discord](https://discord.com/)                                                        | Ambiente usado para realizar as reuniões e dailys.                                           |
+|                                <img src="assets/ferramentas/canva_logo.png" width="50px" />                                |                                                        [Canva](https://www.canva.com)                                                        | Ferramenta para Elaboração do Story Board.                                                   |
+| <img src="assets/ferramentas/bizagi_logo.png" width="38px" /> <img src="assets/ferramentas/lucidchart.png" width="38px" /> |                                    [Bizagi](https://bizagi.com) e   [Lucidchart](https://lucidchart.com)                                     | Utilizado para elaboração de diagramas.                                                      |
 
 <div>
 <p>Tabela 6: Ferramentas utilizadas no projeto (Fonte: autor, 2023). </p>
@@ -225,3 +222,5 @@ a tabela 6, apresenta cada ferramenta utilizada, exibindo seus logotipos, descri
 | `1.0`  | 03/09/2023 | Criação do documento        | Mylena      | Beatriz, Guilherme |
 | `2.0`  | 15/09/2023 | Migra documento para MkDocs | Arthur      | Gabriel            |
 | `2.1`  | 15/09/2023 | Alterações finais           | Ana Beatriz | Mylena             |
+| `2.2`  | 15/09/2023 | Adiciona fase de testes     | Arthur      | Ana Beatriz        |
+
