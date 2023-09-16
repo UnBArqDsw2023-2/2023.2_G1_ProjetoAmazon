@@ -68,6 +68,7 @@ nav:
   - Getting Started:
       - Contribuindo com o projeto: ./CONTRIBUTING.md
       - Código de Conduta: ./CODE_OF_CONDUCT.md
+  - Cronograma: cronograma.md
   - Entregas:
       - Entregas/index.md
       - Apresentação sobre RUP:
@@ -88,6 +89,7 @@ nav:
                       - Artefato Entrevista produzido: Entregas/Um/Entrevista.md
                       - Artefato Storyboard produzido: Entregas/Um/StoryBoard.md
                       - Artefato Plano de Risco produzido: Entregas/Um/PlanoDeRisco.md
+                      - Artefato de Entrevista de Validação produzido: Entregas/Um/EntrevistaValidacao.md
                       - Artefato Léxicos produzido: Entregas/Um/Lexicos.md
                       - Artefato Backlog produzido: Entregas/Um/Backlog.md
                       - Artefato TLS produzido: Entregas/Um/TLS.md

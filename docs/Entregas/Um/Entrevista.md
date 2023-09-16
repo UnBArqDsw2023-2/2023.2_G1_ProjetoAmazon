@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Neste artefato, está descrita a tecnica de elicitação: "Entrevista". Essa tecnica é a mais conhecida e envolve discussões individuais com os stakeholders, ela é muito poderosa por ser um método verbal fácil e efetivo de se obter informações. Como Entrevistador, deve-se estar sempre aberto a novas ideias, além de estimular o entrevistado a participar de um diálogo com questões que atingem o ponto em comum desejado.
+Neste artefato, está descrita a técnica de elicitação: "Entrevista". Essa técnica é a mais conhecida e envolve discussões individuais com os stakeholders, ela é muito poderosa por ser um método verbal fácil e efetivo de se obter informações. Como Entrevistador, deve-se estar sempre aberto a novas ideias, além de estimular o entrevistado a participar de um diálogo com questões que atingem o ponto em comum desejado.
 Para a realização da entrevista, foi apresentado para os entrevistados o [termo de consentimento](https://docs.google.com/document/d/1UvqmlaHauq9a1J6Ixsz-MRxIhAP51uipcxEwMAeUxjA/edit?usp=sharing), o qual afirma que os entrevistados autorizam a utilização de sua voz e imagem para a realização do processo.
 
 ## Metodologia
@@ -64,9 +64,9 @@ Para uma entrevista, é necessário entender o perfil dos entrevistados. A tabel
 
 <center>
 
-| Nome          | Idade | Gênero    | Escolaridade             | Ocupação  | Estado civil |
-| ------------- | ----- | --------- | ------------------------ | --------- | ------------ |
-| Vinicíus Mota | 20    | Masculino | Ensino Superior Completo | Estudante | Solteiro     |
+| Idade | Gênero    | Escolaridade             | Ocupação  | Estado civil |
+| ----- | --------- | ------------------------ | --------- | ------------ |
+| 20    | Masculino | Ensino Superior Completo | Estudante | Solteiro     |
 
 </center>
 

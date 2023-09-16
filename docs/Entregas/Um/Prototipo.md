@@ -63,9 +63,9 @@ O protótipo de baixa fidelidade completo pode ser acessado [Clicando aqui.](htt
 </details>
 
 <details>
-  <summary>Vizualização de produto</summary>
-  <img src="assets/prototipo/vizualizar_produtos.png" width="150px" />
-  <p>Imagem 6: Tela de vizualização de produto. Fonte: Autoras, 2023</p> 
+  <summary>Visualização de produto</summary>
+  <img src="assets/prototipo/visualizar_produtos.png" width="150px" />
+  <p>Imagem 6: Tela de visualização de produto. Fonte: Autoras, 2023</p> 
 </details>
 
 <details>
