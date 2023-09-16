@@ -16,6 +16,14 @@ dos artefactos necessários para a disciplina. Assim, este documento salienta as
 O método ágil Scrumban é uma estrutura Agile que combina o Scrum e o Kanban, unificando a natureza formal do primeiro e 
 a capacidade de melhoria de processos do segundo, aprimorando assim a equipe como um todo.
 
+### Motivação da escolha
+
+Devido ao ambiente acadêmico, a disponibilidade da equipe e a experiência dos membros com o scrum, decidimos realizar este método. Além disso, o Scrumban possui algumas vantagens:
+
+- **Consistência de formatação:** Ponto principal no qual a equipe escolheu o método, o mesmo é uma ótima transição entre os métodos scrum e kanban, oferecendo fluxos semelhantes no fluxo de trabalho.
+- **Personalização simples:** Modelo personalizável a fim de evitar efeito gargalo.
+- **Recursos integrados:** Quadro de tarefas, automação, subtarefas e campos personalizados.
+
 ## Adaptação
 
 A adaptação do Design Sprint para os prazos universitários implica em uma modificação cuidadosa
