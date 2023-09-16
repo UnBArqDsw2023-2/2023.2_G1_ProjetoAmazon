@@ -19,7 +19,7 @@ A princípio, para melhor organização, foi criado um cronograma geral que deve
 | Entrega 3 - Arq&Reutilização | Arquitetura de Software, Reutilização de Software e relato sobre as participações/contribuições |       01/12/2023       |
 
 
-**Tabela 1: Cronograma geral,(Fonte: autor, 2023).**
+**Tabela 1: Cronograma geral (Fonte: autor, 2023).**
 
 </center>
 
@@ -112,7 +112,7 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
       <td>Léxicos</td>
       <td>13/09/2023</td>
       <td>14/09/2023</td>
-      <td>Kauã</td>
+      <td>Beatriz, Kauã</td>
       <td>Guilherme</td>
     </tr>
     <tr>
@@ -147,7 +147,7 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
     </tr>
   </table>
 
-**Tabela 2: Cronograma do Ponto de Controle 1,(Fonte: autor, 2023).**
+**Tabela 2: Cronograma do Ponto de Controle 1 (Fonte: autor, 2023).**
 
 </center>
 
@@ -167,7 +167,7 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
 |         Diagrama de Estados         |       07/10/2023       |     08/10/2023      |     -     |      -      |
 | Diagrama de Comunicação/Colaboração |       07/10/2023       |     08/10/2023      |     -     |      -      |
 
-**Tabela 3: Cronograma do Ponto de Controle 2,(Fonte: autor, 2023).**
+**Tabela 3: Cronograma do Ponto de Controle 2 (Fonte: autor, 2023).**
 
 </center>
 
@@ -175,17 +175,17 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
 
 <center>
 
-|        Atividade        | Data Limite de Entrega | Data Limite Revisão | Autor(es) | Revisor(es) |
-| --------------------- | -------------------- | ----------------- | ------- | --------- |
-|       DAS Lógica        |       29/11/2023       |     30/11/2023      |     -     |      -      |
-|      DAS Processo       |       29/11/2023       |     30/11/2023      |     -     |      -      |
-|    DAS Implementação    |       29/11/2023       |     30/11/2023      |     -     |      -      |
-|     DAS Implantação     |       29/11/2023       |     30/11/2023      |     -     |      -      |
-|        DAS Dados        |       29/11/2023       |     30/11/2023      |     -     |      -      |
-| Exemplo de Reutilização |       29/11/2023       |     30/11/2023      |     -     |      -      |
-|   Padrões de Projeto    |       29/11/2023       |     30/11/2023      |     -     |      -      |
+| Atividade               | Data Limite de Entrega | Data Limite Revisão | Autor(es) | Revisor(es) |
+| ----------------------- | ---------------------- | ------------------- | --------- | ----------- |
+| DAS Lógica              | 29/11/2023             | 30/11/2023          | -         | -           |
+| DAS Processo            | 29/11/2023             | 30/11/2023          | -         | -           |
+| DAS Implementação       | 29/11/2023             | 30/11/2023          | -         | -           |
+| DAS Implantação         | 29/11/2023             | 30/11/2023          | -         | -           |
+| DAS Dados               | 29/11/2023             | 30/11/2023          | -         | -           |
+| Exemplo de Reutilização | 29/11/2023             | 30/11/2023          | -         | -           |
+| Padrões de Projeto      | 29/11/2023             | 30/11/2023          | -         | -           |
 
-**Tabela 4: Cronograma do Ponto de Controle 3,(Fonte: autor, 2023).**
+**Tabela 4: Cronograma do Ponto de Controle 3 (Fonte: autor, 2023).**
 
 </center>
 
@@ -212,7 +212,7 @@ Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 
 > Legenda: (N/A) — Não Aplica
 
-**Tabela 5: Encarregados de atividades extras(Fonte: autor, 2023).**
+**Tabela 5: Encarregados de atividades extras (Fonte: autor, 2023).**
 
 </center>
 
@@ -228,5 +228,6 @@ Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 | `1.2`  | 03/09/2023 | Adição das datas nos pontos de controle | Ana Beatriz | Samuel      |
 | `1.3`  | 06/09/2023 | Ajustes                                 | Ana Beatriz | Mylena      |
 | `1.4`  | 14/09/2023 | Atualização Cronograma                  | Arthur      | Mylena      |
+| `1.5`  | 15/09/2023 | Atualização Cronograma                  | Arthur      | Beatriz     |
 
 </center>

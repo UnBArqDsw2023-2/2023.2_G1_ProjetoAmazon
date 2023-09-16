@@ -1,5 +1,5 @@
 # Documento de entrega
-## Participaçõess - Base
+## Participações - Base
 
 Este documento de entrega possui as participações e contribuiçôes dos membros da equipe relacionado a entrega Base. Além deste documento, pode-se encontrar as contribuições de cada membro pelas [issues do projeto](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/issues) no GitHub e também pela tabela de histórico presente em cada documento.
 Essa entrega incorpora Projeto Não Orientado a Abordagens Específicas e Processos/Metodologias/Abordagens

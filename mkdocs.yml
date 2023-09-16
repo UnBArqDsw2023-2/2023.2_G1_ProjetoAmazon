@@ -68,6 +68,7 @@ nav:
   - Getting Started:
       - Contribuindo com o projeto: ./CONTRIBUTING.md
       - Código de Conduta: ./CODE_OF_CONDUCT.md
+  - Cronograma: cronograma.md
   - Entregas:
       - Entregas/index.md
       - Entrega 1:
