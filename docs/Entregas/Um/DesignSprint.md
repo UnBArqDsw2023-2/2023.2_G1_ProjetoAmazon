@@ -15,7 +15,7 @@ Essa metodologia foi pensada para ser realizada em 5 dias.
 ## Metodologia
 
 Para a realização de nossas atividades, utilizamos o método ágil Scrumban, assim, estimulando a construção sistemática 
-dos artefactos necessários para a disciplina. Assim, este documento salienta as metodologias e práticas do grupo. 
+dos artefatos necessários para a disciplina. Assim, este documento salienta as metodologias e práticas do grupo. 
 
 O método ágil Scrumban é uma estrutura Agile que combina o Scrum e o Kanban, unificando a natureza formal do primeiro e 
 a capacidade de melhoria de processos do segundo, aprimorando assim a equipe como um todo.
