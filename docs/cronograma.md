@@ -32,7 +32,7 @@ Para o melhor detalhamento das atividades, foi criado um cronograma para cada po
  - Tabela 5 - [Atividades extras](#atividades-extras)
 
 ## Cronograma Ponto de Controle 1 - 15/09/2023 
-Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado para o projeto Amazon, conferir o artefato [Design Sprint](docs/Base/2.0-Design-Sprint.md).
+Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado para o projeto Amazon, conferir o artefato [Design Sprint](./Entregas/Um/DesignSprint.md).
 
 <center>
 
@@ -203,9 +203,9 @@ Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 | [Google Docs RUP](https://docs.google.com/document/d/1JKrZK77hXOA8olZkNdqgG7gZljvmrLTrt8K7ScQ5tcs/edit) | Síntese textual das pesquisa realizada pelos integrantes                      | Ana, Kauã, Mylena                                                              | Arthur                  |
 | [Slides RUP](https://docs.google.com/presentation/d/1bJQFMV55_rknSizGZXFFOeizraJ5JTLCCiHJI_PCbts/edit#) | Slides para apresentação do RUP em sala de aula                               | Ana, Arthur, Augusto, Beatriz, Bruno, Gabriel, Guilherme, Kauã, Mylena, Samuel | Arthur, Gabriel, Mylena |
 | Apresentação RUP                                                                                        | Apresentadores do trabalho                                                    | Arthur, Bruno, Gabriel, Samuel                                                 | N/A                     |
-| [Transcrição do Google Docs para MD](./SinteseDoConteudo.md)                                            | Transcrever o Google Docs para MarkDown e adicionar no GitPages               | Augusto                                                                        | Arthur                  |
-| [Atas de reuniões](../reunioes.md)                                                                      | Anotar os temas, participantes e decisões da reunião                          | Guilherme                                                                      | Arthur                  |
-| [Cronograma](../cronograma.md)                                                                          | Elaboração do cronograma das entregas das atividades da disciplina            | Ana, Samuel                                                                    | Mylena                  |
+| [Transcrição do Google Docs para MD](./Entregas/Um/SinteseDoConteudo.md)                                | Transcrever o Google Docs para MarkDown e adicionar no GitPages               | Augusto                                                                        | Arthur                  |
+| [Atas de reuniões](./reunioes.md)                                                                       | Anotar os temas, participantes e decisões da reunião                          | Guilherme                                                                      | Arthur                  |
+| [Cronograma](./cronograma.md)                                                                           | Elaboração do cronograma das entregas das atividades da disciplina            | Ana, Samuel                                                                    | Mylena                  |
 | Milestones                                                                                              | Adição das datas de entregas da diciplina como Milestones do projeto          | Mylena                                                                         | N/A                     |
 | Guias de Contribuição                                                                                   | CODE_OF_CONDUCT e CONTRIBUITING                                               | Arthur, Guilerme                                                               | Arthur                  |
 | Documento de Participaões                                                                               | Estrutura do documento que conta a avaliação e as atividades de cada membro   | Arthur, Mylena                                                                 | Arthur                  |

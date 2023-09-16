@@ -7,19 +7,19 @@ Essa entrega incorpora Projeto Não Orientado a Abordagens Específicas e Proces
 ## Módulo Projeto Não Orientado a Abordagens Específicas
                                                                                                                                                                                                              
 
-| Artefato                                    | Autores                                                                                                        | Revisores          |
-| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------ |
-| [ 5W2H              ](./5W2H.md)            | Mylena                                                                                                         | Arthur             |
-| [ Brainstorm        ](./Brainstorm.md)      | Arthur (P), Augusto (P), Guilherme, Samuel (P)                                                                 | Arthur             |
-| [ Design Sprint     ](./DesignSprint.md)    | Mylena                                                                                                         | Beatriz, Guilherme |
-| [ Entrevista        ](./Entrevista.md)      | Kauã                                                                                                           | Arthur, Mylena     |
-| [ Léxicos           ](./Lexicos.md)         | Beatriz, Kauã                                                                                                  | Guilherme          |
-| [ Mapa Mental       ](./MapaMental.md)      | Beatriz                                                                                                        | Ana, Arthur        |
-| [ Plano de risco    ](./PlanoDeRisco.md)    | Mylena                                                                                                         | Arthur             |
-| [ Rich Picture      ](./RichPicture.md)     | Ana (P), Arthur, Augusto (P), Beatriz (P), Bruno (P), Gabriel (P), Guilherme, Kauã (P), Mylena (P), Samuel (P) | Arthur, Kauã       |
-| [ Three Level Scale ](./ThreeLevelScale.md) | Kauã                                                                                                           | Ana, Mylena        |
-| [ Backlog           ](./Backlog.md)         | Arthur, Kauã                                                                                                   | Arthur, Mylena     |
-| [ Story Board       ](./StoryBoard.md)      | Ana, Beatriz (P), Arthur (P), Augusto (P), Gabriel (P), Samuel (P)                                             | Arthur             |
+| Artefato                                 | Autores                                                                                                        | Revisores          |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------ |
+| [ 5W2H              ](./5W2H.md)         | Mylena                                                                                                         | Arthur             |
+| [ Brainstorm        ](./Brainstorm.md)   | Arthur (P), Augusto (P), Guilherme, Samuel (P)                                                                 | Arthur             |
+| [ Design Sprint     ](./DesignSprint.md) | Mylena                                                                                                         | Beatriz, Guilherme |
+| [ Entrevista        ](./Entrevista.md)   | Kauã                                                                                                           | Arthur, Mylena     |
+| [ Léxicos           ](./Lexicos.md)      | Beatriz, Kauã                                                                                                  | Guilherme          |
+| [ Mapa Mental       ](./MapaMental.md)   | Beatriz                                                                                                        | Ana, Arthur        |
+| [ Plano de risco    ](./PlanoDeRisco.md) | Mylena                                                                                                         | Arthur             |
+| [ Rich Picture      ](./RichPicture.md)  | Ana (P), Arthur, Augusto (P), Beatriz (P), Bruno (P), Gabriel (P), Guilherme, Kauã (P), Mylena (P), Samuel (P) | Arthur, Kauã       |
+| [ Three Level Scale ](./TLS.md)          | Kauã                                                                                                           | Ana, Mylena        |
+| [ Backlog           ](./Backlog.md)      | Arthur, Kauã                                                                                                   | Arthur, Mylena     |
+| [ Story Board       ](./StoryBoard.md)   | Ana, Beatriz (P), Arthur (P), Augusto (P), Gabriel (P), Samuel (P)                                             | Arthur             |
 
 
 > Legenda: (P) — Participante, não contribuiu diretamente para o documento mas contribuiu para a atividade.
@@ -50,8 +50,8 @@ Essa entrega incorpora Projeto Não Orientado a Abordagens Específicas e Proces
 | [Slides RUP](https://docs.google.com/presentation/d/1bJQFMV55_rknSizGZXFFOeizraJ5JTLCCiHJI_PCbts/edit#) | Slides para apresentação do RUP em sala de aula                               | Ana, Arthur, Augusto, Beatriz, Bruno, Gabriel, Guilherme, Kauã, Mylena, Samuel | Arthur, Gabriel, Mylena |
 | Apresentação RUP                                                                                        | Apresentadores do trabalho                                                    | Arthur, Gabriel, Samuel                                                        | N/A                     |
 | [Transcrição do Google Docs para MD](./SinteseDoConteudo.md)                                            | Transcrever o Google Docs para MarkDown e adicionar no GitPages               | Augusto                                                                        | Arthur                  |
-| [Atas de reuniões](../reunioes.md)                                                                      | Anotar os temas, participantes e decisões da reunião                          | Guilherme                                                                      | Arthur                  |
-| [Cronograma](../cronograma.md)                                                                          | Elaboração do cronograma das entregas das atividades da disciplina            | Ana, Samuel                                                                    | Mylena                  |
+| [Atas de reuniões](../../reunioes.md)                                                                   | Anotar os temas, participantes e decisões da reunião                          | Guilherme                                                                      | Arthur                  |
+| [Cronograma](../../cronograma.md)                                                                       | Elaboração do cronograma das entregas das atividades da disciplina            | Ana, Samuel                                                                    | Mylena                  |
 | Milestones                                                                                              | Adição das datas de entregas da diciplina como Milestones do projeto          | Mylena                                                                         | N/A                     |
 | Guias de Contribuição                                                                                   | CODE_OF_CONDUCT e CONTRIBUITING                                               | Arthur, Guilerme                                                               | Arthur                  |
 | Documento de Participaões                                                                               | Estrutura do documento que conta a avaliação e as atividades de cada membro   | Arthur, Mylena                                                                 | Arthur                  |
