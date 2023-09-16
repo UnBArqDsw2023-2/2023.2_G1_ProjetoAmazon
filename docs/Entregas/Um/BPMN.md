@@ -16,6 +16,12 @@ O _Scrum_ é um método ágil iterativo utilizado para gerenciamento de projetos
 
 Semanalmente haverá reunião de alinhamento, em cada reunião será realizado o planejamento da próxima sprint e review das atividades realizadas.
 
+### Kanban
+
+O Kanban é uma metodologia ágil que tem o foco em priorização da produtividade e a organização das entregas do projeto. A equipe optou por utilizar o quadro Kanban como ferramenta de gerenciamento por auxiliar os integrantes em uma melhor visualização de todo o trabalho no decorrer da Sprint, além de maximizar a eficiência da equipe.
+
+Um quadro Kanban consiste em uma tabela organizada por meio de colunas. Cada coluna representa uma etapa onde se encontra alguma das tarefas realizadas, organizando o quadro em tarefas presentes no Backlog, tarefas em progresso, em revisão e tarefas prontas.
+
 
 ## 1. BPMN Metodologia
 
@@ -53,4 +59,5 @@ Semanalmente haverá reunião de alinhamento, em cada reunião será realizado o
 | `1.1`  | 14/09/2023 | Padronização do documento                                         | Kauã      | Samuel      |
 | `1.2`  | 14/09/2023 | Adição da metodologia                                             | Gabriel   | Arthur      |
 | `2.0`  | 15/09/2023 | Migração para o MkDocs                                            | Arthur    | Gabriel     |
-| `2.1`  | 15/09/2023 | Atualização do diagrama de metodologia e escolhas metodológicas   | Gabriel   |             |
+| `2.1`  | 15/09/2023 | Atualização do diagrama de metodologia e escolhas metodológicas   | Gabriel   | Bruno       |
+| `2.2`  | 15/09/2023 | Adição de escolhas metodológicas                                  | Bruno     |             |
