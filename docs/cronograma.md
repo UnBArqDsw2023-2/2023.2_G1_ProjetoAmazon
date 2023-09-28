@@ -165,7 +165,7 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
 |        Diagrama de Sequência        |       07/10/2023       |     08/10/2023      |    Arthur e Augusto     |      -      |
 |       Diagrama de Atividades        |       07/10/2023       |     08/10/2023      |    Bruno e Gabriel       |      -      |
 |         Diagrama de Estados         |       07/10/2023       |     08/10/2023      |    Ana, Kauã e Mylena |      -      |
-| Diagrama de Comunicação/Colaboração |       07/10/2023       |     08/10/2023      |    Beatriz,Guilherme e Samuel     |      -      |
+| Diagrama de Comunicação/Colaboração |       07/10/2023       |     08/10/2023      |    Beatriz, Guilherme e Samuel     |      -      |
 
 **Tabela 3: Cronograma do Ponto de Controle 2 (Fonte: autor, 2023).**
 
