@@ -158,14 +158,14 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
 
 |              Atividade              | Data Limite de Entrega | Data Limite Revisão | Autor(es) | Revisor(es) |
 | :---------------------------------: | :--------------------: | :-----------------: | :-------: | :---------: |
-|         Diagrama de Classes         |       02/10/2023       |     03/10/2023      |     -     |      -      |
-|         Diagrama de Pacotes         |       02/10/2023       |     03/10/2023      |     -     |      -      |
-|       Diagrama de Componentes       |       02/10/2023       |     03/10/2023      |     -     |      -      |
-|       Diagrama de Implantação       |       02/10/2023       |     03/10/2023      |     -     |      -      |
-|        Diagrama de Sequência        |       07/10/2023       |     08/10/2023      |     -     |      -      |
-|       Diagrama de Atividades        |       07/10/2023       |     08/10/2023      |     -     |      -      |
-|         Diagrama de Estados         |       07/10/2023       |     08/10/2023      |     -     |      -      |
-| Diagrama de Comunicação/Colaboração |       07/10/2023       |     08/10/2023      |     -     |      -      |
+|         Diagrama de Classes         |       02/10/2023       |     03/10/2023      |    Ana e Beatriz     |      -      |
+|         Diagrama de Pacotes         |       02/10/2023       |     03/10/2023      |    Kauã e Mylena     |      -      |
+|       Diagrama de Componentes       |       02/10/2023       |     03/10/2023      |    Arthur, Guilherme e Gabriel     |      -     |
+|       Diagrama de Implantação       |       02/10/2023       |     03/10/2023      |    Augusto,Bruno e Samuel    |      -      |
+|        Diagrama de Sequência        |       07/10/2023       |     08/10/2023      |    Arthur e Augusto     |      -      |
+|       Diagrama de Atividades        |       07/10/2023       |     08/10/2023      |    Bruno e Gabriel       |      -      |
+|         Diagrama de Estados         |       07/10/2023       |     08/10/2023      |    Ana, Kauã e Mylena |      -      |
+| Diagrama de Comunicação/Colaboração |       07/10/2023       |     08/10/2023      |    Beatriz,Guilherme e Samuel     |      -      |
 
 **Tabela 3: Cronograma do Ponto de Controle 2 (Fonte: autor, 2023).**
 
