@@ -229,5 +229,6 @@ Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 | `1.3`  | 06/09/2023 | Ajustes                                 | Ana Beatriz | Mylena      |
 | `1.4`  | 14/09/2023 | Atualização Cronograma                  | Arthur      | Mylena      |
 | `1.5`  | 15/09/2023 | Atualização Cronograma                  | Arthur      | Beatriz     |
+| `1.6`  | 27/09/2023 | Modificações Cronograma Entrega 2       | Ana Beatriz e Kauã   | Arthur     |
 
 </center>
