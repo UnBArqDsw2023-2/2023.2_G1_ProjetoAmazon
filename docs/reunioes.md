@@ -93,6 +93,36 @@
 - Decisão sobre protótipo de alta fidelidade (não precisa, site da Amazon pode ser considerado um).
 - Remoção do diagrama de causa-efeito da entrega 1.
 
+## 27/09/2023 - 21:30
+
+### Participantes
+
+- Ana Beatriz
+- Augusto
+- Beatriz
+- Bruno
+- Gabriel
+- Guilherme
+- Kauã
+- Mylena
+- Samuel
+
+### Tópicos
+
+- Divisão de tarefas para segunda entrega.
+  - Classe: Ana e Beatriz.
+  - Pacotes: Kauã e Mylena.
+  - Componentes: Guilherme, Arthur e Gabriel.
+  - Implantação: Augusto, Bruno e Samuel.
+  - Sequência: Arthur e Augusto.
+  - Atividades: Bruno e Gabriel.
+  - Estados: Ana, Kauã e Mylena.
+  - Comunicação/Colaboração: Beatriz, Guilherme e Samuel.
+- Entrega é dividida em duas partes, membros igualmente divididos em tarefas
+  das duas etapas.
+- Criação das issues no repositório.
+- Organização do repositório.
+
 # Histórico de Versão
 
 | Versão | Data       | Descrição      | Autores         | Revisores          |
@@ -100,3 +130,4 @@
 | `1.0`  | 30/08/2023 | Ata da reunião | Guilherme Puida | Arthur Ferreira    |
 | `2.0`  | 06/09/2023 | Ata da reunião | Guilherme Puida | Augusto D. Camargo |
 | `3.0`  | 15/09/2023 | Ata da reunião | Guilherme Puida |                    |
+| `4.0`  | 27/09/2023 | Ata da reunião | Guilherme Puida | Kauã Vinícius      |
