@@ -158,7 +158,7 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
 
 |              Atividade              | Data Limite de Entrega | Data Limite Revisão | Autor(es) | Revisor(es) |
 | :---------------------------------: | :--------------------: | :-----------------: | :-------: | :---------: |
-|         Diagrama de Classes         |       02/10/2023       |     03/10/2023      |    Ana e Beatriz     |      -      |
+|         Diagrama de Classes         |       02/10/2023       |     03/10/2023      |    Ana Beatriz e Beatriz     |      -      |
 |         Diagrama de Pacotes         |       02/10/2023       |     03/10/2023      |    Kauã e Mylena     |      -      |
 |       Diagrama de Componentes       |       02/10/2023       |     03/10/2023      |    Arthur, Guilherme e Gabriel     |      -     |
 |       Diagrama de Implantação       |       02/10/2023       |     03/10/2023      |    Augusto,Bruno e Samuel    |      -      |
