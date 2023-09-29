@@ -41,8 +41,17 @@ As imagens 1 até x revelam os diagramas desenvolvidos durante a confecção des
 Para o primeiro diagrama descrito na imagem 1, nós buscamos representar a aplicação de uma maneira mais simples e rústica, já que o diagrama de classe ainda estava sendo produzido. Nele, temos um nível máximo de granulação de 3. Segue o diagrama:
 
 <center>
-    <img src="Diagrama de pacotes.png"/>
-    <p> Imagem 1: Diagrama de pacotes (Fonte: Autor, 2023).</a></p> 
+    <img src="DiagramaDePacotesV1.png"/>
+    <p> Imagem 1: Diagrama de pacotes, primeira versão(Fonte: Autor, 2023).</a></p> 
+</center>
+
+### Segundo diagrama
+
+Para o segundo diagrama descrito na imagem 2, buscamos corrigir alguns erros ponderados pela profesora em relação ao ultimo diagrama. Mantemos o nível de granulação 3 e apenas mudamos alguns elementos de posição. Segue o diagrama:
+
+<center>
+    <img src="DiagramaDePacotesV2.png"/>
+    <p> Imagem 2: Diagrama de pacotes, segunda versão (Fonte: Autor, 2023).</a></p> 
 </center>
 
 ### Diagrama final
