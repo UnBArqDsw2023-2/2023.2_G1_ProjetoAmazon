@@ -34,7 +34,7 @@ Para a confecção do diagrama de pacotes, os membros responsáveis decidiram es
 
 ## Diagramas
 
-As imagens 1 até x revelam os diagramas desenvolvidos durante a confecção deste artefato:
+As imagens 1 até 4 revelam os diagramas desenvolvidos durante a confecção deste artefato:
 
 ### Primero diagrama
 
@@ -56,7 +56,7 @@ Para o segundo diagrama descrito na imagem 2, buscamos corrigir alguns erros pon
 
 ### Terceiro diagrama
 
-Para o terceiro diagrama descrito na imagem 3, buscamos refinar ainda mais o diagrama. Aumentamos o nível de granulação para 4 e adicionamos novos pacotes. Segue o diagrama:
+Para o terceiro diagrama descrito na imagem 3, buscamos refinar ainda mais o diagrama. Aumentamos o nível de granulação para 4, adicionamos novos pacotes e adicionamos os relacionamentos. Segue o diagrama:
 
 <center>
     <img src="DiagramaDePacotesV3.png"/>
@@ -65,7 +65,7 @@ Para o terceiro diagrama descrito na imagem 3, buscamos refinar ainda mais o dia
 
 ### Diagrama final
 
-Por fim, a imagem x revela o diagrama de pacotes final. Nele, podemos observar um maior rebuscamento em cada pacote e contendo um nível de granulação de x. Segue o diagrama:
+Por fim, a imagem 4 revela o diagrama de pacotes final. Nele, podemos observar um maior rebuscamento em cada pacote e contendo um nível de granulação de x. Segue o diagrama:
 
 ## Pacotes do diagrama
 
@@ -110,6 +110,10 @@ O pacote de banco de dados se refere diretamente ao [diagrama de classes]() já 
 > [5] QUE, O. O que é um DTO? Stack Overflow em Português. Disponível em: <https://pt.stackoverflow.com/questions/31362/o-que-%C3%A9-um-dto>. Acesso em: 28 set. 2023.
 >
 > [6] .NET - Apresentando o padr�o Repository. Macoratti.net. Disponível em: <https://www.macoratti.net/11/10/net_pr1.htm#:~:text=O%20que%20%C3%A9%20o%20padr%C3%A3o,camada%20de%20neg%C3%B3cios%20(BLL).>. Acesso em: 28 set. 2023.
+>
+> [7] Tutorial sobre diagramas de pacotes UML. Lucidchart. Disponível em: <https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml>. Acesso em: 30 set. 2023.
+
+‌
 
 ## Histórico de versão
 
