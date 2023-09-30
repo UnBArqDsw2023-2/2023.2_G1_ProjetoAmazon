@@ -54,6 +54,15 @@ Para o segundo diagrama descrito na imagem 2, buscamos corrigir alguns erros pon
     <p> Imagem 2: Diagrama de pacotes, segunda versão (Fonte: Autor, 2023).</a></p> 
 </center>
 
+### Terceiro diagrama
+
+Para o terceiro diagrama descrito na imagem 3, buscamos refinar ainda mais o diagrama. Aumentamos o nível de granulação para 4 e adicionamos novos pacotes. Segue o diagrama:
+
+<center>
+    <img src="DiagramaDePacotesV3.png"/>
+    <p> Imagem 3: Diagrama de pacotes, terceira versão (Fonte: Autor, 2023).</a></p> 
+</center>
+
 ### Diagrama final
 
 Por fim, a imagem x revela o diagrama de pacotes final. Nele, podemos observar um maior rebuscamento em cada pacote e contendo um nível de granulação de x. Segue o diagrama:
@@ -78,8 +87,11 @@ Este pacote está relacionado ao intermédio entre o pacote de Banco de dados e 
 - Controller : Subpacote responsável por receber e enviar as requisições. Nele nós faremos a tratativa dos dados necessários. No caso da nossa aplicação, os controllers atuarão em diversas frentes. A primeira é a de pagamento, na qual ela irá gerar as informações necessárias conforme o método de pagamento e receberá a informação quando o pagamento for efetuado. A segunda frente está relacionado ao processo de cadastro e login, na qual o controller recebe as informações do usuário e cria uma nova conta ou loga em uma já existente. A terceira se relaciona com o produto em si, no qual o controller solicita ao banco de dados os produtos com as devidas informações desejadas pelo cliente.
 - DTO : Subpacote responsável por armazenas as [DTOs](https://pt.stackoverflow.com/questions/31362/o-que-%C3%A9-um-dto), as DTOs são responsáveis por agrupar dados ou mapear informações obtidas do banco de dados trabalhando em paralelo as models. Sendo assim, para a nossa aplicação, é importante uma DTO na qual permita a pesquisa do carrinho de um usuário sem que o frontend receba uma requisição contendo email e senha do mesmo,sendo assim, as DTOs também são úteis para a segurança do usuário.
 - Helpers : Subpacote resposável por conter arquivos com funções de auxilio. No contexto da aplicação, teriamos funções nas quais podem realizar a validação da senha do usuário.
+- Middleware: Subpacote de controller no qual realiza a verificação de dados, como de exemplo, se ele receber uma requisição vazia, ele pode abortar a operação com um erro.
 - Models : Subpacote resposável por armazenar grande parte dos objetos que utilizaremos na aplicação, no geral, elas seguirão um mesmo padrão do que está descrito no [diagrama de classes]() sendo assim, teremos models como: Pix, Conta, Pedido, Produto, etc.
+- Operator : Subpacote de controller responsável por fazer a ligação direta com o frontend.
 - Repository : Subpacote responsável por realizar as requisições para o banco de dados, ele separa o banco de dados do resto da aplicação.
+- Service : Subpacote responsável por tratar erros de dados providos do banco de dados. Por exemplo, se alguma informação estranha do banco de dados, ele aborta a operação com um erro.
 
 ### Banco de dados
 
