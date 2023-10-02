@@ -53,8 +53,9 @@ Foi decidido que o diagrama seria elaborado no [Lucidchart](https://lucid.app/lu
 >
 > [5] UML 2 Tutorial - State Machine Diagram. Disponível em: <https://sparxsystems.com/resources/tutorials/uml2/state-diagram.html>. Acesso em: 01 out. 2023.
 >
-> [6] .NET - Apresentando o padr�o Repository. Macoratti.net. Disponível em: <https://www.macoratti.net/11/10/net_pr1.htm#:~:text=O%20que%20%C3%A9%20o%20padr%C3%A3o,camada%20de%20neg%C3%B3cios%20(BLL).>. Acesso em: 01 out. 2023.
+> [6] .NET - Apresentando o padrão Repository. Macoratti.net. Disponível em: <https://www.macoratti.net/11/10/net_pr1.htm#:~:text=O%20que%20%C3%A9%20o%20padr%C3%A3o,camada%20de%20neg%C3%B3cios%20(BLL).>. Acesso em: 01 out. 2023.
 >
+> [7] UML state machine diagrams. Disponível em: <https://www.uml-diagrams.org/state-machine-diagrams.html> . Acesso em: 01 out. 2023
 
 
 ‌
