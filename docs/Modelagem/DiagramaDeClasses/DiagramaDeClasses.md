@@ -2,13 +2,31 @@
 
 ## Introdução
 
-
-Diagrama de classes é um diagrama de estrutura UML que mostra a estrutura do sistema projetado no nível das classes e interfaces, exibe suas características, 
-restrições e relacionamentos - associações, generalizações, dependências, etc.  [¹](#ancora1) 
+O Diagrama de Classes é uma ferramenta fundamental na UML (Unified Modeling Language) que oferece uma perspectiva 
+abrangente da estrutura de um sistema orientado a objetos. Neste diagrama, são apresentados em detalhes os componentes 
+essenciais, como classes e interfaces, revelando suas características distintivas, limitações e conexões cruciais, como 
+associações, generalizações e dependências, entre outros elementos [¹](#ancora1).
 
 ## Metodologia
 
-Colocar depois ....
+Nesta etapa foi desenvolvido um diagrama de classes braseado no escopo do projeto (**Perfil Comprador e 
+fluxos do cadastro até visualização/compra/pagamento de produtos na Amazon.**). Com principal objetivo de
+facilitar o desencolvimento de um sistema ao representar visualmente as classes, seus atributos, metodos e
+relacionamentos.
+
+Para a criação do diagrama de classes, foi selecionada a plataforma [Lucidchart](https://www.lucidchart.com/) devido à 
+sua facilidade de uso e à capacidade de colaboração em tempo real que oferece.  
+
+Para iniciar o processo de criação do diagrama, os membros responsáveis, [Ana Beatriz](https://github.com/ananorberto) e
+[Beatriz](https://github.com/Beatrizvn), realizaram uma análise léxica e lógica dos requisitos previamente 
+elicitados, então, foi separado uma lista [³](#ancora3) de possíveis classes para o projeto. A seleção dessas classes foi baseada em 
+sua relevância para o sistema, importância para os objetivos do projeto e dependências entre elas. Essa lista serviu 
+como base para a criação do diagrama de classes.
+
+É importante destacar que a tomada de decisões cruciais e discussões relevantes para a elaboração do diagrama ocorreram 
+durante uma reunião de colaboração. Esta reunião foi realizada via Discord no dia 28/09/2023 às 16 horas. A escolha 
+desta plataforma se deu pela familiaridade e afinidade da equipe durante os processos de elaboração de trabalhos e 
+projetos acadêmicos.
 
 ## Diagrama de Classes
 
@@ -30,9 +48,11 @@ Colocar depois ....
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição                                   | Autor(es)     | Revisor(es) |
-| ------ | ---------- | ------------------------------------------- | ------------- | ----------- |
-| `1.0`  | 28/09/2023 | Iniciando o documento                       | Beatriz e Ana | Kauã, Mylena |
-| `1.1`  | 28/09/2023 | Adicionando versão 1                        | Ana e Beatriz | Kauã, Mylena |
+| Versão | Data       | Descrição                        | Autor(es)     |  Revisor(es) |
+| ------ | ---------- | -------------------------------- | ------------- | ------------ |
+| `1.0`  | 28/09/2023 | Iniciando o documento            | Beatriz e Ana | Kauã, Mylena |
+| `1.1`  | 28/09/2023 | Adicionando versão 1             | Ana e Beatriz | Kauã, Mylena |
+| `1.2`  | 02/10/2023 | Adicionando Metodologia          | Ana           | Beatriz      |
+
 
 
