@@ -53,7 +53,7 @@ projetos acadêmicos.
 | `1.0`  | 28/09/2023 | Iniciando o documento            | Beatriz e Ana | Kauã, Mylena |
 | `1.1`  | 28/09/2023 | Adicionando versão 1             | Ana e Beatriz | Kauã, Mylena |
 | `1.2`  | 02/10/2023 | Adicionando Metodologia          | Ana           | Beatriz      |
-| `1.3`  | 05/10/2023 | Corrigindo erros de ortografia na UML          | Beatrz           | Ana      |
+| `1.3`  | 05/10/2023 | Corrigindo erros de ortografia na UML          | Beatriz           | Ana      |
 
 
 
