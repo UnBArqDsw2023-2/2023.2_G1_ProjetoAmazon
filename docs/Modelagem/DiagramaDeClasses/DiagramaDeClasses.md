@@ -32,7 +32,7 @@ projetos acadêmicos.
 
 <center>
     <img src="Classe UML - Amazon.png"/>
-    <p> Imagem 1: COLOCAR DEPOIS (Fonte: Autor, 2023).</a></p> 
+    <p> Imagem 1 (Fonte: Autor, 2023).</a></p> 
 </center>
 
 
