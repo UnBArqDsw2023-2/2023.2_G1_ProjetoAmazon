@@ -31,7 +31,7 @@ projetos acadêmicos.
 ## Diagrama de Classes
 
 <center>
-    <img src="Classe UML - Amazon.png"/>
+    <img src="Classe UML_V2.png"/>
     <p> Imagem 1 (Fonte: Autor, 2023).</a></p> 
 </center>
 
@@ -53,6 +53,7 @@ projetos acadêmicos.
 | `1.0`  | 28/09/2023 | Iniciando o documento            | Beatriz e Ana | Kauã, Mylena |
 | `1.1`  | 28/09/2023 | Adicionando versão 1             | Ana e Beatriz | Kauã, Mylena |
 | `1.2`  | 02/10/2023 | Adicionando Metodologia          | Ana           | Beatriz      |
+| `1.3`  | 05/10/2023 | Corrigindo erros de ortografia na UML          | Beatrz           | Ana      |
 
 
 
