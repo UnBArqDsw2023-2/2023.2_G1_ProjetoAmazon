@@ -153,6 +153,6 @@
 | ------ | ---------- | -------------- | --------------- | ------------------ |
 | `1.0`  | 30/08/2023 | Ata da reunião | Guilherme Puida | Arthur Ferreira    |
 | `2.0`  | 06/09/2023 | Ata da reunião | Guilherme Puida | Augusto D. Camargo |
-| `3.0`  | 15/09/2023 | Ata da reunião | Guilherme Puida |                    |
+| `3.0`  | 15/09/2023 | Ata da reunião | Guilherme Puida | Arthur Ferreira    |
 | `4.0`  | 27/09/2023 | Ata da reunião | Guilherme Puida | Kauã Vinícius      |
-| `5.0`  | 04/10/2023 | Ata da reunião | Guilherme Puida |                    |
+| `5.0`  | 04/10/2023 | Ata da reunião | Guilherme Puida | Arthur Ferreira    |
