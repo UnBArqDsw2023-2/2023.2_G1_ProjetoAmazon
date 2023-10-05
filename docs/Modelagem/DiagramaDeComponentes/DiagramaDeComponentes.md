@@ -18,7 +18,14 @@ Um Diagrama de Componentes é composto por:
 
 ## Metodologia
 
-TODO
+Para elaborar os diagramas, os responsáveis escolheram a plataforma
+[draw.io](https://www.drawio.com), devido ao excelente suporte a elementos
+presentes em componentes de diagramas.
+
+Os diagramas foram elaborados de maneira iterativa, buscando feedback de outros
+integrantes da equipe e também do docente. É importante notar que os materiais
+complementares foram de suma importância no processo de construção e evolução
+dos diagramas.
 
 ## Diagramas
 
@@ -40,8 +47,6 @@ Mudanças pontuais sugeridas pela professora.
 
 ## Referências
 
-TODO
-
 > [1] IBM. The Component Diagram. Disponível em: https://developer.ibm.com/articles/the-component-diagram/. Acesso em: 04 de outubro de 2023
 
 ## Histório de Versão
@@ -51,3 +56,4 @@ TODO
 | `1.0`  | 04/10/2023 | Diagrama V1    | Guilherme Puida |                    |
 | `2.0`  | 04/10/2023 | Diagrama V2    | Guilherme Puida |                    |
 | `3.0`  | 04/10/2023 | Introdução     | Guilherme Puida |                    |
+| `3.1`  | 04/10/2023 | Metodologia    | Guilherme Puida |                    |
