@@ -123,6 +123,30 @@
 - Criação das issues no repositório.
 - Organização do repositório.
 
+## 04/10/2023
+
+### Participantes
+
+- Augusto
+- Beatriz
+- Guilherme
+- Kauã
+- Mylena
+- Samuel
+
+### Tópicos
+
+- Acompanhamento do andamento das tarefas.
+  - Diagrama de Pacotes: quase pronto.
+  - Diagrama de Estados: reunir para finalizar.
+  - Diagrama de Classes: quase pronto.
+  - Diagrama de Componentes: em progresso.
+  - Diagrama de Colaboração/Elaboração: não inciado.
+  - Diagrama de Sequência: diagrama pronto, falta documento.
+  - Diagrama de Implantação: não iniciado.
+  - Diagrama de Atividades: não iniciado.
+- Atualização do projeto no GitHub.
+
 # Histórico de Versão
 
 | Versão | Data       | Descrição      | Autores         | Revisores          |
@@ -131,3 +155,4 @@
 | `2.0`  | 06/09/2023 | Ata da reunião | Guilherme Puida | Augusto D. Camargo |
 | `3.0`  | 15/09/2023 | Ata da reunião | Guilherme Puida |                    |
 | `4.0`  | 27/09/2023 | Ata da reunião | Guilherme Puida | Kauã Vinícius      |
+| `5.0`  | 04/10/2023 | Ata da reunião | Guilherme Puida |                    |
