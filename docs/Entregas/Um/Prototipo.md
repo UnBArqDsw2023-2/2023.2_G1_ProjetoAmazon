@@ -1,4 +1,4 @@
-# Prototipação
+# Protótipo
 
 ## Introdução
 
