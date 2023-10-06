@@ -20,9 +20,10 @@ Os diagramas UML podem ser divididos em diagramas:
 
 ### Diagrama de estados
 
-É um diagrama comportamental e dinâmico. O diagrama de estados consiste em estados, transições, eventos e atividades. Eles são importantes na modelagem de comportamentos de interface, 
+É um diagrama comportamental e dinâmico. O diagrama de estados consiste em estados, transições, eventos e atividades. Eles são importantes na modelagem de comportamentos de interface,
 classe ou colaboração. Ele enfatiza a ordem dos eventos do comportamento de um objeto.
-Esse tipo de diagrama tem diversos usos, entre eles: 
+Esse tipo de diagrama tem diversos usos, entre eles:
+
 - Descrever objetos orientados a eventos em um sistema reativo;
 - Ilustrar cenários de caso de uso em um contexto de negócios;
 - Descrever como um objeto se move por vários estados em seu tempo vida;
@@ -38,8 +39,23 @@ Foi decidido que o diagrama seria elaborado no [Lucidchart](https://lucid.app/lu
 
 ## Diagramas
 
+### Primeira versão
 
+As imagens 1 a 4 mostram as primeiras versões dos diagramas de estados que serão abordados neste documento. Seguem os mesmos:
 
+#### Produto
+
+<center>
+    <img src="./EstadosProdV1.png" style="width:40vw"/>
+    <p> Imagem 1: Diagrama de estados de produto,primeira versão. Fonte:Autor</p> 
+</center>
+
+#### Login
+
+<center>
+    <img src="./EstadosLoginV1.png" style="width:40vw"/>
+    <p> Imagem 2: Diagrama de estados de login,primeira versão. Fonte:Autor</p> 
+</center>
 
 ## Bibliografia
 
@@ -57,11 +73,11 @@ Foi decidido que o diagrama seria elaborado no [Lucidchart](https://lucid.app/lu
 >
 > [7] UML state machine diagrams. Disponível em: <https://www.uml-diagrams.org/state-machine-diagrams.html> . Acesso em: 01 out. 2023
 
-
 ‌
 
 ## Histórico de versão
 
-| Versão |    Data    |                Descrição                 |     Autor     |    Revisor    |
-| :----: | :--------: | :--------------------------------------: | :-----------: | :-----------: |
-| `1.1`  | 01/10/2023 |           Criação do documento           | Kauã, Mylena e Ana | Beatriz |
+| Versão |    Data    |         Descrição          |       Autor        | Revisor |
+| :----: | :--------: | :------------------------: | :----------------: | :-----: |
+| `1.1`  | 01/10/2023 |    Criação do documento    | Kauã, Mylena e Ana | Beatriz |
+| `1.2`  | 05/10/2023 | Adição de alguns diagramas |        Kauã        | Beatriz |
