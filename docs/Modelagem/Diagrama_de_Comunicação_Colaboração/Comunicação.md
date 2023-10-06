@@ -1,13 +1,18 @@
 # Diagrama de Comunicação
 
 ## Introdução
-Os diagramas de comunicação, também conhecidos como diagramas de colaboração em versões anteriores da Linguagem de Modelagem Unificada (UML), 
-são uma ferramenta fundamental na engenharia de software e no design de sistemas. Esses diagramas pertencem à categoria dos diagramas de interação da UML e 
-são utilizados para representar visualmente as interações entre objetos ou partes de um sistema. Por meio de mensagens sequenciais e uma disposição livre, 
-os diagramas de comunicação proporcionam uma visão clara e detalhada das comunicações entre elementos do sistema.  [¹](#ancora1)
 
+Os diagramas de comunicação, também conhecidos como diagramas de colaboração em
+versões anteriores da Linguagem de Modelagem Unificada (UML), são uma
+ferramenta fundamental na engenharia de software e no design de sistemas. Esses
+diagramas pertencem à categoria dos diagramas de interação da UML e são
+utilizados para representar visualmente as interações entre objetos ou partes
+de um sistema. Por meio de mensagens sequenciais e uma disposição livre, os
+diagramas de comunicação proporcionam uma visão clara e detalhada das
+comunicações entre elementos do sistema.  [¹](#ancora1)
 
 ## Metodologia
+
 ADICIONAR METODOLOGIA DEPOIS
 
 ## Diagramas
@@ -15,7 +20,7 @@ ADICIONAR METODOLOGIA DEPOIS
 ### Versão 1
 
 <figure>
-  <img src="ADICIONAR IMAGEM DEPOIS" />
+  <img src="v1" />
   <figcaption>Imagem 1: Versão 1 do Diagrama de Comunicação (Fonte: Autor, 2023)</figcaption>
 </figure>
 
@@ -29,6 +34,7 @@ ADICIONAR METODOLOGIA DEPOIS
 
 ## Histório de Versão
 
-| Versão | Data       | Descrição      | Autores         | Revisores          |
-| ------ | ---------- | -------------- | --------------- | ------------------ |
-| `1.0`  | 05/10/2023 | Inicio do Arquivo    | Beatriz Vieira |                    |
+| Versão | Data       | Descrição         | Autores                                       | Revisores                    |
+| ------ | ---------- | ----------------- | --------------------------------------------- | ---------------------------- |
+| `1.0`  | 05/10/2023 | Inicio do Arquivo | Beatriz Vieira                                | Guilherme Puida, Samuel Sato |
+| `2.0`  | 05/10/2023 | Diagrama V1       | Beatriz Vieira, Guilherme Puida, Samuel Sato  |                              |
