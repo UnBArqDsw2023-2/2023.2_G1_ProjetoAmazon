@@ -20,7 +20,7 @@ ADICIONAR METODOLOGIA DEPOIS
 ### Versão 1
 
 <figure>
-  <img src="v1" />
+  <img src="v1.png" />
   <figcaption>Imagem 1: Versão 1 do Diagrama de Comunicação (Fonte: Autor, 2023)</figcaption>
 </figure>
 
