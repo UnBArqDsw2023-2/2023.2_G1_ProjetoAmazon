@@ -16,7 +16,7 @@ ADICIONAR METODOLOGIA DEPOIS
 
 <figure>
   <img src="ADICIONAR IMAGEM DEPOIS" />
-  <figcaption>Imagem 1: Versão 1 do Diagrama de Comunicação e Elaboração (Fonte: Autor, 2023)</figcaption>
+  <figcaption>Imagem 1: Versão 1 do Diagrama de Comunicação (Fonte: Autor, 2023)</figcaption>
 </figure>
 
 ## Referências
