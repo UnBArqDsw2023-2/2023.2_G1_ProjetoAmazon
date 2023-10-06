@@ -6834,6 +6834,11 @@ a.close.disabled {
   content: "";
 }
 
+.carousel-photo {
+  display: flex;
+  flex-direction: column;
+}
+
 .carousel-item {
   position: relative;
   display: none;

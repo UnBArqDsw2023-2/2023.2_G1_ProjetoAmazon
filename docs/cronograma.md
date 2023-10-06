@@ -52,94 +52,96 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
     </tr>
     </tr>
     <tr>
-      <td style="vertical-align: middle" rowspan="6"><h3><b>Mapear</b></h3>(5 dias)</td>
-      <td>Rich Picture</td>
+      <td style="vertical-align: middle" rowspan="7"><h3><b>Mapear</b></h3>(5 dias)</td>
+      <td><a href="./Entregas/Um/RichPicture.html">Rich Picture</a></td>
       <td>13/09/2023</td>
       <td>14/09/2023</td>
       <td>Guilherme Puida(documento) e Todos</td>
       <td>Kauã</td>
     </tr>
     <tr>
-      <td>5W2H</td>
+      <td><a href="./Entregas/Um/5W2H.html">5W2H</a></td>
       <td>09/09/2023</td>
       <td>10/09/2023</td>
       <td>Mylena Angélica</td>
       <td>Arthur</td>
     </tr>
     <tr>
-      <td>Brainstorm</td>
+      <td><a href="./Entregas/Um/Brainstorm.html">Brainstorm</a></td>
       <td>09/09/2023</td>
       <td>10/09/2023</td>
       <td>Guilherme, Arthur, Augusto, Samuel</td>
       <td>Arthur</td>
     </tr>
     <tr>
-      <td>Entrevista</td>
+      <td><a href="./Entregas/Um/Entrevista.html">Entrevista</a></td>
       <td>09/09/2023</td>
       <td>10/09/2023</td>
       <td>Kauã</td>
       <td>Arthur, Mylena</td>
     </tr>
     <tr>
-      <td>Mapa Mental</td>
+      <td><a href="./Entregas/Um/MapaMental.html">Mapa Mental</a></td>
       <td>09/09/2023</td>
       <td>10/09/2023</td>
       <td>Beatriz</td>
       <td>Ana, Arthur</td>
     </tr>
     <tr>
-      <td>Story Board</td>
+      <td><a href="./Entregas/Um/StoryBoard.html">Story Board</a></td>
       <td>09/09/2023</td>
       <td>10/09/2023</td>
       <td>Ana, Samuel, Beatriz, Augusto, Arthur</td>
       <td>Arthur</td>
     </tr>
     <tr>
-      <td>Plano de risco</td>
+      <td><a href="./Entregas/Um/PlanoDeRisco.html">Plano de risco</a></td>
       <td>09/09/2023</td>
       <td>10/09/2023</td>
       <td>Mylena</td>
       <td>Arthur</td>
     </tr>
+    <tr>
       <td style="vertical-align: middle" rowspan="3"><h3><b>Esboçar</b></h3>(4 dias)</td>
-      <td>Backlog</td>
+      <td><a href="./Entregas/Um/Backlog.html">Backlog</a></td>
       <td>13/09/2023</td>
       <td>14/09/2023</td>
       <td>Arthur</td>
       <td>Ana, Mylena</td>
     </tr>
     <tr>
-      <td>Léxicos</td>
+      <td><a href="./Entregas/Um/Lexicos.html">Léxicos</a></td>
       <td>13/09/2023</td>
       <td>14/09/2023</td>
       <td>Beatriz, Kauã</td>
       <td>Guilherme</td>
     </tr>
     <tr>
-      <td>BPMN</td>
+      <td><a href="./Entregas/Um/BPMN.html">BPMN</a></td>
       <td>13/09/2023</td>
       <td>14/09/2023</td>
       <td>Bruno, Gabriel e Samuel</td>
       <td>Arthur</td>
     </tr>
+    <tr>
       <td style="vertical-align: middle" rowspan="1"><h3><b>Decidir</b></h3>(1 dias)</td>
-      <td>Three Level Scale</td>
+      <td><a href="./Entregas/Um/TLS.html">Three Level Scale</a></td>
       <td>13/09/2023</td>
       <td>14/09/2023</td>
       <td>Kauã</td>
       <td>Ana, Mylena</td>
     </tr>
-    </tr>
+    <tr>
       <td style="vertical-align: middle" rowspan="1"><h3><b>Prototipar</b></h3>(3 dias)</td>
-      <td>Protótipo</td>
+      <td><a href="./Entregas/Um/Prototipo.html">Protótipo</td>
       <td>13/09/2023</td>
       <td>14/09/2023</td>
       <td>Ana, Mylena</td>
       <td>Kauã</td>
     </tr>
     <tr>
-      <td style="vertical-align: middle"><h3><b>1.3</b></h3></td>
-      <td>Participações</td>
+      <td style="vertical-align: middle"><h3><b>Preparar Entrega</b></h3></td>
+      <td><a href="./Entregas/Um/Participacoes.html">Participações</a></td>
       <td>14/09/2023</td>
       <td>14/09/2023</td>
       <td>Todos</td>
@@ -156,16 +158,16 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
 <center>
 
 
-|              Atividade              | Data Limite de Entrega | Data Limite Revisão | Autor(es) | Revisor(es) |
-| :---------------------------------: | :--------------------: | :-----------------: | :-------: | :---------: |
-|         Diagrama de Classes         |       02/10/2023       |     03/10/2023      |    Ana Beatriz e Beatriz     |      -      |
-|         Diagrama de Pacotes         |       02/10/2023       |     03/10/2023      |    Kauã e Mylena     |      -      |
-|       Diagrama de Componentes       |       02/10/2023       |     03/10/2023      |    Arthur, Guilherme e Gabriel     |      -     |
-|       Diagrama de Implantação       |       02/10/2023       |     03/10/2023      |    Augusto,Bruno e Samuel    |      -      |
-|        Diagrama de Sequência        |       07/10/2023       |     08/10/2023      |    Arthur e Augusto     |      -      |
-|       Diagrama de Atividades        |       07/10/2023       |     08/10/2023      |    Bruno e Gabriel       |      -      |
-|         Diagrama de Estados         |       07/10/2023       |     08/10/2023      |    Ana, Kauã e Mylena |      -      |
-| Diagrama de Comunicação/Colaboração |       07/10/2023       |     08/10/2023      |    Beatriz, Guilherme e Samuel     |      -      |
+|              Atividade              | Data Limite de Entrega | Data Limite Revisão |          Autor(es)          | Revisor(es) |
+| :---------------------------------: | :--------------------: | :-----------------: | :-------------------------: | :---------: |
+|         Diagrama de Classes         |       02/10/2023       |     03/10/2023      |    Ana Beatriz e Beatriz    |      -      |
+|         Diagrama de Pacotes         |       02/10/2023       |     03/10/2023      |        Kauã e Mylena        |      -      |
+|       Diagrama de Componentes       |       02/10/2023       |     03/10/2023      | Arthur, Guilherme e Gabriel |      -      |
+|       Diagrama de Implantação       |       02/10/2023       |     03/10/2023      |   Augusto,Bruno e Samuel    |      -      |
+|        Diagrama de Sequência        |       07/10/2023       |     08/10/2023      |      Arthur e Augusto       |      -      |
+|       Diagrama de Atividades        |       07/10/2023       |     08/10/2023      |       Bruno e Gabriel       |      -      |
+|         Diagrama de Estados         |       07/10/2023       |     08/10/2023      |     Ana, Kauã e Mylena      |      -      |
+| Diagrama de Comunicação/Colaboração |       07/10/2023       |     08/10/2023      | Beatriz, Guilherme e Samuel |      -      |
 
 **Tabela 3: Cronograma do Ponto de Controle 2 (Fonte: autor, 2023).**
 
@@ -202,13 +204,14 @@ Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 | [Documento de Apresentação do RUP]()                                                                    | Documento que explica e direciona a apresentação do RUP                       | Ana, Kauã, Mylena                                                              | Arthur                  |
 | [Google Docs RUP](https://docs.google.com/document/d/1JKrZK77hXOA8olZkNdqgG7gZljvmrLTrt8K7ScQ5tcs/edit) | Síntese textual das pesquisa realizada pelos integrantes                      | Ana, Kauã, Mylena                                                              | Arthur                  |
 | [Slides RUP](https://docs.google.com/presentation/d/1bJQFMV55_rknSizGZXFFOeizraJ5JTLCCiHJI_PCbts/edit#) | Slides para apresentação do RUP em sala de aula                               | Ana, Arthur, Augusto, Beatriz, Bruno, Gabriel, Guilherme, Kauã, Mylena, Samuel | Arthur, Gabriel, Mylena |
-| Apresentação RUP                                                                                        | Apresentadores do trabalho                                                    | Arthur, Bruno, Gabriel, Samuel                                                 | N/A                     |
+| [Apresentação RUP](./Entregas/Um/ApresentacaoDeGrupo.md)                                                | Apresentadores do trabalho                                                    | Arthur, Bruno, Gabriel, Samuel                                                 | N/A                     |
 | [Transcrição do Google Docs para MD](./Entregas/Um/SinteseDoConteudo.md)                                | Transcrever o Google Docs para MarkDown e adicionar no GitPages               | Augusto                                                                        | Arthur                  |
 | [Atas de reuniões](./reunioes.md)                                                                       | Anotar os temas, participantes e decisões da reunião                          | Guilherme                                                                      | Arthur                  |
 | [Cronograma](./cronograma.md)                                                                           | Elaboração do cronograma das entregas das atividades da disciplina            | Ana, Samuel                                                                    | Mylena                  |
-| Milestones                                                                                              | Adição das datas de entregas da diciplina como Milestones do projeto          | Mylena                                                                         | N/A                     |
-| Guias de Contribuição                                                                                   | CODE_OF_CONDUCT e CONTRIBUITING                                               | Arthur, Guilerme                                                               | Arthur                  |
-| Documento de Participaões                                                                               | Estrutura do documento que conta a avaliação e as atividades de cada membro   | Arthur, Mylena                                                                 | Arthur                  |
+| [Milestones](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/milestones)                     | Adição das datas de entregas da diciplina como Milestones do projeto          | Mylena                                                                         | N/A                     |
+| [Código de Conduta](./CODE_OF_CONDUCT.md)                                                               | Criação do documento de código de conduta                                     | Guilerme                                                                       | Arthur                  |
+| [Guia de Contribuição](./CONTRIBUTING.md)                                                               | Elaboração dos guias de contribuição e criação do documento de Contributing   | Arthur                                                                         | Guilherme               |
+| [Documento de Participações](./Entregas/Um/Participacoes.md)                                            | Estrutura do documento que conta a avaliação e as atividades de cada membro   | Arthur, Mylena                                                                 | Arthur                  |
 
 > Legenda: (N/A) — Não Aplica
 
@@ -221,14 +224,15 @@ Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 <center>
 
 
-| Versão | Data       | Descrição                               | Autor(es)   | Revisor(es) |
-| ------ | ---------- | --------------------------------------- | ----------- | ----------- |
-| `1.0`  | 02/09/2023 | Versão inicial do cronograma do projeto | Ana Beatriz | Samuel      |
-| `1.1`  | 03/09/2023 | Adição de atividades das entregas 2 e 3 | Samuel      | Ana Beatriz |
-| `1.2`  | 03/09/2023 | Adição das datas nos pontos de controle | Ana Beatriz | Samuel      |
-| `1.3`  | 06/09/2023 | Ajustes                                 | Ana Beatriz | Mylena      |
-| `1.4`  | 14/09/2023 | Atualização Cronograma                  | Arthur      | Mylena      |
-| `1.5`  | 15/09/2023 | Atualização Cronograma                  | Arthur      | Beatriz     |
-| `1.6`  | 27/09/2023 | Modificações Cronograma Entrega 2       | Ana Beatriz e Kauã   | Arthur     |
+| Versão | Data       | Descrição                               | Autor(es)          | Revisor(es) |
+| ------ | ---------- | --------------------------------------- | ------------------ | ----------- |
+| `1.0`  | 02/09/2023 | Versão inicial do cronograma do projeto | Ana Beatriz        | Samuel      |
+| `1.1`  | 03/09/2023 | Adição de atividades das entregas 2 e 3 | Samuel             | Ana Beatriz |
+| `1.2`  | 03/09/2023 | Adição das datas nos pontos de controle | Ana Beatriz        | Samuel      |
+| `1.3`  | 06/09/2023 | Ajustes                                 | Ana Beatriz        | Mylena      |
+| `1.4`  | 14/09/2023 | Atualização Cronograma                  | Arthur             | Mylena      |
+| `1.5`  | 15/09/2023 | Atualização Cronograma                  | Arthur             | Beatriz     |
+| `2.0`  | 27/09/2023 | Modificações Cronograma Entrega 2       | Ana Beatriz e Kauã | Arthur      |
+| `2.1`  | 27/09/2023 | Revisão e adição de links às atividades | Arthur             |   Guilherme |
 
 </center>
