@@ -45,6 +45,16 @@ Mudanças pontuais sugeridas pela professora.
   <figcaption>Imagem 2: Versão 2 do Diagrama de Componentes (Fonte: Autor, 2023)</figcaption>
 </figure>
 
+### Versão 3
+
+Mudanças mais estruturais sugeridas pela professora. Essas mudanças aumentam o
+grau de granularidade do diagrama e adicionam mais módulos e subsistemas.
+
+<figure>
+  <img src="v3.png" />
+  <figcaption>Imagem 3: Versão 3 do Diagrama de Componentes (Fonte: Autor, 2023)</figcaption>
+</figure>
+
 ## Referências
 
 > [1] IBM. The Component Diagram. Disponível em: https://developer.ibm.com/articles/the-component-diagram/. Acesso em: 04 de outubro de 2023
@@ -57,3 +67,4 @@ Mudanças pontuais sugeridas pela professora.
 | `2.0`  | 04/10/2023 | Diagrama V2    | Guilherme Puida |                    |
 | `3.0`  | 04/10/2023 | Introdução     | Guilherme Puida |                    |
 | `3.1`  | 04/10/2023 | Metodologia    | Guilherme Puida |                    |
+| `4.0`  | 04/10/2023 | Diagrama V3    | Guilherme Puida |                    |
