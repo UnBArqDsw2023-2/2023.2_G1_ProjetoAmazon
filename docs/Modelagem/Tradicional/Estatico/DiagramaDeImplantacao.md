@@ -4,6 +4,12 @@
 
 Os diagramas de implantação modela a arquitetura física de um sistema [1]. Ou seja, o ambiente que será executado [3]. Os principais elementos graficos desse diagrama representam nós e associações. Nós representam dispositivos que realizam algum tipo de processamento, enquanto associações são os relacionamentos entre os nós.
 
+## Diagrama de Implantação
+
+<center>
+    <img src="DiagramaDeImplantacao.png"/>
+    <p> Imagem 1 (Fonte: Autor, 2023).</a></p>
+</center>
 
 ## Bibliografia
 
@@ -14,11 +20,11 @@ Os diagramas de implantação modela a arquitetura física de um sistema [1]. Ou
 > [3] Curso de UML - Diagrama de Implantação. Disponível em: <https://www.youtube.com/watch?v=DgERD0HgggQ>. Acesso em 06 out. 2023.
 > [4] O Guia Fácil de Diagramas de Implantação UML. Disponível em <https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-implantacao/>. Acesso em 06 out. 2023.
 
-
 ‌
 
 ## Histórico de versão
 
-| Versão |    Data    |                Descrição                 |     Autor     |    Revisor    |
-| :----: | :--------: | :--------------------------------------: | :-----------: | :-----------: |
-| `1.1`  | 06/10/2023 |           Criação do documento           |     Samuel    |               |
+| Versão |    Data    |                Descrição                 |         Autor           |    Revisor    |
+| :----: | :--------: | :--------------------------------------: | :---------------------: | :-----------: |
+| `1.1`  | 06/10/2023 |           Criação do documento           |       Samuel            |               |
+| `1.2`  | 07/10/2023 |         Diagrama de Implantação          | Augusto, Bruno e Samuel |               |
