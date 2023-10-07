@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O Diagrama de Atividade é uma variação do Diagrama de Estado [3], que contém essencialmente os comportamentos a serem realizados no sistema. Este Diagrama é apresentado por meio de fluxos de controle e é utilizado principalmente para a realização da modelagem de aspectos dinâmicos de um sistema [4].
+O Diagrama de Atividade é uma variação do Diagrama de Estado [3], que contém essencialmente os comportamentos a serem realizados no sistema. Este Diagrama é apresentado por meio de fluxos de controle e é utilizado principalmente para a realização da modelagem de aspectos dinâmicos de um sistema [4]. Serão abordados os fluxos de gestão do grupo, cadastro, visualização, compra e pagamento de produtos na plataforma de vendas online da [Amazon](https://www.amazon.com.br).
 
 ## Diagramas
 
