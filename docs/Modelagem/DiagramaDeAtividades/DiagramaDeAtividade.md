@@ -1,0 +1,22 @@
+# Diagrama de Atividades
+
+## Introdução
+
+## Diagramas
+
+## Bibliografia
+
+> [1] Diagrama de Atividades. Disponível em: <https://www.ibm.com/docs/pt-br/rational-soft-arch/9.7.0?topic=diagrams-activity>. Acesso em: 07 out. 2023.
+>
+> [2] O que é diagrama de atividades UML?. Disponível em: <https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-atividades-uml>. Acesso em: 07 out. 2023.
+>
+> [3] Linguagem de Modelagem Unificada. Disponível em: <https://aprender3.unb.br/course/view.php?id=19535&section=3> (Material Complementar). Acesso em 07 out. 2023.
+
+
+‌
+
+## Histórico de versão
+
+| Versão |    Data    |                Descrição                 |     Autor     |    Revisor    |
+| :----: | :--------: | :--------------------------------------: | :-----------: | :-----------: |
+| `1.1`  | 07/10/2023 |           Criação do documento           |     Bruno    |               |
