@@ -2,6 +2,8 @@
 
 ## Introdução
 
+O Diagrama de Atividade é uma variação do Diagrama de Estado [3], que contém essencialmente os comportamentos a serem realizados no sistema. Este Diagrama é apresentado por meio de fluxos de controle e é utilizado principalmente para a realização da modelagem de aspectos dinâmicos de um sistema.
+
 ## Diagramas
 
 ## Bibliografia
