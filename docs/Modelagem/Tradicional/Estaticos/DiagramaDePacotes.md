@@ -28,6 +28,15 @@ Os diagramas UML podem ser divididos em diagramas:
 
 Como componentes básicos podemos citar os pacotes, as dependências e as notações de elemento(Mesclagem, importação de pacote e de elemento). Podemos utiliza-los em conjunto com outros diagramas. Uma descrição maior do diagrama de pacotes será feita nas seções seguintes.
 
+### Notações
+
+É importante ressaltar algumas relações de dependência dentre os pacotes, como de exemplo:
+
+- << Access >> : Indica que um pacote requer assistência das funções de outro pacote.
+- << Import >> : O pacote de onde a seta parte importa alguma característica do outro pacote.
+- << Merge >> : O pacote e sua dependência são unidos em um só.
+- << Use >> : Ocorre quando um determinado elemento nomeado requer outro para sua definição e implementação completa. Exemplo: cliente e fornecedor.
+
 ## Metodologia
 
 Para a confecção do diagrama de pacotes, os membros responsáveis decidiram escolher os pacotes mais "primordiais" da maioria das stacks. Com isso, os responsáveis se reuniram no discord no dia 28/09/2023 às 19 horas para fazer o diagrama no qual está prototipado no aplicativo [Lucidchart](https://lucid.app/lucidchart/c7aff09a-0b81-479f-8555-5c3e10507aa4/edit?viewport_loc=-11%2C-11%2C1480%2C641%2C0_0&invitationId=inv_8f25f8f6-e5ef-4a74-a75a-2f49625b6949). Por fim, foi publicado o diagrama para os membros do grupo ficarem cientes do processo.
@@ -42,7 +51,7 @@ Para o primeiro diagrama descrito na imagem 1, nós buscamos representar a aplic
 
 <center>
     <img src="DiagramaDePacotesV1.png"/>
-    <p> Imagem 1: Diagrama de pacotes, primeira versão(Fonte: Autor, 2023).</a></p> 
+    <p> Imagem 1: Diagrama de pacotes, primeira versão(Fonte: Autor, 2023).</p> 
 </center>
 
 ### Segundo diagrama
@@ -51,7 +60,7 @@ Para o segundo diagrama descrito na imagem 2, buscamos corrigir alguns erros pon
 
 <center>
     <img src="DiagramaDePacotesV2.png"/>
-    <p> Imagem 2: Diagrama de pacotes, segunda versão (Fonte: Autor, 2023).</a></p> 
+    <p> Imagem 2: Diagrama de pacotes, segunda versão (Fonte: Autor, 2023).</p> 
 </center>
 
 ### Terceiro diagrama
@@ -60,12 +69,17 @@ Para o terceiro diagrama descrito na imagem 3, buscamos refinar ainda mais o dia
 
 <center>
     <img src="DiagramaDePacotesV3.png"/>
-    <p> Imagem 3: Diagrama de pacotes, terceira versão (Fonte: Autor, 2023).</a></p> 
+    <p> Imagem 3: Diagrama de pacotes, terceira versão (Fonte: Autor, 2023).</p> 
 </center>
 
 ### Diagrama final
 
-Por fim, a imagem 4 revela o diagrama de pacotes final. Nele, podemos observar um maior rebuscamento em cada pacote e contendo um nível de granulação de x. Segue o diagrama:
+Por fim, a imagem 4 revela o diagrama de pacotes final. Nele, podemos observar um maior rebuscamento em cada pacote e contendo um nível de granulação de 4, também, houve a modificação no pacote "Banco de dados" já que o mesmo ficaria ambiguo ao [diagrama de classes](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/tree/main/docs/Modelagem/DiagramaDeClasses). Segue o diagrama:
+
+<center>
+    <img src="DiagramaDePacotesVF.png"/>
+    <p> Imagem 4: Diagrama de pacotes, versão final (Fonte: Autor, 2023).</p> 
+</center>
 
 ## Pacotes do diagrama
 
@@ -88,14 +102,14 @@ Este pacote está relacionado ao intermédio entre o pacote de Banco de dados e 
 - DTO : Subpacote responsável por armazenas as [DTOs](https://pt.stackoverflow.com/questions/31362/o-que-%C3%A9-um-dto), as DTOs são responsáveis por agrupar dados ou mapear informações obtidas do banco de dados trabalhando em paralelo as models. Sendo assim, para a nossa aplicação, é importante uma DTO na qual permita a pesquisa do carrinho de um usuário sem que o frontend receba uma requisição contendo email e senha do mesmo,sendo assim, as DTOs também são úteis para a segurança do usuário.
 - Helpers : Subpacote resposável por conter arquivos com funções de auxilio. No contexto da aplicação, teriamos funções nas quais podem realizar a validação da senha do usuário.
 - Middleware: Subpacote de controller no qual realiza a verificação de dados, como de exemplo, se ele receber uma requisição vazia, ele pode abortar a operação com um erro.
-- Models : Subpacote resposável por armazenar grande parte dos objetos que utilizaremos na aplicação, no geral, elas seguirão um mesmo padrão do que está descrito no [diagrama de classes]() sendo assim, teremos models como: Pix, Conta, Pedido, Produto, etc.
+- Models : Subpacote resposável por armazenar grande parte dos objetos que utilizaremos na aplicação, no geral, elas seguirão um mesmo padrão do que está descrito no [diagrama de classes](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/tree/main/docs/Modelagem/DiagramaDeClasses) sendo assim, teremos models como: Pix, Conta, Pedido, Produto, etc.
 - Operator : Subpacote de controller responsável por fazer a ligação direta com o frontend.
 - Repository : Subpacote responsável por realizar as requisições para o banco de dados, ele separa o banco de dados do resto da aplicação.
 - Service : Subpacote responsável por tratar erros de dados providos do banco de dados. Por exemplo, se alguma informação estranha do banco de dados, ele aborta a operação com um erro.
 
 ### Banco de dados
 
-O pacote de banco de dados se refere diretamente ao [diagrama de classes]() já produzido outrora no projeto. Ele evidencia as classes: PIX, Boleto, Cartão, Pagamento, Pedido,Produto,Conta e Endereço.
+O pacote de banco de dados se refere diretamente ao [diagrama de classes](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/tree/main/docs/Modelagem/DiagramaDeClasses) já produzido outrora no projeto. Ele evidencia as classes: PIX, Boleto, Cartão, Pagamento, Pedido,Produto,Conta e Endereço.
 
 ## Bibliografia
 
@@ -121,3 +135,4 @@ O pacote de banco de dados se refere diretamente ao [diagrama de classes]() já 
 | :----: | :--------: | :--------------------------------------: | :-----------: | :-----------: |
 | `1.1`  | 28/09/2023 |           Criação do documento           | Kauã e Mylena | Ana e Beatriz |
 | `1.2`  | 28/09/2023 | Adição das imagens e de mais informações | Kauã e Mylena | Ana e Beatriz |
+| `1.3`  | 08/10/2023 |         Finalização do documento         |     Kauã      | Ana e Beatriz |
