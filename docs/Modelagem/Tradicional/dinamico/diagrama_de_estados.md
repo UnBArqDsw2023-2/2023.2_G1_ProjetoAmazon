@@ -34,10 +34,41 @@ Proteção; Subestado; Exterminador; Comportamento transicional; Acionador.
 
 ## Metodologia
 
-Para a confecção do diagrama de estados, os membros responsáveis decidiram escolher {adicionar quais vammos fazer}. Com isso, os responsáveis começaram os trabalhos no dia 01/10/2023.
-Foi decidido que o diagrama seria elaborado no [Lucidchart](https://lucid.app/lucidchart/f0a2748a-4b6a-4d24-b1f1-d8f17136f0d4/edit?viewport_loc=-11%2C-10%2C1993%2C759%2CrP5zvCyaz_BT&invitationId=inv_edea634f-f5ca-4f8c-90b1-e977012aa695)
+Para a confecção do diagrama de estados, os membros responsáveis decidiram dividir o diagrama em 4 temas:
+
+1 - Cadastro: Relativo a parte de cadastro no aplicativo,após clicar em "Quero me cadastrar" ou "Cadastrar-se".
+2 - Login: Relativo a parte de entrada no aplicativo, ao clicar em "Login".
+3 - Pagamento: Relativo a parte em que o usuário clica em pagar o seu produto até à finalização do pagamento.
+4 - Produto: Relativo a parte de inicio do aplicativo até o pagamento.
+
+Oque resultou na seguinte configuração:
+
+<center>
+
+| Diagrama  | Encarregado |
+| --------- | ----------- |
+| Cadastro  | Ana Beatriz |
+| Login     | Kauã        |
+| Pagamento | Mylena      |
+| Produto   | Kauã        |
+
+</center>
+
+<div style="text-align: center">
+<p> Tabela 1: Relação diagrama-encarregado.Fonte: autor, 2023.</p>
+</div>
+
+Com isso, os responsáveis começaram os trabalhos no dia 01/10/2023. Foi decidido que o diagrama seria elaborado na plataforma [Lucidchart](https://lucid.app/lucidchart/f0a2748a-4b6a-4d24-b1f1-d8f17136f0d4/edit?viewport_loc=-11%2C-10%2C1993%2C759%2CrP5zvCyaz_BT&invitationId=inv_edea634f-f5ca-4f8c-90b1-e977012aa695).
 
 ## Diagramas
+
+Para o bom entendimento dos diagramas, é importante ressaltar que durante a confecção dos mesmos, o grupo teve problemas relacionados à ferramenta de produção. Sendo assim, ressalta-se que:
+
+- O diagrama de produto está relacionado com o diagrama de pagamento.
+- O diagrama de pagamento está relacionado com o diagrama de cadastro e login.
+- O diagrama de login está relacionado com diagrama de cadastro.
+
+Seguem as versões:
 
 ### Primeira versão
 
@@ -46,17 +77,34 @@ As imagens 1 a 4 mostram as primeiras versões dos diagramas de estados que ser�
 #### Produto
 
 <center>
-    <img src="./EstadosProdV1.png" style="width:40vw"/>
+    <img src="./EstadosProdV1.png" style="width:60vw"/>
     <p> Imagem 1: Diagrama de estados de produto,primeira versão. Fonte:Autor</p> 
 </center>
 
 #### Login
 
 <center>
-    <img src="./EstadosLoginV1.png" style="width:40vw"/>
+    <img src="./EstadosLoginV1.png" style="width:60vw"/>
     <p> Imagem 2: Diagrama de estados de login,primeira versão. Fonte:Autor</p> 
 </center>
 
+### Versão final
+
+As imagens x a x mostram as versões finais dos diagramas de estados que serão abordados neste documento. Seguem os mesmos:
+
+#### Produto
+
+<center>
+    <img src="./EstadosProdV1.png" style="width:60vw"/>
+    <p> Imagem x: Diagrama de estados de produto,primeira versão. Fonte:Autor</p> 
+</center>
+
+#### Login
+
+<center>
+    <img src="./EstadosLoginV1.png" style="width:60vw"/>
+    <p> Imagem x: Diagrama de estados de login,primeira versão. Fonte:Autor</p> 
+</center>
 ## Bibliografia
 
 > [1] O que é um diagrama UML? Lucidchart. Disponível em: <https://www.lucidchart.com/pages/pt/o-que-e-uml>. Acesso em: 01 out. 2023.
@@ -81,3 +129,5 @@ As imagens 1 a 4 mostram as primeiras versões dos diagramas de estados que ser�
 | :----: | :--------: | :------------------------: | :----------------: | :-----: |
 | `1.1`  | 01/10/2023 |    Criação do documento    | Kauã, Mylena e Ana | Beatriz |
 | `1.2`  | 05/10/2023 | Adição de alguns diagramas |        Kauã        | Beatriz |
+| `1.3`  | 07/10/2023 |   Adição de observações    |        Kauã        | Beatriz |
+| `1.4`  | 07/10/2023 |  Continuação do documento  |        Kauã        | Beatriz |
