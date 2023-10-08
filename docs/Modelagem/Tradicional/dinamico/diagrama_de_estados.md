@@ -85,11 +85,16 @@ As imagens 1 a 4 mostram as primeiras vers천es dos diagramas de estados que ser�
 
 #### Pagamento
 
+<center>
+    <img src="./estados_pagamento_primeira.jpg" style="width:60vw"/>
+    <p> Imagem 2: Diagrama de estados do pagamento,primeira vers찾o. Fonte:Autor</p> 
+</center>
+
 #### Produto
 
 <center>
     <img src="./EstadosProdV1.png" style="width:60vw"/>
-    <p> Imagem 2: Diagrama de estados de produto,primeira vers찾o. Fonte:Autor</p> 
+    <p> Imagem 3: Diagrama de estados de produto,primeira vers찾o. Fonte:Autor</p> 
 </center>
 
 ### Vers찾o final
@@ -106,7 +111,10 @@ As imagens x a x mostram as vers천es finais dos diagramas de estados que ser찾o 
 </center>
 
 #### Pagamento
-
+<center>
+    <img src="./estados_pagamento.png" style="width:60vw"/>
+    <p> Imagem x: Diagrama de estados de pagamento,vers찾o final. Fonte:Autor</p> 
+</center>
 #### Produto
 
 <center>
