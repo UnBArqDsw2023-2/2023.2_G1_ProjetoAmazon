@@ -9,7 +9,7 @@ associações, generalizações e dependências, entre outros elementos [¹](#an
 
 ## Metodologia
 
-Nesta etapa foi desenvolvido um diagrama de classes braseado no escopo do projeto (**Perfil Comprador e 
+Nesta etapa foi desenvolvido um diagrama de classes baseado no escopo do projeto (**Perfil Comprador e 
 fluxos do cadastro até visualização/compra/pagamento de produtos na Amazon.**). Com principal objetivo de
 facilitar o desencolvimento de um sistema ao representar visualmente as classes, seus atributos, metodos e
 relacionamentos.
