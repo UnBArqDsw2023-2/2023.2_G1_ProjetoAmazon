@@ -14,6 +14,13 @@ Os membros da equipe responsáveis pela criação do diagrama ([Augusto Camargo]
 
 Na criação do diagrama, o sistema foi representado por um dispositivo (desktop ou mobile) que é utilizado pelo usuário para acessar o site, que passa por um firewall (sistema de segurança de rede) que faz conexão a um balanceador de carga, onde o tráfego de rede é dividido entre vários servidores web, após isso é realizado uma conexão entre os servidores e a base de dados do sistema, onde contém os registros dos clientes e o servidor de arquivos do software.
 
+## Legenda
+
+Para o melhor entedimento do diagrama, disponibilizamos uma lista demonstrando os elementos básicos utilizados na produção do mesmo:
+
+* *Nó*: representado por um cubo, é um objeto de hardware ou software onde é executado um ou mais componentes de um sistema;
+* *Associação*: representado por uma linha que indica a comunicação entre nós;
+* *Componentes*: retângulo com duas abas que indica um elemento de software.
 
 ## Diagrama de Implantação
 
@@ -41,3 +48,4 @@ Na criação do diagrama, o sistema foi representado por um dispositivo (desktop
 | `1.1`  | 06/10/2023 |           Criação do documento           |       Samuel            |               |
 | `1.2`  | 07/10/2023 |         Diagrama de Implantação          | Augusto, Bruno e Samuel |               |
 | `1.3`  | 08/10/2023 |         Adicionando metodologia          |         Bruno           |               |
+| `1.4`  | 08/10/2023 |           Adicionando legenda            |         Bruno           |               |
