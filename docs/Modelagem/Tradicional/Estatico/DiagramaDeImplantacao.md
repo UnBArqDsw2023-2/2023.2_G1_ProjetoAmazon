@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Os diagramas de implantação modela a arquitetura física de um sistema [1]. Ou seja, o ambiente que será executado [3]. Os principais elementos gráficos desse diagrama representam nós e associações. Onde os nós representam dispositivos que realizam algum tipo de processamento, enquanto associações são os relacionamentos entre os nós.
+Os diagramas de implantação modelam a arquitetura física de um sistema [1]. Ou seja, o ambiente que será executado [3]. Os principais elementos gráficos desse diagrama representam nós e associações. Onde os nós representam dispositivos que realizam algum tipo de processamento, enquanto associações são os relacionamentos entre os nós.
 
 ## Metodologia
 
@@ -45,7 +45,7 @@ Para o melhor entedimento do diagrama, disponibilizamos uma lista demonstrando o
 
 | Versão |    Data    |                Descrição                 |         Autor           |    Revisor    |
 | :----: | :--------: | :--------------------------------------: | :---------------------: | :-----------: |
-| `1.1`  | 06/10/2023 |           Criação do documento           |       Samuel            |               |
-| `1.2`  | 07/10/2023 |         Diagrama de Implantação          | Augusto, Bruno e Samuel |               |
-| `1.3`  | 08/10/2023 |         Adicionando metodologia          |         Bruno           |               |
-| `1.4`  | 08/10/2023 |           Adicionando legenda            |         Bruno           |               |
+| `1.1`  | 06/10/2023 |           Criação do documento           |       Samuel            |    Guilherme  |
+| `1.2`  | 07/10/2023 |         Diagrama de Implantação          | Augusto, Bruno e Samuel |    Guilherme  |
+| `1.3`  | 08/10/2023 |         Adicionando metodologia          |         Bruno           |    Guilherme  |
+| `1.4`  | 08/10/2023 |           Adicionando legenda            |         Bruno           |    Guilherme  |
