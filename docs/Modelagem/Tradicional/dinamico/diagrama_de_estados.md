@@ -74,30 +74,29 @@ Seguem as versões:
 
 As imagens 1 a 4 mostram as primeiras versões dos diagramas de estados que serão abordados neste documento. Seguem os mesmos:
 
-#### Produto
-
-<center>
-    <img src="./EstadosProdV1.png" style="width:60vw"/>
-    <p> Imagem 1: Diagrama de estados de produto,primeira versão. Fonte:Autor</p> 
-</center>
+#### Cadastro
 
 #### Login
 
 <center>
     <img src="./EstadosLoginV1.png" style="width:60vw"/>
-    <p> Imagem 2: Diagrama de estados de login,primeira versão. Fonte:Autor</p> 
+    <p> Imagem 1: Diagrama de estados de login,primeira versão. Fonte:Autor</p> 
+</center>
+
+#### Pagamento
+
+#### Produto
+
+<center>
+    <img src="./EstadosProdV1.png" style="width:60vw"/>
+    <p> Imagem 2: Diagrama de estados de produto,primeira versão. Fonte:Autor</p> 
 </center>
 
 ### Versão final
 
 As imagens x a x mostram as versões finais dos diagramas de estados que serão abordados neste documento. Seguem os mesmos:
 
-#### Produto
-
-<center>
-    <img src="./EstadosProdV1.png" style="width:60vw"/>
-    <p> Imagem x: Diagrama de estados de produto,primeira versão. Fonte:Autor</p> 
-</center>
+#### Cadastro
 
 #### Login
 
@@ -105,6 +104,16 @@ As imagens x a x mostram as versões finais dos diagramas de estados que serão 
     <img src="./EstadosLoginV1.png" style="width:60vw"/>
     <p> Imagem x: Diagrama de estados de login,primeira versão. Fonte:Autor</p> 
 </center>
+
+#### Pagamento
+
+#### Produto
+
+<center>
+    <img src="./EstadosProdVF.png" style="width:60vw"/>
+    <p> Imagem x: Diagrama de estados de produto,primeira versão. Fonte:Autor</p> 
+</center>
+
 ## Bibliografia
 
 > [1] O que é um diagrama UML? Lucidchart. Disponível em: <https://www.lucidchart.com/pages/pt/o-que-e-uml>. Acesso em: 01 out. 2023.
