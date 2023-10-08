@@ -3,7 +3,7 @@
 ## Introdução
 
 Os Diagramas de Componentes, definidos pela UML 2.0, desempenham um papel
-crucial na etapa modelagem de Arquitetura de Software. Esses diagramas
+crucial na etapa de modelagem de Arquitetura de Software. Esses diagramas
 buscam modelar o sistema em termos de componentes e seus relacionamentos
 através de interfaces.
 
@@ -61,10 +61,10 @@ grau de granularidade do diagrama e adicionam mais módulos e subsistemas.
 
 ## Histório de Versão
 
-| Versão | Data       | Descrição      | Autores         | Revisores          |
-| ------ | ---------- | -------------- | --------------- | ------------------ |
-| `1.0`  | 04/10/2023 | Diagrama V1    | Guilherme Puida |       Arthur       |
-| `2.0`  | 04/10/2023 | Diagrama V2    | Guilherme Puida |       Arthur       |
-| `3.0`  | 04/10/2023 | Introdução     | Guilherme Puida |       Arthur       |
-| `3.1`  | 04/10/2023 | Metodologia    | Guilherme Puida |       Arthur       |
-| `4.0`  | 04/10/2023 | Diagrama V3    | Guilherme Puida |       Arthur       |
+| Versão | Data       | Descrição      | Autores         | Revisores                   |
+| ------ | ---------- | -------------- | --------------- | --------------------------- |
+| `1.0`  | 04/10/2023 | Diagrama V1    | Guilherme Puida |       Arthur, Gabriel       |
+| `2.0`  | 04/10/2023 | Diagrama V2    | Guilherme Puida |       Arthur, Gabriel       |
+| `3.0`  | 04/10/2023 | Introdução     | Guilherme Puida |       Arthur, Gabriel       |
+| `3.1`  | 04/10/2023 | Metodologia    | Guilherme Puida |       Arthur, Gabriel       |
+| `4.0`  | 04/10/2023 | Diagrama V3    | Guilherme Puida |       Arthur, Gabriel       |
