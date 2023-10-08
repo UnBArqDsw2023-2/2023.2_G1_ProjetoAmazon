@@ -11,7 +11,7 @@ associações, generalizações e dependências, entre outros elementos [¹](#an
 
 Nesta etapa foi desenvolvido um diagrama de classes baseado no escopo do projeto (**Perfil Comprador e 
 fluxos do cadastro até visualização/compra/pagamento de produtos na Amazon.**). Com principal objetivo de
-facilitar o desencolvimento de um sistema ao representar visualmente as classes, seus atributos, metodos e
+facilitar o desenvolvimento de um sistema ao representar visualmente as classes, seus atributos, métodos e
 relacionamentos.
 
 Para a criação do diagrama de classes, foi selecionada a plataforma [Lucidchart](https://www.lucidchart.com/) devido à 
