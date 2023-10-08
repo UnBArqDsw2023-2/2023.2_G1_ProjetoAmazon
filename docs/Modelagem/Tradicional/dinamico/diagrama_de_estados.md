@@ -76,50 +76,62 @@ As imagens 1 a 4 mostram as primeiras versões dos diagramas de estados que ser�
 
 #### Cadastro
 
+<center>
+    <img src="" style="width:60vw"/>
+    <p> Imagem 1: Diagrama de estados de cadastro,primeira versão. Fonte:Autor</p> 
+</center>
+
 #### Login
 
 <center>
     <img src="./EstadosLoginV1.png" style="width:60vw"/>
-    <p> Imagem 1: Diagrama de estados de login,primeira versão. Fonte:Autor</p> 
+    <p> Imagem 2: Diagrama de estados de login,primeira versão. Fonte:Autor</p> 
 </center>
 
 #### Pagamento
 
 <center>
     <img src="./estados_pagamento_primeira.jpg" style="width:60vw"/>
-    <p> Imagem 2: Diagrama de estados do pagamento,primeira versão. Fonte:Autor</p> 
+    <p> Imagem 3: Diagrama de estados do pagamento,primeira versão. Fonte:Autor</p> 
 </center>
 
 #### Produto
 
 <center>
     <img src="./EstadosProdV1.png" style="width:60vw"/>
-    <p> Imagem 3: Diagrama de estados de produto,primeira versão. Fonte:Autor</p> 
+    <p> Imagem 4: Diagrama de estados de produto,primeira versão. Fonte:Autor</p> 
 </center>
 
 ### Versão final
 
-As imagens x a x mostram as versões finais dos diagramas de estados que serão abordados neste documento. Seguem os mesmos:
+As imagens 5 a 8 mostram as versões finais dos diagramas de estados que serão abordados neste documento. Seguem os mesmos:
 
 #### Cadastro
+
+<center>
+    <img src="" style="width:60vw"/>
+    <p> Imagem 5: Diagrama de estados de cadastro,versão final. Fonte:Autor</p> 
+</center>
 
 #### Login
 
 <center>
     <img src="./EstadosLoginV1.png" style="width:60vw"/>
-    <p> Imagem x: Diagrama de estados de login,primeira versão. Fonte:Autor</p> 
+    <p> Imagem 6: Diagrama de estados de login,versão final. Fonte:Autor</p> 
 </center>
 
 #### Pagamento
+
 <center>
     <img src="./estados_pagamento.png" style="width:60vw"/>
-    <p> Imagem x: Diagrama de estados de pagamento,versão final. Fonte:Autor</p> 
+    <p> Imagem 7: Diagrama de estados de pagamento,versão final. Fonte:Autor</p> 
 </center>
+
 #### Produto
 
 <center>
-    <img src="./EstadosProdVF.png" style="width:60vw"/>
-    <p> Imagem x: Diagrama de estados de produto,primeira versão. Fonte:Autor</p> 
+    <img src="./EstadosProdutoVF.png" style="width:60vw"/>
+    <p> Imagem 8: Diagrama de estados de produto,versão final. Fonte:Autor</p> 
 </center>
 
 ## Bibliografia
@@ -148,3 +160,4 @@ As imagens x a x mostram as versões finais dos diagramas de estados que serão 
 | `1.2`  | 05/10/2023 | Adição de alguns diagramas |        Kauã        | Beatriz |
 | `1.3`  | 07/10/2023 |   Adição de observações    |        Kauã        | Beatriz |
 | `1.4`  | 07/10/2023 |  Continuação do documento  |        Kauã        | Beatriz |
+| `1.5`  | 07/10/2023 |    Adição de diagramas     |       Mylena       | Beatriz |
