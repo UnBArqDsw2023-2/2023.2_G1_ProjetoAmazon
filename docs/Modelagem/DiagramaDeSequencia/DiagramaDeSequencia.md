@@ -2,7 +2,16 @@
 
 ## Introdução
 
+O diagrama de sequência é um diagrama de interação que mostra como os processos operam com um foco em sequência. Ele mostra objetos, classes e componentes envolvidos nas operações e a sequência de mensagens trocadas entre os objetos necessários para realizar a funcionalidade da operação. [1]
+
+## Metodologia
+
+Para a criação do diagrama de sequência, foi utilizado o site [LucidChart](https://www.lucidchart.com/), que é uma ferramenta online para criação de diagramas.
+
+
 ## Diagrama
+
+![Diagrama de Sequência](./DiagramaDeSequencia.png)
 
 ## Referências
 
@@ -12,6 +21,7 @@
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição                           | Autor(es)       | Revisor(es) |
-| ------ | ---------- | ----------------------------------- | --------------- | ----------- |
-| `1.0`  | 04/10/2023 | Adicionando Diagrama e Documento MD | Arthur, Augusto |             |
+| Versão | Data       | Descrição                           | Autor(es) | Revisor(es) |
+| ------ | ---------- | ----------------------------------- | --------- | ----------- |
+| `1.0`  | 04/10/2023 | Adicionando Diagrama e Documento MD | Augusto   | Arthur      |
+| `1.1`  | 08/10/2023 | Finalizando Documento MarkDown      | Arthur    |             |
