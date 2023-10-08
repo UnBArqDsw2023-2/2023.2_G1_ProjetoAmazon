@@ -13,7 +13,19 @@ comunicações entre elementos do sistema.  [¹](#ancora1)
 
 ## Metodologia
 
-ADICIONAR METODOLOGIA DEPOIS
+O objetivo dessa etapa do projeto era elaborar um diagrama de Comunicação
+modelando os fluxos de cadastro e compra do site Amazon.
+
+Para elaborar tal diagrama, foi escolhida a plataforma
+[lucidchart](https://www.lucidchart.com) devido à sua facilidade de uso e
+funcionalidade de colaboração em tempo real. Uma reunião foi conduzida às 19h do dia
+03/10/2023 usando a plataforma Discord para elaborar o diagrama. Os
+participantes dessa reunião foram: Beatriz Vieira, Guilherme Puida e Samuel
+Sato.
+
+É importante destacar que o diagrama elaborado usou como referência outros
+diagramas estáticos previamente elaborados pelo grupo, como o diagrama de
+classes e o diagrama de pacotes.
 
 ## Diagramas
 
@@ -38,3 +50,4 @@ ADICIONAR METODOLOGIA DEPOIS
 | ------ | ---------- | ----------------- | --------------------------------------------- | ---------------------------- |
 | `1.0`  | 05/10/2023 | Inicio do Arquivo | Beatriz Vieira                                | Guilherme Puida, Samuel Sato |
 | `2.0`  | 05/10/2023 | Diagrama V1       | Beatriz Vieira, Guilherme Puida, Samuel Sato  |                              |
+| `3.0`  | 05/10/2023 | Metodologia       | Guilherme Puida                               |                              |
