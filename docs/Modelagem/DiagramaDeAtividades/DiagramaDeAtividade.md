@@ -34,5 +34,5 @@ O Diagrama de Atividade é uma variação do Diagrama de Estado [3], que contém
 
 | Versão |    Data    |                Descrição                 |     Autor      |    Revisor    |
 | :----: | :--------: | :--------------------------------------: | :------------: | :-----------: |
-| `1.1`  | 07/10/2023 |           Criação do documento           |     Bruno      |               |
-| `1.2`  | 07/10/2023 |           Diagrama de Cadastro           | Bruno e Gabriel|               | 
+| `1.1`  | 07/10/2023 |           Criação do documento           |     Bruno      | Guilherme              |
+| `1.2`  | 07/10/2023 |           Diagrama de Cadastro           | Bruno e Gabriel| Guilherme              | 
