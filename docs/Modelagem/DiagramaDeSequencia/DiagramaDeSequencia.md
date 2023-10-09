@@ -24,4 +24,4 @@ Para a criação do diagrama de sequência, foi utilizado o site [LucidChart](ht
 | Versão | Data       | Descrição                           | Autor(es) | Revisor(es) |
 | ------ | ---------- | ----------------------------------- | --------- | ----------- |
 | `1.0`  | 04/10/2023 | Adicionando Diagrama e Documento MD | Augusto   | Arthur      |
-| `1.1`  | 08/10/2023 | Finalizando Documento MarkDown      | Arthur    |             |
+| `1.1`  | 08/10/2023 | Finalizando Documento MarkDown      | Arthur    | Guilherme   |
