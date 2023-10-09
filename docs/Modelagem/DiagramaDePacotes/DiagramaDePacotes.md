@@ -77,7 +77,7 @@ Para o terceiro diagrama descrito na imagem 3, buscamos refinar ainda mais o dia
 Por fim, a imagem 4 revela o diagrama de pacotes final. Nele, podemos observar um maior rebuscamento em cada pacote e contendo um nível de granulação de 4, também, houve a modificação no pacote "Banco de dados" já que o mesmo ficaria ambiguo ao [diagrama de classes](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/tree/main/docs/Modelagem/DiagramaDeClasses). Segue o diagrama:
 
 <center>
-    <img src="DiagramaDePacotesVF.png"/>
+    <div style="width: 820px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:820px; height:720px" src="https://lucid.app/documents/embedded/f0a2748a-4b6a-4d24-b1f1-d8f17136f0d4" id="zqeCK44ATghX"></iframe></div>
     <p> Imagem 4: Diagrama de pacotes, versão final (Fonte: Autor, 2023).</p> 
 </center>
 
