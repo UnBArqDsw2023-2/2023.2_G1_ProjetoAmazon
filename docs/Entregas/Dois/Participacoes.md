@@ -23,12 +23,12 @@ Para a realização do trabalho em grupo foram utilizados os aplicativos Discord
 ## Diagramas Dinâmicos
 
 
-| Artefato                                                                                                       | Autores                     | Revisores                 |
-| -------------------------------------------------------------------------------------------------------------- | --------------------------- | ------------------------- |
-| [Diagrama de Sequência](./DiagramaDeSequencia/DiagramaDeSequencia.md)                                          | Arthur e Augusto            | Arthur, Guilherme         |
-| [Diagrama de Atividades](./DiagramaDeAtividade/DiagramaDeAtividade.md)                                         | Bruno e Gabriel             | Guilherme                 |
-| [Diagrama de Estados](./DiagramaDeEstados/DiagramaDeEstados.md)                                                | Ana, Kauã e Mylena          | Beatriz                   |
-| [Diagrama de Comunicação/Colaboração](./DiagramaDeComunicacaoColaboracao/DiagramaDeComunicacaoColaboracao.mds) | Beatriz, Guilherme e Samuel | Arthur, Guilherme, Samuel |
+| Artefato                                                                                                      | Autores                     | Revisores                 |
+| ------------------------------------------------------------------------------------------------------------- | --------------------------- | ------------------------- |
+| [Diagrama de Sequência](./DiagramaDeSequencia/DiagramaDeSequencia.md)                                         | Arthur e Augusto            | Arthur, Guilherme         |
+| [Diagrama de Atividades](./DiagramaDeAtividade/DiagramaDeAtividade.md)                                        | Bruno e Gabriel             | Guilherme                 |
+| [Diagrama de Estados](./DiagramaDeEstados/DiagramaDeEstados.md)                                               | Ana, Kauã e Mylena          | Beatriz                   |
+| [Diagrama de Comunicação/Colaboração](./DiagramaDeComunicacaoColaboracao/DiagramaDeComunicacaoColaboracao.md) | Beatriz, Guilherme e Samuel | Arthur, Guilherme, Samuel |
 
 <div style="text-align: center"> Tabela 2. Contribuição dos membros para a entrega de diagramas dinâmicos. Fonte: Autores.</div>
 
