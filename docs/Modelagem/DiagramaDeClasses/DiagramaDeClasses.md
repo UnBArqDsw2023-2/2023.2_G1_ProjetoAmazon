@@ -23,16 +23,39 @@ elicitados, então, foi separado uma lista [³](#ancora3) de possíveis classes 
 sua relevância para o sistema, importância para os objetivos do projeto e dependências entre elas. Essa lista serviu 
 como base para a criação do diagrama de classes.
 
-É importante destacar que a tomada de decisões cruciais e discussões relevantes para a elaboração do diagrama ocorreram 
-durante uma reunião de colaboração. Esta reunião foi realizada via Discord no dia 28/09/2023 às 16 horas. A escolha 
+É importante destacar que a tomada de decisões cruciais e discussões relevantes para a elaboração do diagrama ([versão 1.0](#versão-10)) 
+ocorreram durante uma reunião de colaboração. Esta reunião foi realizada via Discord no dia 28/09/2023 às 16 horas. A escolha 
 desta plataforma se deu pela familiaridade e afinidade da equipe durante os processos de elaboração de trabalhos e 
-projetos acadêmicos.
+projetos acadêmicos. 
+
+Além disso, identificamos a necessidade de aprimorar o Diagrama de Classes com base em feedbacks relevantes, que incluíram 
+sugestões valiosas da professora. Portanto, decidimos desenvolver uma [versão 2.0](#versão-20) do Diagrama de Classes. Essas modificações 
+foram implementadas na mesma plataforma, visando enriquecer a modelagem e torná-la ainda mais coerente e fiel ao escopo do projeto.
 
 ## Diagrama de Classes
 
+### Versão 1.0
+
+Na versão 1.0 do Diagrama de Classes, apresentamos uma representação inicial da estrutura do sistema, enfocando o escopo do projeto. 
+Nesta versão, as classes, atributos e relacionamentos foram esboçados de forma abrangente e precisa, buscando fornecer uma visão geral 
+do sistema, embora sujeitos a alterações.
+
 <center>
     <img src="Classe UML_V2.png"/>
-    <p> Imagem 1 (Fonte: Autor, 2023).</a></p> 
+    <p> Figura 1 (Fonte: Autor, 2023).</a></p> 
+</center>
+
+### Versão 2.0
+
+Na versão 2.0 do Diagrama de Classes, ocorreram melhorias significativas seguindo os feedbacks da professora, 
+visando aprimorar a modelagem e torná-la mais fiel ao escopo do projeto. As modificações incluíram ajustes nas 
+direções e multiplicidades das relações entre as classes, a adição de métodos para representar o comportamento 
+das classes e a introdução de novas classes, como "Carrinho" e um elemento `<<enum>>` chamado "Status" para monitorar 
+o status dos pedidos.
+
+<center>
+    <img src="Classe UML - Amazon_v2.1.png"/>
+    <p> Figura 2 (Fonte: Autor, 2023).</a></p> 
 </center>
 
 
@@ -48,12 +71,13 @@ projetos acadêmicos.
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição                        | Autor(es)     |  Revisor(es) |
-| ------ | ---------- | -------------------------------- | ------------- | ------------ |
-| `1.0`  | 28/09/2023 | Iniciando o documento            | Beatriz e Ana | Kauã, Mylena |
-| `1.1`  | 28/09/2023 | Adicionando versão 1             | Ana e Beatriz | Kauã, Mylena |
-| `1.2`  | 02/10/2023 | Adicionando Metodologia          | Ana           | Beatriz      |
-| `1.3`  | 05/10/2023 | Corrigindo erros de ortografia na UML          | Beatriz           | Ana      |
+| Versão | Data       | Descrição                            | Autor(es)     |  Revisor(es) |
+| ------ | ---------- | ------------------------------------ | ------------- | ------------ |
+| `1.0`  | 28/09/2023 | Iniciando o documento                | Beatriz e Ana | Kauã, Mylena |
+| `1.1`  | 28/09/2023 | Adicionando versão 1                 | Ana e Beatriz | Kauã, Mylena |
+| `1.2`  | 02/10/2023 | Adicionando Metodologia              | Ana           | Beatriz      |
+| `1.3`  | 05/10/2023 | Corrigindo erros de ortografia na UML| Beatriz       | Ana          |
+| `1.4`  | 08/10/2023 | Adicionando versão 2 do UML          | Ana           | Beatriz, Kauã|
 
 
 
