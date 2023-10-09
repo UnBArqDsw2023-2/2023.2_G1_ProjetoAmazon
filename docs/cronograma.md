@@ -160,14 +160,14 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
 
 |              Atividade              | Data Limite de Entrega | Data Limite Revisão |          Autor(es)          | Revisor(es) |
 | :---------------------------------: | :--------------------: | :-----------------: | :-------------------------: | :---------: |
-|         Diagrama de Classes         |       02/10/2023       |     03/10/2023      |    Ana Beatriz e Beatriz    |      -      |
-|         Diagrama de Pacotes         |       02/10/2023       |     03/10/2023      |        Kauã e Mylena        |      -      |
-|       Diagrama de Componentes       |       02/10/2023       |     03/10/2023      | Arthur, Guilherme e Gabriel |      -      |
-|       Diagrama de Implantação       |       02/10/2023       |     03/10/2023      |   Augusto,Bruno e Samuel    |      -      |
+|         Diagrama de Classes         |       02/10/2023       |     03/10/2023      |    Ana Beatriz e Beatriz    | Kauã, Mylena, Beatriz, Ana |
+|         Diagrama de Pacotes         |       02/10/2023       |     03/10/2023      |        Kauã e Mylena        | Ana, Beatriz |
+|       Diagrama de Componentes       |       02/10/2023       |     03/10/2023      |  Guilherme                  | Arthur, Gabriel |
+|       Diagrama de Implantação       |       02/10/2023       |     03/10/2023      |   Augusto,Bruno e Samuel    | Guilherme   |
 |        Diagrama de Sequência        |       07/10/2023       |     08/10/2023      |      Arthur e Augusto       |      -      |
-|       Diagrama de Atividades        |       07/10/2023       |     08/10/2023      |       Bruno e Gabriel       |      -      |
+|       Diagrama de Atividades        |       07/10/2023       |     08/10/2023      |       Bruno e Gabriel       | Guilherme   |
 |         Diagrama de Estados         |       07/10/2023       |     08/10/2023      |     Ana, Kauã e Mylena      |      -      |
-| Diagrama de Comunicação/Colaboração |       07/10/2023       |     08/10/2023      | Beatriz, Guilherme e Samuel |      -      |
+| Diagrama de Comunicação/Colaboração |       07/10/2023       |     08/10/2023      | Beatriz, Guilherme e Samuel | Guilherme, Samuel |
 
 **Tabela 3: Cronograma do Ponto de Controle 2 (Fonte: autor, 2023).**
 
@@ -234,5 +234,6 @@ Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 | `1.5`  | 15/09/2023 | Atualização Cronograma                  | Arthur             | Beatriz     |
 | `2.0`  | 27/09/2023 | Modificações Cronograma Entrega 2       | Ana Beatriz e Kauã | Arthur      |
 | `2.1`  | 27/09/2023 | Revisão e adição de links às atividades | Arthur             |   Guilherme |
+| `3.0`  | 08/10/2023 | Adição de revisores de diagramas        | Guilherme          |             |
 
 </center>
