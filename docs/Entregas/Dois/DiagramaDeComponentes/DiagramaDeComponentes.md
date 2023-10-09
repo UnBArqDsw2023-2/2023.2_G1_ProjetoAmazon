@@ -2,10 +2,10 @@
 
 ## Introdução
 
-Os Diagramas de Componentes, definidos pela UML 2.0, desempenham um papel
+Os Diagramas de Componentes, definidos pela UML 2.0 [2], desempenham um papel
 crucial na etapa de modelagem de Arquitetura de Software. Esses diagramas
 buscam modelar o sistema em termos de componentes e seus relacionamentos
-através de interfaces.
+através de interfaces [1].
 
 Um Diagrama de Componentes é composto por:
 
@@ -26,6 +26,12 @@ Os diagramas foram elaborados de maneira iterativa, buscando feedback de outros
 integrantes da equipe e também do docente. É importante notar que os materiais
 complementares foram de suma importância no processo de construção e evolução
 dos diagramas.
+
+É importante notar que os diagramas contemplam somente o fluxo de compra do
+sistema, ou seja, assumem que o usuário já possui registro e consegue efetuar
+ações que necessitam de autenticação. Uma possível evolução seria modelar
+também o fluxo de cadastro, tornando o diagrama mais completo e mais condizente
+com a realidade.
 
 ## Diagramas
 
@@ -58,6 +64,8 @@ grau de granularidade do diagrama e adicionam mais módulos e subsistemas.
 ## Referências
 
 > [1] IBM. The Component Diagram. Disponível em: https://developer.ibm.com/articles/the-component-diagram/. Acesso em: 04 de outubro de 2023
+>
+> [2]: OMG - Object Management Group. Unified Modeling Language (UML) - Version 2.0. Disponível em: https://www.omg.org/spec/UML/2.0. Acesso em: [09 de outubro de 2023].
 
 ## Histório de Versão
 
