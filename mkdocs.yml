@@ -99,6 +99,23 @@ nav:
                       - Protótipo: Entregas/Um/Prototipo.md
                   - 1.3 Participações - Base:
                       - Participações: Entregas/Um/Participacoes.md
+      - Entrega 2:
+          - Entregas/Dois/index.md
+          - Modelagem:
+              - 2. Desenho de Software (Modelagem):
+                - 2.1 Módulo Projeto Orientado a Abordagens Tradicionais:
+                    - 2.1.1 Diagramas UML Estáticos:
+                        - Diagrama de Classes: Entregas/Dois/DiagramaDeClasses/DiagramaDeClasses.md
+                        - Diagrama de Pacotes: Entregas/Dois/DiagramaDePacotes/DiagramaDePacotes.md
+                        - Diagrama de Componentes: Entregas/Dois/DiagramaDeComponentes/DiagramaDeComponentes.md
+                        - Diagrama de Implantação: Entregas/Dois/DiagramaDeImplantacao/DiagramaDeImplantacao.md
+                    - 2.1.2 Diagramas UML Dinâmicos:
+                        - Diagrama de Sequência: Entregas/Dois/DiagramaDeSequencia/DiagramaDeSequencia.md
+                        - Diagrama de Atividades: Entregas/Dois/DiagramaDeAtividade/DiagramaDeAtividade.md
+                        - Diagrama de Estados: Entregas/Dois/DiagramaDeEstados/DiagramaDeEstados.md
+                        - Diagrama de Comunicação/Colaboração: Entregas/Dois/DiagramaDeComunicacaoColaboracao/DiagramaDeComunicacaoColaboracao.md
+                - 2.2 Participações - Modelagem:
+                    - Participações: Entregas/Dois/Participacoes.md
   - Reuniões:
       - Atas: reunioes.md
   - Disciplina:
