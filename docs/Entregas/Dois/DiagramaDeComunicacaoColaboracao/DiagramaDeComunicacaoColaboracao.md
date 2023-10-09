@@ -46,8 +46,8 @@ classes e o diagrama de pacotes.
 
 ## Histório de Versão
 
-| Versão | Data       | Descrição         | Autores                                       | Revisores                    |
-| ------ | ---------- | ----------------- | --------------------------------------------- | ---------------------------- |
-| `1.0`  | 05/10/2023 | Inicio do Arquivo | Beatriz Vieira                                | Guilherme Puida, Samuel Sato |
-| `2.0`  | 05/10/2023 | Diagrama V1       | Beatriz Vieira, Guilherme Puida, Samuel Sato  |                              |
-| `3.0`  | 05/10/2023 | Metodologia       | Guilherme Puida                               |                              |
+| Versão | Data       | Descrição         | Autores                                      | Revisores                    |
+| ------ | ---------- | ----------------- | -------------------------------------------- | ---------------------------- |
+| `1.0`  | 05/10/2023 | Inicio do Arquivo | Beatriz Vieira                               | Guilherme Puida, Samuel Sato |
+| `2.0`  | 05/10/2023 | Diagrama V1       | Beatriz Vieira, Guilherme Puida, Samuel Sato | Arthur                       |
+| `3.0`  | 05/10/2023 | Metodologia       | Guilherme Puida                              | Arthur                       |

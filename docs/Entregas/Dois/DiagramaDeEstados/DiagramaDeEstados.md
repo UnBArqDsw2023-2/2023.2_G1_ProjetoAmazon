@@ -2,23 +2,9 @@
 
 ## Introdução
 
-A Linguagem de modelagem unificada (UML) foi criada para estabelecer uma linguagem de modelagem visual comum, semanticamente e sintaticamente rica, para arquitetura, design e implementação de sistemas de software complexos, tanto estruturalmente quanto para comportamentos [¹](#ancora1). Temos diversos tipos de diagramas estruturais UML,sendo assim, este artefato tem como objetivo abordar a diagramação UML de _estados_ afim de promover uma melhor organização para o código do projeto.
+A Linguagem de modelagem unificada (UML) foi criada para estabelecer uma linguagem de modelagem visual comum, semanticamente e sintaticamente rica, para arquitetura, design e implementação de sistemas de software complexos, tanto estruturalmente quanto para comportamentos [¹](#ancora1). Temos diversos tipos de diagramas estruturais UML, sendo assim, este artefato tem como objetivo abordar a diagramação UML de _estados_ afim de promover uma melhor organização para o código do projeto.
 
-## UML
-
-Como já abordado, a linguagem de modelagem unificada(UML), surgiu como uma linguagem universal na qual facilitaria a produção de software. A linguagem UML é padronizada mundialmente pela [OMG](https://www.omg.org/) na qual busca atender os seguintes propositos:
-
-- Fornecer aos engenheiros, arquitetos e outros interessados um meio de comunicação visual para sistemas baseados em software bem como a modelagem de processos de negócio.
-- Desenvolver condições gerais para a industria ao permitir a interação entre ferramentas de modelagem visual de objetos.
-
-Esta linguagem é amplamente utilizada por programadores em todos os quesitos devido a sua eficácia para altos níveis de modelagem. Além disto, ela pode ter uma relação muito intima com o paradigma de orientação a objetos, sendo portadora de diversos mecanismos para representar os pilares do mesmo.</br>
-
-Os diagramas UML podem ser divididos em diagramas:
-
-- Estruturais: Classe, pacotes, objetos, componentes, estrutura composta e implementação.
-- Comportamentais: Atividades, sequência, comunicação, interações, tempo, caso de uso, estados e perfil.
-
-### Diagrama de estados
+## Diagrama de estados
 
 É um diagrama comportamental e dinâmico. O diagrama de estados consiste em estados, transições, eventos e atividades. Eles são importantes na modelagem de comportamentos de interface,
 classe ou colaboração. Ele enfatiza a ordem dos eventos do comportamento de um objeto.
@@ -29,8 +15,7 @@ Esse tipo de diagrama tem diversos usos, entre eles:
 - Descrever como um objeto se move por vários estados em seu tempo vida;
 - Mostrar o comportamento geral de uma máquina de estados ou o comportamento de um conjunto relacionado de máquinas de estados.
 
-Como componentes básicos podemos citar Estados; Primeiro estado; Transições; Ações de estado; Estado composto; Pseudoestado de escolha; Evento; Ponto de saída;
-Proteção; Subestado; Exterminador; Comportamento transicional; Acionador.
+Como componentes básicos podemos citar Estados; Primeiro estado; Transições; Ações de estado; Estado composto; Pseudoestado de escolha; Evento; Ponto de saída; Proteção; Subestado; Exterminador; Comportamento transicional; Acionador.
 
 ## Metodologia
 
@@ -78,28 +63,28 @@ As imagens 1 a 4 mostram as primeiras versões dos diagramas de estados que ser�
 
 <center>
     <img src="./EstadosCadastro.png" style="width:60vw"/>
-    <p> Imagem 1: Diagrama de estados de cadastro,primeira versão. Fonte:Ana Beatriz</p> 
+    <p> Imagem 1: Diagrama de estados de cadastro, primeira versão. Fonte: Ana Beatriz</p> 
 </center>
 
 #### Login
 
 <center>
     <img src="./EstadosLoginV1.png" style="width:60vw"/>
-    <p> Imagem 2: Diagrama de estados de login,primeira versão. Fonte:Kauã</p> 
+    <p> Imagem 2: Diagrama de estados de login, primeira versão. Fonte: Kauã</p> 
 </center>
 
 #### Pagamento
 
 <center>
     <img src="./estados_pagamento_primeira.jpg" style="width:60vw"/>
-    <p> Imagem 3: Diagrama de estados do pagamento,primeira versão. Fonte:Mylena</p> 
+    <p> Imagem 3: Diagrama de estados do pagamento, primeira versão. Fonte: Mylena</p> 
 </center>
 
 #### Produto
 
 <center>
     <img src="./EstadosProdV1.png" style="width:60vw"/>
-    <p> Imagem 4: Diagrama de estados de produto,primeira versão. Fonte:Kauã</p> 
+    <p> Imagem 4: Diagrama de estados de produto, primeira versão. Fonte: Kauã</p> 
 </center>
 
 ### Versão final
@@ -110,28 +95,28 @@ As imagens 5 a 8 mostram as versões finais dos diagramas de estados que serão 
 
 <center>
     <img src="./EstadosCadastro.png" style="width:60vw"/>
-    <p> Imagem 5: Diagrama de estados de cadastro,versão final. Fonte:Ana Beatriz</p> 
+    <p> Imagem 5: Diagrama de estados de cadastro, versão final. Fonte: Ana Beatriz</p> 
 </center>
 
 #### Login
 
 <center>
     <img src="./EstadosLoginV1.png" style="width:60vw"/>
-    <p> Imagem 6: Diagrama de estados de login,versão final. Fonte:Kauã</p> 
+    <p> Imagem 6: Diagrama de estados de login, versão final. Fonte: Kauã</p> 
 </center>
 
 #### Pagamento
 
 <center>
     <img src="./estados_pagamento.png" style="width:60vw"/>
-    <p> Imagem 7: Diagrama de estados de pagamento,versão final. Fonte:Mylena</p> 
+    <p> Imagem 7: Diagrama de estados de pagamento, versão final. Fonte: Mylena</p> 
 </center>
 
 #### Produto
 
 <center>
     <img src="./EstadosProdutoVF.png" style="width:60vw"/>
-    <p> Imagem 8: Diagrama de estados de produto,versão final. Fonte:Kauã</p> 
+    <p> Imagem 8: Diagrama de estados de produto, versão final. Fonte: Kauã</p> 
 </center>
 
 ## Bibliografia
@@ -156,9 +141,10 @@ As imagens 5 a 8 mostram as versões finais dos diagramas de estados que serão 
 
 | Versão |    Data    |         Descrição          |       Autor        | Revisor |
 | :----: | :--------: | :------------------------: | :----------------: | :-----: |
-| `1.1`  | 01/10/2023 |    Criação do documento    | Kauã, Mylena e Ana | Beatriz |
+| `1.1`  | 01/10/2023 |    Criação do documento    | Ana, Kauã e Mylena | Beatriz |
 | `1.2`  | 05/10/2023 | Adição de alguns diagramas |        Kauã        | Beatriz |
 | `1.3`  | 07/10/2023 |   Adição de observações    |        Kauã        | Beatriz |
 | `1.4`  | 07/10/2023 |  Continuação do documento  |        Kauã        | Beatriz |
 | `1.5`  | 07/10/2023 |    Adição de diagramas     |       Mylena       | Beatriz |
 | `1.6`  | 07/10/2023 |  Finalização do documento  |     Ana e Kauã     | Beatriz |
+| `1.7`  | 09/10/2023 |  Revisão antes da entrega  |       Arthur       | Arthur  |
