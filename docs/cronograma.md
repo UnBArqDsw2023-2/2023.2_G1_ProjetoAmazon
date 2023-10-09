@@ -164,7 +164,7 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
 |         Diagrama de Pacotes         |       02/10/2023       |     03/10/2023      |        Kauã e Mylena        | Ana, Beatriz |
 |       Diagrama de Componentes       |       02/10/2023       |     03/10/2023      |  Guilherme                  | Arthur, Gabriel |
 |       Diagrama de Implantação       |       02/10/2023       |     03/10/2023      |   Augusto,Bruno e Samuel    | Guilherme   |
-|        Diagrama de Sequência        |       07/10/2023       |     08/10/2023      |      Arthur e Augusto       |      -      |
+|        Diagrama de Sequência        |       07/10/2023       |     08/10/2023      |      Arthur e Augusto       | Arthur, Guilherme |
 |       Diagrama de Atividades        |       07/10/2023       |     08/10/2023      |       Bruno e Gabriel       | Guilherme   |
 |         Diagrama de Estados         |       07/10/2023       |     08/10/2023      |     Ana, Kauã e Mylena      | Beatriz     |
 | Diagrama de Comunicação/Colaboração |       07/10/2023       |     08/10/2023      | Beatriz, Guilherme e Samuel | Guilherme, Samuel |
