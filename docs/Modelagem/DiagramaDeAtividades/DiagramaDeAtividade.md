@@ -4,6 +4,12 @@
 
 O Diagrama de Atividade é uma variação do Diagrama de Estado [3], que contém essencialmente os comportamentos a serem realizados no sistema. Este Diagrama é apresentado por meio de fluxos de controle e é utilizado principalmente para a realização da modelagem de aspectos dinâmicos de um sistema [4]. Serão abordados os fluxos de gestão do grupo, cadastro, visualização, compra e pagamento de produtos na plataforma de vendas online da [Amazon](https://www.amazon.com.br).
 
+## Metodologia
+
+Para a confecção do Diagrama de Atividades, foi utilizado a plataforma [LucidChart](https://www.lucidchart.com/), que é um aplicativo de diagramação onde permite aos usuários colaborarem no mesmo arquivo em tempo real.
+
+Para a realização do diagrama, os membros responsáveis fizeram uma releitura do [BPMN](../../Entregas/Um/BPMN.md) em forma de diagrama de atividades, oferecendo uma visão mais ampla dos processos e metodologias utilizadas pela equipe.
+
 ## Diagramas de Atividades
 
 ### Diagrama de metodologia de gestão do grupo
