@@ -21,7 +21,13 @@ Para a realização do diagrama, os membros responsáveis fizeram uma releitura 
 ### Diagrama de Cadastro
 <center>
     <img src="assets/Atividade UML Cadastro.png"/>
-    <p> Imagem 1 (Fonte: Autor, 2023).</a></p> 
+    <p> Imagem 2 (Fonte: Autor, 2023).</a></p> 
+</center>
+
+### Diagrama de visualização, compra e pagamento de produtos
+<center>
+    <img src="assets/UML_Compras.png"/>
+    <p> Imagem 3 (Fonte: Autor, 2023).</a></p> 
 </center>
 
 ## Bibliografia
@@ -42,3 +48,4 @@ Para a realização do diagrama, os membros responsáveis fizeram uma releitura 
 | :----: | :--------: | :--------------------------------------: | :------------: | :-----------: |
 | `1.1`  | 07/10/2023 |           Criação do documento           |     Bruno      | Guilherme              |
 | `1.2`  | 07/10/2023 |           Diagrama de Cadastro           | Bruno e Gabriel| Guilherme              | 
+| `1.3`  | 07/10/2023 |           Diagrama de Cadastro           | Bruno e Gabriel|                        | 
