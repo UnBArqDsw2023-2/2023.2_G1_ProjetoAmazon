@@ -71,10 +71,12 @@ nav:
   - Cronograma: cronograma.md
   - Entregas:
       - Entregas/index.md
-      - Apresentação sobre RUP:
-          - Entregas/Um/ApresentacaoDeGrupo.md
-          - Síntese do Conteúdo: Entregas/Um/SinteseDoConteudo.md
-          - Slides da Apresentação: Entregas/Um/SlidesDaApresentacao.md
+      - Apresentação sobre Metodologias:
+          - Entregas/ApresentacaoSobreMetodologias/index.md
+          - RUP:
+            - Entregas/ApresentacaoSobreMetodologias/ApresentacaoDeGrupo.md
+            - Síntese do Conteúdo: Entregas/ApresentacaoSobreMetodologias/SinteseDoConteudo.md
+            - Slides da Apresentação: Entregas/ApresentacaoSobreMetodologias/SlidesDaApresentacao.md
       - Entrega 1:
           - Entregas/Um/index.md
           - Base:

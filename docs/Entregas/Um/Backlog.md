@@ -13,13 +13,15 @@ Para a execução do backlog, foi primeiramente elicitado os requisitos seguindo
 - [Mapa Mental](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/tree/main/docs/Base/Engenharia-de-Requisitos/Elicitação/MapaMental.md)
 - [StoryBoard](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/tree/main/docs/Base/Engenharia-de-Requisitos/Elicitacao/Elicitação/StoryBoard.md)
 
-Sendo assim, foi feito um processo de priorização de requisitos utilizando a tecnica [Three Level Scale](docs\Base\Engenharia-de-Requisitos\Priorização\TLE.md). Com isto em mãos, o backlog foi construído de forma sistemática a fim de melhor orientar a equipe para a produção de uma arquitetura de projeto mais coerente.
+Sendo assim, foi feito um processo de priorização de requisitos utilizando a tecnica [Three Level Scale](./TLS.md). Com isto em mãos, o backlog foi construído de forma sistemática a fim de melhor orientar a equipe para a produção de uma arquitetura de projeto mais coerente.
 
 ## Requisitos
 
-Os requisitos estão listados e priorizados no documento de [Three Level Scale](./../Priorização/TLE.md).
+Os requisitos estão listados e priorizados no documento de [Three Level Scale](./TLS.md).
 
 ## Backlog
+
+O Backlog pode ser visualizado pelo Quadro Kanbam do projeto no [GitHub](https://github.com/orgs/UnBArqDsw2023-2/projects/2).
 
 ### Temas
 
@@ -47,6 +49,7 @@ Os requisitos estão listados e priorizados no documento de [Three Level Scale](
 
 ## Histórico de versão
 
-| Versão |    Data    |         Descrição          | Autor |   Revisor    |
-| :----: | :--------: | :------------------------: | :---: | :----------: |
-| `1.0`  | 14/09/2023 | Inicialização do documento | Kauã  | Ana e Mylena |
+| Versão |    Data    |               Descrição               | Autor  |   Revisor    |
+| :----: | :--------: | :-----------------------------------: | :----: | :----------: |
+| `1.0`  | 14/09/2023 |      Inicialização do documento       |  Kauã  | Ana e Mylena |
+| `1.1`  | 08/10/2023 | Revisando Links e adicionando backlog | Arthur | Gabriel Luiz |
