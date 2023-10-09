@@ -158,16 +158,16 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
 <center>
 
 
-|              Atividade              | Data Limite de Entrega | Data Limite Revisão |          Autor(es)          |         Revisor(es)         |
-| :---------------------------------: | :--------------------: | :-----------------: | :-------------------------: | :-------------------------: |
-|         Diagrama de Classes         |       02/10/2023       |     03/10/2023      |    Ana Beatriz e Beatriz    | Ana, Beatriz, Kauã, Mylenas |
-|         Diagrama de Pacotes         |       02/10/2023       |     03/10/2023      |        Kauã e Mylena        |        Ana, Beatriz         |
-|       Diagrama de Componentes       |       02/10/2023       |     03/10/2023      |          Guilherme          |       Arthur, Gabriel       |
-|       Diagrama de Implantação       |       02/10/2023       |     03/10/2023      |   Augusto,Bruno e Samuel    |          Guilherme          |
-|        Diagrama de Sequência        |       07/10/2023       |     08/10/2023      |      Arthur e Augusto       |      Arthur, Guilherme      |
-|       Diagrama de Atividades        |       07/10/2023       |     08/10/2023      |       Bruno e Gabriel       |          Guilherme          |
-|         Diagrama de Estados         |       07/10/2023       |     08/10/2023      |     Ana, Kauã e Mylena      |           Beatriz           |
-| Diagrama de Comunicação/Colaboração |       07/10/2023       |     08/10/2023      | Beatriz, Guilherme e Samuel |      Guilherme, Samuel      |
+|                                                          Atividade                                                          | Data Limite de Entrega | Data Limite Revisão |          Autor(es)          |         Revisor(es)         |
+| :-------------------------------------------------------------------------------------------------------------------------: | :--------------------: | :-----------------: | :-------------------------: | :-------------------------: |
+|                        [Diagrama de Classes](./Entregas/Dois/DiagramaDeClasses/DiagramaDeClasses.md)                        |       02/10/2023       |     03/10/2023      |    Ana Beatriz e Beatriz    | Ana, Beatriz, Kauã, Mylenas |
+|                        [Diagrama de Pacotes](./Entregas/Dois/DiagramaDePacotes/DiagramaDePacotes.md)                        |       02/10/2023       |     03/10/2023      |        Kauã e Mylena        |        Ana, Beatriz         |
+|                  [Diagrama de Componentes](./Entregas/Dois/DiagramaDeComponentes/DiagramaDeComponentes.md)                  |       02/10/2023       |     03/10/2023      |          Guilherme          |       Arthur, Gabriel       |
+|                  [Diagrama de Implantação](./Entregas/Dois/DiagramaDeImplantacao/DiagramaDeImplantacao.md)                  |       02/10/2023       |     03/10/2023      |   Augusto,Bruno e Samuel    |          Guilherme          |
+|                     [Diagrama de Sequência](./Entregas/Dois/DiagramaDeSequencia/DiagramaDeSequencia.md)                     |       07/10/2023       |     08/10/2023      |      Arthur e Augusto       |      Arthur, Guilherme      |
+|                               [Diagrama de Atividades](./Entregas/Dois/DiagramaDeAtividade/)                                |       07/10/2023       |     08/10/2023      |       Bruno e Gabriel       |          Guilherme          |
+|                        [Diagrama de Estados](./Entregas/Dois/DiagramaDeEstados/DiagramaDeEstados.md)                        |       07/10/2023       |     08/10/2023      |     Ana, Kauã e Mylena      |           Beatriz           |
+| [Diagrama de Comunicação/Colaboração](./Entregas/Dois/DiagramaDeComunicacaoColaboracao/DiagramaDeComunicacaoColaboracao.md) |       07/10/2023       |     08/10/2023      | Beatriz, Guilherme e Samuel |      Guilherme, Samuel      |
 
 **Tabela 3: Cronograma do Ponto de Controle 2 (Fonte: autor, 2023).**
 
