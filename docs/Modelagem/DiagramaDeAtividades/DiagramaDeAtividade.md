@@ -6,9 +6,15 @@ O Diagrama de Atividade é uma variação do Diagrama de Estado [3], que contém
 
 ## Diagramas de Atividades
 
+### Diagrama de metodologia de gestão do grupo
+<center>
+    <img src="assets/UML_Gestao.png"/>
+    <p> Imagem 1 (Fonte: Autor, 2023).</a></p> 
+</center>
+
 ### Diagrama de Cadastro
 <center>
-    <img src="Atividade UML Cadastro.png"/>
+    <img src="assets/Atividade UML Cadastro.png"/>
     <p> Imagem 1 (Fonte: Autor, 2023).</a></p> 
 </center>
 
