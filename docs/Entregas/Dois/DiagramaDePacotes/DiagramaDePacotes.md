@@ -2,35 +2,21 @@
 
 ## Introdução
 
-A Linguagem de modelagem unificada (UML) foi criada para estabelecer uma linguagem de modelagem visual comum, semanticamente e sintaticamente rica, para arquitetura, design e implementação de sistemas de software complexos, tanto estruturalmente quanto para comportamentos [¹](#ancora1). Temos diversos tipos de diagramas estruturais UML,sendo assim, este artefato tem como objetivo abordar a diagramação UML de _pacotes_ afim de promover uma melhor organização para o código do projeto.
-
-## UML
-
-Como já abordado, a linguagem de modelagem unificada(UML), surgiu como uma linguagem universal na qual facilitaria a produção de software. A linguagem UML é padronizada mundialmente pela [OMG](https://www.omg.org/) na qual busca atender os seguintes propositos:
-
-- Fornecer aos engenheiros, arquitetos e outros interessados um meio de comunicação visual para sistemas baseados em software bem como a modelagem de processos de negócio.
-- Desenvolver condições gerais para a industria ao permitir a interação entre ferramentas de modelagem visual de objetos.
-
-Esta linguagem é amplamente utilizada por programadores em todos os quesitos devido a sua eficácia para altos níveis de modelagem. Além disto, ela pode ter uma relação muito intima com o paradigma de orientação a objetos, sendo portadora de diversos mecanismos para representar os pilares do mesmo.</br>
-
-Os diagramas UML podem ser divididos em diagramas:
-
-- Estruturais: Classe, pacotes, objetos, componentes, estrutura composta e implementação.
-- Comportamentais: Atividades, sequência, comunicação, interações, tempo, caso de uso, estados e perfil.
+Temos diversos tipos de diagramas estruturais UML, sendo assim, este artefato tem como objetivo abordar a diagramação UML de _pacotes_ afim de promover uma melhor organização para o código do projeto.
 
 ### Diagrama de pacotes
 
-É um diagrama estrutural e estático que tem como objeto mostrar a disposição de pacotes(conjunto de elementos) dentro do projeto. O objeto de estudo se torna as pastas do projeto e a hierarquia entre elas.Além disto, podemos listar como benefícios:
+É um diagrama estrutural e estático que tem como objeto mostrar a disposição de pacotes (conjunto de elementos) dentro do projeto. O objeto de estudo se torna as pastas do projeto e a hierarquia entre elas.Além disto, podemos listar como benefícios:
 
 - Simplificam diagramas de classe complexos.
 - Fornecem visibilidade geral de sistemas de grande escala.
 - São de fácil mudança e flexivel à evolução.
 
-Como componentes básicos podemos citar os pacotes, as dependências e as notações de elemento(Mesclagem, importação de pacote e de elemento). Podemos utiliza-los em conjunto com outros diagramas. Uma descrição maior do diagrama de pacotes será feita nas seções seguintes.
+Como componentes básicos podemos citar os pacotes, as dependências e as notações de elemento (Mesclagem, importação de pacote e de elemento). Podemos utiliza-los em conjunto com outros diagramas. Uma descrição maior do diagrama de pacotes será feita nas seções seguintes.
 
 ### Notações
 
-É importante ressaltar algumas relações de dependência dentre os pacotes, como de exemplo:
+É importante ressaltar algumas relações de dependência dentre os pacotes, por exemplo:
 
 - << Access >> : Indica que um pacote requer assistência das funções de outro pacote.
 - << Import >> : O pacote de onde a seta parte importa alguma característica do outro pacote.
@@ -51,7 +37,7 @@ Para o primeiro diagrama descrito na imagem 1, nós buscamos representar a aplic
 
 <center>
     <img src="DiagramaDePacotesV1.png"/>
-    <p> Imagem 1: Diagrama de pacotes, primeira versão(Fonte: Autor, 2023).</p> 
+    <p> Imagem 1: Diagrama de pacotes, primeira versão (Fonte: Autor, 2023).</p> 
 </center>
 
 ### Segundo diagrama
@@ -123,7 +109,7 @@ O pacote de banco de dados se refere diretamente ao [diagrama de classes](https:
 >
 > [5] QUE, O. O que é um DTO? Stack Overflow em Português. Disponível em: <https://pt.stackoverflow.com/questions/31362/o-que-%C3%A9-um-dto>. Acesso em: 28 set. 2023.
 >
-> [6] .NET - Apresentando o padr�o Repository. Macoratti.net. Disponível em: <https://www.macoratti.net/11/10/net_pr1.htm#:~:text=O%20que%20%C3%A9%20o%20padr%C3%A3o,camada%20de%20neg%C3%B3cios%20(BLL).>. Acesso em: 28 set. 2023.
+> [6] .NET - Apresentando o padrão Repository. Macoratti.net. Disponível em: <https://www.macoratti.net/11/10/net_pr1.htm#:~:text=O%20que%20%C3%A9%20o%20padr%C3%A3o,camada%20de%20neg%C3%B3cios%20(BLL).>. Acesso em: 28 set. 2023.
 >
 > [7] Tutorial sobre diagramas de pacotes UML. Lucidchart. Disponível em: <https://www.lucidchart.com/pages/pt/diagrama-de-pacotes-uml>. Acesso em: 30 set. 2023.
 
@@ -136,3 +122,4 @@ O pacote de banco de dados se refere diretamente ao [diagrama de classes](https:
 | `1.1`  | 28/09/2023 |           Criação do documento           | Kauã e Mylena | Ana e Beatriz |
 | `1.2`  | 28/09/2023 | Adição das imagens e de mais informações | Kauã e Mylena | Ana e Beatriz |
 | `1.3`  | 08/10/2023 |         Finalização do documento         |     Kauã      | Ana e Beatriz |
+| `1.4`  | 09/10/2023 |      Revisão antes da apresentação       |    Arthur     |    Arthur     |

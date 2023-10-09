@@ -8,7 +8,7 @@ O Diagrama de Atividade é uma variação do Diagrama de Estado [3], que contém
 
 Para a confecção do Diagrama de Atividades, foi utilizado a plataforma [LucidChart](https://www.lucidchart.com/), que é um aplicativo de diagramação onde permite aos usuários colaborarem no mesmo arquivo em tempo real.
 
-Para a realização do diagrama, os membros responsáveis fizeram uma releitura do [BPMN](../../Entregas/Um/BPMN.md) em forma de diagrama de atividades, oferecendo uma visão mais ampla dos processos e metodologias utilizadas pela equipe.
+Para a realização do diagrama, os membros responsáveis fizeram uma releitura do [BPMN](../../Um/BPMN.md) em forma de diagrama de atividades, oferecendo uma visão mais ampla dos processos e metodologias utilizadas pela equipe.
 
 ## Diagramas de Atividades
 
@@ -44,8 +44,8 @@ Para a realização do diagrama, os membros responsáveis fizeram uma releitura 
 
 ## Histórico de versão
 
-| Versão |    Data    |                Descrição                 |     Autor      |    Revisor    |
-| :----: | :--------: | :--------------------------------------: | :------------: | :-----------: |
-| `1.1`  | 07/10/2023 |           Criação do documento           |     Bruno      | Guilherme              |
-| `1.2`  | 07/10/2023 |           Diagrama de Cadastro           | Bruno e Gabriel| Guilherme              | 
-| `1.3`  | 07/10/2023 |           Diagrama de Cadastro           | Bruno e Gabriel|                        | 
+| Versão |    Data    |      Descrição       |      Autor      |  Revisor  |
+| :----: | :--------: | :------------------: | :-------------: | :-------: |
+| `1.1`  | 07/10/2023 | Criação do documento |      Bruno      | Guilherme |
+| `1.2`  | 07/10/2023 | Diagrama de Cadastro | Bruno e Gabriel | Guilherme |
+| `1.3`  | 07/10/2023 | Diagrama de Cadastro | Bruno e Gabriel |  Arthur   |
