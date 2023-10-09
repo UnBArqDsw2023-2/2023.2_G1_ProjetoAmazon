@@ -158,16 +158,16 @@ Para um melhor entendimento do Design Sprint e como ele foi elaborado e adaptado
 <center>
 
 
-|              Atividade              | Data Limite de Entrega | Data Limite Revisão |          Autor(es)          |        Revisor(es)         |
-| :---------------------------------: | :--------------------: | :-----------------: | :-------------------------: | :------------------------: |
-|         Diagrama de Classes         |       02/10/2023       |     03/10/2023      |    Ana Beatriz e Beatriz    | Kauã, Mylena, Beatriz, Ana |
-|         Diagrama de Pacotes         |       02/10/2023       |     03/10/2023      |        Kauã e Mylena        |        Ana, Beatriz        |
-|       Diagrama de Componentes       |       02/10/2023       |     03/10/2023      |          Guilherme          |      Arthur, Gabriel       |
-|       Diagrama de Implantação       |       02/10/2023       |     03/10/2023      |   Augusto,Bruno e Samuel    |         Guilherme          |
-|        Diagrama de Sequência        |       07/10/2023       |     08/10/2023      |      Arthur e Augusto       |     Arthur, Guilherme      |
-|       Diagrama de Atividades        |       07/10/2023       |     08/10/2023      |       Bruno e Gabriel       |         Guilherme          |
-|         Diagrama de Estados         |       07/10/2023       |     08/10/2023      |     Ana, Kauã e Mylena      |          Beatriz           |
-| Diagrama de Comunicação/Colaboração |       07/10/2023       |     08/10/2023      | Beatriz, Guilherme e Samuel |     Guilherme, Samuel      |
+|              Atividade              | Data Limite de Entrega | Data Limite Revisão |          Autor(es)          |         Revisor(es)         |
+| :---------------------------------: | :--------------------: | :-----------------: | :-------------------------: | :-------------------------: |
+|         Diagrama de Classes         |       02/10/2023       |     03/10/2023      |    Ana Beatriz e Beatriz    | Ana, Beatriz, Kauã, Mylenas |
+|         Diagrama de Pacotes         |       02/10/2023       |     03/10/2023      |        Kauã e Mylena        |        Ana, Beatriz         |
+|       Diagrama de Componentes       |       02/10/2023       |     03/10/2023      |          Guilherme          |       Arthur, Gabriel       |
+|       Diagrama de Implantação       |       02/10/2023       |     03/10/2023      |   Augusto,Bruno e Samuel    |          Guilherme          |
+|        Diagrama de Sequência        |       07/10/2023       |     08/10/2023      |      Arthur e Augusto       |      Arthur, Guilherme      |
+|       Diagrama de Atividades        |       07/10/2023       |     08/10/2023      |       Bruno e Gabriel       |          Guilherme          |
+|         Diagrama de Estados         |       07/10/2023       |     08/10/2023      |     Ana, Kauã e Mylena      |           Beatriz           |
+| Diagrama de Comunicação/Colaboração |       07/10/2023       |     08/10/2023      | Beatriz, Guilherme e Samuel |      Guilherme, Samuel      |
 
 **Tabela 3: Cronograma do Ponto de Controle 2 (Fonte: autor, 2023).**
 
@@ -197,21 +197,23 @@ Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 <center>
 
 
-| Atividade                                                                                               | Descrição                                                                     | Autores                                                                        | Revisores               |
-| ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------- |
-| [GitPages](https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/#/)                                | Estruturação, estilização, deploy, inclusão das páginas e revisão do conteúdo | Arthur                                                                         | N/A                     |
-| [GitHub Project (Quadro Kanbam)](https://github.com/orgs/UnBArqDsw2023-2/projects/2)                    | Gerenciamento, fluxos, priorização e categorização das issues                 | Arthur                                                                         | N/A                     |
-| [Documento de Apresentação do RUP](./Entregas/ApresentacaoSobreMetodologias/SinteseDoConteudo.md)       | Documento que explica e direciona a apresentação do RUP                       | Ana, Kauã, Mylena                                                              | Arthur                  |
-| [Google Docs RUP](https://docs.google.com/document/d/1JKrZK77hXOA8olZkNdqgG7gZljvmrLTrt8K7ScQ5tcs/edit) | Síntese textual das pesquisa realizada pelos integrantes                      | Ana, Kauã, Mylena                                                              | Arthur                  |
-| [Slides RUP](https://docs.google.com/presentation/d/1bJQFMV55_rknSizGZXFFOeizraJ5JTLCCiHJI_PCbts/edit#) | Slides para apresentação do RUP em sala de aula                               | Ana, Arthur, Augusto, Beatriz, Bruno, Gabriel, Guilherme, Kauã, Mylena, Samuel | Arthur, Gabriel, Mylena |
-| [Apresentação RUP](./Entregas/ApresentacaoSobreMetodologias/ApresentacaoDeGrupo.md)                     | Apresentadores do trabalho                                                    | Arthur, Bruno, Gabriel, Samuel                                                 | N/A                     |
-| [Transcrição do Google Docs para MD](./Entregas/ApresentacaoSobreMetodologias/SinteseDoConteudo.md)     | Transcrever o Google Docs para MarkDown e adicionar no GitPages               | Augusto                                                                        | Arthur                  |
-| [Atas de reuniões](./reunioes.md)                                                                       | Anotar os temas, participantes e decisões da reunião                          | Guilherme                                                                      | Arthur                  |
-| [Cronograma](./cronograma.md)                                                                           | Elaboração do cronograma das entregas das atividades da disciplina            | Ana, Samuel                                                                    | Mylena                  |
-| [Milestones](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/milestones)                     | Adição das datas de entregas da diciplina como Milestones do projeto          | Mylena                                                                         | N/A                     |
-| [Código de Conduta](./CODE_OF_CONDUCT.md)                                                               | Criação do documento de código de conduta                                     | Guilerme                                                                       | Arthur                  |
-| [Guia de Contribuição](./CONTRIBUTING.md)                                                               | Elaboração dos guias de contribuição e criação do documento de Contributing   | Arthur                                                                         | Guilherme               |
-| [Documento de Participações](./Entregas/Um/Participacoes.md)                                            | Estrutura do documento que conta a avaliação e as atividades de cada membro   | Arthur, Mylena                                                                 | Arthur                  |
+| Atividade                                                                                               | Descrição                                                                                          | Autores                                                                        | Revisores               |
+| ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------- |
+| [GitPages](https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/#/)                                | Estruturação, estilização, deploy, inclusão das páginas e revisão do conteúdo primeira entrega     | Arthur                                                                         | N/A                     |
+| [GitHub Project (Quadro Kanbam)](https://github.com/orgs/UnBArqDsw2023-2/projects/2)                    | Gerenciamento, fluxos, priorização e categorização das issues                                      | Arthur                                                                         | N/A                     |
+| [Documento de Apresentação do RUP](./Entregas/ApresentacaoSobreMetodologias/SinteseDoConteudo.md)       | Documento que explica e direciona a apresentação do RUP                                            | Ana, Kauã, Mylena                                                              | Arthur                  |
+| [Google Docs RUP](https://docs.google.com/document/d/1JKrZK77hXOA8olZkNdqgG7gZljvmrLTrt8K7ScQ5tcs/edit) | Síntese textual das pesquisa realizada pelos integrantes                                           | Ana, Kauã, Mylena                                                              | Arthur                  |
+| [Slides RUP](https://docs.google.com/presentation/d/1bJQFMV55_rknSizGZXFFOeizraJ5JTLCCiHJI_PCbts/edit#) | Slides para apresentação do RUP em sala de aula                                                    | Ana, Arthur, Augusto, Beatriz, Bruno, Gabriel, Guilherme, Kauã, Mylena, Samuel | Arthur, Gabriel, Mylena |
+| [Apresentação RUP](./Entregas/ApresentacaoSobreMetodologias/ApresentacaoDeGrupo.md)                     | Apresentadores do trabalho                                                                         | Arthur, Bruno, Gabriel, Samuel                                                 | N/A                     |
+| [Transcrição do Google Docs para MD](./Entregas/ApresentacaoSobreMetodologias/SinteseDoConteudo.md)     | Transcrever o Google Docs para MarkDown e adicionar no GitPages                                    | Augusto                                                                        | Arthur                  |
+| [Atas de reuniões](./reunioes.md)                                                                       | Anotar os temas, participantes e decisões da reunião                                               | Guilherme                                                                      | Arthur                  |
+| [Cronograma](./cronograma.md)                                                                           | Elaboração do cronograma das entregas das atividades da disciplina                                 | Ana, Samuel                                                                    | Mylena                  |
+| [Milestones](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/milestones)                     | Adição das datas de entregas da diciplina como Milestones do projeto                               | Mylena                                                                         | N/A                     |
+| [Código de Conduta](./CODE_OF_CONDUCT.md)                                                               | Criação do documento de código de conduta                                                          | Guilerme                                                                       | Arthur                  |
+| [Guia de Contribuição](./CONTRIBUTING.md)                                                               | Elaboração dos guias de contribuição e criação do documento de Contributing                        | Arthur                                                                         | Guilherme               |
+| [Documento de Participações](./Entregas/Um/Participacoes.md)                                            | Estrutura do documento que conta a avaliação e as atividades de cada membro na primeira entrega    | Arthur, Mylena                                                                 | Arthur                  |
+| [Documento de Participações](./Entregas/Dois/Participacoes.md)                                          | Estrutura do documento que conta a avaliação e as atividades de cada membro na segunda entrega     | Arthur, Kauã                                                                   | Ana, Arthur, Kauã       |
+| [GitPages](https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/#/)                                | Estruturação, estilização, deploy, inclusão das páginas e revisão do conteúdo para segunda entrega | Arthur                                                                         | N/A                     |
 
 > Legenda: (N/A) — Não Aplica
 
@@ -224,16 +226,17 @@ Por fim, abaixo segue uma tabela extra de atividades realizadas na disciplina:
 <center>
 
 
-| Versão | Data       | Descrição                               | Autor(es)          | Revisor(es) |
-| ------ | ---------- | --------------------------------------- | ------------------ | ----------- |
-| `1.0`  | 02/09/2023 | Versão inicial do cronograma do projeto | Ana Beatriz        | Samuel      |
-| `1.1`  | 03/09/2023 | Adição de atividades das entregas 2 e 3 | Samuel             | Ana Beatriz |
-| `1.2`  | 03/09/2023 | Adição das datas nos pontos de controle | Ana Beatriz        | Samuel      |
-| `1.3`  | 06/09/2023 | Ajustes                                 | Ana Beatriz        | Mylena      |
-| `1.4`  | 14/09/2023 | Atualização Cronograma                  | Arthur             | Mylena      |
-| `1.5`  | 15/09/2023 | Atualização Cronograma                  | Arthur             | Beatriz     |
-| `2.0`  | 27/09/2023 | Modificações Cronograma Entrega 2       | Ana Beatriz e Kauã | Arthur      |
-| `2.1`  | 27/09/2023 | Revisão e adição de links às atividades | Arthur             | Guilherme   |
-| `3.0`  | 08/10/2023 | Adição de revisores de diagramas        | Guilherme          |             |
+| Versão | Data       | Descrição                                 | Autor(es)          | Revisor(es) |
+| ------ | ---------- | ----------------------------------------- | ------------------ | ----------- |
+| `1.0`  | 02/09/2023 | Versão inicial do cronograma do projeto   | Ana Beatriz        | Samuel      |
+| `1.1`  | 03/09/2023 | Adição de atividades das entregas 2 e 3   | Samuel             | Ana Beatriz |
+| `1.2`  | 03/09/2023 | Adição das datas nos pontos de controle   | Ana Beatriz        | Samuel      |
+| `1.3`  | 06/09/2023 | Ajustes                                   | Ana Beatriz        | Mylena      |
+| `1.4`  | 14/09/2023 | Atualização Cronograma                    | Arthur             | Mylena      |
+| `1.5`  | 15/09/2023 | Atualização Cronograma                    | Arthur             | Beatriz     |
+| `2.0`  | 27/09/2023 | Modificações Cronograma Entrega 2         | Ana Beatriz e Kauã | Arthur      |
+| `2.1`  | 27/09/2023 | Revisão e adição de links às atividades   | Arthur             | Guilherme   |
+| `2.2`  | 08/10/2023 | Adição de revisores de diagramas          | Guilherme          | Arthur      |
+| `2.3`  | 09/10/2023 | Revisão do cronograma e atividades extras | Arthur             | Arthur      |
 
 </center>

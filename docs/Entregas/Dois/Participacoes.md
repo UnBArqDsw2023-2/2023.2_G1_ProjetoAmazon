@@ -7,18 +7,26 @@ Essa entrega incorpora: Notação UML - diagramas estáticos e dinâmicos
 
 ## Diagramas Estáticos
 
-| Nome               | Artefatos                                             |
-| ------------------ | ----------------------------------------------------- |
-| Ana Beatriz        | Diagrama de classes(A),Diagrama de pacotes(R)         |
-| Arthur Ferreira    | Diagrama de Componentes(A),Diagrama de Implantação(R) |
-| Augusto Camargo    | Diagrama de Implantação(A),Diagrama de Componentes(R) |
-| Beatriz Nascimento | Diagrama de classes(A),Diagrama de pacotes(R)         |
-| Bruno Oliveira     | Diagrama de Implantação(A),Diagrama de Componentes(R) |
-| Gabriel Luiz       | Diagrama de Componentes(A),Diagrama de Implantação(R) |
-| Guilherme Puida    | Diagrama de Componentes(A),Diagrama de Implantação(R) |
-| Kauã Vinícius      | Diagrama de pacotes(A),Diagrama de classes(R),        |
-| Mylena Angélica    | Diagrama de pacotes(A), Diagrama de classes(R),       |
-| Samuel Sato        | Diagrama de Implantação(A),Diagrama de Componentes(R) |
+| Artefato                                                                    | Autores                 | Revisores                   |
+| --------------------------------------------------------------------------- | ----------------------- | --------------------------- |
+| [Diagrama de Classes](./DiagramaDeClasses/DiagramaDeClasses.md)             | Ana Beatriz e Beatriz   | Ana,  Beatriz, Kauã, Mylena |
+| [Diagrama de Pacotes](./DiagramaDePacotes/DiagramaDePacotes.md)             | Kauã e Mylena           | Ana, Beatriz                |
+| [Diagrama de Componentes](./DiagramaDeComponentes/DiagramaDeComponentes.md) | Guilherme               | Arthur, Gabriel             |
+| [Diagrama de Implantação](./DiagramaDeImplantacao/DiagramaDeImplantacao.md) | Augusto, Bruno e Samuel | Guilherme                   |
+
+
+| Nome               | Artefatos                                              |
+| ------------------ | ------------------------------------------------------ |
+| Ana Beatriz        | Diagrama de classes(A), Diagrama de pacotes(R)         |
+| Arthur Ferreira    | Diagrama de Componentes(A), Diagrama de Implantação(R) |
+| Augusto Camargo    | Diagrama de Implantação(A), Diagrama de Componentes(R) |
+| Beatriz Nascimento | Diagrama de classes(A), Diagrama de pacotes(R)         |
+| Bruno Oliveira     | Diagrama de Implantação(A), Diagrama de Componentes(R) |
+| Gabriel Luiz       | Diagrama de Componentes(A), Diagrama de Implantação(R) |
+| Guilherme Puida    | Diagrama de Componentes(A), Diagrama de Implantação(R) |
+| Kauã Vinícius      | Diagrama de pacotes(A), Diagrama de classes(R),        |
+| Mylena Angélica    | Diagrama de pacotes(A), Diagrama de classes(R),        |
+| Samuel Sato        | Diagrama de Implantação(A), Diagrama de Componentes(R) |
 
 > Legenda: (A) — Autor. (R) - Revisor.
 
@@ -26,18 +34,18 @@ Essa entrega incorpora: Notação UML - diagramas estáticos e dinâmicos
 
 ## Diagramas Dinâmicos
 
-| Nome               | Artefatos                                                     |
-| ------------------ | ------------------------------------------------------------- |
-| Ana Beatriz        | Diagrama de Estados(A),Diagrama de Comunicação/Colaboração(R) |
-| Arthur Ferreira    | Diagrama de Sequência(A),Diagrama de Atividades(R)            |
-| Augusto Camargo    | Diagrama de Sequência(A),Diagrama de Atividades(R)            |
-| Beatriz Nascimento | Diagrama de Estados(R),Diagrama de Comunicação/Colaboração(A) |
-| Bruno Oliveira     | Diagrama de Sequência(R),Diagrama de Atividades(A)            |
-| Gabriel Luiz       | Diagrama de Sequência(R),Diagrama de Atividades(A)            |
-| Guilherme Puida    | Diagrama de Estados(R),Diagrama de Comunicação/Colaboração(A) |
-| Kauã Vinícius      | Diagrama de Estados(A),Diagrama de Comunicação/Colaboração(R) |
-| Mylena Angélica    | Diagrama de Estados(A),Diagrama de Comunicação/Colaboração(R) |
-| Samuel Sato        | Diagrama de Estados(R),Diagrama de Comunicação/Colaboração(A) |
+| Nome               | Artefatos                                                      |
+| ------------------ | -------------------------------------------------------------- |
+| Ana Beatriz        | Diagrama de Estados(A), Diagrama de Comunicação/Colaboração(R) |
+| Arthur Ferreira    | Diagrama de Sequência(A), Diagrama de Atividades(R)            |
+| Augusto Camargo    | Diagrama de Sequência(A), Diagrama de Atividades(R)            |
+| Beatriz Nascimento | Diagrama de Estados(R), Diagrama de Comunicação/Colaboração(A) |
+| Bruno Oliveira     | Diagrama de Sequência(R), Diagrama de Atividades(A)            |
+| Gabriel Luiz       | Diagrama de Sequência(R), Diagrama de Atividades(A)            |
+| Guilherme Puida    | Diagrama de Estados(R), Diagrama de Comunicação/Colaboração(A) |
+| Kauã Vinícius      | Diagrama de Estados(A), Diagrama de Comunicação/Colaboração(R) |
+| Mylena Angélica    | Diagrama de Estados(A), Diagrama de Comunicação/Colaboração(R) |
+| Samuel Sato        | Diagrama de Estados(R), Diagrama de Comunicação/Colaboração(A) |
 
 > Legenda: (A) — Autor. (R) - Revisor.
 
@@ -47,10 +55,11 @@ Essa entrega incorpora: Notação UML - diagramas estáticos e dinâmicos
 
 ## Contribuições extras
 
-| Nome          | Artefatos        |
-| ------------- | ---------------- |
-| Ana Beatriz   | Participações(R) |
-| Kauã Vinícius | Participações(A) |
+
+| Atividade                                                                | Descrição                                                                                          | Autores      | Revisores         |
+| ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ------------ | ----------------- |
+| [Documento de Participações](./Participacoes.md)                         | Estrutura do documento que conta a avaliação e as atividades de cada membro na segunda entrega     | Arthur, Kauã | Ana, Arthur, Kauã |
+| [GitPages](https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/#/) | Estruturação, estilização, deploy, inclusão das páginas e revisão do conteúdo para segunda entrega | Arthur       | N/A               |
 
 > Legenda: (A) — Autor. (R) - Revisor.
 
