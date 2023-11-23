@@ -1,16 +1,24 @@
 # Arquitetura
 
 ## Introdução
-A arquitetura é um conceito da engenheria de software que se refere a organização de um sistema, através dela podemos definir quais as funções dos componentes utilizados no mesmo. A arquitetura de um software tem como objetivo melhorar o desempenho do software, a escalabilidade do mesmo, compatibilidade e performance. No mercado de trabalho, para se escolher uma arquitetura que será utilizada em um software, deve-se analisar as vantagens e desvantagens da mesma e realizar um balanço se de fato temos a necessidade de utiliza-la e se valerá a o trabalho empregado. Sendo assim este documento tem como objetivo descrever a arquitetura de software que será utilizada no projeto em questão. 
+A arquitetura é um conceito da engenheria de software que se refere a organização de um sistema, através dela podemos definir quais as funções dos componentes utilizados no mesmo. 
+
+A arquitetura de um software tem como objetivo melhorar o desempenho do software, a escalabilidade do mesmo, compatibilidade e performance. 
+
+No mercado de trabalho, para se escolher uma arquitetura que será utilizada em um software, deve-se analisar as vantagens e desvantagens da mesma e realizar um balanço se de fato temos a necessidade de utiliza-la e se valerá a o trabalho empregado. 
+
+Sendo assim este documento tem como objetivo descrever a arquitetura de software que será utilizada no projeto em questão. 
 
 ## Metodologia
 
-Para a escolha da arquitetura do projeto...
+Para a escolha da arquitetura do projeto, a equipe produziu os diagramas e com base nos mesmos decidiu um framework que seria mais adequadro para o trabalho e por fim implementou a arquitetura previamente disponível no mesmo. Podemos encontrar as tecnologias escolhidas no documento de [reutilização de software interno](). Com isto, foi feito um estudo da arquitetura disponível e produzido o produto de software.
 
 ## Arquitetura MVC
 
  Na literatura, a arquitetura de n-camadas se caracteriza pela divisão de blocos do sistemas(chamadas layers) de maneira hierarquica, cada layer só pode se comunicar com as debaixo. As layers estão divididas conforme a suas respectivas responsabilidades do sistema.Normalmente, as camadas são divididas físicamente entre computadores diferentes, todavia, não há de fato a necessidade desta prática. 
+
  Após a evolução dos modelos de arquitetura de software, surgiu o padrão MVC, no qual é uma arquitetura baseada no padrão de camadas que considera o número de camadas igual a 3. Tal padrão começou a ser utilizado amplamente pela comunidade de software graças aos seus benefícios.
+
 No MVC, temos as seguintes camadas:
 
 - Model: Conhecida como Business Object Model. Gerência e controla a forma como os dados se comportam por meio de funções, lógicas e regras de negócio. Ele vem em anexo com um meio de persistir dados na aplicação
