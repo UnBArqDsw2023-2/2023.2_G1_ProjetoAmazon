@@ -43,6 +43,8 @@ Sendo assim, como toda arquitetura, o MVC possui suas qualidades e suas desvanta
 
 ## Arquitetura MVC aplicada ao projeto
 
+
+
 ## Referências
 
 > [1]   ARDALIS. Visão geral do ASP.NET Core MVC. Disponível em: &#60;https://learn.microsoft.com/pt-br/aspnet/core/mvc/overview?view=aspnetcore-8.0&#38;WT.mc_id=dotnet-35129-website&#62;. Acesso em: 22 nov 2023. 
