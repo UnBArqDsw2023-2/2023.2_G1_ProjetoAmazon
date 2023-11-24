@@ -9,13 +9,13 @@
   <body>
 
     <header class="navbar">
-      <a><img src="static\img\Logo.png " height="50"/></a>
+      <a><img src="{% static 'img/Logo.png' %}" height="50"/></a>
       <div>
         <input type="text">
         <input type="submit" value="search">
       </div>
       <div>
-        <a>Login</a>
+        <a href="{% url 'login' %}">Login</a>
         <a>Register</a>
       </div>
       <div>carrinho</div>
