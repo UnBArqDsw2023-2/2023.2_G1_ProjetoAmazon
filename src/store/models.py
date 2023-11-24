@@ -24,19 +24,23 @@ class Product(models.Model):
         return self.name
 
 class CartProxy(ABC):
+    @abstractmethod
     def addProduct(self, product:Product):
         pass
 
+    @abstractmethod
     def removeProduct(self, product:Product):
         pass
 
+    @abstractmethod
     def listProducts(self):
         pass
-
+ 
+    @abstractmethod
     def getPrice(self):
         pass
 
-class Cart(models.Model,CartProxy):
+class Cart(type(models.Model),type(CartProxy)):
     price = models.FloatField()
     products: Product = []
 
@@ -55,7 +59,7 @@ class Cart(models.Model,CartProxy):
         return self.price
 
 
-class CartService(models.Model,CartProxy):
+class CartService(type(models.Model),type(CartProxy)):
 
     realCart:Cart
 
@@ -147,7 +151,7 @@ class Payment(models.Model):
     def finish(self):
         pass    
 
-class Pix(models.Model,PaymentMode):
+class Pix(type(models.Model),type(PaymentMode)):
     chavePix = models.CharField(max_length=250)
 
     def pay(self,data):
@@ -156,7 +160,7 @@ class Pix(models.Model,PaymentMode):
     def generate(self,data):
         pass
 
-class Ticket(models.Model,PaymentMode):
+class Ticket(type(models.Model),type(PaymentMode)):
     barCode = models.CharField(max_length=250)
     recipientName = models.CharField(max_length=250)
     recipientCPF = models.CharField(max_length=14)
@@ -171,7 +175,7 @@ class Ticket(models.Model,PaymentMode):
     def generate(self,data):
         pass
 
-class CreditCard(models.Model,PaymentMode):
+class CreditCard(type(models.Model),type(PaymentMode)):
     cardName = models.CharField(max_length=250)
     number = models.CharField(max_length=16)
     cvv = models.CharField(max_length=3)
