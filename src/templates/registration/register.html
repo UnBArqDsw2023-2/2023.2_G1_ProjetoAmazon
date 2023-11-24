@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Login | Amazon{% endblock %}
+
+{% block content %}
+
+{% if next %}
+  {% if user.is_authenticated %}
+    <p>Your account doesn't have access to this page.</p>
+  {% else %}
+    <p>Please login to see this page.</p>
+  {% endif %}
+{% endif %}
+
+<form method="post" action="{% url 'login' %}">
+  {% csrf_token %}
+  {{ form.as_div }}
+  <input type="submit" value="Create Account">
+  <input type="hidden" name="next" value="{{ next }}">
+</form>
+
+{% endblock %}
