@@ -4,9 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Amazon{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
   </head>
   <body>
+
+    <header class="navbar">
+      <img src="static\img\Logo.png"/>
+      <div>
+        <input type="text">
+        <input type="submit" value="search"> 
+      </div>
+      <div>
+        <a>Login</a>
+        <a>Register</a>
+      </div>
+    </header>
+
     {% block content %}{% endblock %}
   </body>
 </html>
