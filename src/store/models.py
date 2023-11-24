@@ -1,4 +1,3 @@
-from typing import Any
 from django.db import models
 from django.utils import timezone
 from abc import ABC, abstractmethod
@@ -35,7 +34,7 @@ class CartProxy(ABC):
     @abstractmethod
     def listProducts(self):
         pass
- 
+
     @abstractmethod
     def getPrice(self):
         pass
@@ -122,26 +121,26 @@ class Payment(models.Model):
     coupon = models.BooleanField()
     discount = models.FloatField()
     finalValue = models.FloatField()
-    paymentMode:PaymentMode = models.Model 
+    paymentMode:PaymentMode = models.Model
 
     def __init__(self,costOfFreight,coupon,discount,value):
         self.costOfFreight = costOfFreight
         self.coupon = coupon
         self.discount = discount
-        self.value = value 
+        self.value = value
 
     def __str__(self):
         return self.paymentId
 
     def setPaymentMode(self,paymentMode):
-        self.paymentMode = paymentMode   
+        self.paymentMode = paymentMode
 
     def payValue(self):
         self.paymentMode.pay()
-    
+
     def generatePayment(self):
         self.paymentMode.generate()
-    
+
     def verifyStatus(self):
         return self.status
 
@@ -149,7 +148,7 @@ class Payment(models.Model):
         return self.costOfFreight
 
     def finish(self):
-        pass    
+        pass
 
 class Pix(type(models.Model),type(PaymentMode)):
     chavePix = models.CharField(max_length=250)
@@ -186,4 +185,3 @@ class CreditCard(type(models.Model),type(PaymentMode)):
 
     def generate(self,data):
         pass
-
