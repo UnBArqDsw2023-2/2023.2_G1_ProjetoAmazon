@@ -43,7 +43,7 @@ Model of Software Architecture. Disponível em: [cs.ubc.ca](https://www.cs.ubc.c
 
 | Versão |    Data    |                Descrição                 |     Autor     |    Revisor    |
 | :----: | :--------: | :--------------------------------------: | :-----------: | :-----------: |
-| `1.0`  | 28/09/2023 |           Criação do documento           | Beatriz e Gabriel | Mylena e Ana |
-| `1.1`  | 28/09/2023 |  Adição da V.2 do Diagrama de Sequência  | Beatriz e Gabriel | Mylena e Ana |
+| `1.0`  | 25/11/2023 |           Criação do documento           | Beatriz e Gabriel | Mylena e Ana |
+| `1.1`  | 25/11/2023 |  Adição da V.2 do Diagrama de Sequência  | Beatriz e Gabriel | Mylena e Ana |
 
 
