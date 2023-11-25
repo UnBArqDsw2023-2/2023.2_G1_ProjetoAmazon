@@ -22,6 +22,7 @@ O diagrama de sequência é um diagrama de interação que mostra como os proces
 <center>
 <p> Diagrama de Sequência: Versão 2.0 (Fonte: Autores, 2023).</a></p> 
 </center>
+
 ### Diagrama de Atividades
 
 ## Bibliografia
