@@ -79,3 +79,19 @@ textarea:not([rows]) {
 
   color: white;
 }
+
+.textbox {
+
+  width: 30vw;
+
+  padding-block: 0.3rem;
+  padding-left: 10px;
+  
+  border-radius: 50px;
+}
+
+.searchButton{
+  border:none;
+  background-color: transparent;
+  background-image: url("src/static/img/Lupa.gif");
+}

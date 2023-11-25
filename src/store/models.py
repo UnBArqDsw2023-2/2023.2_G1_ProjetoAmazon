@@ -1,5 +1,6 @@
 from django.db import models
 from authuser.models import User
+from django.utils import timezone
 
 class Store(models.Model):
     name = models.CharField(max_length=255, unique=True)
@@ -20,22 +21,6 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
-# class CartProxy(ABC):
-#     @abstractmethod
-#     def addProduct(self, product:Product):
-#         pass
-#
-#     @abstractmethod
-#     def removeProduct(self, product:Product):
-#         pass
-#
-#     @abstractmethod
-#     def listProducts(self):
-#         pass
-#
-#     @abstractmethod
-#     def getPrice(self):
-#         pass
 
 class Cart(models.Model):
     belongs_to = models.ForeignKey(User, on_delete=models.CASCADE)
@@ -44,104 +29,67 @@ class Cart(models.Model):
     def __str__(self):
         return f'Cart ({self.belongs_to.name})'
 
-# class Order(models.Model):
-#     id = models.UUIDField(primary_key=True,editable=False)
-#     orderDate = models.DateField()
-#     status = models.CharField(max_length=250)
-#     cart:CartService
-#     account: User
-#     value = models.FloatField()
-#
-#     def __init__(self):
-#         pass
-#
-#     def describeOrder(self):
-#         pass
-#
-#     def generatePayment(self):
-#         payment = Payment()
-#
-#
-# class PaymentMode(ABC):
-#     @abstractmethod
-#     def pay(self,data):
-#         pass
-#
-#     @abstractmethod
-#     def generate(self,data):
-#         pass
-#
-# class Payment(models.Model):
-#     paymentId = models.UUIDField(primary_key=True,editable=False)
-#     value = models.FloatField()
-#     actualData = models.DateField(default=timezone.now())
-#     expirationData = models.DateField()
-#     status = models.TextField(blank=True,default="")
-#     costOfFreight = models.FloatField()
-#     coupon = models.BooleanField()
-#     discount = models.FloatField()
-#     finalValue = models.FloatField()
-#     paymentMode:PaymentMode = models.Model
-#
-#     def __init__(self,costOfFreight,coupon,discount,value):
-#         self.costOfFreight = costOfFreight
-#         self.coupon = coupon
-#         self.discount = discount
-#         self.value = value
-#
-#     def __str__(self):
-#         return self.paymentId
-#
-#     def setPaymentMode(self,paymentMode):
-#         self.paymentMode = paymentMode
-#
-#     def payValue(self):
-#         self.paymentMode.pay()
-#
-#     def generatePayment(self):
-#         self.paymentMode.generate()
-#
-#     def verifyStatus(self):
-#         return self.status
-#
-#     def sumCostOfFreight(self):
-#         return self.costOfFreight
-#
-#     def finish(self):
-#         pass
-#
-# class Pix(type(models.Model),type(PaymentMode)):
-#     chavePix = models.CharField(max_length=250)
-#
-#     def pay(self,data):
-#         pass
-#
-#     def generate(self,data):
-#         pass
-#
-# class Ticket(type(models.Model),type(PaymentMode)):
-#     barCode = models.CharField(max_length=250)
-#     recipientName = models.CharField(max_length=250)
-#     recipientCPF = models.CharField(max_length=14)
-#
-#     def __init__(self,recipientName,recipientCPF):
-#         self.recipientCPF = recipientCPF
-#         self.recipientName = recipientName
-#
-#     def pay(self,data):
-#         pass
-#
-#     def generate(self,data):
-#         pass
-#
-# class CreditCard(type(models.Model),type(PaymentMode)):
-#     cardName = models.CharField(max_length=250)
-#     number = models.CharField(max_length=16)
-#     cvv = models.CharField(max_length=3)
-#     expirationDate = models.CharField(max_length=10)
-#
-#     def pay(self,data):
-#         pass
-#
-#     def generate(self,data):
-#         pass
+class Order(models.Model):
+    id = models.UUIDField(primary_key=True,editable=False)
+    orderDate = models.DateField()
+    status = models.CharField(max_length=250)
+    cart: models.ForeignKey(Cart, on_delete=models.CASCADE)
+    account = models.ForeignKey(User, on_delete=models.CASCADE)
+    value = models.FloatField()
+
+    def describeOrder(self):
+        pass
+    def generatePayment(self):
+        pass
+
+class Payment(models.Model):
+    paymentId = models.UUIDField(primary_key=True,editable=False)
+    value = models.FloatField()
+    actualData = models.DateField(default=timezone.now())
+    expirationData = models.DateField()
+    status = models.TextField(blank=True,default="")
+    costOfFreight = models.FloatField()
+    coupon = models.BooleanField()
+    discount = models.FloatField()
+    finalValue = models.FloatField()
+
+    def __str__(self):
+        return self.paymentId
+
+    def verifyStatus(self):
+        return self.status
+
+    def sumCostOfFreight(self):
+        return self.costOfFreight
+
+    def finish(self):
+        pass
+
+class Pix(Payment):
+    chavePix = models.CharField(max_length=250)
+    def pay(self,data):
+        pass
+
+    def generate(self,data):
+        pass
+
+class Ticket(Payment):
+    barCode = models.CharField(max_length=250)
+    recipientName = models.CharField(max_length=250)
+    recipientCPF = models.CharField(max_length=14)
+
+    def pay(self,data):
+        pass
+    def generate(self,data):
+        pass
+
+class CreditCard(Payment):
+    cardName = models.CharField(max_length=250)
+    number = models.CharField(max_length=16)
+    cvv = models.CharField(max_length=3)
+    expirationDate = models.CharField(max_length=10)
+
+    def pay(self,data):
+        pass
+    def generate(self,data):
+        pass
