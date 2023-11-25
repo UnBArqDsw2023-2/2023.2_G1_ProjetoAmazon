@@ -10,12 +10,18 @@ Essa visão pode abranger os fluxos de trabalho, que representam a ordem lógica
 
 Durante a fase de modelagem, nossa equipe desenvolveu tanto o diagrama de sequência quanto o diagrama de atividades. Ao criar a documentação da visão de processos, utilizamos esses diagramas como base, mas fizemos algumas modificações e aprimoramentos para melhor atender às nossas necessidades e proporcionar uma representação mais clara e eficaz.
 
+Para a criação dos diagramas, foi utilizado o site [LucidChart](https://www.lucidchart.com/), que é uma ferramenta online para criação de diagramas.
+
 ## Diagramas
 
 ### Diagrama de Sequência
 
-O diagrama de sequência é um diagrama de interação que mostra como os processos operam com um foco em sequência. Ele mostra objetos, classes e componentes envolvidos nas operações e a sequência de mensagens trocadas entre os objetos necessários para realizar a funcionalidade da operação. [¹]
+O diagrama de sequência é um diagrama de interação que mostra como os processos operam com um foco em sequência. Ele mostra objetos, classes e componentes envolvidos nas operações e a sequência de mensagens trocadas entre os objetos necessários para realizar a funcionalidade da operação. [4]
 
+![Diagrama de Sequência](Diag_De_Sequencia_V2.0.png)
+<center>
+<p> Diagrama de Sequência: Versão 2.0 (Fonte: Autores, 2023).</a></p> 
+</center>
 ### Diagrama de Atividades
 
 ## Bibliografia
@@ -27,7 +33,9 @@ O diagrama de sequência é um diagrama de interação que mostra como os proces
 > [3]Architectural Blueprints—The “4+1” View
 Model of Software Architecture. Disponível em: [cs.ubc.ca](https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf). Acesso em: 25 nov 2023. 
 >
-> [4] O que é um diagrama de sequência UML?. Disponivel em: [https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml). Acesso em 4 de out. de 2023.
+> [4] O que é um diagrama de sequência UML?. Disponivel em: [lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml). Acesso em 4 de out. de 2023.
+>
+> [5] Diagrama de Seqüência. Disponivel em: [profs.ic.uff](http://profs.ic.uff.br/~viviane.silva/es1/util/aula8.pdf). Acesso em 4 de out. de 2023.
 
 
 ## Histórico de versão
@@ -35,4 +43,6 @@ Model of Software Architecture. Disponível em: [cs.ubc.ca](https://www.cs.ubc.c
 | Versão |    Data    |                Descrição                 |     Autor     |    Revisor    |
 | :----: | :--------: | :--------------------------------------: | :-----------: | :-----------: |
 | `1.0`  | 28/09/2023 |           Criação do documento           | Beatriz e Gabriel | Mylena e Ana |
+| `1.1`  | 28/09/2023 |  Adição da V.2 do Diagrama de Sequência  | Beatriz e Gabriel | Mylena e Ana |
+
 
