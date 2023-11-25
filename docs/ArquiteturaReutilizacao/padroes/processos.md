@@ -1,12 +1,34 @@
-# Introdução
+# Visão Arquitetural – Processo
 
-# Metodologia
+## Introdução
 
-# Diagrama
+ A visão de processo em um documento de arquitetura de software descreve os procedimentos, tarefas e sequências de trabalho envolvidos desde o início até a conclusão do ciclo de vida do software. Isso oferece uma visão de como as várias partes envolvidas no projeto interagirão e colaborarão para alcançar os objetivos estabelecidos para o desenvolvimento, manutenção e evolução do software.
+
+Essa visão pode abranger os fluxos de trabalho, que representam a ordem lógica das atividades e suas interdependências. Os fluxos de trabalho podem ser apresentados por meio de diagramas de atividades, fluxogramas ou outras representações visuais que mostram como as atividades são realizadas e como as informações são compartilhadas entre os diferentes participantes do projeto.
+
+## Metodologia
+
+Durante a fase de modelagem, nossa equipe desenvolveu tanto o diagrama de sequência quanto o diagrama de atividades. Ao criar a documentação da visão de processos, utilizamos esses diagramas como base, mas fizemos algumas modificações e aprimoramentos para melhor atender às nossas necessidades e proporcionar uma representação mais clara e eficaz.
+
+## Diagramas
+
+### Diagrama de Sequência
+
+O diagrama de sequência é um diagrama de interação que mostra como os processos operam com um foco em sequência. Ele mostra objetos, classes e componentes envolvidos nas operações e a sequência de mensagens trocadas entre os objetos necessários para realizar a funcionalidade da operação. [¹]
+
+### Diagrama de Atividades
 
 ## Bibliografia
 
-> [1] NOME DO ARQUIVO. Disponível em: [SITE](LINK]). Acesso em: DIA nov 2023.
+> [1] AULA - ARQUITETURA & DAS – PARTE II. Serrano, Milene. Disponível em: [Aprender3](https://aprender3.unb.br/pluginfile.php/2649469/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20Arquitetura%20e%20DAS%20-%20Parte%20II%20-%20Profa.%20Milene.pdf). Acesso em: 25 nov 2023.
+>
+> [2] Conheça a Visão de processo no modelo-visão 4+1 de Kruchten. Disponível em: [Youtube](https://www.youtube.com/watch?v=ZZVEEjeikY8). Acesso em: 25 nov 2023.
+>
+> [3]Architectural Blueprints—The “4+1” View
+Model of Software Architecture. Disponível em: [cs.ubc.ca](https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf). Acesso em: 25 nov 2023. 
+>
+> [4] O que é um diagrama de sequência UML?. Disponivel em: [https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml). Acesso em 4 de out. de 2023.
+
 
 ## Histórico de versão
 
