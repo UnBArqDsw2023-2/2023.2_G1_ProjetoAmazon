@@ -1,6 +1,15 @@
-class CartService():
-    def has_access(self):
-        pass
+from authuser.models import User
 
-    def operation(self):
-        pass
+class CartService():
+    def hasAccess(self, request):
+        try:
+            return User.objects.get(id=request.user.id)
+        except:
+            raise Exception('You must be logged in')
+
+    def getCart(self,request):
+        try:
+            # retorna junto o carrinho
+            return self.hasAccess(request)
+        except Exception as e:
+            raise Exception(e)
