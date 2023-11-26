@@ -34,7 +34,7 @@ class Order(models.Model):
     id = models.UUIDField(primary_key=True,editable=False)
     orderDate = models.DateField()
     status = models.CharField(max_length=250)
-    cart: models.ForeignKey(Cart, on_delete=models.CASCADE)
+    cart = models.ForeignKey(Cart, on_delete=models.CASCADE)
     account = models.ForeignKey(User, on_delete=models.CASCADE)
     value = models.FloatField()
 
