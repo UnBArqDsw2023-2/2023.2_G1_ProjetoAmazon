@@ -14,7 +14,7 @@ class Product(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField(blank=True, default="")
     sold_by = models.ForeignKey(Store, on_delete=models.CASCADE)
-    image = models.ImageField()
+    image = models.ImageField(null=True)
 
     price = models.FloatField()
     amount_in_stock = models.PositiveIntegerField()
