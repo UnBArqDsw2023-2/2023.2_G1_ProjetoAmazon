@@ -43,7 +43,25 @@ Sendo assim, como toda arquitetura, o MVC possui suas qualidades e suas desvanta
 
 ## Arquitetura MVC aplicada ao projeto
 
+Como a equipe de desenvolvimento optou por desenvolver o software no framework [Django](https://www.djangoproject.com/) foi aplicado a arquitetura MVC com algumas modificações. Como pontos adjacentes à esta arquitetura podemos citar as 3 camadas e como estão sendo aplicadas:
 
+  - Model: As models estão presentes dentro das pastas relativas ao controlador nos quais elas dialogam.Podemos ver esta relação tanto dentro da pasta [Store](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/blob/main/src/store/models.py) quanto da pasta [authUser](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/blob/main/src/authuser/models.py)
+  
+  - Controller: Os controladores estão todos presentes dentro de uma pasta com sua respectiva função, como evidenciado na figura 1. Dentro de cada pasta, podemos encontra as models nos quais os mesmos dialogam. 
+  
+    <center>
+      <img src="./assets/1.PNG" style="width:40vw"/>
+      <p> Figura 1: Modelo de pastas projeto, controller . Fonte:Autor,2023</p> 
+    </center>
+
+  - View: As views estão todas presentes numa pasta chamada "templates", como visto na figura 2, as mesmas também estão divididas entre funções dentro do programa tais como os controladores.
+  
+    <center>
+      <img src="./assets/2.PNG" style="width:40vw"/>
+      <p> Figura 2: Modelo de pastas projeto, View . Fonte:Autor,2023</p> 
+    </center>
+
+Podemos chamar o projeto de MVC modificado pois na realidade o framework nos fornece uma arquitetura semelhante, o MTV, que apenas modifica a nomenclatura de cada elemento, sendo M relativo a model, T(template) relativo as views e V(views) relativo a controller. 
 
 ## Referências
 
@@ -54,6 +72,8 @@ Sendo assim, como toda arquitetura, o MVC possui suas qualidades e suas desvanta
 > [3]  EDUCAÇÃO, Redação XP. O que é arquitetura de software? Veja definição e aplicação no mundo corporativo. Disponível em: &#60;https://blog.xpeducacao.com.br/o-que-e-arquitetura-de-software/&#62;. Acesso em: 22 nov 2023. 
 >
 > [4]  VALENTE, Marco Tulio. Cap. 7: Arquitetura – Engenharia de Software Moderna. Disponível em: &#60;https://engsoftmoderna.info/cap7.html&#62;. Acesso em: 22 nov 2023. 
+>
+> [5]   FLPN. Qual a diferença entre a arquitetura MVC e a MTV do Django? Disponível em: &#60;https://pt.stackoverflow.com/questions/246881/qual-a-diferen%C3%A7a-entre-a-arquitetura-mvc-e-a-mtv-do-django&#62;. Acesso em: 25 nov 2023. 
 
 ‌
 ## Histórico de versão
@@ -62,5 +82,5 @@ Sendo assim, como toda arquitetura, o MVC possui suas qualidades e suas desvanta
 | ------ | ---------- | ------------------------------------ | ------------- | ------------ |
 | `1.0`  | 22/11/2023 | Iniciando o documento                |    Kauã       |      Ana     |
 | `1.1`  | 22/11/2023 | Adicionando textos padrões           |    Kauã       |      Ana     |
-
+| `1.2`  | 25/11/2023 | Finalizando o documento              |    Kauã       |      Ana     | 
 
