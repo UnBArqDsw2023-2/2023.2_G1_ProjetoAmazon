@@ -14,7 +14,7 @@ def product(request):
 def cart(request):
     try:
         user = User.objects.get(id=request.user.id)
-        return render(request, 'products/cart.html',{'user':user})
+        return render(request, 'products/cart.html', {'user':user})
     except:
-        messages.error(request,"You are not logged in")
+        messages.error(request, "You are not logged in")
         return render(request, 'index.html')

@@ -44,30 +44,31 @@ class Order(models.Model):
         pass
 
 class Payment(models.Model):
-    paymentId = models.UUIDField(primary_key=True,editable=False)
+    payment_id = models.UUIDField(primary_key=True,editable=False)
     value = models.FloatField()
-    actualData = models.DateField(default=timezone.now)
-    expirationData = models.DateField()
+    date = models.DateField(default=timezone.now)
+    expiration_date = models.DateField()
     status = models.TextField(blank=True,default="")
-    costOfFreight = models.FloatField()
+    freight_cost = models.FloatField()
     coupon = models.BooleanField()
     discount = models.FloatField()
-    finalValue = models.FloatField()
+    final_value = models.FloatField()
 
     def __str__(self):
-        return self.paymentId
+        return self.payment_id
 
-    def verifyStatus(self):
+    def verify_status(self):
         return self.status
 
-    def sumCostOfFreight(self):
-        return self.costOfFreight
+    def sum_cost_of_freight(self):
+        return self.freight_cost
 
     def finish(self):
         pass
 
 class Pix(Payment):
-    chavePix = models.CharField(max_length=250)
+    key = models.CharField(max_length=250)
+
     def pay(self,data):
         pass
 
@@ -75,22 +76,24 @@ class Pix(Payment):
         pass
 
 class Ticket(Payment):
-    barCode = models.CharField(max_length=250)
-    recipientName = models.CharField(max_length=250)
-    recipientCPF = models.CharField(max_length=14)
+    barcode = models.CharField(max_length=250)
+    recipient_name = models.CharField(max_length=250)
+    recipient_cpf = models.CharField(max_length=14)
 
     def pay(self,data):
         pass
+
     def generate(self,data):
         pass
 
 class CreditCard(Payment):
-    cardName = models.CharField(max_length=250)
+    name = models.CharField(max_length=250)
     number = models.CharField(max_length=16)
     cvv = models.CharField(max_length=3)
-    expirationDate = models.CharField(max_length=10)
+    card_expiration_date = models.CharField(max_length=10)
 
     def pay(self,data):
         pass
+
     def generate(self,data):
         pass
