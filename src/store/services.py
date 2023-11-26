@@ -1,4 +1,5 @@
 from authuser.models import User
+from store.models import Cart
 
 class CartService():
     def hasAccess(self, request):
@@ -9,7 +10,8 @@ class CartService():
 
     def getCart(self,request):
         try:
-            # retorna junto o carrinho
-            return self.hasAccess(request)
+            user = self.hasAccess(request)
+            cart = Cart.objects.get(belongs_to=user)
+            return {'Cart':cart,'User':user}
         except Exception as e:
             raise Exception(e)
