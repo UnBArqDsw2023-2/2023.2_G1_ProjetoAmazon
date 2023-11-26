@@ -46,7 +46,7 @@ class Order(models.Model):
 class Payment(models.Model):
     paymentId = models.UUIDField(primary_key=True,editable=False)
     value = models.FloatField()
-    actualData = models.DateField(default=timezone.now())
+    actualData = models.DateField(default=timezone.now)
     expirationData = models.DateField()
     status = models.TextField(blank=True,default="")
     costOfFreight = models.FloatField()
