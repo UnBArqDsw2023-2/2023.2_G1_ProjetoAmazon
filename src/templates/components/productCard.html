@@ -1,0 +1,11 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/productCard.css' %}">
+
+<div class="box">
+    <h1>{{ product.name }}</h1>
+    <img src="{{ product.img }}">
+    <div class="smallBox">
+        <h1>Price: ${{ product.preco}}</h1>
+        <p>{{product.descricao}}</p>
+    </div> 
+</div>

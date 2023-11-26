@@ -7,18 +7,22 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
   </head>
   <body>
-
     <header class="navbar">
-      <a><img src="{% static 'img/Logo.png' %}" height="50"/></a>
-      <div>
-        <input class="textbox" type="text" placeholder="Procure seu produto aqui">
-        <input class="searchButton" type="submit">
+
+      <a href="{%url 'index'%}"><img src="{% static 'img/Logo.png' %}" height="50"/></a>
+
+      <div class="searchBox" style="display:flex">
+        <input class="textbox" type="text" placeholder="Search your product here">
+        <button class="searchButton"><img src="{% static 'img/lupa.png' %}" height="35"/></button>
+      </div>      
+      
+      <div class="authBoxBase">
+        <a class="authBox" href="{% url 'login' %}">Login</a>
+        <a class="authBox" href="{% url 'register' %}">Register</a>
       </div>
-      <div>
-        <a href="{% url 'login' %}">Login</a>
-        <a href="{% url 'register' %}">Register</a>
-      </div>
-      <div>carrinho</div>
+
+      <div class="cartBox"><a href="{% url 'cart' %}"><img src="{%static 'img/Carrinho.png' %}" height="35"/></a></div>
+    
     </header>
 
     {% if messages %}
@@ -29,6 +33,8 @@
     </ul>
     {% endif %}
 
-    {% block content %}{% endblock %}
+    <div style="display:flex;flex-direction: column;padding: 50px;">
+      {% block content %}{% endblock %}
+    </div>
   </body>
 </html>

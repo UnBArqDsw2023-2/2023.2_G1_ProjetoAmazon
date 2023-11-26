@@ -9,4 +9,4 @@ class StoreAdmin(admin.ModelAdmin):
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ['name', 'price', 'amount_in_stock', 'sold_by']
+    list_display = ['name', 'price', 'amount_in_stock', 'sold_by','image']

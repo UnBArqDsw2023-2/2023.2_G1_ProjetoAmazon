@@ -1,0 +1,17 @@
+.container{   
+    display:flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.welcome{
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+    border: gray solid 1px;
+    background-color:#F79E1B;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 29vw;
+    box-shadow: -1px 5px 5px #232F3E;
+}

@@ -1,6 +1,17 @@
 {% extends "base.html" %}
+{% load productsComponent %}
+{% load static %}
+
 
 {% block content %}
-<h1>index</h1>
+    
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
 
+    <div class="welcome">
+        <h1>Welcome to Amazon!</h1>
+    </div>
+    
+    <div style="display:flex;flex-direction: column;padding: 50px;">
+        {% showProductCard %}
+    </div>
 {% endblock %}
