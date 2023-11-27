@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.productInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.productPayment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin:10px;
+    width: 20vw;
+    padding: 10px;
+    height: 60vh;
+    border: 2px solid gray;
+    background-color: white;
+    box-shadow: -1px 5px 5px #232F3E;
+}
+
+.buttonCart{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    border: none;
+    width: 80%;
+    background-color: #ECEC53;
+}
+
+.buttonCart:hover{
+    background-color: #FF0;
+}
+
+.buttonBuyNow{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    width: 80%;
+    background-color: #F79E1B;
+    border: none;
+}
+
+.buttonBuyNow:hover{
+    background-color: #f09208;
+}
+
+.productNameDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:10px;
+    width: 20vw;
+    padding: 10px;
+    height: 60vh;
+    border: 2px solid gray;
+    background-color: white;
+    box-shadow: -1px 5px 5px #232F3E;
+}
+
+.imageDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:10px;
+    width: 20vw;
+    padding: 10px;
+    height: 60vh;
+    border: 2px solid gray;
+    background-color: white;
+    box-shadow: -1px 5px 5px #232F3E;
+
+}
+
+.formDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

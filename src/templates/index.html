@@ -15,7 +15,7 @@
         <div class="products">
             {% if products %}
                 {%for product in products%}
-                    <a href={% url 'product'%} style="text-decoration:none">
+                    <a href={% url 'product'%}?idProduct={{product.name}} style="text-decoration:none">
                         <div style="display:flex;">
                             {% showProductCard product%}
                         </div>
