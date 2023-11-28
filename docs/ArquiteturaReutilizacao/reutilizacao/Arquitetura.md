@@ -15,7 +15,7 @@ Para a escolha da arquitetura do projeto, a equipe produziu os diagramas e com b
 
 ## Arquitetura MVC
 
- Na literatura, a arquitetura de n-camadas se caracteriza pela divisão de blocos do sistemas(chamadas layers) de maneira hierarquica, cada layer só pode se comunicar com as debaixo. As layers estão divididas conforme a suas respectivas responsabilidades do sistema.Normalmente, as camadas são divididas físicamente entre computadores diferentes, todavia, não há de fato a necessidade desta prática. 
+ Na literatura, a arquitetura de n-camadas se caracteriza pela divisão de blocos do sistemas(chamadas layers) de maneira hierarquica, cada layer só pode se comunicar com as debaixo. As layers estão divididas conforme a suas respectivas responsabilidades do sistema. Normalmente, as camadas são divididas fisicamente entre computadores diferentes, todavia, não há de fato a necessidade desta prática. 
 
  Após a evolução dos modelos de arquitetura de software, surgiu o padrão MVC, no qual é uma arquitetura baseada no padrão de camadas que considera o número de camadas igual a 3. Tal padrão começou a ser utilizado amplamente pela comunidade de software graças aos seus benefícios.
 
