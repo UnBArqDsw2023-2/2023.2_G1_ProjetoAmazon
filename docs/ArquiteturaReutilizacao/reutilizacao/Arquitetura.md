@@ -83,4 +83,4 @@ Podemos chamar o projeto de MVC modificado pois na realidade o framework nos for
 | `1.0`  | 22/11/2023 | Iniciando o documento                |    Kauã       |      Ana     |
 | `1.1`  | 22/11/2023 | Adicionando textos padrões           |    Kauã       |      Ana     |
 | `1.2`  | 25/11/2023 | Finalizando o documento              |    Kauã       |      Ana     | 
-
+| `1.3`  | 28/11/2023 | Documento revisado              |    Ana       |      Kauã     | 
