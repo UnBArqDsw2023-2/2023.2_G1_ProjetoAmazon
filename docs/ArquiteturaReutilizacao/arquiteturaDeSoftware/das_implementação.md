@@ -19,16 +19,38 @@ Documentação de Arquitetura de Software (DAS) de Implementação: Elementos Es
 
 - **Contexto**: Uma breve descrição do contexto do projeto, identificando os principais objetivos e restrições.
 
-- **Cenários-Chave**: Documentos de elicitações de requisitos.
+- **Cenários-Chave**: Documentos da parte de requisitos, como modelagem, elicitação e validação.
   
 - **Representação Gráfica**: Diagramas que ilustremos diferentes componentes do sistema e suas interações.
 
 - **Estrutura do Código**: Uma visão geral da estrutura do código-fonte, destacando módulos principais, pacotes ou camadas.
  
  ## Contexto
+ A Amazon é uma plataforma e-commerce que oferece diversos serviços para o clientea. Através do site da Amazon, é possível fazer compras diante de um extenso catálogo de produtos e serviços oferecidos pela empresa.
+O nosso grupo, da matéria de Arquitetura e desenho de software, ficou responsável por analisar a Amazon com foco no perfil comprador e fluxos compreendidos do cadastro na plataforma até visualização/compra/pagamento de produtos.
 
  ## Cenários-chave
+[INSERIR OS DOCUMENTOS DA ELICITAÇÃO DE REQUISITOS]
+### 5W2H
+### Storyboard
+### Rich Picture
+### Protótipo
+### Mapa mental
+### Entrevista
+### BPMN
 
- ## Diagramas
+## Diagramas
+
+### de Classes
+
+### de Pacotes
+
+### de Estados
+
+### de Atividadedes
+
+### de Componentes
 
  ## Estrutura do código
+
+ [Adicionar o que o código que estamos implementando ]
