@@ -22,7 +22,14 @@ def index(request):
     return render(request, 'index.html',{'products':products})
 
 def payment(request):
-    return render(request, 'payment/payment.html')
+    return render(request, 'payment/payment.html',{'product':{
+        'name':"carrinho",
+        'image':"src\static\img\images.jpg",
+        'price':100.00,
+        'description':"um carrinho controle remoto",
+        'sold_by':'caua',
+        'amount_in_stock':10
+    }})
 
 def product(request):
     idProduct = request.GET.get('idProduct','')

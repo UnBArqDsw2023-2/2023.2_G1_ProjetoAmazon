@@ -1,5 +1,43 @@
 {% extends "base.html" %}
+{% load productsComponent %}
+{% load static %}
+
 
 {% block content %}
     
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+
+    <div class="container">
+        <div style="display:flex;flex-direction:row;justify-content:space-between;margin:20px">
+            <div class="cartW">
+                <h1>Inside your cart!</h1>
+            </div>
+
+            <a href={% url 'payment'%} style="text-decoration:none" ><div class="cartW" style="    display:flex;
+            justify-content: center;
+            padding: 10px;
+            border: gray solid 1px;
+            background-color:#F79E1B;
+            border-radius: 10px;
+            width: 200px;
+            margin-left: 25vw;
+            box-shadow: -1px 5px 5px #232F3E;
+            margin-bottom: 50px;">
+                <h1>Buy all!</h1>
+            </div></a>
+        </div>
+
+        <div class="products">
+            {% if products %}
+                {%for product in products%}
+                    <a href={% url 'product'%}?idProduct={{product.name}} style="text-decoration:none">
+                        <div style="display:flex;">
+                            {% showProductCard product%}
+                        </div>
+                    </a>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+    </div>
 {% endblock %}
