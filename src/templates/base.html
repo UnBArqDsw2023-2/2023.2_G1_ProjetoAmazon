@@ -18,6 +18,7 @@
 
       <div class="authBoxBase">
       {% if user.is_authenticated %}
+        <a class="authBox" href="{% url 'profile' %}">Profile</a>
         <a class="authBox" href="{% url 'logout' %}">Logout</a>
       {% else %}
         <a class="authBox" href="{% url 'login' %}">Login</a>
