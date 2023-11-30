@@ -1,5 +1,5 @@
 from authuser.models import User
-from store.models import Cart, Order, CartProduct
+from store.models import *
 
 class CartService():
     def hasAccess(self, request):
@@ -14,6 +14,16 @@ class CartService():
 
     def get_products_in_cart(self, cart: Cart):
         return CartProduct.objects.filter(cart=cart)
+
+    def add_product_to_cart(self, cart: Cart, product: Product, quantity: int):
+        cart_product, _ = CartProduct.objects.get_or_create(
+            cart=cart,
+            product__pk=product.pk,
+            defaults={'product': product, 'quantity': 0}
+        )
+
+        cart_product.quantity += quantity
+        cart_product.save()
 
     def getCart(self, request):
         try:

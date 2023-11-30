@@ -39,13 +39,6 @@ class CartView(LoginRequiredMixin, View):
         product = Product.objects.get(pk=product_id)
         cart = self.cart_service.get_cart(request.user)
 
-        cart_product, _ = CartProduct.objects.get_or_create(
-            cart=cart,
-            product__id=product_id,
-            defaults={'product': product, 'quantity': 0},
-        )
-
-        cart_product.quantity += amount
-        cart_product.save()
+        self.cart_service.add_product_to_cart(cart, product, amount)
 
         return redirect('cart')
