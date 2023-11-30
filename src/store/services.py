@@ -1,5 +1,5 @@
 from authuser.models import User
-from store.models import Cart, Order
+from store.models import Cart, Order, CartProduct
 
 class CartService():
     def hasAccess(self, request):
@@ -8,7 +8,14 @@ class CartService():
         except:
             raise Exception('You must be logged in')
 
-    def getCart(self,request):
+    def get_cart(self, user: User) -> Cart:
+        cart, _ = Cart.objects.get_or_create(belongs_to=user)
+        return cart
+
+    def get_products_in_cart(self, cart: Cart):
+        return CartProduct.objects.filter(cart=cart)
+
+    def getCart(self, request):
         try:
             user = self.hasAccess(request)
             cart = Cart.objects.get(belongs_to=user)

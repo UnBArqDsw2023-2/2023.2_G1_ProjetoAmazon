@@ -1,8 +1,5 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
-from authuser.models import User
-from django.contrib import messages
-from store.models import Product
-import json
 
 from store.services import CartService
 
@@ -45,16 +42,9 @@ def product(request):
         'amount_in_stock':10
     }})
 
+@login_required
 def cart(request):
-    try:
-        cartService = CartService()
-        cart = cartService.getCart(request)
-        if(request.method == 'POST'):
-            idProduct = request.GET.get('idProduct','')
-            selectedProduct = Product.objects.get(name=idProduct)
-            cart.update(selectedProduct)
-        return render(request, 'products/cart.html', {'cart':cart})
-    except Exception as e:
-        messages.error(request, e)
-        #products = Product.objects.all()
-        return render(request, 'index.html')
+    cart_service = CartService()
+    cart = cart_service.get_cart(request.user)
+    products = cart_service.get_products_in_cart(cart)
+    return render(request, 'products/cart.html', {'cart': cart, 'products': products})

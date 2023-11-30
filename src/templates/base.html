@@ -14,15 +14,22 @@
       <div class="searchBox" style="display:flex">
         <input class="textbox" type="text" placeholder="Search your product here">
         <button class="searchButton"><img src="{% static 'img/lupa.png' %}" height="35"/></button>
-      </div>      
-      
-      <div class="authBoxBase">
-        <a class="authBox" href="{% url 'login' %}">Login</a>
-        <a class="authBox" href="{% url 'register' %}">Register</a>
       </div>
 
-      <div class="cartBox"><a href="{% url 'cart' %}"><img src="{%static 'img/Carrinho.png' %}" height="35"/></a></div>
-    
+      <div class="authBoxBase">
+      {% if user.is_authenticated %}
+        <a class="authBox" href="{% url 'logout' %}">Logout</a>
+      {% else %}
+        <a class="authBox" href="{% url 'login' %}">Login</a>
+        <a class="authBox" href="{% url 'register' %}">Register</a>
+      {% endif %}
+      </div>
+
+      <div class="cartBox">
+        <a href="{% url 'cart' %}">
+          <img src="{% static 'img/Carrinho.png' %}" height="35" />
+        </a>
+      </div>
     </header>
 
     {% if messages %}
