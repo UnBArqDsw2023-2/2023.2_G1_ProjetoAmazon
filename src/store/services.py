@@ -34,8 +34,6 @@ class CartService():
             raise Exception(e)
 
     def create_order_from_cart(self, user: User) -> Order:
-        breakpoint()
-
         cart = Cart.objects.get(belongs_to=user)
         products_in_cart = cart.products.all()
 
