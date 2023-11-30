@@ -1,8 +1,9 @@
-from django.contrib.auth.decorators import login_required
-from django.shortcuts import render
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.shortcuts import render, redirect
+from django.views import View
 
 from store.services import CartService
-from store.models import Product
+from store.models import CartProduct, Product
 
 def index(request):
     products = Product.objects.all()
@@ -18,23 +19,29 @@ def payment(request):
         'amount_in_stock':10
     }})
 
-def product(request):
-    idProduct = request.GET.get('idProduct','')
-    #selectedProduct = Product.objects.get(name=idProduct)
+def product(request, id):
+    product = Product.objects.get(id=id)
+    return render(request, 'products/product.html', {'product': product})
 
-    #Basta adicionar selectedProduct em product,falta os dados no banco para testar 100%
-    return render(request, 'products/product.html',{'product':{
-        'name':"carrinho",
-        'image':"src\static\img\images.jpg",
-        'price':100.00,
-        'description':"um carrinho controle remoto",
-        'sold_by':'caua',
-        'amount_in_stock':10
-    }})
-
-@login_required
-def cart(request):
+class CartView(LoginRequiredMixin, View):
     cart_service = CartService()
-    cart = cart_service.get_cart(request.user)
-    products = cart_service.get_products_in_cart(cart)
-    return render(request, 'products/cart.html', {'cart': cart, 'products': products})
+
+    def get(self, request):
+        cart = self.cart_service.get_cart(request.user)
+        products = self.cart_service.get_products_in_cart(cart)
+        context = {'cart': cart, 'products': products}
+        return render(request, 'products/cart.html', context)
+
+    def post(self, request):
+        product_id = int(request.POST['id'])
+        amount = int(request.POST['amount'])
+
+        product = Product.objects.get(pk=product_id)
+
+        CartProduct.objects.create(
+            cart=self.cart_service.get_cart(request.user),
+            product=product,
+            quantity=amount,
+        )
+
+        return redirect('cart')

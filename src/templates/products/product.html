@@ -2,58 +2,65 @@
 {% load static %}
 
 {% block content %}
+<link rel="stylesheet" href="{% static 'css/product.css' %}">
 
-    <link rel="stylesheet" href="{% static 'css/product.css' %}">
-    <div class="container">
-        <div>
-            <a href="{% url 'index' %}" style="text-decoration:none;"><h3 style="display:flex;flex-direction: row; align-items:center;"><img src="{% static 'img/esquerda.png'%}" width=10> Back to main page</h3></a>
-            <div class="imageDiv">
-                <h3>Images:</h3>
-                <img src="{% static 'img/images.jpg'%}">
-                <div style="display:flex;justify-content: space-around;">
-                    <img src="{% static 'img/esquerda.png'%}" width=50>
-                    <img src="{% static 'img/direita.png'%}" width=50 >
-                </div>
-            </div>
-        </div>
+<div>
+  <a href="{% url 'index' %}" style="text-decoration:none;">
+    <h3 style="display:flex;flex-direction: row; align-items:center;">
+      <img src="{% static 'img/esquerda.png' %}" width=10> Back to main page
+    </h3>
+  </a>
+</div>
 
-        <div class="productInfo">
-            <div class="productNameDiv">
-                <div>
-                    <h1>{{product.name}}</h1>
-                    <h5>Selled for: {{product.sold_by}}</h5>
-                    <div style="display:flex;flex-direction: row; align-items:center">
-                        <h4>Costumer Reviews: </h4> <img src="{% static 'img/stars.png'%}" padding=10 width=80>
-                    </div>
-                    <h4>35.156 Costumer Reviews</h4>
-                    </br>
-                    <h3>Description: </h3>
-                    <h4>{{product.description}}</h4>
-                </div>
-
-
-            </div>
-
-        </div>
-        <div class="productPayment">
-            <h1 style="color:red">Price: ${{product.price}}</h1>
-            <h3>Amount in stock: {{product.amount_in_stock}}</h3>
-            <h5>FREE delivery: product is delivered 10 working days after payment.
-            </br>
-            </br>
-                FAST delivery: product is delivered within 10 working days after payment (A fee of 30% of the product price is charged)</h5>
-
-                <h3>Your order: <select></select> </h3> 
-
-            <form class="formDiv" method="post" action={% url 'cart'%}>
-                {% csrf_token %}
-                <button idProduct={{product.name}} class="buttonCart">Add to cart</button>
-            </form>
-            <form class="formDiv" method="post" action={% url 'payment'%}>
-                {% csrf_token %}
-                <button idProduct={{product.name}} class="buttonBuyNow">Buy now</button>
-            </form>
-        </div>
+<div class="container">
+  <div class="imageDiv">
+    <h3>Images:</h3>
+    <img src="{{ product.image.url }}">
+    <div style="display:flex;justify-content: space-around;">
+      <img src="{% static 'img/esquerda.png' %}" width=50 >
+      <img src="{% static 'img/direita.png' %}" width=50 >
     </div>
-    
+  </div>
+
+  <div class="productInfo">
+    <div class="productNameDiv">
+      <div>
+        <h1>{{product.name}}</h1>
+        <h5>Sold by: {{product.sold_by}}</h5>
+          <div style="display:flex;flex-direction: row; align-items:center">
+            <h4>Costumer Reviews:</h4>
+            <img src="{% static 'img/stars.png' %}" padding=10 width=80>
+          </div>
+          <h4>35.156 Costumer Reviews</h4>
+          </br>
+          <h3>Description: </h3>
+          <h4>{{product.description}}</h4>
+      </div>
+    </div>
+  </div>
+  <div class="productPayment">
+    <h1 style="color:red">Price: ${{product.price}}</h1>
+    <h3>Amount in stock: {{product.amount_in_stock}}</h3>
+    <h5>
+      FREE delivery: product is delivered 10 working days after payment.
+      </br>
+      </br>
+      FAST delivery: product is delivered within 10 working days after payment
+      (A fee of 30% of the product price is charged)
+    </h5>
+
+    <form method="post" action="{% url 'cart' %}">
+      {% csrf_token %}
+      <input type="hidden" name="id" value="{{ product.id }}" />
+      <div>
+        <label for="amount">Amount:</label>
+        <input name="amount" type="number" min="1" max="{{ product.amount_in_stock }}" required />
+      </div>
+      <div>
+        <input type="submit" class="buttonCart" value="Add to cart" />
+      </div>
+    </form>
+  </div>
+</div>
+
 {% endblock %}
