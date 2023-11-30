@@ -1,7 +1,11 @@
 {% extends "base.html" %}
 
-
 {% block content %}
+
+<h2>
+  Items In Cart
+</h2>
+
 <ul>
   {% for product in products %}
   <li>
@@ -14,7 +18,8 @@
   Total Price: {{ cart.total_price }}
 </p>
 
-<a>
-  Proceed to payment
+<a href="">
+  Comprar
 </a>
+
 {% endblock %}

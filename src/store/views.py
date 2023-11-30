@@ -2,21 +2,11 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 
 from store.services import CartService
+from store.models import Product
 
 def index(request):
-    #products = Product.objects.all()
-    products = [{
-        'name':"carrinho",
-        'image':"{% static 'img/images.jpg'%}",
-        'price':100.00,
-        'description':"um carrinho controle remoto"
-    }, {
-        'name':"camisa do vasco",
-        'image':"{% static 'img/images.jpg'%}",
-        'price':100000,
-        'description':"autografada pelo pec"
-    },]
-    return render(request, 'index.html',{'products':products})
+    products = Product.objects.all()
+    return render(request, 'index.html', {'products': products})
 
 def payment(request):
     return render(request, 'payment/payment.html',{'product':{

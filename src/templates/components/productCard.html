@@ -2,10 +2,10 @@
 <link rel="stylesheet" type="text/css" href="{% static 'css/productCard.css' %}">
 
 <div class="box">
-    <h1 name={{product.name}}>{{ product.name }}</h1>
-    <img src="{{ product.image }}">
+    <h1 name={{ product.name }}>{{ product.name }}</h1>
+    <img src="{{ product.image.url }}">
     <div class="smallBox">
         <h1>Price: ${{ product.price}}</h1>
-        <p>{{product.description}}</p>
-    </div> 
+        <p>{{ product.description }}</p>
+    </div>
 </div>

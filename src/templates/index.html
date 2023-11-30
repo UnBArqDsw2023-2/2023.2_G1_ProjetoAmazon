@@ -1,28 +1,16 @@
 {% extends "base.html" %}
 {% load productsComponent %}
-{% load static %}
-
 
 {% block content %}
-    
-    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
-    <div class="container">
 
-        <div class="welcome">
-            <h1>Welcome to Amazon!</h1>
-        </div>
+<div class="welcome">
+  <h1>Welcome to Amazon!</h1>
+</div>
 
-        <div class="products">
-            {% if products %}
-                {%for product in products%}
-                    <a href={% url 'product'%}?idProduct={{product.name}} style="text-decoration:none">
-                        <div style="display:flex;">
-                            {% showProductCard product%}
-                        </div>
-                    </a>
-                {% endfor %}
-            {% endif %}
-        </div>
+<div class="products">
+  {% for product in products %}
+    {% showProductCard product %}
+  {% endfor %}
+</div>
 
-    </div>
 {% endblock %}

@@ -134,3 +134,6 @@ LOGIN_URL = '/auth/login'
 
 # TODO: change this before deployment.
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+MEDIA_URL = 'media/'
+MEDIA_ROOT = 'media/'
