@@ -90,14 +90,12 @@ class CartServiceProxy(CartServiceProtocol):
 # corretamente. Ferramentas como MyPy podem ser usadas para obter essa garantia.
 class PaymentStrategy(Protocol):
     @abstractmethod
-    def pay(self, payment_method: PaymentMethod) -> bool:
+    def pay(self, payment_method: PaymentMethod, order: Order) -> bool:
         raise NotImplementedError
 
 
 class CreditCardPaymentStrategy(PaymentStrategy):
-    def pay(self, payment_method: PaymentMethod) -> bool:
-        assert isinstance(payment_method, CreditCardPaymentMethod)
-
+    def pay(self, payment_method: CreditCardPaymentMethod, order: Order) -> bool:
         # Interação com serviço externo de pagamento aqui.
 
         return True # ou False, caso o pagamento falhe
