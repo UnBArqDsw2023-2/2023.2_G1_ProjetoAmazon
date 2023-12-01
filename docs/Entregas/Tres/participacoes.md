@@ -13,9 +13,10 @@ Para a realização do trabalho em grupo foram utilizados os aplicativos Discord
 
 | Artefato                                                                    | Autores                 | Revisores                   |
 | --------------------------------------------------------------------------- | ----------------------- | --------------------------- |
+| [Documento de arquitetura](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/blob/main/docs/ArquiteturaReutilizacao/reutilizacao/Arquitetura.md)| Kauã e Guilherme | Ana|
 | [DAS de arquitetura externa](                                             ) | Augusto                 |          Mylena             |
-| [DAS de arquitetura interna](                                             ) | Kauã e Guilherme        | Ana                         |
-| [DAS de implantação(                                                      ) | Arthur e Bruno          | Gabriel                     |
+| [DAS de arquitetura interna](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/blob/main/docs/ArquiteturaReutilizacao/reutilizacao/Interna.md) | Kauã e Guilherme        | Ana             |
+| [DAS de implantação](                                                      ) | Arthur e Bruno          | Gabriel                    |
 | [DAS de implementação](                                                   ) | Ana e Mylena            | Beatriz                     |
 | [DAS de processo](                                                        ) | Beatriz e Gabriel       | Mylena e Ana                |
 | [Data view](                                                        )       | Augusto                 | Guilherme                   |
@@ -30,7 +31,7 @@ Para a realização do trabalho em grupo foram utilizados os aplicativos Discord
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ------------ | ----------------- |
 | [Documento de Participações](./Participacoes.md)                         | Estrutura do documento que conta a avaliação e as atividades de cada membro na segunda entrega     | Mylena       | Beatriz           |
 | [GitPages](https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/#/) | Estruturação, estilização, deploy, inclusão das páginas e revisão do conteúdo para segunda entrega | Arthur       | N/A               |
-
+| [Implementação](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/tree/main/src)                      | Implementação da aplicação com os padrões de projeto | Guilherme Puida e Kauã | N/A |  
 
 <div style="text-align: center"> Tabela 2. Contribuição dos membros para a entrega de atividades extras na entrega de modelagem. Fonte: Autores.</div>
 
@@ -59,3 +60,4 @@ Também podiam fazer comentários caso necessário.
 | Versão | Data       | Descrição               | Autor(es) | Revisor(es) |
 | ------ | ---------- | ----------------------- | --------- | ----------- |
 | `1.0`  | 30/11/2023 | Criação da documentação | Mylena    | Beatriz     |
+| `1.1`  | 30/11/2023 | Adição de links         | Kauã      | Ana         |
