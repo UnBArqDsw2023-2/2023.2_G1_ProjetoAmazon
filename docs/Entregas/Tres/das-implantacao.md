@@ -12,6 +12,8 @@ Para a criação do diagrama foi utilizado o [LucidChart](https://www.lucidchart
 
 ## 3. Visão de Implantação
 
+No diagrama de implantação os nós representam os elementos básicos de software ou hardware. As linhas que ligam um nó a outro indicam o relacionamento entre elas e as caixas menores apresentadas nos nós representam os artefatos de software empregados. [3]
+
 A visão de implantação do sistema é representada pelo seguinte diagrama:
 
 <center>
