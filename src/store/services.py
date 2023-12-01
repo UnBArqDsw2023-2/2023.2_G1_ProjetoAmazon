@@ -3,21 +3,33 @@ from authuser.models import User
 from store.models import *
 from typing import Protocol
 
-class CartService():
-    def hasAccess(self, request):
-        try:
-            return User.objects.get(id=request.user.id)
-        except:
-            raise Exception('You must be logged in')
+from django.core.exceptions import ObjectDoesNotExist
 
+class CartServiceProtocol(Protocol):
+    @abstractmethod
+    def get_cart(self, user: User) -> Cart:
+        raise NotImplementedError
+
+    @abstractmethod
+    def add_product(self, user: User, product: Product, quantity: int):
+        raise NotImplementedError
+
+    @abstractmethod
+    def get_products(self, user: User) -> list[Product]:
+        raise NotImplementedError
+
+    @abstractmethod
+    def create_order(self, user: User) -> Order:
+        raise NotImplementedError
+
+class CartService(CartServiceProtocol):
     def get_cart(self, user: User) -> Cart:
         cart, _ = Cart.objects.get_or_create(belongs_to=user)
         return cart
 
-    def get_products_in_cart(self, cart: Cart):
-        return CartProduct.objects.filter(cart=cart)
+    def add_product(self, user: User, product: Product, quantity: int):
+        cart = self.get_cart(user)
 
-    def add_product_to_cart(self, cart: Cart, product: Product, quantity: int):
         cart_product, _ = CartProduct.objects.get_or_create(
             cart=cart,
             product__pk=product.pk,
@@ -27,16 +39,12 @@ class CartService():
         cart_product.quantity += quantity
         cart_product.save()
 
-    def getCart(self, request):
-        try:
-            user = self.hasAccess(request)
-            cart = Cart.objects.get(belongs_to=user)
-            return {'Cart':cart,'User':user}
-        except Exception as e:
-            raise Exception(e)
+    def get_products_in_cart(self, user: User):
+        cart = self.get_cart(user)
+        return CartProduct.objects.filter(cart=cart)
 
     def create_order_from_cart(self, user: User) -> Order:
-        cart = Cart.objects.get(belongs_to=user)
+        cart = self.get_cart(user)
         products_in_cart = cart.products.all()
 
         if len(products_in_cart) == 0:
@@ -46,6 +54,35 @@ class CartService():
         order.products.set(products_in_cart)
 
         return order
+
+
+class CartServiceProxy(CartServiceProtocol):
+    _service: CartService
+
+    def __init__(self, service: CartService) -> None:
+        self._service = service
+
+    def get_cart(self, user: User) -> Cart:
+        self._check_access(user)
+        return self._service.get_cart(user)
+
+    def add_product(self, user: User, product: Product, quantity: int):
+        self._check_access(user)
+        return self._service.add_product(user, product, quantity)
+
+    def get_products(self, user: User) -> list[Product]:
+        self._check_access(user)
+        return self._service.get_products(user)
+
+    def create_order(self, user: User) -> Order:
+        self._check_access(user)
+        return self._service.create_order(user)
+
+    def _check_access(self, user: User):
+        try:
+            User.objects.get(pk=user.id)
+        except ObjectDoesNotExist:
+            raise ValueError("You must be authenticated")
 
 # No python não existem Interfaces, e sim Protocolos. Funcionalmente, elas são
 # iguais. No entanto, como o Python é uma linguagem dinamicamente tipada, não
