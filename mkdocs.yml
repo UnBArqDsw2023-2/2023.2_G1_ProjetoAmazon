@@ -116,6 +116,13 @@ nav:
                           - Diagrama de Comunicação / Colaboração: Entregas/Dois/DiagramaDeComunicacaoColaboracao/DiagramaDeComunicacaoColaboracao.md
                   - 2.2 Participações - Modelagem:
                       - Participações: Entregas/Dois/Participacoes.md
+      - Entrega 3:
+          - Entregas/Tres/index.md
+          - Arquitetura e Reutilização de Software:
+            - 4. Desenho de Software (Arquitetura & Reutilização de Software):
+              - 4.1 Módulo Estilos e Padrões Arquiteturais:
+                - DAS Implantação: Entregas/Tres/das_implantacao.md
+                - DAS Implementação: Entregas/Tres/das_implementacao.md
   - Reuniões:
       - Atas: reunioes.md
   - Disciplina:
