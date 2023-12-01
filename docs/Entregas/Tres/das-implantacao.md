@@ -4,6 +4,12 @@
 
 Ao contrário da Visão _da_ Implementação, que é uma visão de alto nível, que descreve a organização lógica do sistema, a Visão _de_ Implementação é uma visão de baixo nível, que descreve a distribuição física do processamento no sistema. Também conhecida como Visão de Implantação, ela descreve a arquitetura física do sistema, incluindo os nós de processamento, as conexões entre eles e os componentes de software que residem em cada nó.
 
+## 2. Metodologia
+
+Para o desenvolvimento do documento, foi utilizado como base o diagrama de implantação desenvolvido durante a fase de modelagem.
+
+Para a criação do diagrama foi utilizado o [LucidChart](https://www.lucidchart.com/), um aplicativo de diagramação web.
+
 ## 3. Visão de Implantação
 
 A visão de implantação do sistema é representada pelo seguinte diagrama:
