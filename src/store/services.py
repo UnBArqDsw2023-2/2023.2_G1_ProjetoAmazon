@@ -47,6 +47,10 @@ class CartService():
 
         return order
 
+# No python não existem Interfaces, e sim Protocolos. Funcionalmente, elas são
+# iguais. No entanto, como o Python é uma linguagem dinamicamente tipada, não
+# existe check em tempo de compilação para garantir que o protocolo está implementado
+# corretamente. Ferramentas como MyPy podem ser usadas para obter essa garantia.
 class PaymentStrategy(Protocol):
     @abstractmethod
     def pay(self, payment_method: PaymentMethod) -> bool:
