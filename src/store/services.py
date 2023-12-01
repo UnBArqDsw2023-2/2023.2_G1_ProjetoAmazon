@@ -1,5 +1,7 @@
+from abc import abstractmethod
 from authuser.models import User
 from store.models import *
+from typing import Protocol
 
 class CartService():
     def hasAccess(self, request):
@@ -44,3 +46,36 @@ class CartService():
         order.products.set(products_in_cart)
 
         return order
+
+class PaymentStrategy(Protocol):
+    @abstractmethod
+    def pay(self, payment_method: PaymentMethod) -> bool:
+        raise NotImplementedError
+
+
+class CreditCardPaymentStrategy(PaymentStrategy):
+    def pay(self, payment_method: PaymentMethod) -> bool:
+        assert isinstance(payment_method, CreditCardPaymentMethod)
+
+        # Interação com serviço externo de pagamento aqui.
+
+        return True # ou False, caso o pagamento falhe
+
+# Demais Strategies poderiam ser implementadas aqui.
+# PixPaymentStrategy, TicketPaymentStrategy,
+# GiftCardPaymentStrategy, BoletoPaymentStrategy
+
+class PaymentStrategyFactory:
+    _strategies: dict[PaymentMethod, PaymentStrategy]
+
+    def __init__(self) -> None:
+        self._strategies[CreditCardPaymentMethod] = CreditCardPaymentStrategy()
+        # Inicialização das demais strategies aqui.
+
+    def get_instance(self, payment_method: PaymentMethod) -> PaymentStrategy:
+        strategy = self._strategies.get(payment_method)
+
+        if strategy is None:
+            raise ValueError(f"There is no payment strategy for {payment_method.__class__.__name__}")
+
+        return strategy
