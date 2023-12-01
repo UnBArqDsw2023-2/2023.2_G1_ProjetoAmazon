@@ -8,7 +8,7 @@ Ao contrário da Visão _da_ Implementação, que é uma visão de alto nível, 
 
 Para o desenvolvimento do documento, foi utilizado como base o diagrama de implantação desenvolvido durante a fase de modelagem.
 
-Para a criação do diagrama foi utilizado o [LucidChart](https://www.lucidchart.com/), um aplicativo de diagramação web.
+A criação desse diagrama foi realizada por meio da plataforma web de diagramação [LucidChart](https://www.lucidchart.com/), destacando-se como um aplicativo que proporciona recursos avançados para a visualização e organização de informações.
 
 ## 3. Visão de Implantação
 
