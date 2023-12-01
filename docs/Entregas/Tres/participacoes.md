@@ -20,6 +20,7 @@ Para a realização do trabalho em grupo foram utilizados os aplicativos Discord
 | [DAS de implementação](                                                   )                                                                               | Ana e Mylena      | Beatriz      |
 | [DAS de processo](                                                        )                                                                               | Beatriz e Gabriel | Mylena e Ana |
 | [Data view](                                                        )                                                                                     | Augusto           | Guilherme    |
+| [DAS Logica](                                                        )                      | Samuel Sato , Augusto, Beatriz  | Augusto, Beatriz,Samuel   |
 
 <div style="text-align: center"> Tabela 1. Contribuição dos membros para a entrega de diagramas estáticos. Fonte: Autores.</div>
 

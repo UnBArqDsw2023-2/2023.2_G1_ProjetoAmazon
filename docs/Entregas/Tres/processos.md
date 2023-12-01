@@ -8,15 +8,17 @@ Essa visão pode abranger os fluxos de trabalho, que representam a ordem lógica
 
 ## Metodologia
 
-Durante a fase de modelagem, nossa equipe desenvolveu tanto o diagrama de sequência quanto o diagrama de atividades. Ao criar a documentação da visão de processos, utilizamos esses diagramas como base, mas fizemos algumas modificações e aprimoramentos para melhor atender às nossas necessidades e proporcionar uma representação mais clara e eficaz.
+Durante a fase de modelagem, nossa equipe desenvolveu tanto o diagrama de sequência quanto o diagrama de atividades. Ao criar a documentação da visão de processos, utilizamos esses diagramas como base.
+
+O **diagrama de processos**, ultimo diagrama do documento, foi feito levando em consideração diagrama de atividades e sequência.
 
 Para a criação dos diagramas, foi utilizado o site [LucidChart](https://www.lucidchart.com/), que é uma ferramenta online para criação de diagramas.
 
 ## Diagramas
 
-### Diagrama de Sequência
+## Diagrama de Sequência
 
-O diagrama de sequência é um diagrama de interação que mostra como os processos operam com um foco em sequência. Ele mostra objetos, classes e componentes envolvidos nas operações e a sequência de mensagens trocadas entre os objetos necessários para realizar a funcionalidade da operação. [4]
+O diagrama de sequência é um diagrama de interação que mostra como os processos operam com um foco em sequência. Ele mostra objetos, classes e componentes envolvidos nas operações e a sequência de mensagens trocadas entre os objetos necessários para realizar a funcionalidade da operação.
 
 ![Diagrama de Sequência](Diag_De_Sequencia_V2.0.png)
 <center>
@@ -48,6 +50,12 @@ Afim de especificar melhor os processos de gestão do grupo, cadastro de usuario
 <p> Diagrama de Atividades - Compra: Versão 2.0 (Fonte: Autores, 2023).</a></p> 
 </center>
 
+## Diagrama de Processo - Principal
+
+![Diagrama de Processos](VisaodeprocessosVF.png)
+<center>
+<p> Diagrama de Processos(Fonte: Autores, 2023).</a></p> 
+
 ## Bibliografia
 
 > [1] AULA - ARQUITETURA & DAS – PARTE II. Serrano, Milene. Disponível em: [Aprender3](https://aprender3.unb.br/pluginfile.php/2649469/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20Arquitetura%20e%20DAS%20-%20Parte%20II%20-%20Profa.%20Milene.pdf). Acesso em: 25 nov 2023.
@@ -77,5 +85,6 @@ Model of Software Architecture. Disponível em: [cs.ubc.ca](https://www.cs.ubc.c
 | `1.0`  | 25/11/2023 |           Criação do documento            | Beatriz e Gabriel | Mylena e Ana |
 | `1.1`  | 25/11/2023 |  Adição da V.2 do Diagrama de Sequência   | Beatriz e Gabriel | Mylena e Ana |
 | `1.2`  | 25/11/2023 | Adição da V.2 dos Diagramas de Atividades | Beatriz e Gabriel | Mylena e Ana |
+| `1.3`  | 01/12/2023 | Adição do Diagrama de Processos | Beatriz | Ana |
 
 
