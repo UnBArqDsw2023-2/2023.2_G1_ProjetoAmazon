@@ -11,7 +11,7 @@ Sendo assim este documento tem como objetivo descrever a arquitetura de software
 
 ## Metodologia
 
-Para a escolha da arquitetura do projeto, a equipe produziu os diagramas e com base nos mesmos decidiu um framework que seria mais adequadro para o trabalho e por fim implementou a arquitetura previamente disponível no mesmo. Podemos encontrar as tecnologias escolhidas no documento de [reutilização de software interno](). Com isto, foi feito um estudo da arquitetura disponível e produzido o produto de software.
+Para a escolha da arquitetura do projeto, a equipe produziu os diagramas e com base nos mesmos decidiu um framework que seria mais adequadro para o trabalho e por fim implementou a arquitetura previamente disponível no mesmo. Podemos encontrar as tecnologias escolhidas no documento de [reutilização de software interno](../../ArquiteturaReutilizacao/reutilizacao/Interna.md). Com isto, foi feito um estudo da arquitetura disponível e produzido o produto de software.
 
 ## Arquitetura MVC
 
