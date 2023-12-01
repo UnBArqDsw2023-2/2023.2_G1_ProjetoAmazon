@@ -23,16 +23,19 @@ A visão de implantação do sistema é representada pelo seguinte diagrama:
 
 ## Referências
 
-> [1] About the Unified Modeling Language Specification Version 2.0. Disponível em: https://www.omg.org/spec/UML/2.0. Acesso em: [09 de outubro de 2023].
+> [1] About the Unified Modeling Language Specification Version 2.0. Disponível em: [https://www.omg.org/spec/UML/2.0](https://www.omg.org/spec/UML/2.0). Acesso em: 29 de novembro de 2023.
 >
-> [2] Exemplos de Diagrama de Implantação UML. Disponível em: https://www.edrawsoft.com/pt/deployment-chart-example.html. Acesso em: [29 de outubro de 2023].
+> [2] Exemplos de Diagrama de Implantação UML. Disponível em: [https://www.edrawsoft.com/pt/deployment-chart-example.html](https://www.edrawsoft.com/pt/deployment-chart-example.html). Acesso em: 29 de novembro de 2023.
 >
-> [3] O que é um diagrama de implementação?. Disponível em: https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml. Acsso em: [29 de outubro de 2023].
+> [3] O que é um diagrama de implementação?. Disponível em: [https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml). Acesso em: 29 de novembro de 2023.
+>
+> [4] Artefato: Documento de Arquitetura de Software. Disponível em:: [https://www.cin.ufpe.br](https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_software_architecture_document_C367485C.html?nodeId=8d5440e6). Acesso em 30 de novembro de 2023
 
 ## Histório de Versão
 
-| Versão | Data       | Descrição            | Autores | Revisores |
-| ------ | ---------- | -------------------- | ------- | --------- |
-| `1.0`  | 28/11/2023 | Versão Inicial       | Arthur  | Bruno     |
-| `1.1`  | 29/11/2023 | Adicionando diagrama | Bruno   | Arthur    |
-| `2.0`  | 29/11/2023 | Adicionando tópicos  | Bruno   | Arthur    |
+| Versão | Data        | Descrição                            | Autores | Revisores |
+| ------ | ----------- | ------------------------------------ | ------- | --------- |
+| `1.0`  | 28/11/2023  | Versão Inicial                       | Arthur  | Bruno     |
+| `1.1`  | 29/11/2023  | Adicionando diagrama                 | Bruno   | Arthur    |
+| `2.0`  | 29/11/2023  | Adicionando tópicos                  | Bruno   | Arthur    |
+| `2.1`  | 30-/11/2023 | Revisão e atualização de referências | Arthur  | Bruno     |
