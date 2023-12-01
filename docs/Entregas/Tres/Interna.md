@@ -66,12 +66,6 @@ Dando um enfoque maior no
 [diagrama de classes](https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Dois/DiagramaDeClasses/DiagramaDeClasses.html),
 podemos listar alguns casos de possíveis reutilizações do software.
 
-1 - **Proxy**: na diagrama 1, podemos ver que a classe carrinho tem uma relação
-simples com uma conta de usuário, sendo assim , para a aplicação é importante
-que o usuário só tenha acesso a este recurso caso ele esteja autenticado no
-sistema, caso não, ele deve ser barrado ao tentar acessar este recurso, assim,
-o padrão de projeto proxy é o ideal para esta situação.
-
 1 - **Proxy**: no diagrama 1 podemos observar a implementação de um Proxy que
 checa se o usuário está autenticado antes de realizar qualquer operação. Isso é
 importante para garantir que somente usuários autenticados possam fazer
@@ -83,7 +77,7 @@ associado a um usuário já existente.
     <p> Diagrama 1 (Fonte: Autor, 2023).</p>
 </center>
 
-2 - **Strategy**: na diagrama 2, pode-se encontrar a classe concreta pagamento e 3
+2 - **Strategy**: no diagrama 2, pode-se encontrar a classe concreta pagamento e 3
 classes que herdam dela: pix, boleto ou outras. No contexto da aplicação, é
 importante que o usuário autenticado possa escolher qual o método de pagamento
 que ele irá utilizar para obter o produto, sendo assim, o padrão strategy se
@@ -98,20 +92,6 @@ Vale lembrar que durante o diagrama de classes podemos encontrar exemplos de
 GRASPs como polimorfismo afim de garantir um baixo acoplamento e alta coesão.
 Um exemplo claro já foi descrito na imagem 1 que é o de uma herança das classes
 pix, boleto e outras com a classe pagamento.
-
-3 - **Flyweight**: no diagrama 3, ...........................
-
-<center>
-    <img src="assets/aaaa.png"/>
-    <p> Diagrama 3 (Fonte: Autor, 2023).</p>
-</center>
-
-3 - **Flyweight**: no diagrama 4, ...........................
-
-<center>
-    <img src="assets/aaaa.png"/>
-    <p> Diagrama 4 (Fonte: Autor, 2023).</p>
-</center>
 
 ### Padrões de Projeto
 
@@ -152,29 +132,77 @@ O proxy faz o controle de acesso por meio do método `has_acess`, e possui uma
 instância da classe concreta `CartService`. Ambas implementam o protocol
 `CartServiceProtocol`.
 
-3- **Flyweight**: A implementação desse padrão está evidenciada na imagem 3:
 
-<center>
-    <img src="assets/Fly.png"/>
-    <p> Imagem 3 (Fonte: Autor, 2023).</p>
+## Considerações finais
+
+A implementação dos padrões de projeto Proxy e Strategy, aplicados ao escopo da disciplina, pode ser conferida no [repositório da disciplina](https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon/tree/main/src). 
+
+### Modelagem e Reutilização
+
+**[Proxy](#padrões-de-projeto)**: Foi implementado um Proxy para verificar a autenticação do usuário antes de permitir operações no carrinho. Isso garante que apenas usuários autenticados possam modificar o carrinho.
+
+**[Strategy](#padrões-de-projeto)**: A implementação do padrão Strategy foi evidenciada no contexto de métodos de pagamento. A classe concreta de pagamento permitiu a criação de subclasses como PIX, boleto, entre outras, proporcionando flexibilidade na escolha do método de pagamento.
+
+**Flyweight, Builder, Observer (Não Implementados dentro do projeto)**: Reconhecemos a oportunidade de explorar os padrões Flyweight, Builder e Observer para aprimorar a arquitetura do software. No contexto do perfil do comprador na Amazon, esses padrões poderiam ser aplicados da seguinte forma:
+
+- `Flyweight`: Neste padrão de projeto, temos como objetivo colocar mais objetos na quantidade de RAM disponível ao compartilhar partes comuns de estado entre múltiplos objetos ao invés de manter todos os dados em cada objeto. Neste caso, fizemos uma simplificação da classe endereço que estava contida dentro da classe contaDoUsuario, nele nos abstraimosa classe pesada e deixamos apenas atributos essenciais, ja na classe EnderecoCompleto temos atributos que são derivados daqueles atributos que estão na classe endereço.
+<details>
+  <summary>Diagrama e Código - Flyweight</summary>
+  <center>
+    <img src="assets/fly_diagram.png"/>
+    <p> Diagrama 4 (Fonte: Autor, 2023).</p>
 </center>
+  <center>
+      <img src="assets/Fly.png"/>
+      <p> Imagem 3 (Fonte: Autor, 2023).</p>
+  </center>
+</details>
 
-Neste padrão de projeto, temos como objetivo colocar mais objetos na quantidade de RAM disponível ao 
-compartilhar partes comuns de estado entre múltiplos objetos ao invés de manter todos os dados em cada 
-objeto. Neste caso, fizemos uma simplificação da classe endereço que estava contida dentro da classe ``contaDoUsuario``, nele nos abstraimosa classe pesada e deixamos apenas atributos essenciais, ja na classe ``EnderecoCompleto`` temos atributos que são derivados daqueles atributos que estão na classe endereço.
 
-4- **Observer**: A implementação desse padrão esta evidenciada na imagem 4:
+- `Builder`: Para melhorar a velocidade de criação do usuário, há a necessidade de cria-lo utilizando o padrão builder, tal padrão se utiliza de uma interface que define oe metodos que serão implementados no builder concreto. O builder concreto é justamente a classe UsuarioBuilder, na qual implementa todos os métodos da interface. Alguns métodos notáveis que podemos destacar são :
 
+    - Inicializador: Inicia com um reset e atribuindo um carrinho para o usuário, já que não há a necessidade de um processo maior para a construição do mesmo.
+    - Reset: Realiza a instânciação de um novo usuário.
+    - Get Usuário: retorna o usuário
+    - Demais metodos: implementam lentamente o usuário
+<details>
+  <summary>Diagrama e Código - Builder</summary>
 <center>
-    <img src="assets/Proxy.png"/>
+    <img src="assets/builder_diagram.png"/>
+    <p> Diagrama 4 (Fonte: Autor, 2023).</p>
+</center>
+  <center>
+    <img src="assets/builder.png"/>
     <p> Imagem 4 (Fonte: Autor, 2023).</p>
 </center>
+</details>
 
-[FAZER REFERENCIA AO REPOSITORIO]
+
+- `Observer`: O usuário necessita saber a situação do seu pedido, sendo assim, há a necessidade de implementar o padrão observer. No exemplo acima, foi criado uma interface chamada observador, no qual irá observar determinada classe. A classe observada é Pedido no qual tem um método que notifica todas as classes que desejam observa-la, assim, a classe ContaDoUsuario é notificada e atualiza seu status.
+
+<details>
+  <summary>Diagrama e Código - Observer</summary>
+<center>
+    <img src="assets/observer_diagram.png"/>
+    <p> Diagrama 5 (Fonte: Autor, 2023).</p>
+</center>
+  <center>
+    <img src="assets/observer.png"/>
+    <p> Imagem 5 (Fonte: Autor, 2023).</p>
+</center>
+</details>
+
+
+Embora tenhamos aplicado com sucesso os padrões Strategy e Proxy, reconhecemos que outros padrões como Flyweight, Builder e Observer poderiam ser explorados para aprimorar ainda mais a arquitetura do software. 
+
+Além disso, é importante resaltar que foi utilizado módulos prontos do Django, como autenticação, renderização, entre outros, foram utilizados, evidenciando a importância da reutilização de software não apenas a nível de código, mas também de frameworks e bibliotecas.
+
 
 ## Referências
 ‌
 >[1]  SILVEIRA, Samara. A reutilização de software e suas aplicações. Disponível em: &#60;https://blog.casadodesenvolvedor.com.br/reutilizacao-de-software/&#62;. Acesso em: 29 nov 2023. 
+>[2] PlantUML Web Server. Disponível em: <https://www.plantuml.com>. Acesso em: 1 dez. 2023.
+
 
 ## Histórico de versão
 
@@ -183,6 +211,7 @@ objeto. Neste caso, fizemos uma simplificação da classe endereço que estava c
 | `1.0`  | 29/11/2023 | Iniciando o documento            | Kauã      | Ana         |
 | `1.1`  | 30/11/2023 | Adicionando informações          | Kauã      | Ana         |
 | `1.2`  | 30/11/2023 | Informações sobre especialização | Guilherme | Arthur      |
-| `1.3`  | 01/12/2023 | Versão final do documento        | Kauã e Ana| Beatriz     |
+| `1.3`  | 01/12/2023 | Alterações no documento          | Kauã e Ana| Beatriz     |
 | `1.4`  | 01/12/2023 | Melhoria dos Diagramas           | Guilherme | Arthur      |
+| `1.5`  | 01/12/2023 | Adição dos padrões e diagramas   | Ana e Kauã| Beatriz     |
 
