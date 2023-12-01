@@ -1,5 +1,11 @@
 ## **Frameworks**
 
+<center>
+    <img src="framework_vector.png"/>
+    <p> Imagem ilustrativa (Fonte: realpython)</p>
+</center>
+
+
 Frameworks são uma espécie de esqueleto de uma aplicação que podem ser personalizadas pelo desenvolvedor de software. Tratam-se de bibliotecas de códigos que oferecem facilidades e implementações comuns a várias aplicações. Sua principal função é ajudar no desenvolvimento e agilizar processos, com a reutilização de códigos e a padronização de desenvolvimento.
 
 Com a utilização de um framework, o desenvolvedor não precisa se preocupar em programar determinadas funcionalidades que são comuns na maioria dos projetos, pois o framework já oferece essas funcionalidades prontas para serem utilizadas. Ele fornece uma estrutura básica para a desenvolvimento, permitindo o foco no core da aplicação, ou seja, sua regra de negócio.
@@ -12,6 +18,10 @@ No mundo do desenvolvimento de software, alguns exemplos populares de frameworks
 
 ## **Tecnologia de Backend - Django**
 
+<center>
+    <img src="django_vector.png"/>
+</center>
+
 O Django é um framework de desenvolvimento web de alto nível, escrito em Python e seguindo o padrão MVT(Model-View-Template), que incentiva o desenvolvimento rápido e o design limpo e pragmático. O Django alivia muito do trabalho associado a novos projetos, permitindo que desenvolvedores se concentrem na escrita de aplicativos sem a necessidade de reinventar a roda.
 
 O Django oferece recursos robustos para interagir com o banco de dados, como uma interface de ORM (Object-Relational Mapping) que suporta uma ampla variedade de bancos de dados SQL e Non-SQL, e suporte a migrações. Ele também fornece muitas opções para lidar com requisições HTTP, roteamento de URL, templates, autenticação e autorização, além de uma série de outras funcionalidades do lado do servidor.
@@ -19,6 +29,10 @@ O Django oferece recursos robustos para interagir com o banco de dados, como uma
 Devido à sua natureza "batteries-included" (modular e com vários recursos prontos para uso), o Django é uma excelente escolha de tecnologia para o backend, pois permite aos desenvolvedores criar aplicações complexas e eficientes com menos esforço e tempo.
 
 ## **Tecnologia de Frontend - Django**
+
+<center>
+    <img src="django_vector_2.png"/>
+</center>
 
 Apesar de o Django ser um framework backend, ele possui facilidades que tornam possível o desenvolvimento de aplicações web completas, ou seja, tanto backend quanto frontend. Isso é possibilitado pela camada de Template do padrão MVT (Model-View-Template) - a qual foi projetada para ser flexível, adaptável e de fácil utilização, permitindo, inclusive, a integração com outras linguagens de template.
 
@@ -31,6 +45,10 @@ No entanto, é importante notar que, para aplicações complexas ou que necessit
 Em resumo, o Django pode ser utilizado para a renderização frontend, especialmente se você quer rapidez e menos complexidade, porém ele não deve ser a primeira escolha para casos de uso mais avançados de frontend.
 
 ## **Tecnologia de Banco de Dados - SQLite**
+
+<center>
+    <img src="sqlite_vector.png"/>
+</center>
 
 SQLite é uma biblioteca em linguagem C que implementa um pequeno, rápido, autocontido, mecanismo de banco de dados SQL de alta confiabilidade e recursos completos. O SQLite é o mecanismo de banco de dados mais usado no mundo, em termos de implantação. É uma parte integrante de muitas aplicações populares.
 
@@ -45,6 +63,10 @@ Uma grande vantagem do Django é a sua camada de abstração de banco de dados, 
 
 ## **Ferramenta Auxiliar - Django-Extensions**
 
+<center>
+    <img src="django_extensions_vector.png"/>
+</center>
+
 Django-Extensions é uma coleção de extensões personalizadas que adicionam comandos e recursos adicionais ao Django Framework, com o objetivo de facilitar e otimizar o processo de desenvolvimento de aplicações.
 
 Algumas das principais funcionalidades fornecidas pelo Django-Extensions incluem comandos adicionais de linha de comando, modelos e campos adicionais, além de outros utilitários. Os comandos de linha de comando adicionais, por exemplo, ajudam os desenvolvedores a lidar com tarefas como limpar sessões, deletar migrações, entre outros.
@@ -58,3 +80,4 @@ Vale ressaltar que é sempre importante consultar a documentação do Django-Ext
 | Versão |    Data    |                Descrição                 |     Autor     |    Revisor    |
 | :----: | :--------: | :--------------------------------------: | :-----------: | :-----------: |
 | `1.1`  | 30/11/2023 |Criação do documento inicial|  Augusto D. Camargo  |    Arthur F. Rodrigues   |
+| `1.2`  | 30/11/2023 |Adição de imagens e finalização do documento|  Augusto D. Camargo  |    Arthur F. Rodrigues   |
