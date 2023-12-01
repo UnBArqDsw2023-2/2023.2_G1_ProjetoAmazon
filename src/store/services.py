@@ -15,7 +15,7 @@ class CartServiceProtocol(Protocol):
         raise NotImplementedError
 
     @abstractmethod
-    def get_products(self, user: User) -> list[Product]:
+    def get_products(self, user: User) -> list[CartProduct]:
         raise NotImplementedError
 
     @abstractmethod
@@ -39,9 +39,9 @@ class CartService(CartServiceProtocol):
         cart_product.quantity += quantity
         cart_product.save()
 
-    def get_products(self, user: User):
+    def get_products(self, user: User) -> list[CartProduct]:
         cart = self.get_cart(user)
-        return CartProduct.objects.filter(cart=cart)
+        return list(CartProduct.objects.filter(cart=cart))
 
     def create_order(self, user: User) -> Order:
         cart = self.get_cart(user)
@@ -70,7 +70,7 @@ class CartServiceProxy(CartServiceProtocol):
         self._check_access(user)
         return self._service.add_product(user, product, quantity)
 
-    def get_products(self, user: User) -> list[Product]:
+    def get_products(self, user: User) -> list[CartProduct]:
         self._check_access(user)
         return self._service.get_products(user)
 
@@ -80,7 +80,7 @@ class CartServiceProxy(CartServiceProtocol):
 
     def _check_access(self, user: User):
         try:
-            User.objects.get(pk=user.id)
+            User.objects.get(pk=user.pk)
         except ObjectDoesNotExist:
             raise ValueError("You must be authenticated")
 
@@ -107,14 +107,14 @@ class CreditCardPaymentStrategy(PaymentStrategy):
 # GiftCardPaymentStrategy, BoletoPaymentStrategy
 
 class PaymentStrategyFactory:
-    _strategies: dict[PaymentMethod, PaymentStrategy]
+    _strategies: dict[str, PaymentStrategy]
 
     def __init__(self) -> None:
-        self._strategies[CreditCardPaymentMethod] = CreditCardPaymentStrategy()
+        self._strategies[CreditCardPaymentMethod.__class__.__name__] = CreditCardPaymentStrategy()
         # Inicialização das demais strategies aqui.
 
     def get_instance(self, payment_method: PaymentMethod) -> PaymentStrategy:
-        strategy = self._strategies.get(payment_method)
+        strategy = self._strategies.get(payment_method.__class__.__name__)
 
         if strategy is None:
             raise ValueError(f"There is no payment strategy for {payment_method.__class__.__name__}")
