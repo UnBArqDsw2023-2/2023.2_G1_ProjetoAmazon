@@ -80,7 +80,7 @@ associado a um usuário já existente.
 </center>
 
 ### 1.1- Implementação **Proxy**: 
-A implementação desse padrão está evidenciada na imagem 2:
+A implementação desse padrão está evidenciada na imagem 1:
 
 <center>
     <img src="assets/proxy-example.png"/>
