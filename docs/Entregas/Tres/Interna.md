@@ -53,7 +53,7 @@ no qual foi
 [validado](https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Um/EntrevistaValidacao.html)
 dias após.
 
-### Modelagem
+## Padrões de Projeto
 
 Na segunda entrega, foi desenvolvido duas classes de diagramas, os
 estáticos(classes, pacotes, componentes e implantação) e os
@@ -66,7 +66,9 @@ Dando um enfoque maior no
 [diagrama de classes](https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Dois/DiagramaDeClasses/DiagramaDeClasses.html),
 podemos listar alguns casos de possíveis reutilizações do software.
 
-1 - **Proxy**: no diagrama 1 podemos observar a implementação de um Proxy que
+### 1 - **Proxy**: 
+
+No diagrama 1 podemos observar a implementação de um Proxy que
 checa se o usuário está autenticado antes de realizar qualquer operação. Isso é
 importante para garantir que somente usuários autenticados possam fazer
 operações que modificam o carrinho, já que não existe carrinho que não é
@@ -77,7 +79,20 @@ associado a um usuário já existente.
     <p> Diagrama 1 (Fonte: Autor, 2023).</p>
 </center>
 
-2 - **Strategy**: no diagrama 2, pode-se encontrar a classe concreta pagamento e 3
+### 1.1- Implementação **Proxy**: 
+A implementação desse padrão está evidenciada na imagem 2:
+
+<center>
+    <img src="assets/proxy-example.png"/>
+    <p> Imagem 1 (Fonte: Autor, 2023).</p>
+</center>
+
+O proxy faz o controle de acesso por meio do método `has_acess`, e possui uma
+instância da classe concreta `CartService`. Ambas implementam o protocol
+`CartServiceProtocol`.
+
+### 2 - **Strategy**: 
+No diagrama 2, pode-se encontrar a classe concreta pagamento e 3
 classes que herdam dela: pix, boleto ou outras. No contexto da aplicação, é
 importante que o usuário autenticado possa escolher qual o método de pagamento
 que ele irá utilizar para obter o produto, sendo assim, o padrão strategy se
@@ -88,24 +103,14 @@ encaixa nessa situação.
     <p> Diagrama 2 (Fonte: Autor, 2023).</p>
 </center>
 
-Vale lembrar que durante o diagrama de classes podemos encontrar exemplos de
-GRASPs como polimorfismo afim de garantir um baixo acoplamento e alta coesão.
-Um exemplo claro já foi descrito na imagem 1 que é o de uma herança das classes
-pix, boleto e outras com a classe pagamento.
-
-### Padrões de Projeto
-
-Por fim, os padrões de projeto são uma concretização da reutilização de
-software. A seguir, podemos ver como foram implementadas os padrões de projeto
-descritos na seção anterior deste documento:
-
-1- **Strategy**: A implementação do padrão Strategy está descrita na imagem 2.
+### 2.2- Implementação **Strategy**: 
+A implementação do padrão Strategy está descrita na imagem 2.
 Esse padrão permite o alto desacoplamento da funcionalidade relacionada ao
 pagamento utilizando diversos métodos de pagamento diferentes.
 
 <center>
     <img src="assets/strategy-example.png"/>
-    <p> Imagem 1 (Fonte: Autor, 2023).</p>
+    <p> Imagem 2 (Fonte: Autor, 2023).</p>
 </center>
 
 Como em python não temos explicitamente classes abstratas ou interfaces, a
@@ -121,16 +126,10 @@ permite que um serviço opere usando somente a noção abstrata de um método de
 pagamento, mas ainda assim conseguindo acessar seus respectivos dados. Isso é
 útil em situações onde não é preciso saber o método de pagamento específico.
 
-2- **Proxy**: A implementação desse padrão está evidenciada na imagem 2:
-
-<center>
-    <img src="assets/proxy-example.png"/>
-    <p> Imagem 2 (Fonte: Autor, 2023).</p>
-</center>
-
-O proxy faz o controle de acesso por meio do método `has_acess`, e possui uma
-instância da classe concreta `CartService`. Ambas implementam o protocol
-`CartServiceProtocol`.
+Vale lembrar que durante o diagrama de classes podemos encontrar exemplos de
+GRASPs como polimorfismo afim de garantir um baixo acoplamento e alta coesão.
+Um exemplo claro já foi descrito na imagem 2 que é o de uma herança das classes
+pix, boleto e outras com a classe pagamento.
 
 
 ## Considerações finais
