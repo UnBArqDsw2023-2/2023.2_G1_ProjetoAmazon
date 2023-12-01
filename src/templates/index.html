@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load productsComponent %}
+
+{% block content %}
+
+<div class="welcome">
+  <h1>Welcome to Amazon!</h1>
+</div>
+
+<div class="products">
+  {% for product in products %}
+    {% showProductCard product %}
+  {% endfor %}
+</div>
+
+{% endblock %}

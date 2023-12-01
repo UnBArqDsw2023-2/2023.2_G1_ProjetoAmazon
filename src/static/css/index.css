@@ -1,0 +1,23 @@
+.container{   
+    display:flex;
+    flex-direction: column;
+}
+
+.welcome{
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+    border: gray solid 1px;
+    background-color:#F79E1B;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 25vw;
+    box-shadow: -1px 5px 5px #232F3E;
+    margin-bottom: 50px;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}

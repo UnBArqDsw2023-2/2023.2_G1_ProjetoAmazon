@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Login | Amazon{% endblock %}
+
+{% block content %}
+
+{% if form.errors %}
+<p>Your email and password didn't match. Please try again.</p>
+{% endif %}
+
+{% if next %}
+  {% if user.is_authenticated %}
+    <p>Your account doesn't have access to this page.</p>
+  {% else %}
+    <p>Please login to see this page.</p>
+  {% endif %}
+{% endif %}
+
+<form method="post" action="{% url 'login' %}">
+  {% csrf_token %}
+  {{ form.as_div }}
+  <button type="submit" value="login">Login</button>
+  <input type="hidden" name="next" value="{{ next }}">
+</form>
+
+<p><a href="{% url 'password_reset' %}">Reset password</a></p>
+
+{% endblock %}

@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% load static%}
+
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/payment.css' %}">
+    <div style="display:flex;flex-direction:column">
+        <h1 style="display:flex;
+        justify-content: center;
+        padding: 10px;
+        border: gray solid 1px;
+        background-color:#F79E1B;
+        border-radius: 10px;
+        width: 500px;
+        margin-left: 25vw;
+        box-shadow: -1px 5px 5px #232F3E;
+        margin-bottom: 50px;">Select the payment mode</h1>
+        <div style="display:flex;flex-direction:row;justify-content:space-around">
+            <a style="text-decoration:none">
+                <div style="    display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                margin:10px;
+                width: 20vw;
+                height: 60vh;
+                padding:10px;
+                border: 2px solid gray;
+                background-color: white;
+                box-shadow: -1px 5px 5px #232F3E;">
+                    <h1>Pix</h1>
+                    <img src="{% static 'img/Pix.png'%}">
+                </div>
+            </a>
+            <a style="text-decoration:none">
+                <div style="    display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                margin:10px;
+                width: 20vw;
+                padding:10px;
+                height: 60vh;
+                border: 2px solid gray;
+                background-color: white;
+                box-shadow: -1px 5px 5px #232F3E;">
+                    <h1>Ticket</h1>
+                    <img src="{% static 'img/Boleto.png'%}" width=400>
+                </div>
+            </a>
+            <a style="text-decoration:none">
+                <div style="    display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                margin:10px;
+                width: 20vw;
+                height: 60vh;
+                padding:10px;
+                border: 2px solid gray;
+                background-color: white;
+                box-shadow: -1px 5px 5px #232F3E;">
+                    <h1>Credit Card</h1>
+                    <img src="{% static 'img/Cartao.png'%} " width=300>
+                </div>
+            </a>
+        </div>
+    </div>    
+{% endblock %}

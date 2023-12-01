@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>
+  Items In Cart
+</h2>
+
+<ul>
+  {% for product in products %}
+  <li>
+    {{ product.product.name }} - {{ product.quantity }}
+  </li>
+  {% endfor %}
+</ul>
+
+<p>
+  Total Price: {{ cart.total_price }}
+</p>
+
+<a href="">
+  Comprar
+</a>
+
+{% endblock %}
