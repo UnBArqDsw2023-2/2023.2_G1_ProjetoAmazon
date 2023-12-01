@@ -41,6 +41,13 @@ Afim de especificar melhor os processos de gestão do grupo, cadastro de usuario
 <p> Diagrama de Atividades - Cadastro: Versão 2.0 (Fonte: Autores, 2023).</a></p> 
 </center>
 
+#### Processo de compra na plataforma
+
+![Diagrama UML de Compra](Atividades_Compra_UML_V2.png)
+<center>
+<p> Diagrama de Atividades - Compra: Versão 2.0 (Fonte: Autores, 2023).</a></p> 
+</center>
+
 ## Bibliografia
 
 > [1] AULA - ARQUITETURA & DAS – PARTE II. Serrano, Milene. Disponível em: [Aprender3](https://aprender3.unb.br/pluginfile.php/2649469/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20Arquitetura%20e%20DAS%20-%20Parte%20II%20-%20Profa.%20Milene.pdf). Acesso em: 25 nov 2023.
@@ -53,13 +60,22 @@ Model of Software Architecture. Disponível em: [cs.ubc.ca](https://www.cs.ubc.c
 > [4] O que é um diagrama de sequência UML?. Disponivel em: [lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml). Acesso em 4 de out. de 2023.
 >
 > [5] Diagrama de Seqüência. Disponivel em: [profs.ic.uff](http://profs.ic.uff.br/~viviane.silva/es1/util/aula8.pdf). Acesso em 4 de out. de 2023.
+>
+> [6] Diagrama de Atividades. Disponível em: <https://www.ibm.com/docs/pt-br/rational-soft-arch/9.7.0?topic=diagrams-activity>. Acesso em: 7 out. 2023.
+>
+> [7] O que é diagrama de atividades UML?. Disponível em: <https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-atividades-uml>. Acesso em: 7 out. 2023.
+>
+> [8] Linguagem de Modelagem Unificada. Disponível em: <https://aprender3.unb.br/course/view.php?id=19535&section=3> (Material Complementar). Acesso em 7 out. 2023.
+>
+> [9] Introdução a UML e seus diagramas. Disponível em: <https://www.diegomacedo.com.br/introducao-a-uml-e-seus-diagramas/>. Acesso em 7 out. 2023.
 
 
 ## Histórico de versão
 
-| Versão |    Data    |                Descrição                 |     Autor     |    Revisor    |
-| :----: | :--------: | :--------------------------------------: | :-----------: | :-----------: |
-| `1.0`  | 25/11/2023 |           Criação do documento           | Beatriz e Gabriel | Mylena e Ana |
-| `1.1`  | 25/11/2023 |  Adição da V.2 do Diagrama de Sequência  | Beatriz e Gabriel | Mylena e Ana |
+| Versão |    Data    |                 Descrição                 |       Autor       |   Revisor    |
+| :----: | :--------: | :---------------------------------------: | :---------------: | :----------: |
+| `1.0`  | 25/11/2023 |           Criação do documento            | Beatriz e Gabriel | Mylena e Ana |
+| `1.1`  | 25/11/2023 |  Adição da V.2 do Diagrama de Sequência   | Beatriz e Gabriel | Mylena e Ana |
+| `1.2`  | 25/11/2023 | Adição da V.2 dos Diagramas de Atividades | Beatriz e Gabriel | Mylena e Ana |
 
 
