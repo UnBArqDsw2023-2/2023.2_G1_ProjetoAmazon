@@ -137,8 +137,8 @@ Na sequência, temos os métodos que atuam como a operação que desejamos guard
 
 ## Histórico de versão
 
-| Versão | Data       | Descrição                            | Autor(es)     |  Revisor(es) |
-| ------ | ---------- | ------------------------------------ | ------------- | ------------ |
-| `1.0`  | 29/11/2023 | Iniciando o documento                |    Kauã       |      Ana     |
-| `1.1`  | 30/11/2023 | Adicionando informações              |    Kauã       |      Ana     |
-| `1.2`  | 30/11/2023 | Informações sobre especialização     |   Guilherme   |              |
+| Versão | Data       | Descrição                        | Autor(es) | Revisor(es) |
+| ------ | ---------- | -------------------------------- | --------- | ----------- |
+| `1.0`  | 29/11/2023 | Iniciando o documento            | Kauã      | Ana         |
+| `1.1`  | 30/11/2023 | Adicionando informações          | Kauã      | Ana         |
+| `1.2`  | 30/11/2023 | Informações sobre especialização | Guilherme | Arthur      |

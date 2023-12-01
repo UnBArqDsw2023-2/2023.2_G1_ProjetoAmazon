@@ -109,8 +109,8 @@ A estrutura do código é uma parte essencial para compreender a implementação
 
 ## Fontes:
 
-- [Arquitetura](../../ArquiteturaReutilizacao/reutilizacao/Arquitetura.md)
-- [Reutilização de software interno](../../ArquiteturaReutilizacao/reutilizacao/Interna.md)
+- [Arquitetura](./Arquitetura.md)
+- [Reutilização de software interno](./Interna.md)
 - [Reutilização de software externo](./VisaoExterna/VisaoExterna.md)
 
 ## Concideraçẽos Gerais
