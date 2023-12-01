@@ -17,7 +17,7 @@ No diagrama de implantação os nós representam os elementos básicos de softwa
 A visão de implantação do sistema é representada pelo seguinte diagrama:
 
 <center>
-    <img src="das-implantacao.png"/>
+    <img src="das_implantacao.png"/>
     <p> Figura 1 (Fonte: Autor, 2023).</a></p> 
 </center>
 
@@ -38,4 +38,5 @@ A visão de implantação do sistema é representada pelo seguinte diagrama:
 | `1.0`  | 28/11/2023  | Versão Inicial                       | Arthur  | Bruno     |
 | `1.1`  | 29/11/2023  | Adicionando diagrama                 | Bruno   | Arthur    |
 | `2.0`  | 29/11/2023  | Adicionando tópicos                  | Bruno   | Arthur    |
-| `2.1`  | 30-/11/2023 | Revisão e atualização de referências | Arthur  | Bruno     |
+| `2.1`  | 30/11/2023  | Revisão e atualização de referências | Arthur  | Bruno     |
+| `2.2`  | 01/12/2023  | Diagrama de implantaçao V2           | Bruno   |           |
