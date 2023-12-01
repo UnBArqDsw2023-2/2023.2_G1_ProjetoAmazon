@@ -77,7 +77,7 @@ Para utilizar o Django-Extensions, basta instalá-lo através do gerenciador de 
 
 Vale ressaltar que é sempre importante consultar a documentação do Django-Extensions para entender corretamente como cada recurso do pacote funciona e como eles podem ser melhor explorados de acordo com cada cenário de aplicação.
 
-| Versão |    Data    |                Descrição                 |     Autor     |    Revisor    |
-| :----: | :--------: | :--------------------------------------: | :-----------: | :-----------: |
-| `1.1`  | 30/11/2023 |Criação do documento inicial|  Augusto D. Camargo  |    Arthur F. Rodrigues   |
-| `1.2`  | 30/11/2023 |Adição de imagens e finalização do documento|  Augusto D. Camargo  |    Arthur F. Rodrigues   |
+| Versão |    Data    |                  Descrição                   |       Autor        |       Revisor       |
+| :----: | :--------: | :------------------------------------------: | :----------------: | :-----------------: |
+| `1.1`  | 30/11/2023 |         Criação do documento inicial         | Augusto D. Camargo | Arthur F. Rodrigues |
+| `1.2`  | 30/11/2023 | Adição de imagens e finalização do documento | Augusto D. Camargo | Arthur F. Rodrigues |

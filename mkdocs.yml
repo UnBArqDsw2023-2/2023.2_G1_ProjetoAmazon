@@ -116,6 +116,22 @@ nav:
                           - Diagrama de Comunicação / Colaboração: Entregas/Dois/DiagramaDeComunicacaoColaboracao/DiagramaDeComunicacaoColaboracao.md
                   - 2.2 Participações - Modelagem:
                       - Participações: Entregas/Dois/Participacoes.md
+      - Entrega 3:
+          - Entregas/Tres/index.md
+          - Arquitetura e Reutilização de Software:
+            - 4. Desenho de Software (Arquitetura & Reutilização de Software):
+              - 4.1 Módulo Estilos e Padrões Arquiteturais:
+                - Visão de Lógica: Entregas/Tres/VisaoLogica.md
+                - Visão de Processos: Entregas/Tres/processos.md
+                - Visão de Implementação/Implantação: Entregas/Tres/das_implantacao.md
+                - Visão da Implementação: Entregas/Tres/das_implementacao.md
+                - Visão de Dados: Entregas/Tres/DataView/dataview.md
+              - 4.2 Módulo Reutilização de Software:
+                - Arquitetura: Entregas/Tres/Arquitetura.md
+                - Visão Interna: Entregas/Tres/Interna.md
+                - Visão Externa: Entregas/Tres/VisaoExterna/VisaoExterna.md
+              - 4.3 Participações - Arquitetura & Reutilização de Software:
+                - Participações: Entregas/Tres/participacoes.md
   - Reuniões:
       - Atas: reunioes.md
   - Disciplina:

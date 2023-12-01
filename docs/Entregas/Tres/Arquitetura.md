@@ -11,7 +11,7 @@ Sendo assim este documento tem como objetivo descrever a arquitetura de software
 
 ## Metodologia
 
-Para a escolha da arquitetura do projeto, a equipe produziu os diagramas e com base nos mesmos decidiu um framework que seria mais adequadro para o trabalho e por fim implementou a arquitetura previamente disponível no mesmo. Podemos encontrar as tecnologias escolhidas no documento de [reutilização de software interno](../../ArquiteturaReutilizacao/reutilizacao/Interna.md). Com isto, foi feito um estudo da arquitetura disponível e produzido o produto de software.
+Para a escolha da arquitetura do projeto, a equipe produziu os diagramas e com base nos mesmos decidiu um framework que seria mais adequadro para o trabalho e por fim implementou a arquitetura previamente disponível no mesmo. Podemos encontrar as tecnologias escolhidas no documento de [reutilização de software interno](./Interna.md). Com isto, foi feito um estudo da arquitetura disponível e produzido o produto de software.
 
 ## Arquitetura MVC
 
@@ -78,9 +78,9 @@ Podemos chamar o projeto de MVC modificado pois na realidade o framework nos for
 ‌
 ## Histórico de versão
 
-| Versão | Data       | Descrição                            | Autor(es)     |  Revisor(es) |
-| ------ | ---------- | ------------------------------------ | ------------- | ------------ |
-| `1.0`  | 22/11/2023 | Iniciando o documento                |    Kauã       |      Ana     |
-| `1.1`  | 22/11/2023 | Adicionando textos padrões           |    Kauã       |      Ana     |
-| `1.2`  | 25/11/2023 | Finalizando o documento              |    Kauã       |      Ana     | 
-| `1.3`  | 28/11/2023 | Documento revisado              |    Ana       |      Kauã     | 
+| Versão | Data       | Descrição                  | Autor(es) | Revisor(es) |
+| ------ | ---------- | -------------------------- | --------- | ----------- |
+| `1.0`  | 22/11/2023 | Iniciando o documento      | Kauã      | Ana         |
+| `1.1`  | 22/11/2023 | Adicionando textos padrões | Kauã      | Ana         |
+| `1.2`  | 25/11/2023 | Finalizando o documento    | Kauã      | Ana         |
+| `1.3`  | 28/11/2023 | Documento revisado         | Ana       | Kauã        |
