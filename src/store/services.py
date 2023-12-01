@@ -39,11 +39,11 @@ class CartService(CartServiceProtocol):
         cart_product.quantity += quantity
         cart_product.save()
 
-    def get_products_in_cart(self, user: User):
+    def get_products(self, user: User):
         cart = self.get_cart(user)
         return CartProduct.objects.filter(cart=cart)
 
-    def create_order_from_cart(self, user: User) -> Order:
+    def create_order(self, user: User) -> Order:
         cart = self.get_cart(user)
         products_in_cart = cart.products.all()
 
