@@ -23,7 +23,7 @@ A visão de implantação do sistema é representada pelo seguinte diagrama:
 
 ## Referências
 
-> [1] . Disponível em: https://www.omg.org/spec/UML/2.0. Acesso em: [09 de outubro de 2023].
+> [1] About the Unified Modeling Language Specification Version 2.0. Disponível em: https://www.omg.org/spec/UML/2.0. Acesso em: [09 de outubro de 2023].
 >
 > [2] Exemplos de Diagrama de Implantação UML. Disponível em: https://www.edrawsoft.com/pt/deployment-chart-example.html. Acesso em: [29 de outubro de 2023].
 >
@@ -34,4 +34,5 @@ A visão de implantação do sistema é representada pelo seguinte diagrama:
 | Versão | Data       | Descrição            | Autores | Revisores |
 | ------ | ---------- | -------------------- | ------- | --------- |
 | `1.0`  | 28/11/2023 | Versão Inicial       | Arthur  | Bruno     |
-| `1.0`  | 29/11/2023 | Adicionando diagrama | Bruno   | Arthur    |
+| `1.1`  | 29/11/2023 | Adicionando diagrama | Bruno   | Arthur    |
+| `2.0`  | 29/11/2023 | Adicionando tópicos  | Bruno   | Arthur    |
