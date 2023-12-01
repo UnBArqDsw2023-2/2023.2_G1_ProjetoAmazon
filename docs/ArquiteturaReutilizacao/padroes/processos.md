@@ -25,6 +25,15 @@ O diagrama de sequência é um diagrama de interação que mostra como os proces
 
 ### Diagrama de Atividades
 
+Afim de especificar melhor os processos de gestão do grupo, cadastro de usuario, visualização e compra de produtos, na plataforma Amazon, foi aprimorada a diagramação UML proposta nas entregas anteriores. Assim, evidenciando de forma mais clara os passos e tarefas presentes nestes fluxos.
+
+#### Processo de cadastro de usuário
+
+![Diagrama UML de Cadastro](Atividades_Cadastro_UML_V2.png)
+<center>
+<p> Diagrama de Atividades - Cadastro: Versão 2.0 (Fonte: Autores, 2023).</a></p> 
+</center>
+
 ## Bibliografia
 
 > [1] AULA - ARQUITETURA & DAS – PARTE II. Serrano, Milene. Disponível em: [Aprender3](https://aprender3.unb.br/pluginfile.php/2649469/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20Arquitetura%20e%20DAS%20-%20Parte%20II%20-%20Profa.%20Milene.pdf). Acesso em: 25 nov 2023.
