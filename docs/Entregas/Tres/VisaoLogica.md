@@ -26,7 +26,7 @@ O diagrama de sequência é um diagrama de interação que mostra como os proces
 Primeira versão criada em 28/11/2023.
 
 <center>
-    <img src="visao_logica_v1.png"/>
+    <img src="assets/visao_logica_v1.png"/>
     <p> Imagem 1: Visão Lógica, primeira versão (Fonte: Samuel, 2023).</p> 
 </center>
 
@@ -35,10 +35,16 @@ Primeira versão criada em 28/11/2023.
 Segunda versão criada em 30/11/2023.
 
 <center>
-    <img src="visao_logica_v2.png"/>
+    <img src="assets/visao_logica_v2.png"/>
     <p> Imagem 2: Visão Lógica, segunda versão (Fonte: Autor, 2023).</p> 
 </center>
 
+Terceira versão criada em 01/12/2023.
+
+<center>
+    <img src="assets/visao_logica_v3.png"/>
+    <p> Imagem 2: Visão Lógica, segunda versão (Fonte: Autor, 2023).</p> 
+</center>
 
 ## Referências
 
@@ -54,4 +60,5 @@ Segunda versão criada em 30/11/2023.
 | `1.1`  | 28/11/2023 |Criação do documento e adição da imagem inicial |   Samuel Sato  |    Augusto D. Camargo   |
 |`1.2`|30/11/2023|Adição do diagrama mais detalhado, sendo essa a sua versão final|Augusto D. Camargo| Samuel Sato|
 |`1.3`|01/12/2023|Adição do diagrama de Sequencia|Beatriz| Samuel Sato|
+|`1.4`|01/12/2023|Adição versão três visão lógica|Samuel Sato| Augusto D.|
 
