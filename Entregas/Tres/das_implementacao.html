@@ -1,0 +1,3976 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Github Pages do Grupo 1 de Arquitetura e Desenho de Software 2023.2">
+      
+      
+      
+        <link rel="canonical" href="https://unbarqdsw2023-2.github.io/2023.2_G1_ProjetoAmazon/Entregas/Tres/das_implementacao.html">
+      
+      
+        <link rel="prev" href="das_implantacao.html">
+      
+      
+        <link rel="next" href="DataView/dataview.html">
+      
+      
+      <link rel="icon" href="../../assets/logo-amazon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
+    
+    
+      
+        <title>Visão da Implementação - UnB - ArqDSw/Projeto Amazon</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.fad675c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="deep-orange">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#das-de-implementacao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="UnB - ArqDSw/Projeto Amazon" class="md-header__button md-logo" aria-label="UnB - ArqDSw/Projeto Amazon" data-md-component="logo">
+      
+  <img src="../../assets/logo-amazon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            UnB - ArqDSw/Projeto Amazon
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Visão da Implementação
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="deep-orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="deep-orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2023.2_G1_ProjetoAmazon
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../readme.html" class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../CONTRIBUTING.html" class="md-tabs__link">
+          
+  
+    
+  
+  Getting Started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../cronograma.html" class="md-tabs__link">
+        
+  
+    
+  
+  Cronograma
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../index.html" class="md-tabs__link">
+          
+  
+    
+  
+  Entregas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../reunioes.html" class="md-tabs__link">
+          
+  
+    
+  
+  Reuniões
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Diretrizes/Diretrizes.html" class="md-tabs__link">
+          
+  
+    
+  
+  Disciplina
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="UnB - ArqDSw/Projeto Amazon" class="md-nav__button md-logo" aria-label="UnB - ArqDSw/Projeto Amazon" data-md-component="logo">
+      
+  <img src="../../assets/logo-amazon.png" alt="logo">
+
+    </a>
+    UnB - ArqDSw/Projeto Amazon
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2023.2_G1_ProjetoAmazon
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../readme.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Getting Started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CONTRIBUTING.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribuindo com o projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CODE_OF_CONDUCT.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Código de Conduta
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cronograma.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cronograma
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Entregas
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Entregas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../ApresentacaoSobreMetodologias/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Apresentação sobre Metodologias
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Apresentação sobre Metodologias
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2_2" id="__nav_4_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    RUP
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            RUP
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ApresentacaoSobreMetodologias/ApresentacaoDeGrupo.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apresentação de Grupo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ApresentacaoSobreMetodologias/SinteseDoConteudo.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Síntese do Conteúdo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ApresentacaoSobreMetodologias/SlidesDaApresentacao.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Slides da Apresentação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../Um/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Entrega 1
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_3" id="__nav_4_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3_2" id="__nav_4_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Base
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Base
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3_2_1" id="__nav_4_3_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    1. Desenho de Software (Base)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_4_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            1. Desenho de Software (Base)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3_2_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3_2_1_1" id="__nav_4_3_2_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    1.1 Módulo Projeto Não Orientado a Abordagens Específicas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_3_2_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3_2_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            1.1 Módulo Projeto Não Orientado a Abordagens Específicas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/DesignSprint.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Design Sprint
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/RichPicture.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artefato Rich Picture produzido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/5W2H.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artefato 5W2H produzido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/Brainstorm.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artefato Brainstorm produzido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/MapaMental.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artefato Mapa Mental produzido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/Entrevista.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artefato Entrevista produzido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/StoryBoard.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artefato Storyboard produzido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/PlanoDeRisco.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artefato Plano de Risco produzido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/EntrevistaValidacao.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artefato de Entrevista de Validação produzido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/Lexicos.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artefato Léxicos produzido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/Backlog.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artefato Backlog produzido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/TLS.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Artefato TLS produzido
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3_2_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3_2_1_2" id="__nav_4_3_2_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    1.2 Módulo Processos, Metodologias e Abordagens
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_3_2_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3_2_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            1.2 Módulo Processos, Metodologias e Abordagens
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/BPMN.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Modelagem BPMN
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/Prototipo.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protótipo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3_2_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3_2_1_3" id="__nav_4_3_2_1_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    1.3 Participações - Base
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_3_2_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3_2_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            1.3 Participações - Base
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Um/Participacoes.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Participações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../Dois/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Entrega 2
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_4" id="__nav_4_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4_2" id="__nav_4_4_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4_2_1" id="__nav_4_4_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2. Desenho de Software (Modelagem)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_4_4_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            2. Desenho de Software (Modelagem)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4_2_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4_2_1_1" id="__nav_4_4_2_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2.1 Módulo Projeto Orientado a Abordagens Tradicionais
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_4_2_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4_2_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            2.1 Módulo Projeto Orientado a Abordagens Tradicionais
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4_2_1_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4_2_1_1_1" id="__nav_4_4_2_1_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2.1.1 Diagramas UML Estáticos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_4_2_1_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4_2_1_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            2.1.1 Diagramas UML Estáticos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dois/DiagramaDeClasses/DiagramaDeClasses.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagrama de Classes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dois/DiagramaDePacotes/DiagramaDePacotes.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagrama de Pacotes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dois/DiagramaDeComponentes/DiagramaDeComponentes.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagrama de Componentes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dois/DiagramaDeImplantacao/DiagramaDeImplantacao.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagrama de Implantação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4_2_1_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4_2_1_1_2" id="__nav_4_4_2_1_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2.1.2 Diagramas UML Dinâmicos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="6" aria-labelledby="__nav_4_4_2_1_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4_2_1_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            2.1.2 Diagramas UML Dinâmicos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dois/DiagramaDeSequencia/DiagramaDeSequencia.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagrama de Sequência
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dois/DiagramaDeAtividade/DiagramaDeAtividade.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagrama de Atividades
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dois/DiagramaDeEstados/DiagramaDeEstados.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagrama de Estados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dois/DiagramaDeComunicacaoColaboracao/DiagramaDeComunicacaoColaboracao.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagrama de Comunicação / Colaboração
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4_2_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_4_2_1_2" id="__nav_4_4_2_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2.2 Participações - Modelagem
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_4_2_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4_2_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            2.2 Participações - Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dois/Participacoes.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Participações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Entrega 3
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_5" id="__nav_4_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            Entrega 3
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_5_2" id="__nav_4_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Arquitetura e Reutilização de Software
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_5_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Arquitetura e Reutilização de Software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_5_2_1" id="__nav_4_5_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    4. Desenho de Software (Arquitetura & Reutilização de Software)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_4_5_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_5_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            4. Desenho de Software (Arquitetura & Reutilização de Software)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5_2_1_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_5_2_1_1" id="__nav_4_5_2_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    4.1 Módulo Estilos e Padrões Arquiteturais
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_5_2_1_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_5_2_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            4.1 Módulo Estilos e Padrões Arquiteturais
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="VisaoLogica.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão de Lógica
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="processos.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão de Processos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="das_implantacao.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão de Implementação/Implantação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Visão da Implementação
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="das_implementacao.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Visão da Implementação
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#contexto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contexto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenarios-chave" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenários-chave
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cenários-chave">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#5w2h" class="md-nav__link">
+    <span class="md-ellipsis">
+      5W2H
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storyboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Storyboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rich-picture" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rich Picture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mapa-mental" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapa mental
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prototipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protótipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entrevista" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entrevista
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bpmn" class="md-nav__link">
+    <span class="md-ellipsis">
+      BPMN
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagramas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-componentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de Componentes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estrutura-do-codigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estrutura do código
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fontes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fontes:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concideraceos-gerais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concideraçẽos Gerais
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de versão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="DataView/dataview.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão de Dados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5_2_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5_2_1_2" id="__nav_4_5_2_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    4.2 Módulo Reutilização de Software
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_5_2_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5_2_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            4.2 Módulo Reutilização de Software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Arquitetura.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arquitetura
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Interna.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão Interna
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="VisaoExterna/VisaoExterna.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão Externa
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5_2_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5_2_1_3" id="__nav_4_5_2_1_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    4.3 Participações - Arquitetura & Reutilização de Software
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_4_5_2_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5_2_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            4.3 Participações - Arquitetura & Reutilização de Software
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="participacoes.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Participações
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Reuniões
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Reuniões
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Atas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Disciplina
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Disciplina
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Diretrizes/Diretrizes.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diretrizes da disciplina
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Base
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Base
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Base/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    1. Desenho de Software (Base)
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_2_1" id="__nav_6_2_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            1. Desenho de Software (Base)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.1.AbordagemNaoEspecifica.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.1. Módulo Projeto Não Orientado a Abordagens Específicas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.2.ProcessosMetodologiasAbordagens.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.2. Módulo Processos/Metodologias/Abordagens
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Base/1.3.ParticipacoesBase.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.3. Participações - Base
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Modelagem
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Modelagem/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    2. Desenho de Software (Modelagem)
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_3_1" id="__nav_6_3_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            2. Desenho de Software (Modelagem)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3_1_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Modelagem/Tradicional/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    2.1. Módulo Projeto Orientado a Abordagens Tradicionais
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_3_1_2" id="__nav_6_3_1_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_6_3_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            2.1. Módulo Projeto Orientado a Abordagens Tradicionais
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/Tradicional/2.1.1.UMLEstaticos.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.1.1. Notação UML - Diagramas Estáticos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/Tradicional/2.1.2.UMLDinamicos.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.1.2. Notação UML - Diagramas Dinâmicos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/2.2.ParticipacoesModelagem.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.2. Participações - Modelagem
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Padrões de Projeto
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            Padrões de Projeto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PadroesDeProjeto/3.PadroesDeProjeto.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3. Desenho de Software (Padrões de Projeto)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Arquitetura de Software & Reutilização
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            Arquitetura de Software & Reutilização
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../ArquiteturaReutilizacao/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    4. Desenho de Software (Arquitetura & Reutilização de Software)
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_5_1" id="__nav_6_5_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            4. Desenho de Software (Arquitetura & Reutilização de Software)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ArquiteturaReutilizacao/4.1.PadroesArquiteturais.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4.1. Módulo Estilos e Padrões Arquiteturais
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ArquiteturaReutilizacao/4.2.ReutilizacaoDeSoftware.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4.2. Módulo Reutilização de Software
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ArquiteturaReutilizacao/4.3.ParticipacoesArqReutilizacao.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4.3. Participações - Arquitetura & Reutilização de Software
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#contexto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contexto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cenarios-chave" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cenários-chave
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cenários-chave">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#5w2h" class="md-nav__link">
+    <span class="md-ellipsis">
+      5W2H
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storyboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Storyboard
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rich-picture" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rich Picture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mapa-mental" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapa mental
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prototipo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protótipo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entrevista" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entrevista
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bpmn" class="md-nav__link">
+    <span class="md-ellipsis">
+      BPMN
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagramas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagramas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-componentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de Componentes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estrutura-do-codigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estrutura do código
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fontes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fontes:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concideraceos-gerais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concideraçẽos Gerais
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Referências
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de versão
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="das-de-implementacao">DAS de implementação</h1>
+<h2 id="contexto">Contexto</h2>
+<p>A Amazon é uma plataforma e-commerce que oferece diversos serviços para o clientea. Através do site da Amazon, é possível fazer compras diante de um extenso catálogo de produtos e serviços oferecidos pela empresa.
+O nosso grupo, da matéria de Arquitetura e desenho de software, ficou responsável por analisar a Amazon com foco no perfil comprador e fluxos compreendidos do cadastro na plataforma até visualização/compra/pagamento de produtos.</p>
+<h2 id="cenarios-chave">Cenários-chave</h2>
+<h3 id="5w2h">5W2H</h3>
+<p>Essa abordagem deriva de sete perguntas simples, "What" (O quê), "Why" (Por quê), "Where" (Onde), "When" (Quando), "Who" (Quem), "How" (Como) e "How much" (Quanto custa). No caso do projeto da Amazon, foi utilizado para compreender melhor o escopo do projeto, quais eram os requisitos necessários. O documento pode ser acessado nesse <a href="../Um/5W2H.html">link</a>.</p>
+<h3 id="storyboard">Storyboard</h3>
+<p>Um Storyboard é uma representação gráfica que utiliza uma sequência de imagens ou quadros para representar uma série de eventos ou ações de um cenário específico. No contexto do grupo 1, foi utilizado na hora de elicitar requisitos. O documento e as imagens podem ser acessadas nesse <a href="../Um/StoryBoard.html">link.</a>.</p>
+<h3 id="rich-picture">Rich Picture</h3>
+<p>O Rich Picture é uma ferramenta visual para expressar ideias e analisar problemas. Os artefatos elaborados são construídos de maneira informal, visando o fácil entendimento. Os rich pictures elaborados pela equipe podem ser vizualizados nesse <a href="../Um/RichPicture.html">link</a>.</p>
+<h3 id="mapa-mental">Mapa mental</h3>
+<p>Um mapa mental é uma representação visual que condensa conceitos e pensamentos de maneira gráfica, estabelecendo vínculos entre palavras e imagens que irradiam de um ponto central. O mapa mental elaborado pela equipe pode ser encontrado nesse <a href="../Um/MapaMental.html">link</a>.</p>
+<h3 id="prototipo">Protótipo</h3>
+<p>O protótipo é utilizado na validação dos requisitos elicitados por meio das técnicas acima. O documento desenvolvido na disciplina, relacionado a disciplina, pode ser acessado nesse <a href="../Um/Prototipo.html">link</a>.</p>
+<h3 id="entrevista">Entrevista</h3>
+<p>A entrevista foi utilizada na tecnica de elicitação e tem como objetivo realizar conversas estruturadas com stakeholders para entender melhor as necessidades e requisitos do sistema. O documento referente a esse artefato pode ser acessado nesse <a href="../Um/Entrevista.html">link</a></p>
+<h3 id="bpmn">BPMN</h3>
+<p>O BPMN (Business Process Model and Notation), é uma linguagem gráfica padronizada para representar processos de negócios. O BPMN pode ser acessado nesse <a href="../Um/BPMN.html">link</a></p>
+<h2 id="diagramas">Diagramas</h2>
+<details>
+  <summary>Diagrama de Classes</summary>
+  <h3>O Diagrama de Classes é uma ferramenta fundamental na UML (Unified Modeling Language) que oferece uma perspectiva 
+abrangente da estrutura de um sistema orientado a objetos. O artefato referente a esse diagrama pode ser encontrado neste <a href="../Dois/DiagramaDeClasses/DiagramaDeClasses.html">link</a>.</h3>
+  <img src="../Dois/DiagramaDeClasses/Classe UML - Amazon_v2.1.png" alt="Diagrama de Classes"/>
+  <center>
+    <p> Diagrama 1 (Fonte: Ana e Beatriz, 2023).</a></p> 
+  </center>
+</details>
+
+<details>
+  <summary>Diagrama de Pacotes</summary>
+  <h3>É um diagrama estrutural e estático que tem como objeto mostrar a disposição de pacotes (conjunto de elementos) dentro do projeto. O artefato referente a esse diagrama pode ser encontrado neste <a href="../Dois/DiagramaDePacotes/DiagramaDePacotes.html">link</a>.</h3>
+  <img src="../Dois/DiagramaDePacotes/DiagramaDePacotesVF.png" alt="Diagrama de Pacotes"/>
+  <center>
+    <p> Diagrama 2 (Fonte: Kauã e Mylena, 2023).</a></p> 
+  </center>
+</details>
+
+<details>
+  <summary>Diagrama de Estados</summary>
+  <h3>  É um diagrama comportamental e dinâmico. O diagrama de estados consiste em estados, transições, eventos e atividades. Eles são importantes na modelagem de comportamentos de interface, classe ou colaboração. Ele enfatiza a ordem dos eventos do comportamento de um objeto. O artefato referente a esse diagrama pode ser encontrado neste <a href="../Dois/DiagramaDeEstados/DiagramaDeEstados.html">link</a>.</h3>
+  <img src="../Dois/DiagramaDeEstados/EstadosProdutoVF.png" alt="Diagrama de Estados"/>
+  <center>
+    <p> Diagrama 3 (Fonte: Kauã, Ana e Mylena 2023).</a></p> 
+  </center>
+</details>
+
+<details>
+  <summary>Diagrama de Atividades</summary>
+  <h3>O Diagrama de Atividade é uma variação do Diagrama de Estado, que contém essencialmente os comportamentos a serem realizados no sistema. O artefato referente a esse diagrama pode ser encontrado neste <a href="../Dois/DiagramaDeAtividade/DiagramaDeAtividade.html">link</a>.</h3>
+  <h2>Diagrama de Atividades - Cadastro</h2>
+  <img src="../Dois/DiagramaDeAtividade/assets/Atividade UML Cadastro.png" alt="Diagrama de Atividades - Cadastro"/>
+  <center>
+    <p> Diagrama 4 (Fonte: Bruno e Gabriel, 2023).</a></p> 
+  </center>
+  <h2>Diagrama de Atividades - Compras</h2>
+  <img src="../Dois/DiagramaDeAtividade/assets/UML_Compras.png" alt="Diagrama de Atividades - Compras"/>
+  <center>
+    <p> Diagrama 5 (Fonte: Bruno e Gabriel, 2023).</a></p> 
+  </center>
+  <h2>Diagrama de Atividades - Gestão</h2>
+  <img src="../Dois/DiagramaDeAtividade/assets/UML_Gestao.png" alt="Diagrama de Atividades - Gestão"/>
+  <center>
+    <p> Diagrama 6 (Fonte: Bruno e Gabriel, 2023).</a></p> 
+  </center>
+
+</details>
+
+<h2 id="diagrama-de-componentes">Diagrama de Componentes</h2>
+<p>Sendo o Diagrama de Componentes uma das principais representações visuais no Documento de Arquitetura de Implementação, ele desempenha um papel crucial ao oferecer uma visão clara da organização e interconexões dos elementos-chave identificados no sistema. Cada componente é cuidadosamente representado, destacando suas responsabilidades específicas e as interações entre eles. </p>
+<p>Essa representação, além de simplificar a compreensão da estrutura do sistema, também fornece uma base sólida para a tomada de decisões ao longo do ciclo de vida do projeto, permitindo que a equipe de desenvolvimento e manutenção atue de maneira informada e eficaz.</p>
+<p>O artefato completo referente a esse diagrama esta disponível neste <a href="../Dois/DiagramaDeComponentes/DiagramaDeComponentes.html">link</a>.</p>
+<p><br></p>
+<p><img src="../Dois/DiagramaDeComponentes/v3.png"/>
+<center></p>
+<p> Diagrama 7 (Fonte: Guilherme Puida, 2023).</a></p>
+<p></center></p>
+<h2 id="estrutura-do-codigo">Estrutura do código</h2>
+<p>A estrutura do código é uma parte essencial para compreender a implementação prática da reutilização de software interno. Nesta seção, apresentamos uma visão geral dos principais elementos da estrutura do código relacionado, com foco na reutilização de componentes específicos. Mais informaçẽos sobre a arquitetura utilizada no projeto pode ser acessada nos links abaixo.</p>
+<h2 id="fontes">Fontes:</h2>
+<ul>
+<li><a href="Arquitetura.html">Arquitetura</a></li>
+<li><a href="Interna.html">Reutilização de software interno</a></li>
+<li><a href="VisaoExterna/VisaoExterna.html">Reutilização de software externo</a></li>
+</ul>
+<h2 id="concideraceos-gerais">Concideraçẽos Gerais</h2>
+<ul>
+<li>Linguagem de Programação: Python.</li>
+<li>Arquitetura de Software: MVC.</li>
+<li>Padrão de proejto utilizado: Strategy e Proxy</li>
+</ul>
+<h2 id="referencias">Referências</h2>
+<blockquote>
+<p>[1] Documentos elaborados durante o semestre pelo grupo. Disponível em: <docs/>. Acesso em: 28 nov. 2023.
+[2] Arquitetura de software: Documentação. Disponível em: <a href="https://edisciplinas.usp.br/pluginfile.php/134335/mod_resource/content/1/Aula13_ArquiteturaSoftware_02_Documentacao.pdf">https://edisciplinas.usp.br/pluginfile.php/134335/mod_resource/content/1/Aula13_ArquiteturaSoftware_02_Documentacao.pdf</a>. Acesso em: 28 nov. 2023
+[3] Vídeos aulas. Disponível no moodle da disciplina. Acesso em: 29. nov. 2023
+[4] Slide Arquitetura e Desenho de Software AULA - ARQUITETURA &amp; DAS – PARTE II. Disponivel em: Aprender3. Acesso em 30 nov. 2023</p>
+</blockquote>
+<h2 id="historico-de-versao">Histórico de versão</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+<th>Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>1.0</code></td>
+<td>28/11/2023</td>
+<td>Criação do documento</td>
+<td>Mylena</td>
+<td>Beatriz</td>
+</tr>
+<tr>
+<td><code>1.1</code></td>
+<td>29/11/2023</td>
+<td>Adicionando links e mais informações</td>
+<td>Mylena</td>
+<td>Beatriz</td>
+</tr>
+<tr>
+<td><code>1.2</code></td>
+<td>30/11/2023</td>
+<td>Adicionando  diagramas e finalizando documento</td>
+<td>Ana Beatriz</td>
+<td>Beatriz</td>
+</tr>
+<tr>
+<td><code>1.3</code></td>
+<td>01/12/2023</td>
+<td>Revisão final</td>
+<td>Arthur</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="das_implantacao.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Visão de Implementação/Implantação">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Visão de Implementação/Implantação
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="DataView/dataview.html" class="md-footer__link md-footer__link--next" aria-label="Next: Visão de Dados">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Visão de Dados
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/UnBArqDsw2023-2/2023.2_G1_ProjetoAmazon" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.tooltips", "navigation.footer", "navigation.sections", "navigation.indexes", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      
+    
+  </body>
+</html>
