@@ -50,14 +50,14 @@ Como a equipe de desenvolvimento optou por desenvolver o software no framework [
   - Controller: Os controladores estão todos presentes dentro de uma pasta com sua respectiva função, como evidenciado na figura 1. Dentro de cada pasta, podemos encontra as models nos quais os mesmos dialogam. 
   
     <center>
-      <img src="./assets/1.PNG" style="width:40vw"/>
+      <img src="./assets/2.PNG" style="width:40vw"/>
       <p> Figura 1: Modelo de pastas projeto, controller . Fonte:Autor,2023</p> 
     </center>
 
   - View: As views estão todas presentes numa pasta chamada "templates", como visto na figura 2, as mesmas também estão divididas entre funções dentro do programa tais como os controladores.
   
     <center>
-      <img src="./assets/2.PNG" style="width:40vw"/>
+      <img src="./assets/1.PNG" style="width:40vw"/>
       <p> Figura 2: Modelo de pastas projeto, View . Fonte:Autor,2023</p> 
     </center>
 
